@@ -3903,75 +3903,119 @@ correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contr
 
 // Función para seleccionar aleatoriamente 20 preguntas
 function getRandomQuestions(allQuestions, numQuestions = 20) {
-const shuffled = allQuestions.sort(() => 0.5 - Math.random());
-return shuffled.slice(0, numQuestions);
+  const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, numQuestions);
 }
 
 let questions = getRandomQuestions(allQuestions);
 let currentQuestionIndex = 0;
 let score = 0;
+let userAnswers = [];
 
 function showQuestion() {
-const questionElement = document.getElementById('question');
-const choicesElement = document.getElementById('choices');
-const question = questions[currentQuestionIndex];
+  const questionElement = document.getElementById('question');
+  const choicesElement = document.getElementById('choices');
+  const question = questions[currentQuestionIndex];
 
-questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
-choicesElement.innerHTML = '';
+  questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
+  choicesElement.innerHTML = '';
 
-question.choices.forEach(choice => {
-    const label = document.createElement('label');
-    const input = document.createElement('input');
-    input.type = 'radio';
-    input.name = 'choice';
-    input.value = choice;
-    label.appendChild(input);
-    label.appendChild(document.createTextNode(choice));
-    choicesElement.appendChild(label);
-    choicesElement.appendChild(document.createElement('br'));
-});
+  question.choices.forEach(choice => {
+      const label = document.createElement('label');
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = 'choice';
+      input.value = choice;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(choice));
+      choicesElement.appendChild(label);
+      choicesElement.appendChild(document.createElement('br'));
+  });
 }
 
 function nextQuestion() {
-const selectedChoice = document.querySelector('input[name="choice"]:checked');
-if (selectedChoice && selectedChoice.value === questions[currentQuestionIndex].correctAnswer) {
-    score++;
-}
+  const selectedChoice = document.querySelector('input[name="choice"]:checked');
+  if (selectedChoice) {
+      const answer = selectedChoice.value;
+      const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+      userAnswers.push({ question: questions[currentQuestionIndex].title, answer, correctAnswer, correct: answer === correctAnswer });
 
-currentQuestionIndex++;
+      if (answer === correctAnswer) {
+          score++;
+      }
 
-if (currentQuestionIndex < questions.length) {
-    showQuestion();
-} else {
-    showScore();
-}
+      currentQuestionIndex++;
+
+      if (currentQuestionIndex < questions.length) {
+          showQuestion();
+      } else {
+          showScore();
+      }
+  } else {
+      alert('Por favor, selecciona una respuesta.');
+  }
 }
 
 function showScore() {
-const quizContainer = document.getElementById('quiz-container');
-const scoreContainer = document.getElementById('score-container');
-const scoreElement = document.getElementById('score');
+  const quizContainer = document.getElementById('quiz-container');
+  const scoreContainer = document.getElementById('score-container');
+  const scoreElement = document.getElementById('score');
 
-quizContainer.style.display = 'none';
-scoreContainer.style.display = 'block';
+  quizContainer.style.display = 'none';
+  scoreContainer.style.display = 'block';
 
-scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}`;
+  scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}.`;
+  showSummary();
+}
+
+function showSummary() {
+  const summaryContainer = document.getElementById('summary');
+  summaryContainer.innerHTML = '';
+  userAnswers.forEach((answer, index) => {
+      const questionElement = document.createElement('p');
+      questionElement.textContent = `${index + 1}. ${answer.question}`;
+      summaryContainer.appendChild(questionElement);
+      const answerElement = document.createElement('p');
+      answerElement.textContent = `Tu respuesta: ${answer.answer} - ${answer.correct ? 'Correcto' : 'Incorrecto'}`;
+      summaryContainer.appendChild(answerElement);
+  });
+  const finalEvaluation = document.createElement('p');
+  finalEvaluation.textContent = evaluateScore(score);
+  summaryContainer.appendChild(finalEvaluation);
+}
+
+function evaluateScore(score) {
+  const totalQuestions = questions.length;
+  const percentage = (score / totalQuestions) * 100;
+
+  if (percentage === 100) {
+      return 'Excelente, has hecho un gran trabajo!';
+  } else if (percentage >= 75) {
+      return 'Muy bien, tienes un conocimiento sólido.';
+  } else if (percentage >= 50) {
+      return 'Bien, pero hay margen de mejora.';
+  } else if (percentage >= 25) {
+      return 'Regular, necesitas estudiar un poco más.';
+  } else {
+      return 'Insuficiente, sigue estudiando y mejorando.';
+  }
 }
 
 function restartQuiz() {
-currentQuestionIndex = 0;
-score = 0;
-questions = getRandomQuestions(allQuestions);
+  currentQuestionIndex = 0;
+  score = 0;
+  questions = getRandomQuestions(allQuestions);
+  userAnswers = [];
 
-const quizContainer = document.getElementById('quiz-container');
-const scoreContainer = document.getElementById('score-container');
+  const quizContainer = document.getElementById('quiz-container');
+  const scoreContainer = document.getElementById('score-container');
 
-quizContainer.style.display = 'block';
-scoreContainer.style.display = 'none';
+  quizContainer.style.display = 'block';
+  scoreContainer.style.display = 'none';
 
-showQuestion();
+  showQuestion();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-showQuestion();
+  showQuestion();
 });
