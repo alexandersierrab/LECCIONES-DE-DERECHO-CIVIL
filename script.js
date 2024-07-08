@@ -3902,49 +3902,61 @@ correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contr
 ];
 
 // Función para seleccionar aleatoriamente 20 preguntas
-function getRandomQuestions(allQuestions, numQuestions = 20) {
-const shuffled = allQuestions.sort(() => 0.5 - Math.random());
-return shuffled.slice(0, numQuestions);
+function getRandomQuestions(allQuestions, numQuestions = 10) {
+  const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, numQuestions);
 }
 
 let questions = getRandomQuestions(allQuestions);
 let currentQuestionIndex = 0;
 let score = 0;
+let userAnswers = [];
 
 function showQuestion() {
-const questionElement = document.getElementById('question');
-const choicesElement = document.getElementById('choices');
-const question = questions[currentQuestionIndex];
+  const questionElement = document.getElementById('question');
+  const choicesElement = document.getElementById('choices');
+  const question = questions[currentQuestionIndex];
 
-questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
-choicesElement.innerHTML = '';
+  questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
+  choicesElement.innerHTML = '';
 
-question.choices.forEach(choice => {
-    const label = document.createElement('label');
-    const input = document.createElement('input');
-    input.type = 'radio';
-    input.name = 'choice';
-    input.value = choice;
-    label.appendChild(input);
-    label.appendChild(document.createTextNode(choice));
-    choicesElement.appendChild(label);
-    choicesElement.appendChild(document.createElement('br'));
-});
+  question.choices.forEach(choice => {
+      const label = document.createElement('label');
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = 'choice';
+      input.value = choice;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(choice));
+      choicesElement.appendChild(label);
+      choicesElement.appendChild(document.createElement('br'));
+  });
 }
 
 function nextQuestion() {
-const selectedChoice = document.querySelector('input[name="choice"]:checked');
-if (selectedChoice && selectedChoice.value === questions[currentQuestionIndex].correctAnswer) {
-    score++;
-}
+  const selectedChoice = document.querySelector('input[name="choice"]:checked');
+  if (selectedChoice) {
+      userAnswers.push({
+          question: questions[currentQuestionIndex].title,
+          selected: selectedChoice.value,
+          correctAnswer: questions[currentQuestionIndex].correctAnswer,
+          correct: selectedChoice.value === questions[currentQuestionIndex].correctAnswer
+      });
 
-currentQuestionIndex++;
+      if (selectedChoice.value === questions[currentQuestionIndex].correctAnswer) {
+          score++;
+      }
 
-if (currentQuestionIndex < questions.length) {
-    showQuestion();
-} else {
-    showScore();
-}
+      currentQuestionIndex++;
+
+      if (currentQuestionIndex < questions.length) {
+          showQuestion();
+      } else {
+          showScore();
+      }
+  } else {
+      alert('Por favor, selecciona una respuesta.');
+  }
 }
 
 function showScore() {
@@ -3960,7 +3972,13 @@ function showScore() {
 
   let summaryHTML = '<h3>Resumen de respuestas:</h3>';
   userAnswers.forEach((answer, index) => {
-      summaryHTML += `<p>${index + 1}. ${answer.question}<br>Tu respuesta: ${answer.selected} (${answer.correct ? 'Correcto' : 'Incorrecto'})</p>`;
+      summaryHTML += `<div class="summary-item">
+                          <p class="summary-question">${index + 1}. ${answer.question}</p>
+                          <p class="summary-response ${answer.correct ? 'correct' : 'incorrect'}">
+                              Tu respuesta: ${answer.selected} ${answer.correct ? '✅' : '❌'}
+                          </p>
+                          ${!answer.correct ? `<p class="summary-response correct-answer">Respuesta correcta: ${answer.correctAnswer}</p>` : ''}
+                      </div>`;
   });
 
   let feedback = '';
@@ -3976,20 +3994,22 @@ function showScore() {
   summaryHTML += `<h3>${feedback}</h3>`;
   summaryElement.innerHTML = summaryHTML;
 }
+
 function restartQuiz() {
-currentQuestionIndex = 0;
-score = 0;
-questions = getRandomQuestions(allQuestions);
+  currentQuestionIndex = 0;
+  score = 0;
+  userAnswers = [];
+  questions = getRandomQuestions(allQuestions);
 
-const quizContainer = document.getElementById('quiz-container');
-const scoreContainer = document.getElementById('score-container');
+  const quizContainer = document.getElementById('quiz-container');
+  const scoreContainer = document.getElementById('score-container');
 
-quizContainer.style.display = 'block';
-scoreContainer.style.display = 'none';
+  quizContainer.style.display = 'block';
+  scoreContainer.style.display = 'none';
 
-showQuestion();
+  showQuestion();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-showQuestion();
+  showQuestion();
 });
