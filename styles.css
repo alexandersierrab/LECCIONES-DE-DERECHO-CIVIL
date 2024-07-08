@@ -18,6 +18,11 @@ header h1 {
     color: #333;
     margin: 0;
 }
+header h3 {
+    font-size: 1.3em;
+    color: #333;
+    margin: 0;
+}
 
 .container {
     background: #fff;
