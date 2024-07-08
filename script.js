@@ -3948,16 +3948,34 @@ if (currentQuestionIndex < questions.length) {
 }
 
 function showScore() {
-const quizContainer = document.getElementById('quiz-container');
-const scoreContainer = document.getElementById('score-container');
-const scoreElement = document.getElementById('score');
+  const quizContainer = document.getElementById('quiz-container');
+  const scoreContainer = document.getElementById('score-container');
+  const scoreElement = document.getElementById('score');
+  const summaryElement = document.getElementById('summary');
 
-quizContainer.style.display = 'none';
-scoreContainer.style.display = 'block';
+  quizContainer.style.display = 'none';
+  scoreContainer.style.display = 'block';
 
-scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}`;
+  scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}`;
+
+  let summaryHTML = '<h3>Resumen de respuestas:</h3>';
+  userAnswers.forEach((answer, index) => {
+      summaryHTML += `<p>${index + 1}. ${answer.question}<br>Tu respuesta: ${answer.selected} (${answer.correct ? 'Correcto' : 'Incorrecto'})</p>`;
+  });
+
+  let feedback = '';
+  if (score === questions.length) {
+      feedback = 'Excelente, has hecho un gran trabajo!';
+  } else if (score >= questions.length * 0.7) {
+      feedback = 'Muy bien, buen trabajo!';
+  } else if (score >= questions.length * 0.5) {
+      feedback = 'Bien, pero puedes mejorar.';
+  } else {
+      feedback = 'Necesitas estudiar más. ¡No te desanimes!';
+  }
+  summaryHTML += `<h3>${feedback}</h3>`;
+  summaryElement.innerHTML = summaryHTML;
 }
-
 function restartQuiz() {
 currentQuestionIndex = 0;
 score = 0;
