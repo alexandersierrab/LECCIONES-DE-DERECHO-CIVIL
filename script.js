@@ -1,4 +1,4 @@
-const questions = [
+const allQuestions = [
       {
         title: "¿Cuál es la definición de obligación según las Institutas de Justiniano?",
         choices: [
@@ -3901,73 +3901,77 @@ const questions = [
   }
     ];
 
+// Función para seleccionar aleatoriamente 20 preguntas
+function getRandomQuestions(allQuestions, numQuestions = 20) {
+    const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, numQuestions);
+}
+
+let questions = getRandomQuestions(allQuestions);
 let currentQuestionIndex = 0;
 let score = 0;
-    
+
 function showQuestion() {
-        const questionElement = document.getElementById('question');
-        const choicesElement = document.getElementById('choices');
-        const question = questions[currentQuestionIndex];
-    
-        questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
-        choicesElement.innerHTML = '';
-    
-        question.choices.forEach(choice => {
-            const label = document.createElement('label');
-            const input = document.createElement('input');
-            input.type = 'radio';
-            input.name = 'choice';
-            input.value = choice;
-            label.appendChild(input);
-            label.appendChild(document.createTextNode(choice));
-            choicesElement.appendChild(label);
-            choicesElement.appendChild(document.createElement('br'));
-        });
-    }
-    
-function nextQuestion() {
-        const selectedChoice = document.querySelector('input[name="choice"]:checked');
-        if (selectedChoice && selectedChoice.value === questions[currentQuestionIndex].correctAnswer) {
-            score++;
-        }
-    
-        currentQuestionIndex++;
-    
-        if (currentQuestionIndex < questions.length) {
-            showQuestion();
-        } else {
-            showScore();
-        }
-    }
-    
-function showScore() {
-        const quizContainer = document.getElementById('quiz-container');
-        const scoreContainer = document.getElementById('score-container');
-        const scoreElement = document.getElementById('score');
-    
-        quizContainer.style.display = 'none';
-        scoreContainer.style.display = 'block';
-    
-        scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}`;
-    }
-    
-function restartQuiz() {
-        currentQuestionIndex = 0;
-        score = 0;
-    
-        const quizContainer = document.getElementById('quiz-container');
-        const scoreContainer = document.getElementById('score-container');
-        const nextButton = document.getElementById('next-button');
-        const restartButton = document.getElementById('restart-button');
-    
-        quizContainer.style.display = 'block';
-        scoreContainer.style.display = 'none';
-        nextButton.style.display = 'inline';
-        restartButton.style.display = 'none';
-    
-        showQuestion();
-    }
-    
-document.addEventListener('DOMContentLoaded', () => {
-        showQuestion();
+    const questionElement = document.getElementById('question');
+    const choicesElement = document.getElementById('choices');
+    const question = questions[currentQuestionIndex];
+
+    questionElement.textContent = `${currentQuestionIndex + 1}. ${question.title}`;
+    choicesElement.innerHTML = '';
+
+    question.choices.forEach(choice => {
+        const label = document.createElement('label');
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'choice';
+        input.value = choice;
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(choice));
+        choicesElement.appendChild(label);
+        choicesElement.appendChild(document.createElement('br'));
     });
+}
+
+function nextQuestion() {
+    const selectedChoice = document.querySelector('input[name="choice"]:checked');
+    if (selectedChoice && selectedChoice.value === questions[currentQuestionIndex].correctAnswer) {
+        score++;
+    }
+
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+function showScore() {
+    const quizContainer = document.getElementById('quiz-container');
+    const scoreContainer = document.getElementById('score-container');
+    const scoreElement = document.getElementById('score');
+
+    quizContainer.style.display = 'none';
+    scoreContainer.style.display = 'block';
+
+    scoreElement.textContent = `Tu puntaje es ${score} de ${questions.length}`;
+}
+
+function restartQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    questions = getRandomQuestions(allQuestions);
+
+    const quizContainer = document.getElementById('quiz-container');
+    const scoreContainer = document.getElementById('score-container');
+
+    quizContainer.style.display = 'block';
+    scoreContainer.style.display = 'none';
+
+    showQuestion();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showQuestion();
+});
