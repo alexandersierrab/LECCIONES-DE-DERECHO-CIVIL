@@ -15,13 +15,17 @@
             <p id="question" class="question-text"></p>
             <form id="quiz-form">
                 <div id="choices"></div>
-                <button type="button" id="next-button" onclick="nextQuestion()">Siguiente</button>
+                <div class="button-container">
+                    <button type="button" id="next-button" onclick="nextQuestion()">Siguiente</button>
+                </div>
             </form>
         </div>
         <div id="score-container" style="display: none;">
             <h2 id="score"></h2>
             <div id="summary"></div>
-            <button type="button" onclick="restartQuiz()">Volver a hacer el cuestionario</button>
+            <div class="button-container"></div>
+                <button type="button" onclick="restartQuiz()">Volver a hacer el cuestionario</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

@@ -114,3 +114,7 @@ button:hover {
 .summary-response {
     margin-left: 20px;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+}
