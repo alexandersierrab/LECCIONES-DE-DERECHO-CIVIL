@@ -24,10 +24,17 @@ header h1 {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 30px;
     width: 90%;
-    max-width: 600px;
+    max-width: 800px;
     text-align: center;
+}
+
+.question-text {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 form {
@@ -39,6 +46,19 @@ label {
     margin: 10px 0;
     font-size: 1.1em;
     color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+label:hover {
+    background-color: #e9e9e9;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
 }
 
 button {
