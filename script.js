@@ -5727,191 +5727,191 @@ correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contr
   explanation: "Solo el supuesto legitimado, y en el caso del artículo 244 sus descendientes legítimos llamados inmediatamente al beneficio de la legitimación, tendrán derecho para impugnarla por haberse omitido la notificación o la aceptación prevenidas, conforme al artículo 249."
 },
 {
-  "title": "¿Qué deben los hijos a sus padres según el artículo 250?",
-  "choices": [
+  title: "¿Qué deben los hijos a sus padres según el artículo 250?",
+  choices: [
       "Dinero",
       "Respeto y obediencia",
       "Independencia",
       "Desobediencia"
   ],
-  "correctAnswer": "Respeto y obediencia",
-  "explanation": "Según el artículo 250, los hijos deben respeto y obediencia a sus padres."
+  correctAnswer: "Respeto y obediencia",
+  explanation: "Según el artículo 250, los hijos deben respeto y obediencia a sus padres."
 },
 {
-  "title": "¿Qué obligación tienen los hijos emancipados hacia sus padres en ciertas circunstancias?",
-  "choices": [
+  title: "¿Qué obligación tienen los hijos emancipados hacia sus padres en ciertas circunstancias?",
+  choices: [
       "Ninguna obligación",
       "Cuidar de los padres en su ancianidad o estado de demencia",
       "Obedecer todas sus órdenes",
       "Pagar sus deudas"
   ],
-  "correctAnswer": "Cuidar de los padres en su ancianidad o estado de demencia",
-  "explanation": "El artículo 251 establece que los hijos emancipados están obligados a cuidar de los padres en su ancianidad, en el estado de demencia y en todas las circunstancias de la vida en que necesitaren sus auxilios."
+  correctAnswer: "Cuidar de los padres en su ancianidad o estado de demencia",
+  explanation: "El artículo 251 establece que los hijos emancipados están obligados a cuidar de los padres en su ancianidad, en el estado de demencia y en todas las circunstancias de la vida en que necesitaren sus auxilios."
 },
 {
-  "title": "¿Quiénes tienen derecho al mismo socorro que los padres si estos no están presentes o son insuficientes?",
-  "choices": [
+  title: "¿Quiénes tienen derecho al mismo socorro que los padres si estos no están presentes o son insuficientes?",
+  choices: [
       "Hermanos",
       "Tíos",
       "Primos",
       "Ascendientes legítimos"
   ],
-  "correctAnswer": "Ascendientes legítimos",
-  "explanation": "El artículo 252 establece que tienen derecho al mismo socorro todos los demás ascendientes legítimos en caso de inexistencia o insuficiencia de los inmediatos descendientes."
+  correctAnswer: "Ascendientes legítimos",
+  explanation: "El artículo 252 establece que tienen derecho al mismo socorro todos los demás ascendientes legítimos en caso de inexistencia o insuficiencia de los inmediatos descendientes."
 },
 {
-  "title": "¿A quién corresponde el cuidado personal de la crianza y educación de los hijos legítimos?",
-  "choices": [
+  title: "¿A quién corresponde el cuidado personal de la crianza y educación de los hijos legítimos?",
+  choices: [
       "Solo al padre",
       "Solo a la madre",
       "A los padres de consuno, o al padre o madre sobreviviente",
       "A los abuelos"
   ],
-  "correctAnswer": "A los padres de consuno, o al padre o madre sobreviviente",
-  "explanation": "El artículo 253 dice que toca de consuno a los padres, o al padre o madre sobreviviente, el cuidado personal de la crianza y educación de sus hijos legítimos."
+  correctAnswer: "A los padres de consuno, o al padre o madre sobreviviente",
+  explanation: "El artículo 253 dice que toca de consuno a los padres, o al padre o madre sobreviviente, el cuidado personal de la crianza y educación de sus hijos legítimos."
 },
 {
-  "title": "¿Qué puede hacer el juez en caso de inhabilidad física o moral de ambos padres?",
-  "choices": [
+  title: "¿Qué puede hacer el juez en caso de inhabilidad física o moral de ambos padres?",
+  choices: [
       "Confiar el cuidado personal de los hijos a otra persona o personas competentes",
       "Enviar a los hijos a un orfanato",
       "Dejar a los hijos sin supervisión",
       "Permitir que los hijos vivan solos"
   ],
-  "correctAnswer": "Confiar el cuidado personal de los hijos a otra persona o personas competentes",
-  "explanation": "El artículo 254 permite al juez, en caso de inhabilidad física o moral de ambos padres, confiar el cuidado personal de los hijos a otra persona o personas competentes."
+  correctAnswer: "Confiar el cuidado personal de los hijos a otra persona o personas competentes",
+  explanation: "El artículo 254 permite al juez, en caso de inhabilidad física o moral de ambos padres, confiar el cuidado personal de los hijos a otra persona o personas competentes."
 },
 {
-  "title": "¿Cómo procederá el juez para las resoluciones relacionadas con el cuidado de los hijos?",
-  "choices": [
+  title: "¿Cómo procederá el juez para las resoluciones relacionadas con el cuidado de los hijos?",
+  choices: [
       "Con un juicio largo y complejo",
       "Breve y sumariamente, oyendo a los parientes",
       "Sin escuchar a nadie más",
       "Con una votación pública"
   ],
-  "correctAnswer": "Breve y sumariamente, oyendo a los parientes",
-  "explanation": "El artículo 255 establece que el juez procederá para todas estas resoluciones breve y sumariamente, oyendo a los parientes."
+  correctAnswer: "Breve y sumariamente, oyendo a los parientes",
+  explanation: "El artículo 255 establece que el juez procederá para todas estas resoluciones breve y sumariamente, oyendo a los parientes."
 },
 {
-  "title": "¿Qué regula el artículo 256 sobre las visitas a los hijos?",
-  "choices": [
+  title: "¿Qué regula el artículo 256 sobre las visitas a los hijos?",
+  choices: [
       "Que los padres no tienen derecho a visitar a sus hijos",
       "Que el juez regulará las visitas según el interés superior del niño",
       "Que solo la madre puede visitar a los hijos",
       "Que las visitas están prohibidas"
   ],
-  "correctAnswer": "Que el juez regulará las visitas según el interés superior del niño",
-  "explanation": "El artículo 256 establece que el juez ordenará la regulación de visitas teniendo en cuenta el interés superior del niño."
+  correctAnswer: "Que el juez regulará las visitas según el interés superior del niño",
+  explanation: "El artículo 256 establece que el juez ordenará la regulación de visitas teniendo en cuenta el interés superior del niño."
 },
 {
-  "title": "¿De dónde deben provenir los gastos de crianza, educación y establecimiento de los hijos legítimos?",
-  "choices": [
+  title: "¿De dónde deben provenir los gastos de crianza, educación y establecimiento de los hijos legítimos?",
+  choices: [
       "De la sociedad conyugal",
       "Solo del padre",
       "Solo de la madre",
       "De los abuelos"
   ],
-  "correctAnswer": "De la sociedad conyugal",
-  "explanation": "El artículo 257 establece que los gastos de crianza, educación y establecimiento de los hijos legítimos pertenecen a la sociedad conyugal."
+  correctAnswer: "De la sociedad conyugal",
+  explanation: "El artículo 257 establece que los gastos de crianza, educación y establecimiento de los hijos legítimos pertenecen a la sociedad conyugal."
 },
 {
-  "title": "¿Quién asume los gastos de crianza, educación y establecimiento de los hijos si uno de los padres muere?",
-  "choices": [
+  title: "¿Quién asume los gastos de crianza, educación y establecimiento de los hijos si uno de los padres muere?",
+  choices: [
       "El estado",
       "El padre sobreviviente",
       "Los tíos",
       "Nadie"
   ],
-  "correctAnswer": "El padre sobreviviente",
-  "explanation": "El artículo 258 establece que, muerto uno de los padres, los gastos de crianza, educación y establecimiento de los hijos tocarán al sobreviviente."
+  correctAnswer: "El padre sobreviviente",
+  explanation: "El artículo 258 establece que, muerto uno de los padres, los gastos de crianza, educación y establecimiento de los hijos tocarán al sobreviviente."
 },
 {
-  "title": "¿Qué puede hacer el juez con respecto a las resoluciones bajo los artículos anteriores?",
-  "choices": [
+  title: "¿Qué puede hacer el juez con respecto a las resoluciones bajo los artículos anteriores?",
+  choices: [
       "Modificarlas o revocarlas si sobreviene motivo justo",
       "Dejarlas como están para siempre",
       "Transferirlas a otra persona",
       "Ignorarlas"
   ],
-  "correctAnswer": "Modificarlas o revocarlas si sobreviene motivo justo",
-  "explanation": "El artículo 259 establece que las resoluciones del juez pueden modificarse o revocarse si sobreviene motivo justo."
+  correctAnswer: "Modificarlas o revocarlas si sobreviene motivo justo",
+  explanation: "El artículo 259 establece que las resoluciones del juez pueden modificarse o revocarse si sobreviene motivo justo."
 },
 {
-  "title": "¿A quién pasa la obligación de alimentar y educar al hijo que carece de bienes si los padres no pueden hacerlo?",
-  "choices": [
+  title: "¿A quién pasa la obligación de alimentar y educar al hijo que carece de bienes si los padres no pueden hacerlo?",
+  choices: [
       "A los tíos",
       "A los abuelos legítimos",
       "Al estado",
       "A los hermanos mayores"
   ],
-  "correctAnswer": "A los abuelos legítimos",
-  "explanation": "El artículo 260 establece que la obligación de alimentar y educar al hijo que carece de bienes pasa a los abuelos legítimos si los padres no pueden hacerlo."
+  correctAnswer: "A los abuelos legítimos",
+  explanation: "El artículo 260 establece que la obligación de alimentar y educar al hijo que carece de bienes pasa a los abuelos legítimos si los padres no pueden hacerlo."
 },
 {
-  "title": "¿Qué facultad tienen las familias y personas encargadas del cuidado de los niños según el artículo 262?",
-  "choices": [
+  title: "¿Qué facultad tienen las familias y personas encargadas del cuidado de los niños según el artículo 262?",
+  choices: [
       "Vigilar su conducta, corregirlos y sancionarlos sin usar violencia",
       "Pueden usar cualquier método de corrección",
       "Solo pueden observar su comportamiento",
       "No tienen ninguna facultad"
   ],
-  "correctAnswer": "Vigilar su conducta, corregirlos y sancionarlos sin usar violencia",
-  "explanation": "El artículo 262 establece que las familias, los padres y las personas encargadas del cuidado de los niños tienen la facultad de vigilar su conducta, corregirlos y sancionarlos sin usar violencia."
+  correctAnswer: "Vigilar su conducta, corregirlos y sancionarlos sin usar violencia",
+  explanation: "El artículo 262 establece que las familias, los padres y las personas encargadas del cuidado de los niños tienen la facultad de vigilar su conducta, corregirlos y sancionarlos sin usar violencia."
 },
 {
-  "title": "¿A quién se extienden los derechos conferidos a los padres en ausencia de uno de ellos?",
-  "choices": [
+  title: "¿A quién se extienden los derechos conferidos a los padres en ausencia de uno de ellos?",
+  choices: [
       "Al hermano mayor",
       "Al tutor o curador",
       "Al otro padre o a quien tenga el cuidado personal del hijo",
       "A los amigos de la familia"
   ],
-  "correctAnswer": "Al otro padre o a quien tenga el cuidado personal del hijo",
-  "explanation": "El artículo 263 establece que los derechos conferidos a los padres se extienden al otro padre en ausencia de uno de ellos, o a quien tenga el cuidado personal del hijo."
+  correctAnswer: "Al otro padre o a quien tenga el cuidado personal del hijo",
+  explanation: "El artículo 263 establece que los derechos conferidos a los padres se extienden al otro padre en ausencia de uno de ellos, o a quien tenga el cuidado personal del hijo."
 },
 {
-  "title": "¿Quién dirige la educación de los hijos menores según el artículo 264?",
-  "choices": [
+  title: "¿Quién dirige la educación de los hijos menores según el artículo 264?",
+  choices: [
       "Solo el padre",
       "Solo la madre",
       "Ambos padres de común acuerdo",
       "Los abuelos"
   ],
-  "correctAnswer": "Ambos padres de común acuerdo",
-  "explanation": "El artículo 264 establece que los padres, de común acuerdo, dirigen la educación de sus hijos menores."
+  correctAnswer: "Ambos padres de común acuerdo",
+  explanation: "El artículo 264 establece que los padres, de común acuerdo, dirigen la educación de sus hijos menores."
 },
 {
-  "title": "¿Qué ocurre con el derecho de dirección de la educación si los hijos son sacados del poder del padre o madre por mala conducta de estos?",
-  "choices": [
+  title: "¿Qué ocurre con el derecho de dirección de la educación si los hijos son sacados del poder del padre o madre por mala conducta de estos?",
+  choices: [
       "Nada cambia",
       "El derecho cesa respecto de esos hijos",
       "Se transfiere automáticamente a los abuelos",
       "El estado toma el control"
   ],
-  "correctAnswer": "El derecho cesa respecto de esos hijos",
-  "explanation": "El artículo 265 establece que el derecho de dirección de la educación cesa respecto de los hijos que, por mala conducta del padre o madre, hayan sido sacados de su poder."
+  correctAnswer: "El derecho cesa respecto de esos hijos",
+  explanation: "El artículo 265 establece que el derecho de dirección de la educación cesa respecto de los hijos que, por mala conducta del padre o madre, hayan sido sacados de su poder."
 },
 {
-  "title": "¿Pueden los padres reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos?",
-  "choices": [
+  title: "¿Pueden los padres reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos?",
+  choices: [
       "Sí, siempre",
       "No, nunca",
       "Solo en algunos casos",
       "Solo si el juez lo permite"
   ],
-  "correctAnswer": "No, nunca",
-  "explanation": "El artículo 266 establece que los padres no pueden reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos."
+  correctAnswer: "No, nunca",
+  explanation: "El artículo 266 establece que los padres no pueden reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos."
 },
 {
-  "title": "¿Qué causa la privación de derechos de los padres según el artículo 267?",
-  "choices": [
+  title: "¿Qué causa la privación de derechos de los padres según el artículo 267?",
+  choices: [
       "Buena conducta",
       "Mala conducta",
       "Problemas financieros",
       "Enfermedad"
   ],
-  "correctAnswer": "Mala conducta",
-  "explanation": "El artículo 267 establece que los padres que por mala conducta hayan dado motivo a la providencia de separar a los hijos de su lado incurrirán en la privación de derechos."
+  correctAnswer: "Mala conducta",
+  explanation: "El artículo 267 establece que los padres que por mala conducta hayan dado motivo a la providencia de separar a los hijos de su lado incurrirán en la privación de derechos."
 },
 
 {
@@ -5937,346 +5937,346 @@ correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contr
     explanation: "La existencia de una persona termina con la muerte, conforme al artículo 94."
   },
   {
-    "title": "¿Cuándo puede el cónyuge demandar el divorcio según el artículo 156?",
-    "choices": [
+    title: "¿Cuándo puede el cónyuge demandar el divorcio según el artículo 156?",
+    choices: [
         "En cualquier momento",
         "Cuando lo desee el demandante",
         "Dentro del término de un año desde que tuvo conocimiento de los hechos",
         "Después de dos años de los hechos"
     ],
-    "correctAnswer": "Dentro del término de un año desde que tuvo conocimiento de los hechos",
-    "explanation": "El artículo 156 establece que el divorcio sólo podrá ser demandado por el cónyuge que no haya dado lugar a los hechos que lo motivan y dentro del término de un año, contado desde cuando tuvo conocimiento de ellos respecto de las causales 1a. y 7a."
+    correctAnswer: "Dentro del término de un año desde que tuvo conocimiento de los hechos",
+    explanation: "El artículo 156 establece que el divorcio sólo podrá ser demandado por el cónyuge que no haya dado lugar a los hechos que lo motivan y dentro del término de un año, contado desde cuando tuvo conocimiento de ellos respecto de las causales 1a. y 7a."
 },
 {
-    "title": "¿Quiénes son las partes en el proceso de divorcio según el artículo 157?",
-    "choices": [
+    title: "¿Quiénes son las partes en el proceso de divorcio según el artículo 157?",
+    choices: [
         "Los cónyuges únicamente",
         "Los hijos y los cónyuges",
         "Los cónyuges y el juez",
         "Este artículo fue derogado"
     ],
-    "correctAnswer": "Este artículo fue derogado",
-    "explanation": "El artículo 157 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+    correctAnswer: "Este artículo fue derogado",
+    explanation: "El artículo 157 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
 },
 {
-    "title": "¿Qué medidas cautelares se pueden aplicar en el proceso de divorcio según el artículo 158?",
-    "choices": [
+    title: "¿Qué medidas cautelares se pueden aplicar en el proceso de divorcio según el artículo 158?",
+    choices: [
         "Ninguna",
         "Embargo de bienes",
         "Retiro de la patria potestad",
         "Este artículo fue derogado"
     ],
-    "correctAnswer": "Este artículo fue derogado",
-    "explanation": "El artículo 158 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+    correctAnswer: "Este artículo fue derogado",
+    explanation: "El artículo 158 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
 },
 {
-    "title": "¿Qué sucede al finalizar el proceso de divorcio según el artículo 159?",
-    "choices": [
+    title: "¿Qué sucede al finalizar el proceso de divorcio según el artículo 159?",
+    choices: [
         "Los cónyuges se reconcilian",
         "Se inicia un nuevo proceso",
         "El vínculo matrimonial se disuelve",
         "Este artículo fue derogado"
     ],
-    "correctAnswer": "Este artículo fue derogado",
-    "explanation": "El artículo 159 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+    correctAnswer: "Este artículo fue derogado",
+    explanation: "El artículo 159 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
 },
 {
-    "title": "¿Cuáles son los efectos del divorcio según el artículo 160?",
-    "choices": [
+    title: "¿Cuáles son los efectos del divorcio según el artículo 160?",
+    choices: [
         "No hay efectos civiles",
         "Se mantiene la sociedad conyugal",
         "Se disuelven el vínculo matrimonial y la sociedad conyugal",
         "Los hijos pierden derechos"
     ],
-    "correctAnswer": "Se disuelven el vínculo matrimonial y la sociedad conyugal",
-    "explanation": "El artículo 160 establece que, ejecutoriada la sentencia que decreta el divorcio, se disuelven el vínculo matrimonial y la sociedad conyugal, pero subsisten los deberes y derechos de las partes respecto de los hijos comunes."
+    correctAnswer: "Se disuelven el vínculo matrimonial y la sociedad conyugal",
+    explanation: "El artículo 160 establece que, ejecutoriada la sentencia que decreta el divorcio, se disuelven el vínculo matrimonial y la sociedad conyugal, pero subsisten los deberes y derechos de las partes respecto de los hijos comunes."
 },
 {
-    "title": "¿Qué efectos tiene el divorcio respecto a los hijos según el artículo 161?",
-    "choices": [
+    title: "¿Qué efectos tiene el divorcio respecto a los hijos según el artículo 161?",
+    choices: [
         "Los hijos pierden derechos",
         "Los efectos se rigen por el Código Penal",
         "Se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
         "No hay efectos específicos"
     ],
-    "correctAnswer": "Se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
-    "explanation": "El artículo 161 establece que los efectos del divorcio respecto de los hijos comunes se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil."
+    correctAnswer: "Se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
+    explanation: "El artículo 161 establece que los efectos del divorcio respecto de los hijos comunes se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil."
 },
 {
-    "title": "¿Qué puede hacer el cónyuge inocente respecto a las donaciones según el artículo 162?",
-    "choices": [
+    title: "¿Qué puede hacer el cónyuge inocente respecto a las donaciones según el artículo 162?",
+    choices: [
         "Nada",
         "Reclamar porción conyugal",
         "Revocar las donaciones hechas al cónyuge culpable",
         "Herederar abintestato"
     ],
-    "correctAnswer": "Revocar las donaciones hechas al cónyuge culpable",
-    "explanation": "El artículo 162 establece que el cónyuge inocente puede revocar las donaciones hechas por causa de matrimonio al cónyuge culpable en caso de divorcio."
+    correctAnswer: "Revocar las donaciones hechas al cónyuge culpable",
+    explanation: "El artículo 162 establece que el cónyuge inocente puede revocar las donaciones hechas por causa de matrimonio al cónyuge culpable en caso de divorcio."
 },
 {
-    "title": "¿Cómo se rige el divorcio de un matrimonio realizado en el extranjero según el artículo 163?",
-    "choices": [
+    title: "¿Cómo se rige el divorcio de un matrimonio realizado en el extranjero según el artículo 163?",
+    choices: [
         "Por la ley colombiana",
         "Por la ley del país de origen",
         "Por la ley del domicilio conyugal",
         "Por la ley internacional"
     ],
-    "correctAnswer": "Por la ley del domicilio conyugal",
-    "explanation": "El artículo 163 establece que el divorcio del matrimonio civil celebrado en el extranjero se rige por la ley del domicilio conyugal."
+    correctAnswer: "Por la ley del domicilio conyugal",
+    explanation: "El artículo 163 establece que el divorcio del matrimonio civil celebrado en el extranjero se rige por la ley del domicilio conyugal."
 },
 {
-    "title": "¿Qué condición debe cumplirse para que el divorcio decretado en el exterior produzca efectos según el artículo 164?",
-    "choices": [
+    title: "¿Qué condición debe cumplirse para que el divorcio decretado en el exterior produzca efectos según el artículo 164?",
+    choices: [
         "Debe ser admitido por la ley colombiana",
         "No necesita condiciones",
         "Debe ser notificado en Colombia",
         "Debe ser aprobado por el Congreso"
     ],
-    "correctAnswer": "Debe ser admitido por la ley colombiana",
-    "explanation": "El artículo 164 establece que el divorcio decretado en el exterior respecto del matrimonio civil celebrado en Colombia solo producirá efectos si la causal respectiva es admitida por la ley colombiana y el demandado ha sido notificado personalmente o emplazado según la ley de su domicilio."
+    correctAnswer: "Debe ser admitido por la ley colombiana",
+    explanation: "El artículo 164 establece que el divorcio decretado en el exterior respecto del matrimonio civil celebrado en Colombia solo producirá efectos si la causal respectiva es admitida por la ley colombiana y el demandado ha sido notificado personalmente o emplazado según la ley de su domicilio."
 },
 {
-    "title": "¿En qué casos hay lugar a la separación de cuerpos según el artículo 165?",
-    "choices": [
+    title: "¿En qué casos hay lugar a la separación de cuerpos según el artículo 165?",
+    choices: [
         "Por decisión unilateral",
         "Por mutuo consentimiento manifestado ante el juez",
         "Por incumplimiento de deberes conyugales",
         "Este artículo fue derogado"
     ],
-    "correctAnswer": "Por mutuo consentimiento manifestado ante el juez",
-    "explanation": "El artículo 165 establece que hay lugar a la separación de cuerpos en los casos contemplados en el artículo 154 del Código Civil y por mutuo consentimiento de los cónyuges manifestado ante el juez competente."
+    correctAnswer: "Por mutuo consentimiento manifestado ante el juez",
+    explanation: "El artículo 165 establece que hay lugar a la separación de cuerpos en los casos contemplados en el artículo 154 del Código Civil y por mutuo consentimiento de los cónyuges manifestado ante el juez competente."
 },
 {
-    "title": "¿Qué deben indicar los cónyuges al expresar su mutuo consentimiento en la separación según el artículo 166?",
-    "choices": [
+    title: "¿Qué deben indicar los cónyuges al expresar su mutuo consentimiento en la separación según el artículo 166?",
+    choices: [
         "Nada",
         "El estado en que queda la sociedad conyugal",
         "La duración de la separación",
         "Ambas respuestas anteriores"
     ],
-    "correctAnswer": "Ambas respuestas anteriores",
-    "explanation": "El artículo 166 establece que los cónyuges, al expresar su mutuo consentimiento en la separación, deben indicar el estado en que queda la sociedad conyugal y la duración de la separación si es temporal."
+    correctAnswer: "Ambas respuestas anteriores",
+    explanation: "El artículo 166 establece que los cónyuges, al expresar su mutuo consentimiento en la separación, deben indicar el estado en que queda la sociedad conyugal y la duración de la separación si es temporal."
 },
 {
-    "title": "¿Qué efecto tiene la separación de cuerpos según el artículo 167?",
-    "choices": [
+    title: "¿Qué efecto tiene la separación de cuerpos según el artículo 167?",
+    choices: [
         "Disuelve el matrimonio",
         "Suspende la vida en común de los casados",
         "No tiene efecto alguno",
         "Elimina los deberes conyugales"
     ],
-    "correctAnswer": "Suspende la vida en común de los casados",
-    "explanation": "El artículo 167 establece que la separación de cuerpos no disuelve el matrimonio, pero suspende la vida en común de los casados."
+    correctAnswer: "Suspende la vida en común de los casados",
+    explanation: "El artículo 167 establece que la separación de cuerpos no disuelve el matrimonio, pero suspende la vida en común de los casados."
 },
 {
-    "title": "¿Qué normas se aplican a la separación de cuerpos según el artículo 168?",
-    "choices": [
+    title: "¿Qué normas se aplican a la separación de cuerpos según el artículo 168?",
+    choices: [
         "Las normas de la separación de bienes",
         "Las normas del matrimonio",
         "Las normas que regulan el divorcio",
         "Ninguna norma aplica"
     ],
-    "correctAnswer": "Las normas que regulan el divorcio",
-    "explanation": "El artículo 168 establece que son aplicables a la separación de cuerpos las normas que regulan el divorcio en cuanto no fueren incompatibles con ella."
+    correctAnswer: "Las normas que regulan el divorcio",
+    explanation: "El artículo 168 establece que son aplicables a la separación de cuerpos las normas que regulan el divorcio en cuanto no fueren incompatibles con ella."
 },
 {
-    "title": "¿Qué debe hacer una persona con hijos de un matrimonio anterior antes de volver a casarse según el artículo 169?",
-    "choices": [
+    title: "¿Qué debe hacer una persona con hijos de un matrimonio anterior antes de volver a casarse según el artículo 169?",
+    choices: [
         "Nada",
         "Pedir permiso a sus hijos",
         "Hacer un inventario solemne de los bienes que esté administrando",
         "Divorciarse legalmente"
     ],
-    "correctAnswer": "Hacer un inventario solemne de los bienes que esté administrando",
-    "explanation": "El artículo 169 establece que una persona con hijos de un matrimonio anterior debe proceder al inventario solemne de los bienes que esté administrando antes de volver a casarse."
+    correctAnswer: "Hacer un inventario solemne de los bienes que esté administrando",
+    explanation: "El artículo 169 establece que una persona con hijos de un matrimonio anterior debe proceder al inventario solemne de los bienes que esté administrando antes de volver a casarse."
 },
 {
-    "title": "¿Habrá lugar al nombramiento de curador si los hijos no tienen bienes según el artículo 170?",
-    "choices": [
+    title: "¿Habrá lugar al nombramiento de curador si los hijos no tienen bienes según el artículo 170?",
+    choices: [
         "Sí",
         "No",
         "Solo si el juez lo considera necesario",
         "Depende de la situación económica del padre"
     ],
-    "correctAnswer": "Sí",
-    "explanation": "El artículo 170 establece que habrá lugar al nombramiento de curador aunque los hijos no tengan bienes propios de ninguna clase en poder del padre o de la madre."
+    correctAnswer: "Sí",
+    explanation: "El artículo 170 establece que habrá lugar al nombramiento de curador aunque los hijos no tengan bienes propios de ninguna clase en poder del padre o de la madre."
 },
 {
-    "title": "¿Qué debe presentar la persona que pretende contraer nuevas nupcias al juez según el artículo 171?",
-    "choices": [
+    title: "¿Qué debe presentar la persona que pretende contraer nuevas nupcias al juez según el artículo 171?",
+    choices: [
         "Un testamento",
         "Una copia auténtica de la providencia por la cual se designó curador a los hijos",
         "Una autorización firmada por los hijos",
         "Nada"
     ],
-    "correctAnswer": "Una copia auténtica de la providencia por la cual se designó curador a los hijos",
-    "explanation": "El artículo 171 establece que el juez se abstendrá de autorizar el matrimonio hasta que la persona que pretende contraer nuevas nupcias presente una copia auténtica de la providencia por la cual se designó curador a los hijos."
+    correctAnswer: "Una copia auténtica de la providencia por la cual se designó curador a los hijos",
+    explanation: "El artículo 171 establece que el juez se abstendrá de autorizar el matrimonio hasta que la persona que pretende contraer nuevas nupcias presente una copia auténtica de la providencia por la cual se designó curador a los hijos."
 },
 {
-    "title": "¿Qué ocurre si una persona administra con culpa grave los bienes del hijo según el artículo 172?",
-    "choices": [
+    title: "¿Qué ocurre si una persona administra con culpa grave los bienes del hijo según el artículo 172?",
+    choices: [
         "Pierde el derecho a sucederle como legitimario",
         "No ocurre nada",
         "Recibe una multa",
         "Es condenado a prisión"
     ],
-    "correctAnswer": "Pierde el derecho a sucederle como legitimario",
-    "explanation": "El artículo 172 establece que la persona que administra con culpa grave o dolo los bienes del hijo perderá el usufructo legal y el derecho a sucederle como legitimario o como heredero abintestato."
+    correctAnswer: "Pierde el derecho a sucederle como legitimario",
+    explanation: "El artículo 172 establece que la persona que administra con culpa grave o dolo los bienes del hijo perderá el usufructo legal y el derecho a sucederle como legitimario o como heredero abintestato."
 },
 {
-    "title": "¿Puede una mujer embarazada celebrar un segundo matrimonio según el artículo 173?",
-    "choices": [
+    title: "¿Puede una mujer embarazada celebrar un segundo matrimonio según el artículo 173?",
+    choices: [
         "Sí",
         "No",
         "Solo con autorización judicial",
         "Solo si el embarazo es reconocido por el futuro esposo"
     ],
-    "correctAnswer": "No",
-    "explanation": "El artículo 173 es declarado inexequible, lo que indica que una mujer embarazada no puede celebrar un segundo matrimonio."
+    correctAnswer: "No",
+    explanation: "El artículo 173 es declarado inexequible, lo que indica que una mujer embarazada no puede celebrar un segundo matrimonio."
 },
 {
-    "title": "¿Qué prohibición establece el artículo 174 respecto a las segundas nupcias?",
-    "choices": [
+    title: "¿Qué prohibición establece el artículo 174 respecto a las segundas nupcias?",
+    choices: [
         "No se puede casar con el mismo cónyuge",
         "No se puede casar si hay hijos menores",
         "No se puede celebrar un segundo matrimonio mientras esté vigente el primero",
         "Este artículo fue declarado inexequible"
     ],
-    "correctAnswer": "Este artículo fue declarado inexequible",
-    "explanation": "El artículo 174 fue declarado inexequible, por lo tanto, no establece ninguna prohibición vigente."
+    correctAnswer: "Este artículo fue declarado inexequible",
+    explanation: "El artículo 174 fue declarado inexequible, por lo tanto, no establece ninguna prohibición vigente."
 },
 {
-    "title": "¿Qué obligación tienen los cónyuges entre sí según el artículo 176?",
-    "choices": [
+    title: "¿Qué obligación tienen los cónyuges entre sí según el artículo 176?",
+    choices: [
         "No tienen ninguna obligación",
         "Están obligados a guardarse fe, a socorrerse y ayudarse mutuamente",
         "Deben vivir separados",
         "Deben compartir todos los bienes"
     ],
-    "correctAnswer": "Están obligados a guardarse fe, a socorrerse y ayudarse mutuamente",
-    "explanation": "El artículo 176 establece que los cónyuges están obligados a guardarse fe, a socorrerse y ayudarse mutuamente en todas las circunstancias de la vida."
+    correctAnswer: "Están obligados a guardarse fe, a socorrerse y ayudarse mutuamente",
+    explanation: "El artículo 176 establece que los cónyuges están obligados a guardarse fe, a socorrerse y ayudarse mutuamente en todas las circunstancias de la vida."
 },
 {
-    "title": "¿Quién tiene la dirección del hogar según el artículo 177?",
-    "choices": [
+    title: "¿Quién tiene la dirección del hogar según el artículo 177?",
+    choices: [
         "El marido",
         "La mujer",
         "Ambos cónyuges conjuntamente",
         "El hijo mayor"
     ],
-    "correctAnswer": "Ambos cónyuges conjuntamente",
-    "explanation": "El artículo 177 establece que el marido y la mujer tienen conjuntamente la dirección del hogar."
+    correctAnswer: "Ambos cónyuges conjuntamente",
+    explanation: "El artículo 177 establece que el marido y la mujer tienen conjuntamente la dirección del hogar."
 },
 {
-    "title": "¿Tienen los cónyuges la obligación de vivir juntos según el artículo 178?",
-    "choices": [
+    title: "¿Tienen los cónyuges la obligación de vivir juntos según el artículo 178?",
+    choices: [
         "No, pueden vivir separados",
         "Sí, salvo causa justificada",
         "Solo si tienen hijos",
         "Solo si el juez lo ordena"
     ],
-    "correctAnswer": "Sí, salvo causa justificada",
-    "explanation": "El artículo 178 establece que, salvo causa justificada, los cónyuges tienen la obligación de vivir juntos."
+    correctAnswer: "Sí, salvo causa justificada",
+    explanation: "El artículo 178 establece que, salvo causa justificada, los cónyuges tienen la obligación de vivir juntos."
 },
 {
-    "title": "¿Quién fija la residencia del hogar en caso de desacuerdo según el artículo 179?",
-    "choices": [
+    title: "¿Quién fija la residencia del hogar en caso de desacuerdo según el artículo 179?",
+    choices: [
         "El marido",
         "La mujer",
         "El juez",
         "El hijo mayor"
     ],
-    "correctAnswer": "El juez",
-    "explanation": "El artículo 179 establece que, en caso de desacuerdo, corresponde al juez fijar la residencia del hogar teniendo en cuenta el interés de la familia."
+    correctAnswer: "El juez",
+    explanation: "El artículo 179 establece que, en caso de desacuerdo, corresponde al juez fijar la residencia del hogar teniendo en cuenta el interés de la familia."
 },
 {
-    "title": "¿Qué ocurre con la sociedad de bienes por el hecho del matrimonio según el artículo 180?",
+    title: "¿Qué ocurre con la sociedad de bienes por el hecho del matrimonio según el artículo 180?",
     "choices": [
         "Se disuelve",
         "Se mantiene separada",
         "Se contrae",
         "Se elimina"
     ],
-    "correctAnswer": "Se contrae",
-    "explanation": "El artículo 180 establece que por el hecho del matrimonio se contrae una sociedad de bienes entre los cónyuges, según las reglas del título 22, libro IV del Código Civil."
+    correctAnswer: "Se contrae",
+    explanation: "El artículo 180 establece que por el hecho del matrimonio se contrae una sociedad de bienes entre los cónyuges, según las reglas del título 22, libro IV del Código Civil."
 },
 {
-    "title": "¿Necesita la mujer casada mayor de edad autorización marital para administrar sus bienes según el artículo 181?",
-    "choices": [
+    title: "¿Necesita la mujer casada mayor de edad autorización marital para administrar sus bienes según el artículo 181?",
+    choices: [
         "Sí",
         "No",
         "Solo en casos especiales",
         "Depende de la ley"
     ],
-    "correctAnswer": "No",
-    "explanation": "El artículo 181 establece que la mujer casada, mayor de edad, puede administrar y disponer de sus bienes sin necesidad de autorización marital ni licencia del juez."
+    correctAnswer: "No",
+    explanation: "El artículo 181 establece que la mujer casada, mayor de edad, puede administrar y disponer de sus bienes sin necesidad de autorización marital ni licencia del juez."
 },
 {
-    "title": "¿Cuál es el estado legal de los artículos 182 a 187 según sus notas de vigencia?",
-    "choices": [
+    title: "¿Cuál es el estado legal de los artículos 182 a 187 según sus notas de vigencia?",
+    choices: [
         "Están vigentes",
         "Están modificados",
         "Están derogados",
         "Están en revisión"
     ],
-    "correctAnswer": "Están derogados",
-    "explanation": "Los artículos 182 a 187 fueron derogados por la Ley 28 de 1932, la cual introdujo reformas al régimen patrimonial del matrimonio que suprimieron la potestad marital."
+    correctAnswer: "Están derogados",
+    explanation: "Los artículos 182 a 187 fueron derogados por la Ley 28 de 1932, la cual introdujo reformas al régimen patrimonial del matrimonio que suprimieron la potestad marital."
 }
 ,
 {
-  "title": "¿Qué se entiende por impugnación de la maternidad según el artículo 335?",
-  "choices": [
+  title: "¿Qué se entiende por impugnación de la maternidad según el artículo 335?",
+  choices: [
       "La madre puede renunciar a sus derechos sobre el hijo",
       "La impugnación de la maternidad se refiere a probar que una mujer no es la verdadera madre del hijo",
       "El hijo puede elegir a sus padres biológicos",
       "La madre puede reclamar la patria potestad sobre cualquier niño"
   ],
-  "correctAnswer": "La impugnación de la maternidad se refiere a probar que una mujer no es la verdadera madre del hijo",
-  "explanation": "El artículo 335 establece que la impugnación de la maternidad es el hecho de probar que una mujer no es la verdadera madre del hijo que pasa por suyo, mediante la demostración de un falso parto o suplantación del hijo."
+  correctAnswer: "La impugnación de la maternidad se refiere a probar que una mujer no es la verdadera madre del hijo",
+  explanation: "El artículo 335 establece que la impugnación de la maternidad es el hecho de probar que una mujer no es la verdadera madre del hijo que pasa por suyo, mediante la demostración de un falso parto o suplantación del hijo."
 },
 {
-  "title": "¿Quiénes tienen derecho a impugnar la maternidad según el artículo 335?",
-  "choices": [
+  title: "¿Quiénes tienen derecho a impugnar la maternidad según el artículo 335?",
+  choices: [
       "Solo el padre biológico",
       "Cualquier persona interesada",
       "El marido de la supuesta madre, la madre supuesta, los verdaderos padres legítimos y la verdadera madre",
       "Solo la madre biológica"
   ],
-  "correctAnswer": "El marido de la supuesta madre, la madre supuesta, los verdaderos padres legítimos y la verdadera madre",
-  "explanation": "El artículo 335 menciona que tienen derecho a impugnar la maternidad el marido de la supuesta madre, la madre supuesta, los verdaderos padre y madre legítimos del hijo, y la verdadera madre."
+  correctAnswer: "El marido de la supuesta madre, la madre supuesta, los verdaderos padres legítimos y la verdadera madre",
+  explanation: "El artículo 335 menciona que tienen derecho a impugnar la maternidad el marido de la supuesta madre, la madre supuesta, los verdaderos padre y madre legítimos del hijo, y la verdadera madre."
 },
 {
-  "title": "¿En qué circunstancias fue derogado el artículo 336?",
-  "choices": [
+  title: "¿En qué circunstancias fue derogado el artículo 336?",
+  choices: [
       "Por la Ley 1060 de 2006",
       "Por la Ley 153 de 1887",
       "Por el Decreto 2820 de 1974",
       "No fue derogado"
   ],
-  "correctAnswer": "Por la Ley 1060 de 2006",
-  "explanation": "El artículo 336 fue derogado por el artículo 12 de la Ley 1060 de 2006."
+  correctAnswer: "Por la Ley 1060 de 2006",
+  explanation: "El artículo 336 fue derogado por el artículo 12 de la Ley 1060 de 2006."
 },
 {
-  "title": "¿Qué derecho se concede a terceros según el artículo 337?",
-  "choices": [
+  title: "¿Qué derecho se concede a terceros según el artículo 337?",
+  choices: [
       "Impugnar la paternidad",
       "Adoptar al hijo",
       "Impugnar la maternidad si perjudica sus derechos sucesorios",
       "Reclamar la patria potestad del hijo"
   ],
-  "correctAnswer": "Impugnar la maternidad si perjudica sus derechos sucesorios",
-  "explanation": "El artículo 337 establece que se concede la acción de impugnación de la maternidad a toda persona a quien la maternidad putativa perjudique actualmente en sus derechos sobre sucesión testamentaria o abintestato."
+  correctAnswer: "Impugnar la maternidad si perjudica sus derechos sucesorios",
+  explanation: "El artículo 337 establece que se concede la acción de impugnación de la maternidad a toda persona a quien la maternidad putativa perjudique actualmente en sus derechos sobre sucesión testamentaria o abintestato."
 },
 {
-  "title": "¿Qué sucede con los que participaron en el fraude de falso parto según el artículo 338?",
-  "choices": [
+  title: "¿Qué sucede con los que participaron en el fraude de falso parto según el artículo 338?",
+  choices: [
       "Podrán reclamar los derechos de patria potestad",
       "Podrán exigir alimentos al hijo",
       "No podrán beneficiarse del descubrimiento del fraude",
       "Podrán suceder en los bienes del hijo por causa de muerte"
   ],
-  "correctAnswer": "No podrán beneficiarse del descubrimiento del fraude",
-  "explanation": "El artículo 338 establece que aquellos que participaron en el fraude de falso parto o suplantación no podrán beneficiarse del descubrimiento del fraude, ni aun para ejercer sobre el hijo los derechos de patria potestad, exigirle alimentos o suceder en sus bienes por causa de muerte."
+  correctAnswer: "No podrán beneficiarse del descubrimiento del fraude",
+  explanation: "El artículo 338 establece que aquellos que participaron en el fraude de falso parto o suplantación no podrán beneficiarse del descubrimiento del fraude, ni aun para ejercer sobre el hijo los derechos de patria potestad, exigirle alimentos o suceder en sus bienes por causa de muerte."
 }
 ,
 
