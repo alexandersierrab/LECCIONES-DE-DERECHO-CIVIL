@@ -793,7 +793,7 @@ const allQuestions = [
     explanation: "La determinación de la forma de los instrumentos públicos por la ley del país de origen asegura que estos documentos tengan validez y autenticidad reconocidas, facilitando su aceptación y aplicación en otros países."
   },
   {
-    title: "¿Qué función probatoria tienen los instrumentos públicos según el Artículo 22?",
+    title: "¿Qué función probatoria tienen los instrumentos públicos según el Artículo 22 del Código Civil?",
     choices: [
       "No tienen ninguna función probatoria.",
       "Sirven como pruebas irrefutables en cualquier jurisdicción.",
