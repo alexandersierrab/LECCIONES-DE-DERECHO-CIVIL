@@ -1,5 +1,886 @@
 const allQuestions = [
   {
+    title: "¿Qué comprende el Código Civil según el Artículo 1?",
+    choices: [
+      "Las disposiciones legales sustantivas sobre los derechos de los particulares en materia penal.",
+      "Las disposiciones legales sustantivas sobre los derechos de los particulares, por razón del estado de las personas, de sus bienes, obligaciones, contratos y acciones civiles.",
+      "Solo las disposiciones legales sobre los bienes y contratos.",
+      "Las disposiciones legales sobre las acciones civiles únicamente."
+    ],
+    correctAnswer: "Las disposiciones legales sustantivas sobre los derechos de los particulares, por razón del estado de las personas, de sus bienes, obligaciones, contratos y acciones civiles.",
+    explanation: "El Código Civil es fundamental para regular diversos aspectos de la vida civil de los individuos, estableciendo un marco legal para los derechos y obligaciones que emergen de las relaciones personales y patrimoniales."
+  },
+  {
+    title: "¿Cómo se aplica el Código Civil en los territorios administrados por el gobierno general según el Artículo 2?",
+    choices: [
+      "El Código Civil se aplica solo en asuntos internacionales.",
+      "El Código Civil se aplica en los asuntos de competencia del gobierno general y en los civiles comunes de los habitantes de los territorios administrados por él.",
+      "El Código Civil es aplicable únicamente en el ámbito penal.",
+      "El Código Civil no se aplica en los territorios administrados por el gobierno general."
+    ],
+    correctAnswer: "El Código Civil se aplica en los asuntos de competencia del gobierno general y en los civiles comunes de los habitantes de los territorios administrados por él.",
+    explanation: "Esto garantiza la coherencia en la aplicación de la ley civil en todo el territorio nacional bajo la administración del gobierno central, promoviendo un marco legal uniforme."
+  },
+  {
+    title: "¿Qué significa que el Código Civil tenga fuerza de ley según el Artículo 3?",
+    choices: [
+      "Que el Código Civil es una sugerencia para los ciudadanos.",
+      "Que el Código Civil es la norma establecida por el legislador colombiano y debe ser seguida en asuntos civiles por los particulares.",
+      "Que el Código Civil es opcional para las empresas.",
+      "Que el Código Civil solo se aplica en casos de emergencia nacional."
+    ],
+    correctAnswer: "Que el Código Civil es la norma establecida por el legislador colombiano y debe ser seguida en asuntos civiles por los particulares.",
+    explanation: "La obligatoriedad del Código Civil asegura que todos los individuos y entidades deben regirse por las mismas normas en asuntos civiles, lo que proporciona estabilidad y previsibilidad en las relaciones jurídicas."
+  },
+  {
+    title: "¿Cuál es el propósito de la ley según el Artículo 4 del Código Civil?",
+    choices: [
+      "La ley solo se utiliza para registrar contratos.",
+      "La ley es una declaración de la voluntad soberana manifestada en la forma prevenida en la Constitución Nacional y su carácter general es mandar, prohibir, permitir o castigar.",
+      "La ley únicamente tiene fines fiscales.",
+      "La ley no tiene ningún propósito definido en el Código Civil."
+    ],
+    correctAnswer: "La ley es una declaración de la voluntad soberana manifestada en la forma prevenida en la Constitución Nacional y su carácter general es mandar, prohibir, permitir o castigar.",
+    explanation: "La ley, al ser una manifestación de la voluntad soberana, es un instrumento para el orden social, estableciendo normas de conducta y mecanismos de control social a través de mandatos, prohibiciones y sanciones."
+  },
+  {
+    title: "¿Es necesario que la ley civil contenga penas o castigos explícitos según el Artículo 5?",
+    choices: [
+      "Sí, siempre debe contener penas explícitas.",
+      "No, la ley civil puede mandar, prohibir o permitir sin contener penas explícitas, ya que el Código Penal es el que define los delitos y les señala penas.",
+      "Solo en casos de infracciones graves.",
+      "Sí, pero solo si se trata de leyes fiscales."
+    ],
+    correctAnswer: "No, la ley civil puede mandar, prohibir o permitir sin contener penas explícitas, ya que el Código Penal es el que define los delitos y les señala penas.",
+    explanation: "La separación de funciones entre el Código Civil y el Código Penal permite que el primero regule las relaciones privadas sin necesidad de especificar castigos, mientras que el segundo se encarga de definir y sancionar las conductas delictivas."
+  },
+  {
+    title: "¿Qué efectos legales tienen los actos ejecutados contra expresa prohibición de la ley en materia civil según el Artículo 6?",
+    choices: [
+      "Son completamente válidos y se pueden ejecutar sin consecuencias.",
+      "Son nulos a menos que la ley disponga otra cosa.",
+      "Deben ser aprobados por un juez para ser válidos.",
+      "Son automáticamente considerados como delitos penales."
+    ],
+    correctAnswer: "Son nulos a menos que la ley disponga otra cosa.",
+    explanation: "La nulidad de los actos contrarios a la ley asegura que cualquier acción en contravención de la normativa carezca de efectos jurídicos, protegiendo así la integridad del orden legal."
+  },
+  {
+    title: "¿Qué diferencia existe entre la sanción constitucional y la sanción legal mencionadas en los Artículos 6 y 7?",
+    choices: [
+      "No hay ninguna diferencia entre la sanción constitucional y la sanción legal.",
+      "La sanción constitucional se refiere a la aprobación de proyectos por el poder ejecutivo, mientras que la sanción legal se refiere a las consecuencias del cumplimiento o transgresión de la ley.",
+      "La sanción constitucional se aplica solo a delitos graves, mientras que la sanción legal se aplica a delitos menores.",
+      "La sanción constitucional solo se aplica en casos de emergencia."
+    ],
+    correctAnswer: "La sanción constitucional se refiere a la aprobación de proyectos por el poder ejecutivo, mientras que la sanción legal se refiere a las consecuencias del cumplimiento o transgresión de la ley.",
+    explanation: "Esta distinción subraya la separación de poderes y funciones dentro del sistema legal, donde la sanción constitucional es parte del proceso legislativo y la sanción legal pertenece al ámbito de la aplicación y ejecución de la ley."
+  },
+  {
+    title: "¿Puede la costumbre prevalecer sobre la ley según el Artículo 8?",
+    choices: [
+      "Sí, siempre que sea una práctica inveterada y general.",
+      "No, la costumbre nunca tiene fuerza contra la ley.",
+      "Sí, si es aprobada por una corte superior.",
+      "No, excepto en casos de desuso prolongado."
+    ],
+    correctAnswer: "No, la costumbre nunca tiene fuerza contra la ley.",
+    explanation: "La supremacía de la ley sobre la costumbre asegura que las normas establecidas por el legislador prevalezcan sobre las prácticas sociales, garantizando uniformidad y previsibilidad en la aplicación de la ley."
+  },
+  {
+    title: "¿Puede la ignorancia de la ley ser usada como excusa para su incumplimiento según el Artículo 9?",
+    choices: [
+      "Sí, en casos de leyes recién promulgadas.",
+      "No, la ignorancia de las leyes no sirve de excusa.",
+      "Sí, pero solo para ciudadanos extranjeros.",
+      "No, excepto si la persona puede probar que nunca tuvo acceso a la ley."
+    ],
+    correctAnswer: "No, la ignorancia de las leyes no sirve de excusa.",
+    explanation: "Este principio es crucial para la eficacia del sistema legal, ya que obliga a todos los ciudadanos a conocer y respetar las leyes, promoviendo así el orden y la justicia en la sociedad."
+  },
+  {
+    title: "¿Cuándo surten efecto las leyes según el Artículo 11 del Código Civil?",
+    choices: [
+      "Desde el momento de su promulgación en el Diario Oficial.",
+      "Desde el día en que ellas mismas se designan o después de su promulgación.",
+      "Desde la fecha en que son aprobadas por el Congreso.",
+      "Desde la fecha en que son discutidas en público."
+    ],
+    correctAnswer: "Desde el día en que ellas mismas se designan o después de su promulgación.",
+    explanation: "La especificación del momento en que las leyes surten efecto proporciona claridad y certeza sobre cuándo las normas son aplicables y vinculantes para todos los ciudadanos."
+  },
+  {
+    title: "¿Cómo se promulgan las leyes según el Artículo 12?",
+    choices: [
+      "Por aprobación del Presidente de la República.",
+      "Por publicación en el Diario Oficial y distribución a los estados y territorios.",
+      "Por votación pública en el Congreso.",
+      "Por notificación directa a cada ciudadano."
+    ],
+    correctAnswer: "Por publicación en el Diario Oficial y distribución a los estados y territorios.",
+    explanation: "La promulgación en el Diario Oficial asegura que las leyes sean accesibles y conocidas por todos, mientras que su distribución a los estados y territorios garantiza su aplicación uniforme en todo el país."
+  },
+  {
+    title: "¿Tienen las leyes efecto retroactivo según el Artículo 13?",
+    choices: [
+      "Sí, siempre y cuando lo apruebe el Congreso.",
+      "No, las leyes no tienen efecto retroactivo.",
+      "Sí, pero solo en casos específicos.",
+      "No, excepto si se trata de derechos adquiridos."
+    ],
+    correctAnswer: "No, las leyes no tienen efecto retroactivo.",
+    explanation: "La prohibición de la retroactividad de las leyes protege los derechos adquiridos y asegura la seguridad jurídica, evitando que las nuevas leyes alteren situaciones ya consolidadas bajo legislaciones anteriores."
+  },
+  {
+    title: "¿Cómo debe ser utilizado el contexto de la ley en la interpretación?",
+    choices: [
+      "Solo como una referencia secundaria.",
+      "Para ilustrar el sentido de cada una de sus partes y asegurar la correspondencia y armonía entre ellas.",
+      "Para ignorar las partes oscuras de la ley.",
+      "Para modificar el significado literal de las palabras."
+    ],
+    correctAnswer: "Para ilustrar el sentido de cada una de sus partes y asegurar la correspondencia y armonía entre ellas.",
+    explanation: "Utilizar el contexto de la ley ayuda a interpretar sus disposiciones de manera coherente, asegurando que todas las partes de la ley se comprendan y apliquen de forma armoniosa, lo que refuerza la integridad del marco legal."
+  },
+  {
+    title: "¿Cómo deben interpretarse las disposiciones legales en relación con su favorabilidad u odiosidad?",
+    choices: [
+      "Lo favorable u odioso de una disposición siempre debe tomarse en cuenta.",
+      "La extensión de la ley se determina por su genuino sentido y las reglas de interpretación precedentes.",
+      "Las disposiciones pueden ampliarse según la necesidad del caso.",
+      "El contexto no es relevante para interpretar la extensión de una ley."
+    ],
+    correctAnswer: "La extensión de la ley se determina por su genuino sentido y las reglas de interpretación precedentes.",
+    explanation: "La interpretación de una ley debe basarse en su genuino sentido y en las reglas de interpretación ya establecidas, sin tomar en cuenta si una disposición es favorable u odiosa."
+  },
+  {
+    title: "¿Qué criterios se utilizan en casos de interpretación de pasajes oscuros o contradictorios?",
+    choices: [
+      "Siempre se deben seguir las interpretaciones literales.",
+      "Se deben interpretar conforme al espíritu general de la legislación y a la equidad natural.",
+      "Se debe consultar a expertos externos.",
+      "Los pasajes oscuros deben ser ignorados."
+    ],
+    correctAnswer: "Se deben interpretar conforme al espíritu general de la legislación y a la equidad natural.",
+    explanation: "Cuando no se pueden aplicar las reglas de interpretación anteriores, los pasajes oscuros o contradictorios deben interpretarse de la manera más conforme al espíritu general de la legislación y a la equidad natural."
+  },
+  {
+    title: "¿Cómo se interpretan las palabras relacionadas con las personas en las disposiciones de las leyes?",
+    choices: [
+      "Siempre se aplican con distinción de sexo.",
+      "Se entienden que comprenden ambos sexos a menos que el contexto indique lo contrario.",
+      "Se aplican exclusivamente al sexo masculino.",
+      "Se deben interpretar según el uso común."
+    ],
+    correctAnswer: "Se entienden que comprenden ambos sexos a menos que el contexto indique lo contrario.",
+    explanation: "Términos como 'hombre' o 'persona' se aplican a individuos de ambos sexos, salvo que el contexto o la naturaleza de la disposición indiquen claramente una limitación a un solo sexo."
+  },
+  {
+    title: "¿Cómo se define la edad de una persona en el Código Civil?",
+    choices: [
+      "Infante es quien no ha cumplido diez años.",
+      "Adulto es el que ha cumplido veintiún años.",
+      "Menor de edad es quien no ha llegado a cumplir veintiún años.",
+      "Impúber es el varón que no ha cumplido doce años."
+    ],
+    correctAnswer: "Menor de edad es quien no ha llegado a cumplir veintiún años.",
+    explanation: "El Código Civil define varias categorías de edad, estableciendo que una persona es menor de edad hasta cumplir veintiún años y que distintas edades tienen implicaciones legales diferentes."
+  },
+  {
+    title: "¿Qué es el parentesco de consanguinidad?",
+    choices: [
+      "La relación entre personas que comparten una propiedad.",
+      "La conexión entre personas unidas por vínculos de sangre.",
+      "La relación legal entre cónyuges.",
+      "La conexión entre individuos que trabajan juntos."
+    ],
+    correctAnswer: "La conexión entre personas unidas por vínculos de sangre.",
+    explanation: "El parentesco de consanguinidad es la relación que existe entre personas que descienden de un mismo tronco o raíz, o que están unidas por los vínculos de la sangre."
+  },
+  {
+    title: "¿Cuáles son los tipos de parentesco de consanguinidad?",
+    choices: [
+      "Paternal y maternal.",
+      "Legítimo o ilegítimo.",
+      "Directo y colateral.",
+      "Ascendente y descendente."
+    ],
+    correctAnswer: "Legítimo o ilegítimo.",
+    explanation: "El parentesco de consanguinidad se clasifica en legítimo o ilegítimo, dependiendo de la conformidad de las generaciones a la ley."
+  },
+  {
+    title: "¿Cómo se cuentan los grados de consanguinidad entre dos personas?",
+    choices: [
+      "Por el número de vínculos directos.",
+      "Por el número de generaciones.",
+      "Por la cantidad de propiedades compartidas.",
+      "Por la cercanía geográfica."
+    ],
+    correctAnswer: "Por el número de generaciones.",
+    explanation: "Los grados de consanguinidad se determinan por el número de generaciones que separan a dos personas de su antepasado común."
+  },
+  {
+    title: "¿Qué caracteriza al parentesco legítimo de consanguinidad?",
+    choices: [
+      "Las generaciones resultantes no están autorizadas por la ley.",
+      "Todas las generaciones de que resulta han sido autorizadas por la ley.",
+      "Es una relación entre personas que no tienen vínculos de sangre.",
+      "Es la relación entre cónyuges."
+    ],
+    correctAnswer: "Todas las generaciones de que resulta han sido autorizadas por la ley.",
+    explanation: "El parentesco legítimo de consanguinidad es aquel en que todas las generaciones involucradas han sido conformes a la ley, lo que implica una legitimidad reconocida por el marco jurídico."
+  },
+  {
+    title: "¿Qué efectos tiene la legitimidad conferida a los hijos por matrimonio posterior de los padres?",
+    choices: [
+      "No produce ningún efecto legal.",
+      "Produce los mismos efectos civiles que la legitimidad nativa.",
+      "Solo afecta a la herencia.",
+      "Solo se aplica a los hijos mayores de edad."
+    ],
+    correctAnswer: "Produce los mismos efectos civiles que la legitimidad nativa.",
+    explanation: "La legitimidad conferida por el matrimonio posterior de los padres otorga a los hijos los mismos derechos y estatus legales que si hubieran sido legítimos desde el nacimiento."
+  },
+  {
+    title: "¿Qué es una línea de parentesco en la consanguinidad?",
+    choices: [
+      "La relación entre personas que trabajan juntas.",
+      "La serie y orden de las personas que descienden de una raíz o tronco común.",
+      "La conexión entre personas que comparten una propiedad.",
+      "La relación legal entre cónyuges."
+    ],
+    correctAnswer: "La serie y orden de las personas que descienden de una raíz o tronco común.",
+    explanation: "En el parentesco de consanguinidad, una línea se refiere a la secuencia de personas que descienden de un antepasado común, estableciendo así la conexión familiar."
+  },
+  {
+    title: "¿Cómo se divide la línea de parentesco en la consanguinidad?",
+    choices: [
+      "En directo y colateral.",
+      "En legítimo e ilegítimo.",
+      "En ascendente y descendente.",
+      "En cercano y lejano."
+    ],
+    correctAnswer: "En directo y colateral.",
+    explanation: "La línea de parentesco en la consanguinidad se divide en directa o recta y en colateral, transversal u oblicua, reflejando la dirección de los lazos familiares."
+  },
+  {
+    title: "¿Cómo se diferencian las líneas rectas descendentes y ascendentes?",
+    choices: [
+      "Las descendentes van desde el tronco a los miembros, y las ascendentes desde los miembros al tronco.",
+      "Las descendentes son siempre legítimas y las ascendentes son siempre ilegítimas.",
+      "Las descendentes son horizontales y las ascendentes son verticales.",
+      "Las descendentes son colaterales y las ascendentes son directas."
+    ],
+    correctAnswer: "Las descendentes van desde el tronco a los miembros, y las ascendentes desde los miembros al tronco.",
+    explanation: "En la línea recta descendente se cuenta desde el ancestro común hacia los descendientes, mientras que en la línea recta ascendente se cuenta desde el individuo hacia los ancestros."
+  },
+  {
+    title: "¿Qué caracteriza a la línea colateral en la consanguinidad?",
+    choices: [
+      "Es la relación entre personas que no proceden unas de otras pero descienden de un tronco común.",
+      "Es la relación entre cónyuges.",
+      "Es la relación entre personas que comparten una propiedad.",
+      "Es la conexión entre individuos que trabajan juntos."
+    ],
+    correctAnswer: "Es la relación entre personas que no proceden unas de otras pero descienden de un tronco común.",
+    explanation: "La línea colateral incluye a personas que, aunque no descienden directamente unas de otras, comparten un ancestro común, como hermanos y primos."
+  },
+  {
+    title: "¿Qué se entiende por líneas paterna y materna?",
+    choices: [
+      "Parientes por parte de padre y por parte de madre.",
+      "Parientes cercanos y lejanos.",
+      "Parientes legítimos e ilegítimos.",
+      "Parientes directos y colaterales."
+    ],
+    correctAnswer: "Parientes por parte de padre y por parte de madre.",
+    explanation: "Las líneas paterna y materna se refieren a los parientes relacionados a través del padre o la madre respectivamente, estableciendo diferentes ramas en el árbol genealógico."
+  },
+  {
+    title: "¿Cómo se cuentan los grados en la línea transversal?",
+    choices: [
+      "Por el número de propiedades compartidas.",
+      "Por el número de generaciones desde un pariente hasta la raíz común y desde ésta hasta el otro pariente.",
+      "Por la cantidad de vínculos directos.",
+      "Por la cercanía geográfica."
+    ],
+    correctAnswer: "Por el número de generaciones desde un pariente hasta la raíz común y desde ésta hasta el otro pariente.",
+    explanation: "Los grados en la línea transversal se cuentan sumando las generaciones que separan a cada individuo del ancestro común, estableciendo así el grado de parentesco colateral."
+  },
+  {
+    title: "¿Qué es la afinidad legítima?",
+    choices: [
+      "La relación entre cónyuges y los consanguíneos legítimos del otro cónyuge.",
+      "La relación entre personas que comparten una propiedad.",
+      "La conexión entre individuos que trabajan juntos.",
+      "La relación entre parientes lejanos."
+    ],
+    correctAnswer: "La relación entre cónyuges y los consanguíneos legítimos del otro cónyuge.",
+    explanation: "La afinidad legítima se refiere a la relación legal que se establece entre un cónyuge y los parientes consanguíneos legítimos del otro cónyuge, como suegros y cuñados."
+  },
+  {
+    title: "¿Cómo se califican las líneas y grados de la afinidad ilegítima?",
+    choices: [
+      "De la misma manera que en la afinidad legítima.",
+      "Según la cantidad de propiedades compartidas.",
+      "Por la cercanía geográfica.",
+      "De manera distinta a la afinidad legítima."
+    ],
+    correctAnswer: "De la misma manera que en la afinidad legítima.",
+    explanation: "Las líneas y grados de la afinidad ilegítima se califican siguiendo los mismos criterios que para la afinidad legítima, asegurando la consistencia en la determinación del parentesco."
+  },
+  {
+    title: "¿Cómo se aplican las denominaciones de legítimos, ilegítimos y naturales a los hijos?",
+    choices: [
+      "Solo a los hijos de matrimonio.",
+      "Correlativamente a sus padres.",
+      "Solo a los hijos adoptados.",
+      "No se aplican en la legislación actual."
+    ],
+    correctAnswer: "Correlativamente a sus padres.",
+    explanation: "Las denominaciones de legítimos, ilegítimos y naturales que se aplican a los hijos también se aplican a sus padres, reflejando la situación legal y social del linaje familiar."
+  },
+  {
+    title: "¿Qué se entiende por hermanos carnales, paternos y maternos?",
+    choices: [
+      "Hermanos carnales son los hijos de los mismos padres; paternos, solo del mismo padre; maternos, solo de la misma madre.",
+      "Hermanos carnales son solo los que comparten una propiedad.",
+      "Hermanos paternos y maternos son términos sin relevancia legal.",
+      "Hermanos carnales son los hijos del mismo padre, maternos, solo de la misma madre."
+    ],
+    correctAnswer: "Hermanos carnales son los hijos de los mismos padres; paternos, solo del mismo padre; maternos, solo de la misma madre.",
+    explanation: "Estos términos describen diferentes tipos de relaciones fraternales, indicando si los hermanos comparten ambos progenitores (carnales) o solo uno de ellos (paternos o maternos)."
+  },
+  {
+    title: "¿Qué relación tienen los hijos legítimos con los hijos naturales del mismo padre o madre?",
+    choices: [
+      "No tienen ninguna relación legal.",
+      "Son considerados hermanos naturales entre sí.",
+      "Solo se consideran parientes lejanos.",
+      "Son considerados primos."
+    ],
+    correctAnswer: "Son considerados hermanos naturales entre sí.",
+    explanation: "Los hijos legítimos y los hijos naturales de un mismo progenitor son considerados hermanos naturales, compartiendo así una relación fraternal reconocida legalmente."
+  },
+  {
+    title: "¿Qué establece la normativa sobre el estado civil adquirido conforme a la ley vigente?",
+    choices: [
+      "El estado civil adquirido pierde su fuerza si la ley cambia.",
+      "El estado civil adquirido subsiste aunque esa ley pierda después su fuerza.",
+      "El estado civil adquirido debe ser reevaluado periódicamente.",
+      "El estado civil adquirido solo es válido en el lugar de origen."
+    ],
+    correctAnswer: "El estado civil adquirido subsiste aunque esa ley pierda después su fuerza.",
+    explanation: "El estado civil adquirido conforme a la ley vigente se mantiene válido incluso si la ley cambia posteriormente, garantizando la estabilidad y certeza en las relaciones personales."
+  },
+  {
+    title: "¿Cómo deben los jueces interpretar la ley en casos particulares?",
+    choices: [
+      "Por medio de consultas públicas.",
+      "Aplicando la doctrina y buscando el verdadero sentido de la ley.",
+      "Siguiendo estrictamente la interpretación del legislador sin análisis adicional.",
+      "Utilizando siempre interpretaciones literales."
+    ],
+    correctAnswer: "Aplicando la doctrina y buscando el verdadero sentido de la ley.",
+    explanation: "La interpretación doctrinal permite a los jueces adaptar las normas legales a las circunstancias particulares de cada caso, buscando la justicia y equidad en la aplicación de la ley."
+  },
+  {
+    title: "¿Qué se establece sobre la interpretación gramatical de la ley?",
+    choices: [
+      "Siempre se debe seguir el espíritu de la ley.",
+      "Cuando el sentido de la ley sea claro, no se desatenderá su tenor literal.",
+      "La interpretación literal nunca debe ser utilizada.",
+      "La interpretación gramatical es opcional."
+    ],
+    correctAnswer: "Cuando el sentido de la ley sea claro, no se desatenderá su tenor literal.",
+    explanation: "La interpretación gramatical asegura que el lenguaje claro y preciso de la ley se aplique tal como está escrito, evitando interpretaciones arbitrarias."
+  },
+  {
+    title: "¿Cómo se deben entender las palabras de la ley?",
+    choices: [
+      "En su sentido técnico específico.",
+      "En su sentido natural y obvio, según el uso general de las mismas palabras.",
+      "En cualquier sentido que sea conveniente en el contexto.",
+      "En su sentido metafórico."
+    ],
+    correctAnswer: "En su sentido natural y obvio, según el uso general de las mismas palabras.",
+    explanation: "El uso del sentido natural y obvio de las palabras garantiza que la ley sea accesible y comprensible para todos, evitando confusiones."
+  },
+  {
+    title: "¿Cómo se deben interpretar las palabras técnicas?",
+    choices: [
+      "En el sentido que les den los que profesan la misma ciencia o arte.",
+      "En su sentido más común.",
+      "Siempre de manera literal.",
+      "En el sentido que determine el juez en cada caso."
+    ],
+    correctAnswer: "En el sentido que les den los que profesan la misma ciencia o arte.",
+    explanation: "Interpretar las palabras técnicas según su uso en la respectiva ciencia o arte asegura que se mantenga la precisión y exactitud en áreas especializadas del derecho."
+  },
+  {
+    title: "¿Quiénes son responsables de los hijos menores de edad no sometidos a patria potestad?",
+    choices: [
+      "Los abuelos.",
+      "El tutor o curador que ejerciere la guarda.",
+      "El Estado.",
+      "Los hermanos mayores."
+    ],
+    correctAnswer: "El tutor o curador que ejerciere la guarda.",
+    explanation: "Los menores de edad que no están bajo la patria potestad de sus padres deben ser representados por un tutor o curador designado para garantizar su protección y bienestar legal."
+  },
+  {
+    title: "¿Qué se entiende por culpa grave en materia civil?",
+    choices: [
+      "La falta de diligencia y cuidado ordinario.",
+      "No manejar los negocios ajenos con el cuidado que las personas negligentes emplean en sus propios negocios.",
+      "La intención positiva de inferir injuria.",
+      "La falta de esmerada diligencia en la administración de negocios importantes."
+    ],
+    correctAnswer: "No manejar los negocios ajenos con el cuidado que las personas negligentes emplean en sus propios negocios.",
+    explanation: "La culpa grave en materia civil equivale al dolo y se caracteriza por la falta de cuidado en la gestión de negocios ajenos, incluso por debajo del estándar de las personas normalmente negligentes."
+  },
+  {
+    title: "¿Cómo se define la fuerza mayor o caso fortuito?",
+    choices: [
+      "Un evento planeado con antelación.",
+      "Un imprevisto o que no es posible resistir, como un naufragio o un terremoto.",
+      "Un desacuerdo contractual.",
+      "Un cambio en la legislación."
+    ],
+    correctAnswer: "Un imprevisto o que no es posible resistir, como un naufragio o un terremoto.",
+    explanation: "La fuerza mayor o caso fortuito se refiere a eventos inesperados e irresistibles que pueden excusar el cumplimiento de ciertas obligaciones debido a su naturaleza imprevisible."
+  },
+  {
+    title: "¿Qué significa el término 'caución' en el contexto del Código Civil?",
+    choices: [
+      "Una sanción legal por incumplimiento.",
+      "Una obligación que se contrae para la seguridad de otra obligación propia o ajena.",
+      "Un contrato de compraventa de bienes raíces.",
+      "Una forma de prueba testimonial en juicio."
+    ],
+    correctAnswer: "Una obligación que se contrae para la seguridad de otra obligación propia o ajena.",
+    explanation: "Caución se refiere a cualquier obligación que se asume para garantizar el cumplimiento de otra obligación, como una fianza, hipoteca o prenda."
+  },
+  {
+    title: "¿Qué es una presunción legal en el ámbito del Código Civil?",
+    choices: [
+      "Un hecho que se deduce sin necesidad de antecedentes.",
+      "Un hecho deducido de ciertos antecedentes o circunstancias conocidas y determinadas por la ley.",
+      "Una prueba concluyente sin posibilidad de refutación.",
+      "Una norma que se aplica exclusivamente en derecho penal."
+    ],
+    correctAnswer: "Un hecho deducido de ciertos antecedentes o circunstancias conocidas y determinadas por la ley.",
+    explanation: "Una presunción legal es un hecho que se deduce de ciertos antecedentes o circunstancias que la ley determina, permitiendo en algunos casos probar la no existencia del hecho presumido."
+  },
+  {
+    title: "¿Cómo se computan los plazos de días, meses o años según el Código Civil?",
+    choices: [
+      "Se computan excluyendo el primer día.",
+      "Se computan incluyendo solo días hábiles.",
+      "Se computan como plazos completos y corren hasta la medianoche del último día.",
+      "Se computan solo en días laborables."
+    ],
+    correctAnswer: "Se computan como plazos completos y corren hasta la medianoche del último día.",
+    explanation: "Todos los plazos de días, meses o años en el Código Civil se entienden como completos y se extienden hasta la medianoche del último día del plazo."
+  },
+  {
+    title: "¿Qué se entiende por 'medidas y pesos' en el Código Civil?",
+    choices: [
+      "Se refiere a las unidades utilizadas en transacciones internacionales.",
+      "Se refiere a las definiciones dadas en el Código Administrativo y Fiscal de la Unión.",
+      "Se refiere a las medidas locales de cada región.",
+      "Se refiere a las unidades definidas por el Tribunal Supremo."
+    ],
+    correctAnswer: "Se refiere a las definiciones dadas en el Código Administrativo y Fiscal de la Unión.",
+    explanation: "Las medidas de extensión, peso, las pesas y las monedas se entienden según las definiciones establecidas en el Código Administrativo y el Fiscal de la Unión."
+  },
+  {
+    title: "¿Qué incluye el cómputo de plazos en el Código Civil?",
+    choices: [
+      "Solo días hábiles.",
+      "Solo días feriados.",
+      "Días hábiles y feriados, a menos que se especifique días útiles.",
+      "Solo días laborables."
+    ],
+    correctAnswer: "Días hábiles y feriados, a menos que se especifique días útiles.",
+    explanation: "En los plazos señalados en el Código Civil se incluyen todos los días, salvo que se especifique que el plazo es de días útiles, en cuyo caso no se contarán los días feriados."
+  },
+  {
+    title: "¿Qué tipos de derogación de leyes existen?",
+    choices: [
+      "Derogación formal y material.",
+      "Derogación implícita y explícita.",
+      "Derogación expresa y tácita.",
+      "Derogación total y parcial."
+    ],
+    correctAnswer: "Derogación expresa y tácita.",
+    explanation: "La derogación de leyes puede ser expresa, cuando se dice explícitamente que una ley deroga otra, o tácita, cuando las nuevas disposiciones no pueden conciliarse con las de la ley anterior."
+  },
+  {
+    title: "¿Qué implica la derogación tácita de una ley?",
+    choices: [
+      "La eliminación completa de todas las leyes anteriores.",
+      "La vigencia de todas las disposiciones anteriores.",
+      "La permanencia de las disposiciones de la ley anterior que no contradicen la nueva ley.",
+      "La necesidad de un nuevo proceso legislativo."
+    ],
+    correctAnswer: "La permanencia de las disposiciones de la ley anterior que no contradicen la nueva ley.",
+    explanation: "La derogación tácita implica que las disposiciones de la ley anterior que no sean incompatibles con la nueva ley permanecen vigentes."
+  },
+  {
+    title: "¿Cómo se dividen las personas según el Código Civil?",
+    choices: [
+      "Naturales y jurídicas.",
+      "Adultos y menores.",
+      "Nacionales y extranjeros.",
+      "Trabajadores y empleadores."
+    ],
+    correctAnswer: "Naturales y jurídicas.",
+    explanation: "El Código Civil distingue entre personas naturales, que son los individuos de la especie humana, y personas jurídicas, que son entidades con personalidad jurídica."
+  },
+  {
+    title: "¿Quiénes son consideradas personas naturales?",
+    choices: [
+      "Solo los mayores de edad.",
+      "Solo los ciudadanos de un país.",
+      "Todos los individuos de la especie humana, cualquiera que sea su edad, sexo, estirpe o condición.",
+      "Solo los contribuyentes."
+    ],
+    correctAnswer: "Todos los individuos de la especie humana, cualquiera que sea su edad, sexo, estirpe o condición.",
+    explanation: "Según el Código Civil, las personas naturales son todos los individuos de la especie humana sin distinción de edad, sexo, estirpe o condición."
+  },
+  {
+    title: "¿Cómo se dividen las personas en relación con su residencia?",
+    choices: [
+      "Ciudadanos y residentes.",
+      "Locales y extranjeros.",
+      "Domiciliadas y transeúntes.",
+      "Habitantes y visitantes."
+    ],
+    correctAnswer: "Domiciliadas y transeúntes.",
+    explanation: "Las personas se dividen en domiciliadas, que tienen una residencia fija, y transeúntes, que no tienen un domicilio permanente."
+  },
+  {
+    title: "¿Qué constituye el domicilio según el Código Civil?",
+    choices: [
+      "La propiedad de una vivienda.",
+      "La residencia acompañada, real o presuntivamente, del ánimo de permanecer en ella.",
+      "La inscripción en el registro electoral.",
+      "La dirección de correspondencia."
+    ],
+    correctAnswer: "La residencia acompañada, real o presuntivamente, del ánimo de permanecer en ella.",
+    explanation: "El domicilio consiste en la residencia acompañada del ánimo de permanecer en ella, ya sea de forma real o presuntiva."
+  },
+  {
+    title: "¿Qué determina el domicilio civil de un individuo?",
+    choices: [
+      "El lugar de nacimiento.",
+      "El lugar donde ejerce habitualmente su profesión u oficio.",
+      "El país de origen.",
+      "La dirección de correo electrónico."
+    ],
+    correctAnswer: "El lugar donde ejerce habitualmente su profesión u oficio.",
+    explanation: "El domicilio civil se determina por el lugar donde un individuo tiene su residencia habitual o donde ejerce su profesión u oficio."
+  },
+  {
+    title: "¿Se presume el ánimo de permanencia por el solo hecho de habitar una casa en un lugar?",
+    choices: [
+      "Sí, siempre se presume el ánimo de permanencia.",
+      "No, si tiene en otra parte su hogar doméstico o si la residencia es accidental.",
+      "Sí, si la casa es propia.",
+      "No, a menos que se declare ante un notario."
+    ],
+    correctAnswer: "No, si tiene en otra parte su hogar doméstico o si la residencia es accidental.",
+    explanation: "No se presume el ánimo de permanencia si el individuo tiene su hogar doméstico en otra parte o si la residencia es considerada accidental."
+  },
+  {
+    title: "¿Qué circunstancias presumen el ánimo de permanecer en un lugar?",
+    choices: [
+      "Abrir una tienda, fábrica u otro establecimiento durable para administrarlo en persona.",
+      "Residir temporalmente en una casa alquilada.",
+      "Tener una propiedad en otro país.",
+      "Solo visitar el lugar por vacaciones."
+    ],
+    correctAnswer: "Abrir una tienda, fábrica u otro establecimiento durable para administrarlo en persona.",
+    explanation: "Se presume el ánimo de permanecer en un lugar si se realizan actos que indiquen una intención de establecerse de forma duradera, como abrir un negocio."
+  },
+  {
+    title: "¿Se muda el domicilio civil por residir largo tiempo en otra parte?",
+    choices: [
+      "Sí, siempre se muda el domicilio civil.",
+      "No, si conserva su familia y el asiento principal de sus negocios en el domicilio anterior.",
+      "Sí, si se reside más de un año en otro lugar.",
+      "No, si se declara ante un juez."
+    ],
+    correctAnswer: "No, si conserva su familia y el asiento principal de sus negocios en el domicilio anterior.",
+    explanation: "El domicilio civil no se considera mudado si la persona mantiene su familia y el centro principal de sus negocios en el domicilio original."
+  },
+  {
+    title: "¿Cómo se presume el domicilio por manifestación ante un prefecto o corregidor?",
+    choices: [
+      "No se puede presumir el domicilio por manifestación.",
+      "Se presume el domicilio si se declara el ánimo de avecindarse en un determinado distrito.",
+      "Solo se presume el domicilio si se presenta un contrato de arrendamiento.",
+      "La manifestación debe ser ratificada por un juez."
+    ],
+    correctAnswer: "Se presume el domicilio si se declara el ánimo de avecindarse en un determinado distrito.",
+    explanation: "El domicilio se presume si una persona manifiesta ante el prefecto o corregidor su intención de establecerse en un distrito específico."
+  },
+  {
+    title: "¿Qué sucede cuando ocurren circunstancias constitutivas de domicilio en varias secciones territoriales?",
+    choices: [
+      "Se pierde el domicilio en todas las secciones.",
+      "Se entiende que el individuo tiene domicilio en todas ellas.",
+      "Solo se considera domicilio la primera sección donde residió.",
+      "Debe elegir una sola sección como su domicilio oficial."
+    ],
+    correctAnswer: "Se entiende que el individuo tiene domicilio en todas ellas.",
+    explanation: "Cuando una persona cumple con las condiciones de domicilio en varias secciones territoriales, se considera que tiene domicilio en todas esas secciones."
+  },
+  {
+    title: "¿Cómo afecta la mera residencia en cuanto al domicilio civil?",
+    choices: [
+      "La mera residencia no tiene ningún efecto.",
+      "La mera residencia hace las veces de domicilio civil para quienes no tienen domicilio en otra parte.",
+      "La mera residencia cambia automáticamente el domicilio civil.",
+      "La mera residencia requiere un registro oficial para ser válida."
+    ],
+    correctAnswer: "La mera residencia hace las veces de domicilio civil para quienes no tienen domicilio en otra parte.",
+    explanation: "Para las personas que no tienen domicilio en otra parte, la mera residencia se considera como su domicilio civil."
+  },
+  {
+    title: "¿Qué permite un contrato en relación con el domicilio?",
+    choices: [
+      "Establecer un domicilio temporal para vacaciones.",
+      "Establecer un domicilio civil especial para actos judiciales o extrajudiciales relacionados con el contrato.",
+      "Modificar el domicilio de nacimiento.",
+      "Eliminar la necesidad de un domicilio fijo."
+    ],
+    correctAnswer: "Establecer un domicilio civil especial para actos judiciales o extrajudiciales relacionados con el contrato.",
+    explanation: "Un contrato puede establecer un domicilio específico para todos los actos judiciales o extrajudiciales que resulten del mismo, facilitando la administración de justicia."
+  },
+  {
+    title: "¿Dónde se considera el domicilio de establecimientos, corporaciones y asociaciones reconocidas por la ley?",
+    choices: [
+      "En la ciudad donde se fundaron.",
+      "En el lugar donde está situada su administración o dirección.",
+      "En el país de origen de los fundadores.",
+      "En el lugar de residencia de sus miembros."
+    ],
+    correctAnswer: "En el lugar donde está situada su administración o dirección.",
+    explanation: "El domicilio de estas entidades es el lugar donde se encuentra su administración o dirección, salvo lo que dispongan sus estatutos o leyes especiales."
+  },
+  {
+    title: "¿Cuál es el domicilio de las personas que viven bajo patria potestad o tutela?",
+    choices: [
+      "El domicilio donde nacieron.",
+      "El domicilio de su tutor o curador.",
+      "El domicilio de la escuela a la que asisten.",
+      "El domicilio que elijan libremente."
+    ],
+    correctAnswer: "El domicilio de su tutor o curador.",
+    explanation: "Las personas que viven bajo patria potestad siguen el domicilio paterno, y las que están bajo tutela o curaduría siguen el domicilio de su tutor o curador."
+  },
+  {
+    title: "¿Cuándo comienza la existencia legal de una persona según el Código Civil?",
+    choices: [
+      "Al ser concebida.",
+      "Al nacer, es decir, al separarse completamente de su madre.",
+      "Al cumplir un año de edad.",
+      "Al ser registrada oficialmente."
+    ],
+    correctAnswer: "Al nacer, es decir, al separarse completamente de su madre.",
+    explanation: "La existencia legal de una persona comienza al nacer, es decir, cuando se separa completamente del cuerpo de su madre."
+  },
+  {
+    title: "¿Cómo protege la ley al que está por nacer?",
+    choices: [
+      "No ofrece protección específica.",
+      "Solo protege al nacido vivo.",
+      "El juez puede tomar providencias para proteger la existencia del no nacido si considera que está en peligro.",
+      "Protege al no nacido solo si se solicita formalmente."
+    ],
+    correctAnswer: "El juez puede tomar providencias para proteger la existencia del no nacido si considera que está en peligro.",
+    explanation: "La ley protege la vida del que está por nacer, permitiendo al juez tomar medidas para asegurar su bienestar si se percibe algún peligro."
+  },
+  {
+    title: "¿Qué presume la ley respecto a la concepción en relación con el nacimiento?",
+    choices: [
+      "Que la concepción ocurrió exactamente nueve meses antes del nacimiento.",
+      "Que la concepción ha precedido al nacimiento no menos que ciento ochenta días y no más que trescientos días.",
+      "Que la concepción ocurrió en el mismo mes del nacimiento.",
+      "Que la concepción puede probarse sin restricciones."
+    ],
+    correctAnswer: "Que la concepción ha precedido al nacimiento no menos que ciento ochenta días y no más que trescientos días.",
+    explanation: "La ley presume que la concepción ocurrió entre ciento ochenta y trescientos días antes del nacimiento, lo que ayuda a establecer la paternidad y otros derechos legales relacionados con el nacimiento."
+  },
+
+  {
+    title: "¿Qué sucede con las leyes que declaran el sentido de otras leyes según el Artículo 14?",
+    choices: [
+      "Se entienden incorporadas en las leyes originales pero no afectan sentencias ejecutoriadas.",
+      "Anulan automáticamente las leyes originales.",
+      "Se aplican solo a futuros casos judiciales.",
+      "No tienen ningún efecto legal."
+    ],
+    correctAnswer: "Se entienden incorporadas en las leyes originales pero no afectan sentencias ejecutoriadas.",
+    explanation: "Las leyes interpretativas clarifican el significado de las leyes anteriores y se incorporan a ellas, asegurando coherencia legal, pero no pueden modificar las decisiones judiciales ya finalizadas, respetando así la cosa juzgada."
+  },
+  {
+    title: "¿Pueden renunciarse los derechos conferidos por las leyes según el Artículo 15?",
+    choices: [
+      "No, los derechos conferidos por las leyes son inalienables.",
+      "Sí, siempre que miren al interés individual del renunciante y no esté prohibida la renuncia.",
+      "Sí, pero solo mediante un proceso judicial.",
+      "No, excepto en casos de fuerza mayor."
+    ],
+    correctAnswer: "Sí, siempre que miren al interés individual del renunciante y no esté prohibida la renuncia.",
+    explanation: "La posibilidad de renunciar a ciertos derechos permite a los individuos mayor libertad y autonomía en sus decisiones personales, siempre y cuando no se contravenga el interés público o normas imperativas."
+  },
+  {
+    title: "¿Pueden derogarse por convenios particulares las leyes según el Artículo 16?",
+    choices: [
+      "Sí, siempre que las partes estén de acuerdo.",
+      "No, las leyes en cuya observancia están interesados el orden y las buenas costumbres no pueden derogarse por convenios particulares.",
+      "Sí, pero solo en contratos comerciales.",
+      "No, excepto si se trata de leyes fiscales."
+    ],
+    correctAnswer: "No, las leyes en cuya observancia están interesados el orden y las buenas costumbres no pueden derogarse por convenios particulares.",
+    explanation: "La inderogabilidad de ciertas leyes por convenios privados asegura que el orden público y las buenas costumbres prevalezcan, protegiendo así los intereses colectivos y evitando abusos contractuales."
+  },
+  {
+    title: "¿Tienen las sentencias judiciales fuerza obligatoria según el Artículo 17?",
+    choices: [
+      "Sí, tienen fuerza obligatoria en todos los casos similares.",
+      "No, solo tienen fuerza obligatoria respecto de las causas en que fueron pronunciadas.",
+      "Sí, pero solo si son emitidas por la Corte Suprema.",
+      "No, excepto en casos de delitos graves."
+    ],
+    correctAnswer: "No, solo tienen fuerza obligatoria respecto de las causas en que fueron pronunciadas.",
+    explanation: "Esto garantiza que las decisiones judiciales se limiten a los casos específicos en que fueron dictadas, evitando la creación de jurisprudencia obligatoria y permitiendo la flexibilidad en la interpretación de la ley en casos futuros."
+  },
+  {
+    title: "¿Es obligatoria la ley tanto para nacionales como extranjeros residentes en Colombia según el Artículo 18?",
+    choices: [
+      "Sí, la ley es obligatoria tanto para nacionales como para extranjeros residentes en Colombia.",
+      "No, solo es obligatoria para los ciudadanos colombianos.",
+      "Sí, pero solo para extranjeros con residencia permanente.",
+      "No, excepto en casos de emergencia nacional."
+    ],
+    correctAnswer: "Sí, la ley es obligatoria tanto para nacionales como para extranjeros residentes en Colombia.",
+    explanation: "Esto asegura que todos los residentes en Colombia, independientemente de su nacionalidad, están sujetos a las mismas normas legales, promoviendo la igualdad ante la ley y el cumplimiento de las obligaciones civiles."
+  },
+  {
+    title: "¿Cómo afecta la extraterritorialidad de la ley a los colombianos residentes en el extranjero según el Artículo 19?",
+    choices: [
+      "No afecta a los colombianos residentes en el extranjero.",
+      "Los colombianos residentes en el extranjero están sujetos a las disposiciones del Código Civil en relación al estado de las personas y las relaciones familiares.",
+      "Solo aplica a los bienes inmuebles situados en Colombia.",
+      "Solo afecta a los contratos comerciales celebrados en el extranjero."
+    ],
+    correctAnswer: "Los colombianos residentes en el extranjero están sujetos a las disposiciones del Código Civil en relación al estado de las personas y las relaciones familiares.",
+    explanation: "Esto garantiza que ciertos aspectos fundamentales de la vida civil de los colombianos, como su estado civil y relaciones familiares, se rijan por la ley nacional, incluso cuando residen fuera del país, protegiendo así la coherencia legal y los derechos fundamentales."
+  },
+  {
+    title: "¿Cómo se determina la forma de los instrumentos públicos según el Artículo 21?",
+    choices: [
+      "Por la ley del país en que hayan sido otorgados.",
+      "Por las normas internacionales de derecho.",
+      "Por la Constitución Nacional.",
+      "Por las costumbres locales."
+    ],
+    correctAnswer: "Por la ley del país en que hayan sido otorgados.",
+    explanation: "La determinación de la forma de los instrumentos públicos por la ley del país de origen asegura que estos documentos tengan validez y autenticidad reconocidas, facilitando su aceptación y aplicación en otros países."
+  },
+  {
+    title: "¿Qué función probatoria tienen los instrumentos públicos según el Artículo 22?",
+    choices: [
+      "No tienen ninguna función probatoria.",
+      "Sirven como pruebas irrefutables en cualquier jurisdicción.",
+      "Tienen función probatoria solo en asuntos de competencia de la unión y no valen las escrituras privadas.",
+      "Solo pueden ser utilizados en casos civiles."
+    ],
+    correctAnswer: "Tienen función probatoria solo en asuntos de competencia de la unión y no valen las escrituras privadas.",
+    explanation: "Esto resalta la importancia de los instrumentos públicos en la evidencia legal, asegurando que solo estos documentos, y no las escrituras privadas, sean aceptados como prueba en ciertos asuntos, lo que protege la integridad y veracidad de la información presentada."
+  },
+  {
+    title: "¿Qué sucede con el estado civil adquirido conforme a la ley vigente según el Artículo 23?",
+    choices: [
+      "Se pierde si la ley cambia posteriormente.",
+      "Subsiste aunque esa ley pierda después su fuerza.",
+      "Debe ser reevaluado cada cinco años.",
+      "Solo se mantiene en el país de origen."
+    ],
+    correctAnswer: "Subsiste aunque esa ley pierda después su fuerza.",
+    explanation: "La continuidad del estado civil, incluso si la ley cambia, asegura la estabilidad y certeza en las relaciones personales y los derechos adquiridos, evitando situaciones de inseguridad jurídica."
+  },
+  {
+    title: "¿Qué establece el Artículo 25 sobre la interpretación de la ley por el legislador?",
+    choices: [
+      "La interpretación de la ley solo corresponde a los jueces.",
+      "La interpretación de la ley, cuando es oscura, corresponde al legislador.",
+      "La interpretación de la ley puede ser realizada por cualquier ciudadano.",
+      "La interpretación de la ley solo se hace en tribunales internacionales."
+    ],
+    correctAnswer: "La interpretación de la ley, cuando es oscura, corresponde al legislador.",
+    explanation: "Este principio asegura que la autoridad para clarificar y establecer el significado de leyes ambiguas reside en el legislador, manteniendo la coherencia y uniformidad en el marco legal."
+  },
+  {
+    title: "¿Cómo deben los jueces interpretar la ley en casos particulares según el Artículo 26?",
+    choices: [
+      "Por medio de consultas públicas.",
+      "Aplicando la doctrina y buscando el verdadero sentido de la ley.",
+      "Siguiendo estrictamente la interpretación del legislador sin análisis adicional.",
+      "Utilizando siempre interpretaciones literales."
+    ],
+    correctAnswer: "Aplicando la doctrina y buscando el verdadero sentido de la ley.",
+    explanation: "La interpretación doctrinal permite a los jueces adaptar las normas legales a las circunstancias particulares de cada caso, buscando la justicia y equidad en la aplicación de la ley, y asegurando que las decisiones sean razonadas y fundamentadas."
+  },
+  {
+    title: "¿Qué establece el Artículo 27 sobre la interpretación gramatical de la ley?",
+    choices: [
+      "Que siempre se debe seguir el espíritu de la ley.",
+      "Que cuando el sentido de la ley sea claro, no se desatenderá su tenor literal.",
+      "Que la interpretación literal nunca debe ser utilizada.",
+      "Que la interpretación gramatical es opcional."
+    ],
+    correctAnswer: "Que cuando el sentido de la ley sea claro, no se desatenderá su tenor literal.",
+    explanation: "La interpretación gramatical asegura que el lenguaje claro y preciso de la ley se aplique tal como está escrito, evitando interpretaciones arbitrarias y manteniendo la integridad del texto legal."
+  },
+  {
+    title: "¿Cómo se deben entender las palabras de la ley según el Artículo 28?",
+    choices: [
+      "En su sentido técnico específico.",
+      "En su sentido natural y obvio, según el uso general de las mismas palabras.",
+      "En cualquier sentido que sea conveniente en el contexto.",
+      "En su sentido metafórico."
+    ],
+    correctAnswer: "En su sentido natural y obvio, según el uso general de las mismas palabras.",
+    explanation: "El uso del sentido natural y obvio de las palabras garantiza que la ley sea accesible y comprensible para todos, evitando confusiones y asegurando que las normas se apliquen de manera coherente y predecible."
+  },
+  {
+    title: "¿Cómo se deben interpretar las palabras técnicas según el Artículo 29?",
+    choices: [
+      "En el sentido que les den los que profesan la misma ciencia o arte.",
+      "En su sentido más común.",
+      "Siempre de manera literal.",
+      "En el sentido que determine el juez en cada caso."
+    ],
+    correctAnswer: "En el sentido que les den los que profesan la misma ciencia o arte.",
+    explanation: "Interpretar las palabras técnicas según su uso en la respectiva ciencia o arte asegura que se mantenga la precisión y exactitud en áreas especializadas del derecho, garantizando que las normas técnicas se apliquen correctamente."
+  },
+  {
+    title: "¿Cómo debe ser utilizado el contexto de la ley según el Artículo 30?",
+    choices: [
+      "Solo como una referencia secundaria.",
+      "Para ilustrar el sentido de cada una de sus partes y asegurar la correspondencia y armonía entre ellas.",
+      "Para ignorar las partes oscuras de la ley.",
+      "Para modificar el significado literal de las palabras."
+    ],
+    correctAnswer: "Para ilustrar el sentido de cada una de sus partes y asegurar la correspondencia y armonía entre ellas.",
+    explanation: "Utilizar el contexto de la ley ayuda a interpretar sus disposiciones de manera coherente, asegurando que todas las partes de la ley se comprendan y apliquen de forma armoniosa, lo que refuerza la integridad del marco legal."
+  },
+  {
     title: "¿Cuál es la definición de obligación según las Institutas de Justiniano?",
     choices: [
       "Un acuerdo entre dos partes para intercambiar bienes.",
@@ -3898,7 +4779,1705 @@ choices: [
   "Se restringió su aplicación a contratos unilaterales"
 ],
 correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contrato afectado por circunstancias posteriores"
+},
+{
+  title: "¿Cómo define el Código Civil el matrimonio?",
+  choices: [
+    "Un acuerdo verbal entre dos personas.",
+    "Un contrato solemne por el cual un hombre y una mujer se unen con el fin de vivir juntos, de procrear y de auxiliarse mutuamente.",
+    "Un contrato informal reconocido solo por la comunidad.",
+    "Una asociación temporal sin obligaciones legales."
+  ],
+  correctAnswer: "Un contrato solemne por el cual un hombre y una mujer se unen con el fin de vivir juntos, de procrear y de auxiliarse mutuamente.",
+  explanation: "Según el artículo 113, el matrimonio es un contrato solemne por el cual un hombre y una mujer se unen con el fin de vivir juntos, de procrear y de auxiliarse mutuamente."
+},
+{
+  title: "¿Cómo se constituye y perfecciona el contrato de matrimonio según el Código Civil?",
+  choices: [
+    "Por un acuerdo verbal entre las partes.",
+    "Por el libre y mutuo consentimiento de los contrayentes expresado ante el funcionario competente, con las formalidades y requisitos establecidos en el Código.",
+    "Por la aprobación de los padres de los contrayentes.",
+    "Por una ceremonia religiosa sin necesidad de formalidades legales."
+  ],
+  correctAnswer: "Por el libre y mutuo consentimiento de los contrayentes expresado ante el funcionario competente, con las formalidades y requisitos establecidos en el Código.",
+  explanation: "El contrato de matrimonio se constituye y perfecciona por el libre y mutuo consentimiento de los contrayentes, expresado ante el funcionario competente y cumpliendo las formalidades y requisitos establecidos en el Código, según el artículo 115."
+},
+{
+  title: "¿Qué capacidad se requiere para contraer matrimonio según el Código Civil?",
+  choices: [
+    "Ser mayor de 21 años.",
+    "Ser mayor de 18 años.",
+    "Ser mayor de 16 años con el consentimiento de los padres.",
+    "Ser mayor de 15 años."
+  ],
+  correctAnswer: "Ser mayor de 18 años.",
+  explanation: "Según el artículo 116, las personas mayores de 18 años pueden contraer matrimonio libremente."
+},
+{
+  title: "¿Qué permiso se necesita para que los menores de edad puedan contraer matrimonio?",
+  choices: [
+    "Permiso del juez de familia.",
+    "Permiso expreso y por escrito de sus padres legítimos o naturales.",
+    "No necesitan permiso.",
+    "Permiso del alcalde de su localidad."
+  ],
+  correctAnswer: "Permiso expreso y por escrito de sus padres legítimos o naturales.",
+  explanation: "Los menores de edad necesitan el permiso expreso y por escrito de sus padres legítimos o naturales para contraer matrimonio, según el artículo 117."
+},
+{
+  title: "¿Qué se entiende por la falta del padre o la madre según el Código Civil?",
+  choices: [
+    "Que no están de acuerdo con el matrimonio.",
+    "Que han fallecido, están dementes, ausentes del territorio nacional, o se ignora su paradero.",
+    "Que no pueden asistir a la boda.",
+    "Que no tienen los recursos para organizar la boda."
+  ],
+  correctAnswer: "Que han fallecido, están dementes, ausentes del territorio nacional, o se ignora su paradero.",
+  explanation: "Se entiende faltar el padre o la madre si han fallecido, están dementes, ausentes del territorio nacional o se ignora su paradero, según el artículo 118."
+},
+{
+  title: "¿Qué implica la privación de la patria potestad respecto al consentimiento para el matrimonio?",
+  choices: [
+    "No afecta en nada.",
+    "El padre o madre privado de la patria potestad no puede dar el consentimiento para el matrimonio.",
+    "El padre o madre privado de la patria potestad puede dar el consentimiento con permiso del juez.",
+    "El consentimiento debe ser solicitado al tutor legal."
+  ],
+  correctAnswer: "El padre o madre privado de la patria potestad no puede dar el consentimiento para el matrimonio.",
+  explanation: "Según el artículo 119, el padre o madre privado de la patria potestad no puede dar el consentimiento para el matrimonio."
+},
+{
+  title: "¿Quién debe dar el consentimiento para el matrimonio en ausencia de los padres o ascendientes?",
+  choices: [
+    "El juez de familia.",
+    "El curador general o un curador especial.",
+    "El alcalde de la localidad.",
+    "El tutor legal."
+  ],
+  correctAnswer: "El curador general o un curador especial.",
+  explanation: "A falta de los padres o ascendientes, el consentimiento debe ser dado por el curador general o un curador especial, según el artículo 120."
+},
+{
+  title: "¿Quién está obligado a expresar la causa de su negativa al consentimiento para el matrimonio?",
+  choices: [
+    "El padre.",
+    "La madre.",
+    "El curador.",
+    "El juez de familia."
+  ],
+  correctAnswer: "El curador.",
+  explanation: "Solo el curador que niega su consentimiento está obligado a expresar la causa, según el artículo 121."
+},
+{
+  title: "¿Qué razones justifican el disenso del curador para el matrimonio?",
+  choices: [
+    "La oposición personal del curador.",
+    "La existencia de cualquier impedimento legal, grave peligro para la salud del menor, vida licenciosa de la persona con quien el menor desea casarse, entre otras.",
+    "La falta de acuerdo entre los contrayentes.",
+    "La opinión de la comunidad."
+  ],
+  correctAnswer: "La existencia de cualquier impedimento legal, grave peligro para la salud del menor, vida licenciosa de la persona con quien el menor desea casarse, entre otras.",
+  explanation: "Las razones que justifican el disenso del curador incluyen la existencia de cualquier impedimento legal, grave peligro para la salud del menor, vida licenciosa de la persona con quien el menor desea casarse, entre otras, según el artículo 122."
+},
+{
+  title: "¿Qué sucede si no se obtiene el consentimiento necesario para el matrimonio?",
+  choices: [
+    "El matrimonio se celebra de todas formas.",
+    "No podrá procederse a la celebración del matrimonio.",
+    "Se requiere una autorización del juez.",
+    "El matrimonio se pospone indefinidamente."
+  ],
+  correctAnswer: "No podrá procederse a la celebración del matrimonio.",
+  explanation: "No podrá procederse a la celebración del matrimonio sin el consentimiento necesario, según el artículo 123."
+},
+{
+  title: "¿Qué puede hacer un ascendiente si un descendiente se casa sin el necesario consentimiento?",
+  choices: [
+    "Puede desheredar al descendiente.",
+    "Puede denunciar al descendiente.",
+    "Puede otorgar una nueva herencia.",
+    "Puede anular el matrimonio."
+  ],
+  correctAnswer: "Puede desheredar al descendiente.",
+  explanation: "Según el artículo 124, el ascendiente puede desheredar al descendiente si este se casa sin el necesario consentimiento."
+},
+{
+  title: "¿Qué puede hacer un ascendiente con respecto a las donaciones si un descendiente se casa sin el necesario consentimiento?",
+  choices: [
+    "Nada, las donaciones no se ven afectadas.",
+    "Puede revocar las donaciones realizadas antes del matrimonio.",
+    "Puede aumentar las donaciones.",
+    "Puede transferir las donaciones a otra persona."
+  ],
+  correctAnswer: "Puede revocar las donaciones realizadas antes del matrimonio.",
+  explanation: "El ascendiente puede revocar las donaciones realizadas antes del matrimonio si el descendiente se casa sin el necesario consentimiento, según el artículo 125."
+},
+{
+  title: "¿Qué tipos de testigos son inhábiles para presenciar y autorizar un matrimonio?",
+  choices: [
+    "Menores de dieciocho años.",
+    "Familiares de los contrayentes.",
+    "Vecinos de los contrayentes.",
+    "Personas mayores de sesenta años."
+  ],
+  correctAnswer: "Menores de dieciocho años.",
+  explanation: "Según el artículo 127, los menores de dieciocho años son inhábiles para presenciar y autorizar un matrimonio."
+},
+{
+  title: "¿Qué debe hacer el juez si hay oposición a la celebración del matrimonio?",
+  choices: [
+    "Desestimar la oposición.",
+    "Permitir que los interesados presenten pruebas y resolver la oposición dentro de tres días.",
+    "Cancelar el matrimonio automáticamente.",
+    "Aplazar el matrimonio indefinidamente."
+  ],
+  correctAnswer: "Permitir que los interesados presenten pruebas y resolver la oposición dentro de tres días.",
+  explanation: "El juez debe permitir que los interesados presenten pruebas y resolver la oposición dentro de tres días, según el artículo 132."
+},
+{
+  title: "¿Qué procedimiento debe seguirse si los contrayentes son de distintos distritos parroquiales?",
+  choices: [
+    "El matrimonio se celebra sin ninguna formalidad adicional.",
+    "El juez de la vecindad de la mujer debe requerir al juez de la vecindad del varón para que fije un edicto.",
+    "Los contrayentes deben esperar un año.",
+    "El matrimonio debe ser aprobado por un juez superior."
+  ],
+  correctAnswer: "El juez de la vecindad de la mujer debe requerir al juez de la vecindad del varón para que fije un edicto.",
+  explanation: "Si los contrayentes son de distintos distritos parroquiales, el juez de la vecindad de la mujer debe requerir al juez de la vecindad del varón para que fije un edicto, según el artículo 131."
+},
+{
+  title: "¿Qué sucede si el matrimonio se celebra sin oposición y se declara infundada la oposición si se presenta?",
+  choices: [
+    "El matrimonio no puede celebrarse.",
+    "Se procede a señalar día y hora para la celebración del matrimonio dentro de los ocho días siguientes.",
+    "El matrimonio se cancela.",
+    "Los contrayentes deben solicitar un nuevo permiso."
+  ],
+  correctAnswer: "Se procede a señalar día y hora para la celebración del matrimonio dentro de los ocho días siguientes.",
+  explanation: "Si no hay oposición o esta se declara infundada, se procede a señalar día y hora para la celebración del matrimonio dentro de los ocho días siguientes, según el artículo 134."
+},
+{
+  title: "¿Qué ocurre con un matrimonio celebrado en inminente peligro de muerte sin cumplir todas las formalidades?",
+  choices: [
+    "Es automáticamente válido.",
+    "No surte efectos si no se revalida observando las formalidades legales pasados cuarenta días.",
+    "Se cancela inmediatamente.",
+    "Se convierte en una unión libre."
+  ],
+  correctAnswer: "No surte efectos si no se revalida observando las formalidades legales pasados cuarenta días.",
+  explanation: "Un matrimonio celebrado en inminente peligro de muerte sin cumplir todas las formalidades no surte efectos si no se revalida observando las formalidades legales pasados cuarenta días, según el artículo 136."
+},
+{
+  title: "¿Qué debe incluir el acta de matrimonio según el Código Civil?",
+  choices: [
+    "Solo los nombres de los contrayentes.",
+    "El lugar, día, mes y año de la celebración, nombres y apellidos de los casados, del juez, testigos y secretario.",
+    "Los detalles del vestido de la novia.",
+    "La cantidad de invitados presentes."
+  ],
+  correctAnswer: "El lugar, día, mes y año de la celebración, nombres y apellidos de los casados, del juez, testigos y secretario.",
+  explanation: "El acta de matrimonio debe incluir el lugar, día, mes y año de la celebración, los nombres y apellidos de los casados, del juez, testigos y secretario, según el artículo 137."
+},
+{
+  title: "¿Cómo debe manifestarse el consentimiento de los esposos durante la celebración del matrimonio?",
+  choices: [
+    "A través de una firma.",
+    "En voz perceptible o por señales que no dejen duda.",
+    "Por escrito.",
+    "A través de un representante legal."
+  ],
+  correctAnswer: "En voz perceptible o por señales que no dejen duda.",
+  explanation: "El consentimiento de los esposos debe manifestarse en voz perceptible o por señales que no dejen duda, según el artículo 138."
+},
+{
+  title: "¿Cuándo se considera nulo un matrimonio?",
+  choices: [
+    "Cuando los contrayentes son menores de edad.",
+    "Cuando ha habido error acerca de las personas de los contrayentes, falta de consentimiento, fuerza, miedo, o si los contrayentes están en la misma línea de ascendientes y descendientes o son hermanos.",
+    "Cuando los padres no están de acuerdo.",
+    "Cuando el matrimonio no se celebra en una iglesia."
+  ],
+  correctAnswer: "Cuando ha habido error acerca de las personas de los contrayentes, falta de consentimiento, fuerza, miedo, o si los contrayentes están en la misma línea de ascendientes y descendientes o son hermanos.",
+  explanation: "El matrimonio es nulo en los casos de error acerca de las personas de los contrayentes, falta de consentimiento, fuerza, miedo, o si los contrayentes están en la misma línea de ascendientes y descendientes o son hermanos, según el artículo 140."
+},
+{
+  title: "¿Cuál es una de las causales de divorcio en el Código Civil?",
+  choices: [
+      "El desacuerdo sobre las finanzas familiares",
+      "Las relaciones sexuales extramatrimoniales de uno de los cónyuges",
+      "La falta de comunicación",
+      "La diferencia de opiniones políticas"
+  ],
+  correctAnswer: "Las relaciones sexuales extramatrimoniales de uno de los cónyuges",
+  explanation: "Una de las causales de divorcio según el artículo 154 son las relaciones sexuales extramatrimoniales, salvo que el demandante las haya consentido, facilitado o perdonado."
+},
+{
+  title: "¿Qué constituye un grave e injustificado incumplimiento por parte de alguno de los cónyuges?",
+  choices: [
+      "No participar en actividades sociales",
+      "No cumplir con los deberes que la ley les impone como tales y como padres",
+      "No compartir los mismos intereses",
+      "No hacer tareas domésticas"
+  ],
+  correctAnswer: "No cumplir con los deberes que la ley les impone como tales y como padres",
+  explanation: "El grave e injustificado incumplimiento de los deberes legales como cónyuges y padres es una causal de divorcio, según el artículo 154."
+},
+{
+  title: "¿Qué acciones de uno de los cónyuges pueden ser causales de divorcio según el Código Civil?",
+  choices: [
+      "Viajar frecuentemente",
+      "Los ultrajes, el trato cruel y los maltratamientos de obra",
+      "La diferencia de opinión sobre la crianza de los hijos",
+      "El desacuerdo sobre la gestión financiera"
+  ],
+  correctAnswer: "Los ultrajes, el trato cruel y los maltratamientos de obra",
+  explanation: "Los ultrajes, el trato cruel y los maltratamientos de obra constituyen causales de divorcio según el artículo 154."
+},
+{
+  title: "¿Cómo afecta la embriaguez habitual de uno de los cónyuges el matrimonio?",
+  choices: [
+      "No afecta el matrimonio",
+      "Es una causal de divorcio",
+      "Debe ser perdonada por el otro cónyuge",
+      "Solo afecta si ocurre en público"
+  ],
+  correctAnswer: "Es una causal de divorcio",
+  explanation: "La embriaguez habitual de uno de los cónyuges es una causal de divorcio conforme al artículo 154."
+},
+{
+  title: "¿Qué condición sobre el uso de sustancias alucinógenas o estupefacientes puede llevar al divorcio?",
+  choices: [
+      "El uso habitual, salvo prescripción médica",
+      "El uso ocasional en fiestas",
+      "El uso de medicamentos recetados",
+      "La posesión de estas sustancias"
+  ],
+  correctAnswer: "El uso habitual, salvo prescripción médica",
+  explanation: "El uso habitual de sustancias alucinógenas o estupefacientes, salvo prescripción médica, es una causal de divorcio según el artículo 154."
+},
+{
+  title: "¿Qué tipo de enfermedad puede ser causal de divorcio?",
+  choices: [
+      "Enfermedades comunes como resfriados",
+      "Toda enfermedad o anormalidad grave e incurable que ponga en peligro la salud del otro cónyuge e imposibilite la comunidad matrimonial",
+      "Enfermedades que requieren tratamiento médico",
+      "Cualquier enfermedad diagnosticada por un médico"
+  ],
+  correctAnswer: "Toda enfermedad o anormalidad grave e incurable que ponga en peligro la salud del otro cónyuge e imposibilite la comunidad matrimonial",
+  explanation: "Según el artículo 154, una enfermedad o anormalidad grave e incurable que ponga en peligro la salud del otro cónyuge e imposibilite la comunidad matrimonial es una causal de divorcio."
+},
+{
+  title: "¿Qué conducta de uno de los cónyuges puede llevar al divorcio?",
+  choices: [
+      "La falta de intereses comunes",
+      "La tendencia a corromper o pervertir al otro, a un descendiente, o a personas que convivan bajo el mismo techo",
+      "El desacuerdo sobre la educación de los hijos",
+      "La falta de participación en las tareas del hogar"
+  ],
+  correctAnswer: "La tendencia a corromper o pervertir al otro, a un descendiente, o a personas que convivan bajo el mismo techo",
+  explanation: "Según el artículo 154, la conducta tendiente a corromper o pervertir al otro cónyuge, a un descendiente, o a personas que estén a su cuidado y convivan bajo el mismo techo es una causal de divorcio."
+},
+{
+  title: "¿Cuánto tiempo debe durar la separación de cuerpos para ser causal de divorcio?",
+  choices: [
+      "Un año",
+      "Seis meses",
+      "Más de dos años",
+      "Cinco años"
+  ],
+  correctAnswer: "Más de dos años",
+  explanation: "La separación de cuerpos, judicial o de hecho, que haya perdurado por más de dos años, es una causal de divorcio según el artículo 154."
+},
+{
+  title: "¿Qué debe hacer un juez competente respecto al consentimiento de ambos cónyuges para el divorcio?",
+  choices: [
+      "Ignorarlo",
+      "Rechazarlo",
+      "Reconocerlo mediante sentencia",
+      "Solicitar una segunda opinión"
+  ],
+  correctAnswer: "Reconocerlo mediante sentencia",
+  explanation: "El consentimiento de ambos cónyuges manifestado ante un juez competente y reconocido por éste mediante sentencia es una causal de divorcio, conforme al artículo 154."
+},
+{
+  title: "¿Quién puede demandar el divorcio y en qué plazo?",
+  choices: [
+      "El cónyuge que no haya cometido las causales de divorcio, dentro del término de un año desde que tuvo conocimiento de ellas",
+      "Cualquier persona interesada, en cualquier momento",
+      "Solo el juez, en cualquier momento",
+      "Cualquier familiar, dentro de dos años"
+  ],
+  correctAnswer: "El cónyuge que no haya cometido las causales de divorcio, dentro del término de un año desde que tuvo conocimiento de ellas",
+  explanation: "El divorcio solo puede ser demandado por el cónyuge que no haya dado lugar a los hechos que lo motivan y dentro del término de un año desde que tuvo conocimiento de ellos respecto de algunas causales, conforme al artículo 156."
+},
+{
+  title: "¿Quiénes pueden ser partes en el proceso de divorcio según el Código Civil colombiano?",
+  choices: [
+      "Solo los cónyuges involucrados",
+      "Los cónyuges y sus abogados",
+      "Cualquier familiar de los cónyuges",
+      "Solo el juez y los cónyuges"
+  ],
+  correctAnswer: "Solo los cónyuges involucrados",
+  explanation: "Las partes en el proceso de divorcio son solo los cónyuges involucrados, conforme al artículo 157."
+},
+{
+  title: "¿Qué medidas se pueden tomar durante el proceso de divorcio para proteger los intereses de las partes?",
+  choices: [
+      "Medidas cautelares para asegurar el cumplimiento de las obligaciones",
+      "Multas a los cónyuges",
+      "Confiscación de bienes",
+      "Suspensión de derechos civiles"
+  ],
+  correctAnswer: "Medidas cautelares para asegurar el cumplimiento de las obligaciones",
+  explanation: "Durante el proceso de divorcio, se pueden tomar medidas cautelares para proteger los intereses de las partes, conforme al artículo 158."
+},
+{
+  title: "¿Qué sucede al finalizar el proceso de divorcio?",
+  choices: [
+      "Se dicta una sentencia final que puede ser apelada",
+      "Se disuelve el matrimonio de inmediato",
+      "Se suspenden temporalmente los derechos de los cónyuges",
+      "Los cónyuges deben esperar seis meses para la sentencia final"
+  ],
+  correctAnswer: "Se dicta una sentencia final que puede ser apelada",
+  explanation: "Al finalizar el proceso de divorcio, se dicta una sentencia final que puede ser apelada, conforme al artículo 159."
+},
+{
+  title: "¿Qué efectos tiene la sentencia de divorcio sobre el matrimonio civil y religioso?",
+  choices: [
+      "Solo afecta el matrimonio civil",
+      "Disuelve el matrimonio civil y cesan los efectos civiles del matrimonio religioso",
+      "Solo afecta el matrimonio religioso",
+      "No tiene ningún efecto"
+  ],
+  correctAnswer: "Disuelve el matrimonio civil y cesan los efectos civiles del matrimonio religioso",
+  explanation: "La sentencia de divorcio disuelve el matrimonio civil y cesan los efectos civiles del matrimonio religioso, conforme al artículo 160."
+},
+{
+  title: "¿Cómo se regula la custodia y patria potestad de los hijos después del divorcio?",
+  choices: [
+      "Por decisión de los cónyuges",
+      "Por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
+      "Por la ley del lugar donde viven los hijos",
+      "Por un acuerdo entre los cónyuges y el juez"
+  ],
+  correctAnswer: "Por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
+  explanation: "La custodia y patria potestad de los hijos se regulan por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil, conforme al artículo 161."
+},
+{
+  title: "¿Qué puede hacer el cónyuge inocente respecto a las donaciones en caso de divorcio?",
+  choices: [
+      "Solicitar una compensación económica",
+      "Revocar las donaciones hechas al cónyuge culpable",
+      "Solicitar la nulidad del matrimonio",
+      "Retener todos los bienes conyugales"
+  ],
+  correctAnswer: "Revocar las donaciones hechas al cónyuge culpable",
+  explanation: "En casos de divorcio por ciertas causales, el cónyuge inocente puede revocar las donaciones hechas al cónyuge culpable, conforme al artículo 162."
+},
+{
+  title: "¿Cómo se regula el divorcio de un matrimonio civil celebrado en el extranjero?",
+  choices: [
+      "Por la ley del país de origen de los cónyuges",
+      "Por la ley del lugar donde se celebró el matrimonio",
+      "Por la ley del domicilio conyugal",
+      "Por las leyes internacionales de divorcio"
+  ],
+  correctAnswer: "Por la ley del domicilio conyugal",
+  explanation: "El divorcio de un matrimonio civil celebrado en el extranjero se regula por la ley del domicilio conyugal, conforme al artículo 163."
+},
+{
+  title: "¿Qué condiciones debe cumplir un divorcio decretado en el exterior para ser válido en Colombia?",
+  choices: [
+      "Cumplir con las leyes internacionales",
+      "Ser notificado al gobierno colombiano",
+      "Que la causal sea admitida por la ley colombiana y que el demandado haya sido notificado",
+      "Ser aprobado por ambos cónyuges"
+  ],
+  correctAnswer: "Que la causal sea admitida por la ley colombiana y que el demandado haya sido notificado",
+  explanation: "Para que un divorcio decretado en el exterior sea válido en Colombia, la causal debe ser admitida por la ley colombiana y el demandado debe haber sido notificado, conforme al artículo 164."
+},
+{
+  title: "¿En qué casos hay lugar a la separación de cuerpos?",
+  choices: [
+      "Solo en casos de mutuo consentimiento",
+      "Solo en casos de violencia doméstica",
+      "En los casos contemplados en el artículo 154 y por mutuo consentimiento de los cónyuges",
+      "Solo cuando uno de los cónyuges lo solicita"
+  ],
+  correctAnswer: "En los casos contemplados en el artículo 154 y por mutuo consentimiento de los cónyuges",
+  explanation: "Hay lugar a la separación de cuerpos en los casos contemplados en el artículo 154 y por mutuo consentimiento de los cónyuges, conforme al artículo 165."
+},
+{
+  title: "¿Qué debe hacer el juez para decretar la separación de cuerpos por mutuo consentimiento?",
+  choices: [
+      "Seguir las restricciones del artículo 155 del Código Civil",
+      "Consultar con un abogado de familia",
+      "No está sujeto a las restricciones del artículo 155 y debe asegurar el interés de los hijos",
+      "Solicitar una autorización especial"
+  ],
+  correctAnswer: "No está sujeto a las restricciones del artículo 155 y debe asegurar el interés de los hijos",
+  explanation: "El juez para decretar la separación de cuerpos por mutuo consentimiento no está sujeto a las restricciones del artículo 155 y debe asegurar el interés de los hijos, conforme al artículo 166."
+},
+{
+  title: "¿Qué efecto tiene la separación de cuerpos sobre el matrimonio?",
+  choices: [
+      "Disuelve el matrimonio",
+      "Suspende la vida en común de los casados",
+      "No tiene ningún efecto",
+      "Otorga la custodia de los hijos a uno de los cónyuges"
+  ],
+  correctAnswer: "Suspende la vida en común de los casados",
+  explanation: "La separación de cuerpos no disuelve el matrimonio, pero suspende la vida en común de los casados, conforme al artículo 167."
+},
+{
+  title: "¿Son aplicables las normas de divorcio a la separación de cuerpos?",
+  choices: [
+      "No, son completamente diferentes",
+      "Sí, en cuanto no sean incompatibles",
+      "Solo en casos de violencia doméstica",
+      "Sí, pero solo si ambos cónyuges están de acuerdo"
+  ],
+  correctAnswer: "Sí, en cuanto no sean incompatibles",
+  explanation: "Son aplicables a la separación de cuerpos las normas que regulan el divorcio en cuanto no fueren incompatibles con ella, conforme al artículo 168."
+},
+{
+  title: "¿Qué debe hacer una persona con hijos de un matrimonio anterior si quiere volver a casarse?",
+  choices: [
+      "Obtener el consentimiento de los hijos",
+      "Hacer un inventario solemne de los bienes que esté administrando",
+      "Esperar a que los hijos sean mayores de edad",
+      "Vender todos los bienes del primer matrimonio"
+  ],
+  correctAnswer: "Hacer un inventario solemne de los bienes que esté administrando",
+  explanation: "La persona que quiera volver a casarse, teniendo hijos de un precedente matrimonio bajo su patria potestad, tutela o curatela, deberá proceder al inventario solemne de los bienes que esté administrando, conforme al artículo 169."
+},
+{
+  title: "¿Es necesario nombrar un curador si los hijos no tienen bienes propios?",
+  choices: [
+      "No, solo si tienen bienes propios",
+      "Sí, siempre se debe nombrar un curador",
+      "No, el padre o la madre puede actuar como curador",
+      "Sí, pero solo si el juez lo requiere"
+  ],
+  correctAnswer: "Sí, siempre se debe nombrar un curador",
+  explanation: "Habrá lugar al nombramiento de curador aunque los hijos no tengan bienes propios de ninguna clase en poder del padre o de la madre, conforme al artículo 170."
+},
+{
+  title: "¿Qué debe presentar una persona que pretende contraer nuevas nupcias al juez para autorizar el matrimonio?",
+  choices: [
+      "Una copia del testamento",
+      "Una copia auténtica de la providencia de designación de curador, el auto que le discernió el cargo y el inventario de bienes de los menores",
+      "Un acuerdo prenupcial",
+      "La autorización del otro cónyuge"
+  ],
+  correctAnswer: "Una copia auténtica de la providencia de designación de curador, el auto que le discernió el cargo y el inventario de bienes de los menores",
+  explanation: "El juez se abstendrá de autorizar el matrimonio hasta que la persona presente copia auténtica de la providencia de designación de curador, el auto que le discernió el cargo y el inventario de bienes de los menores, conforme al artículo 171."
+},
+{
+  title: "¿Qué sanción se impone por la mala administración de los bienes del hijo?",
+  choices: [
+      "Multa económica",
+      "Pérdida del usufructo legal y del derecho a sucederle",
+      "Cárcel",
+      "Nada, no hay sanción"
+  ],
+  correctAnswer: "Pérdida del usufructo legal y del derecho a sucederle",
+  explanation: "La persona que hubiere administrado con culpa grave o dolo, los bienes del hijo, perderá el usufructo legal y el derecho a sucederle como legitimario o como heredero abintestato, conforme al artículo 172."
+},
+{
+  title: "¿Qué establece el artículo 173 sobre el segundo matrimonio de una mujer embarazada?",
+  choices: [
+      "Prohíbe el segundo matrimonio de una mujer embarazada",
+      "Permite el segundo matrimonio con ciertas restricciones",
+      "Es inconstitucional",
+      "No establece nada al respecto"
+  ],
+  correctAnswer: "Es inconstitucional",
+  explanation: "El artículo 173 es declarado INEXEQUIBLE y, por lo tanto, no es aplicable."
+},
+{
+  title: "¿Qué establece el artículo 174 sobre la celebración de un segundo matrimonio?",
+  choices: [
+      "Prohíbe la celebración de un segundo matrimonio",
+      "Permite el segundo matrimonio con el consentimiento del primer cónyuge",
+      "Permite el segundo matrimonio sin restricciones",
+      "Es inconstitucional"
+  ],
+  correctAnswer: "Es inconstitucional",
+  explanation: "El artículo 174 es declarado INEXEQUIBLE y, por lo tanto, no es aplicable."
+},
+{
+  title: "¿Cuáles son las obligaciones entre cónyuges según el artículo 176?",
+  choices: [
+      "Solo obligaciones económicas",
+      "Solo obligaciones morales",
+      "Guardarse fe, socorrerse y ayudarse mutuamente en todas las circunstancias de la vida",
+      "No tienen obligaciones entre sí"
+  ],
+  correctAnswer: "Guardarse fe, socorrerse y ayudarse mutuamente en todas las circunstancias de la vida",
+  explanation: "Los cónyuges están obligados a guardarse fe, socorrerse y ayudarse mutuamente en todas las circunstancias de la vida, conforme al artículo 176."
+},
+{
+  title: "¿Quién tiene la dirección del hogar según el artículo 177?",
+  choices: [
+      "Solo el marido",
+      "Solo la mujer",
+      "Ambos cónyuges conjuntamente",
+      "El juez de familia"
+  ],
+  correctAnswer: "Ambos cónyuges conjuntamente",
+  explanation: "El marido y la mujer tienen conjuntamente la dirección del hogar, conforme al artículo 177."
+},
+{
+  title: "¿Qué obligación tienen los cónyuges respecto a la cohabitación?",
+  choices: [
+      "No tienen obligación de vivir juntos",
+      "Deben vivir juntos salvo causa justificada",
+      "Deben vivir separados por defecto",
+      "Solo deben vivir juntos los primeros años de matrimonio"
+  ],
+  correctAnswer: "Deben vivir juntos salvo causa justificada",
+  explanation: "Salvo causa justificada, los cónyuges tienen la obligación de vivir juntos y cada uno de ellos tiene derecho a ser recibido en la casa del otro, conforme al artículo 178."
+},
+{
+  title: "¿Cómo se fija la residencia del hogar en caso de desacuerdo entre los cónyuges?",
+  choices: [
+      "Por el cónyuge con mayor ingresos",
+      "Por el juez teniendo en cuenta el interés de la familia",
+      "Por los padres de los cónyuges",
+      "Por sorteo"
+  ],
+  correctAnswer: "Por el juez teniendo en cuenta el interés de la familia",
+  explanation: "En caso de desacuerdo, corresponderá al juez fijar la residencia teniendo en cuenta el interés de la familia, conforme al artículo 179."
+},
+{
+  title: "¿Qué sucede con la sociedad conyugal al contraer matrimonio?",
+  choices: [
+      "Se disuelve automáticamente",
+      "Se mantiene separada de bienes",
+      "Se contrae sociedad de bienes entre los cónyuges",
+      "No se forman sociedades"
+  ],
+  correctAnswer: "Se contrae sociedad de bienes entre los cónyuges",
+  explanation: "Por el hecho del matrimonio se contrae sociedad de bienes entre los cónyuges, conforme al artículo 180."
+},
+{
+  title: "¿Qué capacidad tiene la mujer casada mayor de edad respecto a sus bienes?",
+  choices: [
+      "Necesita autorización marital para administrar sus bienes",
+      "No necesita autorización para administrar y disponer de sus bienes",
+      "Debe obtener una licencia del juez para disponer de sus bienes",
+      "No puede administrar sus bienes"
+  ],
+  correctAnswer: "No necesita autorización para administrar y disponer de sus bienes",
+  explanation: "La mujer casada, mayor de edad, puede administrar y disponer de sus bienes sin necesidad de autorización marital ni licencia del juez, conforme al artículo 181."
+},
+{
+  title: "¿Cuáles son las excepciones a las reglas de los artículos precedentes según el artículo 194?",
+  choices: [
+      "El ejercicio de una profesión, industria u oficio por parte de la mujer y la separación de bienes",
+      "El cambio de domicilio",
+      "El nacimiento de un hijo",
+      "El fallecimiento de un cónyuge"
+  ],
+  correctAnswer: "El ejercicio de una profesión, industria u oficio por parte de la mujer y la separación de bienes",
+  explanation: "Las reglas de los artículos precedentes sufren excepciones o modificaciones por el ejercicio de una profesión, industria u oficio por parte de la mujer y por la separación de bienes, conforme al artículo 194."
+},
+{
+  title: "¿Qué dice el artículo 195 sobre la profesión u oficio de la mujer?",
+  choices: [
+      "El artículo está derogado",
+      "La mujer no puede ejercer una profesión",
+      "La mujer debe obtener permiso para ejercer una profesión",
+      "La mujer tiene prioridad sobre el hombre en la profesión"
+  ],
+  correctAnswer: "El artículo está derogado",
+  explanation: "El artículo 195 fue derogado por la Ley 28 de 1932, la cual introdujo reformas al régimen patrimonial del matrimonio que suprimieron la potestad marital."
+},
+{
+  title: "¿Qué indica el artículo 196 sobre el cónyuge comerciante?",
+  choices: [
+      "El artículo está derogado",
+      "El cónyuge comerciante debe obtener permiso para comerciar",
+      "El cónyuge comerciante tiene privilegios fiscales",
+      "El cónyuge comerciante debe compartir ganancias"
+  ],
+  correctAnswer: "El artículo está derogado",
+  explanation: "El artículo 196 fue derogado tácitamente por la Ley 28 de 1932, según sostiene la Corte Constitucional en Sentencia C-379-98."
+},
+{
+  title: "¿Qué se entiende por simple separación de bienes según el artículo 197?",
+  choices: [
+      "Separación de bienes que se efectúa sin divorcio, en virtud de decreto judicial o por disposición de la ley",
+      "Separación de bienes mediante acuerdo mutuo",
+      "Separación de bienes temporal",
+      "Separación de bienes en caso de muerte"
+  ],
+  correctAnswer: "Separación de bienes que se efectúa sin divorcio, en virtud de decreto judicial o por disposición de la ley",
+  explanation: "La simple separación de bienes es la que se efectúa sin divorcio, en virtud de decreto judicial o por disposición de la ley, conforme al artículo 197."
+},
+{
+  title: "¿Puede alguno de los cónyuges renunciar a la facultad de pedir la separación de bienes?",
+  choices: [
+      "Sí, mediante acuerdo prenupcial",
+      "Sí, mediante contrato privado",
+      "No, no puede renunciar a esta facultad",
+      "Solo con el consentimiento del otro cónyuge"
+  ],
+  correctAnswer: "No, no puede renunciar a esta facultad",
+  explanation: "Ninguno de los cónyuges podrá renunciar en las capitulaciones matrimoniales o fuera de ellas a la facultad de pedir la separación de bienes, conforme al artículo 198."
+},
+{
+  title: "¿Qué debe hacerse para que un cónyuge incapaz pueda pedir la separación de bienes?",
+  choices: [
+      "Obtener el consentimiento del otro cónyuge",
+      "Contratar un abogado",
+      "Designar un curador especial",
+      "Obtener una orden judicial"
+  ],
+  correctAnswer: "Designar un curador especial",
+  explanation: "Para que el cónyuge incapaz pueda pedir la separación de bienes, deberá designársele un curador especial, conforme al artículo 199."
+},
+{
+  title: "¿En qué casos puede cualquiera de los cónyuges demandar la separación de bienes?",
+  choices: [
+      "Solo en casos de infidelidad",
+      "En los casos de separación de cuerpos y cesación de pagos, quiebra, insolvencia u otros actos que menoscaben gravemente los intereses del demandante",
+      "Solo si hay mutuo acuerdo",
+      "Solo en casos de violencia doméstica"
+  ],
+  correctAnswer: "En los casos de separación de cuerpos y cesación de pagos, quiebra, insolvencia u otros actos que menoscaben gravemente los intereses del demandante",
+  explanation: "Cualquiera de los cónyuges podrá demandar la separación de bienes por las mismas causas que autorizan la separación de cuerpos y por cesación de pagos, quiebra, insolvencia, etc., conforme al artículo 200."
+},
+{
+  title: "¿Qué sucede con los gananciales después de ejecutoriada la sentencia de separación de bienes?",
+  choices: [
+      "Ambos cónyuges siguen compartiendo los gananciales",
+      "Ninguno de los cónyuges tendrá parte alguna en los gananciales del otro",
+      "El cónyuge demandante recibe todos los gananciales",
+      "Los gananciales se dividen equitativamente"
+  ],
+  correctAnswer: "Ninguno de los cónyuges tendrá parte alguna en los gananciales del otro",
+  explanation: "Ejecutoriada la sentencia que decreta la separación de bienes, ninguno de los cónyuges tendrá desde entonces parte alguna en los gananciales que resulten de la administración del otro, conforme al artículo 203."
+},
+{
+  title: "¿Qué obligaciones tienen los cónyuges en estado de separación respecto a la familia común?",
+  choices: [
+      "No tienen ninguna obligación",
+      "Deben proveer a las necesidades de la familia común en proporción a sus facultades",
+      "El cónyuge demandante debe proveer todas las necesidades",
+      "El Estado se hace cargo de la familia"
+  ],
+  correctAnswer: "Deben proveer a las necesidades de la familia común en proporción a sus facultades",
+  explanation: "En el estado de separación, ambos cónyuges deben proveer a las necesidades de la familia común a proporción de sus facultades, conforme al artículo 205."
+},
+{
+  title: "¿Quién es responsable de las deudas contraídas por la mujer separada de bienes?",
+  choices: [
+      "Solo la mujer es responsable",
+      "El marido es siempre responsable",
+      "El marido es responsable solo si accedió como fiador o benefició de la obligación",
+      "Ambos cónyuges son solidariamente responsables"
+  ],
+  correctAnswer: "El marido es responsable solo si accedió como fiador o benefició de la obligación",
+  explanation: "El marido no será responsable con sus bienes de las deudas de la mujer separada de bienes, excepto cuando hubiere accedido como fiador o de otro modo, o se benefició de la obligación, conforme al artículo 206."
+},
+{
+  title: "¿Cómo se considera al marido si la mujer separada de bienes le confiere la administración de alguna parte de los suyos?",
+  choices: [
+      "Como copropietario",
+      "Como simple mandatario",
+      "Como tutor legal",
+      "Como fiador"
+  ],
+  correctAnswer: "Como simple mandatario",
+  explanation: "Si la mujer separada de bienes confiere al marido la administración de alguna parte de los suyos, será obligado el marido a la mujer como simple mandatario, conforme al artículo 207."
+},
+{
+  title: "¿Qué debe hacer el juez en un proceso de reclamación o impugnación de la paternidad o maternidad?",
+  choices: [
+      "Desestimar el caso",
+      "Solo escuchar a los padres biológicos",
+      "Vincular al presunto padre biológico o madre biológica al proceso",
+      "Tomar una decisión sin pruebas"
+  ],
+  correctAnswer: "Vincular al presunto padre biológico o madre biológica al proceso",
+  explanation: "El juez competente debe vincular al presunto padre biológico o madre biológica al proceso de reclamación o impugnación de la paternidad o maternidad, conforme al artículo 218."
+},
+{
+  title: "¿En qué momento pueden los herederos impugnar la paternidad o la maternidad según el artículo 219?",
+  choices: [
+      "En cualquier momento después de la muerte del padre o la madre",
+      "Solo durante los primeros 30 días después del nacimiento del hijo",
+      "Desde el momento en que conocieron del fallecimiento del padre o la madre o del nacimiento del hijo",
+      "Solo si el hijo no ha sido reconocido en un testamento"
+  ],
+  correctAnswer: "Desde el momento en que conocieron del fallecimiento del padre o la madre o del nacimiento del hijo",
+  explanation: "Los herederos podrán impugnar la paternidad o la maternidad desde el momento en que conocieron del fallecimiento del padre o la madre o desde el momento en que conocieron del nacimiento del hijo, conforme al artículo 219."
+},
+{
+  title: "¿Qué puede solicitar una persona interesada respecto a la ilegitimidad de un hijo nacido después de los trescientos días de la disolución del matrimonio?",
+  choices: [
+      "Que se declare la legitimidad del hijo",
+      "Que el juez declare la ilegitimidad del hijo",
+      "Que se anulen todos los derechos del hijo",
+      "Que el hijo sea enviado a un orfanato"
+  ],
+  correctAnswer: "Que el juez declare la ilegitimidad del hijo",
+  explanation: "A petición de cualquier persona que tenga interés actual en ello, declarará el juez la ilegitimidad del hijo nacido después de expirados los trescientos días subsiguientes a la disolución del matrimonio, conforme al artículo 220."
+},
+{
+  title: "¿Qué derecho tienen los ascendientes del padre o la madre respecto a la paternidad o maternidad del hijo?",
+  choices: [
+      "Ningún derecho",
+      "Derecho a impugnar la paternidad o maternidad solo después de la muerte del padre o la madre",
+      "Derecho a impugnar la paternidad o maternidad en cualquier momento",
+      "Derecho a reclamar la paternidad o maternidad en nombre del hijo"
+  ],
+  correctAnswer: "Derecho a impugnar la paternidad o maternidad solo después de la muerte del padre o la madre",
+  explanation: "Los ascendientes del padre o la madre tendrán derecho para impugnar la paternidad o la maternidad solo después de la muerte de estos y a más tardar dentro de los 140 días al conocimiento de la muerte, conforme al artículo 222."
+},
+{
+  title: "¿Qué debe hacer el juez si se impugna la filiación de un hijo menor de edad?",
+  choices: [
+      "Nada, ya que no se puede impugnar la filiación de un menor",
+      "Nombrar un curador para que defienda al menor en el proceso",
+      "Transferir la custodia del menor al estado",
+      "Ordenar pruebas de ADN"
+  ],
+  correctAnswer: "Nombrar un curador para que defienda al menor en el proceso",
+  explanation: "Una vez impugnada la filiación del hijo, si este fuere menor de edad, el juez nombrará curador al que lo necesitare para que le defienda en el proceso, conforme al artículo 223."
+},
+{
+  title: "¿Qué derecho tiene el actor en un juicio de impugnación de paternidad o maternidad cuando existe sentencia en firme?",
+  choices: [
+      "Derecho a apelar la decisión",
+      "Derecho a que se le indemnice por los perjuicios causados",
+      "Derecho a solicitar un nuevo juicio",
+      "Derecho a adoptar al hijo"
+  ],
+  correctAnswer: "Derecho a que se le indemnice por los perjuicios causados",
+  explanation: "Durante el juicio de impugnación de la paternidad o la maternidad se presumirá la paternidad del hijo, pero cuando exista sentencia en firme el actor tendrá derecho a que se le indemnice por todos los perjuicios causados, conforme al artículo 224."
+},
+{
+  title: "¿Qué debe hacer una mujer que se creyere embarazada tras la muerte de su marido?",
+  choices: [
+      "Nada, ya que no tiene ningún derecho",
+      "Denunciar su embarazo a los que serían llamados a suceder al difunto",
+      "Solicitar la nulidad del matrimonio",
+      "Pedir inmediatamente la custodia de los bienes del difunto"
+  ],
+  correctAnswer: "Denunciar su embarazo a los que serían llamados a suceder al difunto",
+  explanation: "Muerto el marido, la mujer que se creyere embarazada podrá denunciarlo a los que, no existiendo el póstumo, serían llamados a suceder al difunto, conforme al artículo 232."
+},
+{
+  title: "¿Qué derecho tiene la madre respecto a los bienes del hijo póstumo?",
+  choices: [
+      "Ningún derecho sobre los bienes del hijo póstumo",
+      "Derecho a la totalidad de los bienes",
+      "Derecho a lo necesario para su subsistencia y para el parto",
+      "Derecho a vender los bienes del hijo póstumo"
+  ],
+  correctAnswer: "Derecho a lo necesario para su subsistencia y para el parto",
+  explanation: "La madre tendrá derecho para que de los bienes que han de corresponder al póstumo, si nace vivo y en el tiempo debido, se le asigne lo necesario para su subsistencia y para el parto, conforme al artículo 233."
+},
+{
+  title: "¿Qué sucede si se duda a cuál de los dos matrimonios pertenece un hijo cuando la madre ha pasado a otras nupcias?",
+  choices: [
+      "El hijo se considera ilegítimo",
+      "El hijo pertenece al primer matrimonio por defecto",
+      "El juez decidirá tomando en consideración las circunstancias y oyendo el dictamen de facultativos si lo creyere conveniente",
+      "El hijo pertenece al segundo matrimonio por defecto"
+  ],
+  correctAnswer: "El juez decidirá tomando en consideración las circunstancias y oyendo el dictamen de facultativos si lo creyere conveniente",
+  explanation: "Cuando por haber pasado la madre a otras nupcias se dudare a cuál de los dos matrimonios pertenece un hijo, el juez decidirá tomando en consideración las circunstancias y oyendo el dictamen de facultativos si lo creyere conveniente, conforme al artículo 234."
+},
+{
+  title: "¿Quiénes son obligados a indemnizar por los perjuicios causados por la incertidumbre de la paternidad en caso de nuevas nupcias?",
+  choices: [
+      "Solo la mujer",
+      "Solo el nuevo marido",
+      "La mujer y su nuevo marido solidariamente",
+      "El padre biológico del hijo"
+  ],
+  correctAnswer: "La mujer y su nuevo marido solidariamente",
+  explanation: "Serán obligados solidariamente a la indemnización de todos los perjuicios y costas ocasionados a terceros por la incertidumbre de la paternidad, la mujer que antes del tiempo debido hubiere pasado a otras nupcias y su nuevo marido, conforme al artículo 235."
+},
+{
+  title: "¿Qué condición debe cumplirse para que un hijo nacido fuera del matrimonio sea legitimado por el matrimonio posterior de sus padres?",
+  choices: [
+      "El hijo debe haber nacido después del matrimonio",
+      "El hijo debe ser reconocido como legítimo por el padre",
+      "El matrimonio posterior legitima automáticamente al hijo concebido fuera del matrimonio",
+      "El hijo debe solicitar su legitimación"
+  ],
+  correctAnswer: "El matrimonio posterior legitima automáticamente al hijo concebido fuera del matrimonio",
+  explanation: "El matrimonio posterior legitima ipso jure a los hijos concebidos antes y nacidos en él, conforme al artículo 237."
+},
+{
+  title: "¿Qué debe hacer el instrumento público de legitimación cuando la legitimación no se produce ipso jure?",
+  choices: [
+      "Ser firmado por el padre biológico",
+      "Ser registrado en una oficina pública",
+      "Notificarse a la persona que se trate de legitimar",
+      "Ser aprobado por un juez"
+  ],
+  correctAnswer: "Notificarse a la persona que se trate de legitimar",
+  explanation: "Cuando la legitimación no se produce ipso jure, el instrumento público de legitimación deberá notificarse a la persona que se trate de legitimar, conforme al artículo 240."
+},
+{
+  title: "¿Qué puede hacer una persona capaz respecto a la legitimación?",
+  choices: [
+      "Nada, la decisión es del padre",
+      "Aceptar o repudiar la legitimación libremente",
+      "Aceptar la legitimación solo con permiso del tutor",
+      "Repudiar la legitimación solo con permiso del curador"
+  ],
+  correctAnswer: "Aceptar o repudiar la legitimación libremente",
+  explanation: "La persona que no necesite de tutor o curador para la administración de sus bienes o que no vive bajo potestad marital, podrá aceptar o repudiar la legitimación libremente, conforme al artículo 241."
+},
+{
+  title: "¿Quién puede aceptar o repudiar la legitimación en nombre de una persona incapaz?",
+  choices: [
+      "Solo el padre biológico",
+      "Solo el cónyuge",
+      "El tutor o curador con previo decreto judicial",
+      "El juez de familia"
+  ],
+  correctAnswer: "El tutor o curador con previo decreto judicial",
+  explanation: "El que necesite de tutor o curador para la administración de sus bienes no podrá aceptar ni repudiar la legitimación sino por el ministerio o con el consentimiento de su tutor o curador general o de un curador especial, y previo decreto judicial, conforme al artículo 242."
+},
+{
+  title: "¿Cuál es el plazo para declarar la aceptación o repudio de la legitimación?",
+  choices: [
+      "30 días",
+      "60 días",
+      "90 días",
+      "120 días"
+  ],
+  correctAnswer: "90 días",
+  explanation: "La persona que acepte o repudie, deberá declararlo por instrumento público dentro de los noventa días subsiguientes a la notificación, conforme al artículo 243."
+},
+{
+  title: "¿A quiénes aprovecha la legitimación según el artículo 244?",
+  choices: [
+      "Solo al hijo legitimado",
+      "A todos los descendientes del hijo legitimado",
+      "Solo al padre biológico",
+      "Solo al cónyuge del hijo legitimado"
+  ],
+  correctAnswer: "A todos los descendientes del hijo legitimado",
+  explanation: "La legitimación aprovecha a la posteridad legítima de los hijos legitimados, conforme al artículo 244."
+},
+{
+  title: "¿Cuál es el estado legal de los hijos legitimados por matrimonio posterior en comparación con los legítimos concebidos en matrimonio?",
+  choices: [
+      "Son considerados inferiores",
+      "Son considerados superiores",
+      "Son iguales en todo a los legítimos concebidos en matrimonio",
+      "No tienen derechos legales"
+  ],
+  correctAnswer: "Son iguales en todo a los legítimos concebidos en matrimonio",
+  explanation: "Los legitimados por matrimonio posterior son iguales en todo a los legítimos concebidos en matrimonio, conforme al artículo 245."
+},
+{
+  title: "¿Qué se entiende por hijos legítimos en leyes y actos testamentarios?",
+  choices: [
+      "Solo los concebidos dentro del matrimonio",
+      "Incluye a los legitimados por matrimonio posterior, salvo que se exceptúe expresamente",
+      "Solo los hijos biológicos",
+      "Solo los adoptados"
+  ],
+  correctAnswer: "Incluye a los legitimados por matrimonio posterior, salvo que se exceptúe expresamente",
+  explanation: "La designación de hijos legítimos, aun con la calificación de nacidos de legítimo matrimonio, se entenderá comprender a los legitimados tanto en las leyes y decretos como en los actos testamentarios y en los contratos, salvo que se exceptúe señalada y expresamente a los legitimados, conforme al artículo 246."
+},
+{
+  title: "¿Quién puede impugnar la legitimación del que ha nacido después de celebrado el matrimonio?",
+  choices: [
+      "Cualquier persona",
+      "Solo el padre biológico",
+      "Solo las mismas personas y de la misma manera que la legitimidad del concebido en matrimonio",
+      "El tutor o curador"
+  ],
+  correctAnswer: "Solo las mismas personas y de la misma manera que la legitimidad del concebido en matrimonio",
+  explanation: "La legitimación del que ha nacido después de celebrado el matrimonio no podrá ser impugnada sino por las mismas personas y de la misma manera que la legitimidad del concebido en matrimonio, conforme al artículo 247."
+},
+{
+  title: "¿En qué casos puede impugnarse la paternidad según el artículo 248?",
+  choices: [
+      "En cualquier momento y por cualquier motivo",
+      "Solo si el hijo no es biológicamente del padre",
+      "Solo si el hijo no ha podido tener por padre al que pasa por tal o no ha tenido por madre a la que pasa por tal",
+      "Solo si el hijo ha cometido un delito"
+  ],
+  correctAnswer: "Solo si el hijo no ha podido tener por padre al que pasa por tal o no ha tenido por madre a la que pasa por tal",
+  explanation: "Podrá impugnarse la paternidad probando que el hijo no ha podido tener por padre al que pasa por tal o no ha tenido por madre a la que pasa por tal, conforme al artículo 248."
+},
+{
+  title: "¿Quiénes tienen derecho para impugnar la legitimación por omisión de notificación o aceptación?",
+  choices: [
+      "Cualquier persona interesada",
+      "Solo el juez",
+      "Solo el supuesto legitimado y sus descendientes legítimos llamados al beneficio",
+      "El tutor o curador"
+  ],
+  correctAnswer: "Solo el supuesto legitimado y sus descendientes legítimos llamados al beneficio",
+  explanation: "Solo el supuesto legitimado, y en el caso del artículo 244 sus descendientes legítimos llamados inmediatamente al beneficio de la legitimación, tendrán derecho para impugnarla por haberse omitido la notificación o la aceptación prevenidas, conforme al artículo 249."
+},
+{
+  "title": "¿Qué deben los hijos a sus padres según el artículo 250?",
+  "choices": [
+      "Dinero",
+      "Respeto y obediencia",
+      "Independencia",
+      "Desobediencia"
+  ],
+  "correctAnswer": "Respeto y obediencia",
+  "explanation": "Según el artículo 250, los hijos deben respeto y obediencia a sus padres."
+},
+{
+  "title": "¿Qué obligación tienen los hijos emancipados hacia sus padres en ciertas circunstancias?",
+  "choices": [
+      "Ninguna obligación",
+      "Cuidar de los padres en su ancianidad o estado de demencia",
+      "Obedecer todas sus órdenes",
+      "Pagar sus deudas"
+  ],
+  "correctAnswer": "Cuidar de los padres en su ancianidad o estado de demencia",
+  "explanation": "El artículo 251 establece que los hijos emancipados están obligados a cuidar de los padres en su ancianidad, en el estado de demencia y en todas las circunstancias de la vida en que necesitaren sus auxilios."
+},
+{
+  "title": "¿Quiénes tienen derecho al mismo socorro que los padres si estos no están presentes o son insuficientes?",
+  "choices": [
+      "Hermanos",
+      "Tíos",
+      "Primos",
+      "Ascendientes legítimos"
+  ],
+  "correctAnswer": "Ascendientes legítimos",
+  "explanation": "El artículo 252 establece que tienen derecho al mismo socorro todos los demás ascendientes legítimos en caso de inexistencia o insuficiencia de los inmediatos descendientes."
+},
+{
+  "title": "¿A quién corresponde el cuidado personal de la crianza y educación de los hijos legítimos?",
+  "choices": [
+      "Solo al padre",
+      "Solo a la madre",
+      "A los padres de consuno, o al padre o madre sobreviviente",
+      "A los abuelos"
+  ],
+  "correctAnswer": "A los padres de consuno, o al padre o madre sobreviviente",
+  "explanation": "El artículo 253 dice que toca de consuno a los padres, o al padre o madre sobreviviente, el cuidado personal de la crianza y educación de sus hijos legítimos."
+},
+{
+  "title": "¿Qué puede hacer el juez en caso de inhabilidad física o moral de ambos padres?",
+  "choices": [
+      "Confiar el cuidado personal de los hijos a otra persona o personas competentes",
+      "Enviar a los hijos a un orfanato",
+      "Dejar a los hijos sin supervisión",
+      "Permitir que los hijos vivan solos"
+  ],
+  "correctAnswer": "Confiar el cuidado personal de los hijos a otra persona o personas competentes",
+  "explanation": "El artículo 254 permite al juez, en caso de inhabilidad física o moral de ambos padres, confiar el cuidado personal de los hijos a otra persona o personas competentes."
+},
+{
+  "title": "¿Cómo procederá el juez para las resoluciones relacionadas con el cuidado de los hijos?",
+  "choices": [
+      "Con un juicio largo y complejo",
+      "Breve y sumariamente, oyendo a los parientes",
+      "Sin escuchar a nadie más",
+      "Con una votación pública"
+  ],
+  "correctAnswer": "Breve y sumariamente, oyendo a los parientes",
+  "explanation": "El artículo 255 establece que el juez procederá para todas estas resoluciones breve y sumariamente, oyendo a los parientes."
+},
+{
+  "title": "¿Qué regula el artículo 256 sobre las visitas a los hijos?",
+  "choices": [
+      "Que los padres no tienen derecho a visitar a sus hijos",
+      "Que el juez regulará las visitas según el interés superior del niño",
+      "Que solo la madre puede visitar a los hijos",
+      "Que las visitas están prohibidas"
+  ],
+  "correctAnswer": "Que el juez regulará las visitas según el interés superior del niño",
+  "explanation": "El artículo 256 establece que el juez ordenará la regulación de visitas teniendo en cuenta el interés superior del niño."
+},
+{
+  "title": "¿De dónde deben provenir los gastos de crianza, educación y establecimiento de los hijos legítimos?",
+  "choices": [
+      "De la sociedad conyugal",
+      "Solo del padre",
+      "Solo de la madre",
+      "De los abuelos"
+  ],
+  "correctAnswer": "De la sociedad conyugal",
+  "explanation": "El artículo 257 establece que los gastos de crianza, educación y establecimiento de los hijos legítimos pertenecen a la sociedad conyugal."
+},
+{
+  "title": "¿Quién asume los gastos de crianza, educación y establecimiento de los hijos si uno de los padres muere?",
+  "choices": [
+      "El estado",
+      "El padre sobreviviente",
+      "Los tíos",
+      "Nadie"
+  ],
+  "correctAnswer": "El padre sobreviviente",
+  "explanation": "El artículo 258 establece que, muerto uno de los padres, los gastos de crianza, educación y establecimiento de los hijos tocarán al sobreviviente."
+},
+{
+  "title": "¿Qué puede hacer el juez con respecto a las resoluciones bajo los artículos anteriores?",
+  "choices": [
+      "Modificarlas o revocarlas si sobreviene motivo justo",
+      "Dejarlas como están para siempre",
+      "Transferirlas a otra persona",
+      "Ignorarlas"
+  ],
+  "correctAnswer": "Modificarlas o revocarlas si sobreviene motivo justo",
+  "explanation": "El artículo 259 establece que las resoluciones del juez pueden modificarse o revocarse si sobreviene motivo justo."
+},
+{
+  "title": "¿A quién pasa la obligación de alimentar y educar al hijo que carece de bienes si los padres no pueden hacerlo?",
+  "choices": [
+      "A los tíos",
+      "A los abuelos legítimos",
+      "Al estado",
+      "A los hermanos mayores"
+  ],
+  "correctAnswer": "A los abuelos legítimos",
+  "explanation": "El artículo 260 establece que la obligación de alimentar y educar al hijo que carece de bienes pasa a los abuelos legítimos si los padres no pueden hacerlo."
+},
+{
+  "title": "¿Qué facultad tienen las familias y personas encargadas del cuidado de los niños según el artículo 262?",
+  "choices": [
+      "Vigilar su conducta, corregirlos y sancionarlos sin usar violencia",
+      "Pueden usar cualquier método de corrección",
+      "Solo pueden observar su comportamiento",
+      "No tienen ninguna facultad"
+  ],
+  "correctAnswer": "Vigilar su conducta, corregirlos y sancionarlos sin usar violencia",
+  "explanation": "El artículo 262 establece que las familias, los padres y las personas encargadas del cuidado de los niños tienen la facultad de vigilar su conducta, corregirlos y sancionarlos sin usar violencia."
+},
+{
+  "title": "¿A quién se extienden los derechos conferidos a los padres en ausencia de uno de ellos?",
+  "choices": [
+      "Al hermano mayor",
+      "Al tutor o curador",
+      "Al otro padre o a quien tenga el cuidado personal del hijo",
+      "A los amigos de la familia"
+  ],
+  "correctAnswer": "Al otro padre o a quien tenga el cuidado personal del hijo",
+  "explanation": "El artículo 263 establece que los derechos conferidos a los padres se extienden al otro padre en ausencia de uno de ellos, o a quien tenga el cuidado personal del hijo."
+},
+{
+  "title": "¿Quién dirige la educación de los hijos menores según el artículo 264?",
+  "choices": [
+      "Solo el padre",
+      "Solo la madre",
+      "Ambos padres de común acuerdo",
+      "Los abuelos"
+  ],
+  "correctAnswer": "Ambos padres de común acuerdo",
+  "explanation": "El artículo 264 establece que los padres, de común acuerdo, dirigen la educación de sus hijos menores."
+},
+{
+  "title": "¿Qué ocurre con el derecho de dirección de la educación si los hijos son sacados del poder del padre o madre por mala conducta de estos?",
+  "choices": [
+      "Nada cambia",
+      "El derecho cesa respecto de esos hijos",
+      "Se transfiere automáticamente a los abuelos",
+      "El estado toma el control"
+  ],
+  "correctAnswer": "El derecho cesa respecto de esos hijos",
+  "explanation": "El artículo 265 establece que el derecho de dirección de la educación cesa respecto de los hijos que, por mala conducta del padre o madre, hayan sido sacados de su poder."
+},
+{
+  "title": "¿Pueden los padres reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos?",
+  "choices": [
+      "Sí, siempre",
+      "No, nunca",
+      "Solo en algunos casos",
+      "Solo si el juez lo permite"
+  ],
+  "correctAnswer": "No, nunca",
+  "explanation": "El artículo 266 establece que los padres no pueden reclamar derechos sobre un hijo que han abandonado o llevado a una casa de expósitos."
+},
+{
+  "title": "¿Qué causa la privación de derechos de los padres según el artículo 267?",
+  "choices": [
+      "Buena conducta",
+      "Mala conducta",
+      "Problemas financieros",
+      "Enfermedad"
+  ],
+  "correctAnswer": "Mala conducta",
+  "explanation": "El artículo 267 establece que los padres que por mala conducta hayan dado motivo a la providencia de separar a los hijos de su lado incurrirán en la privación de derechos."
+},
+
+{
+    title: "¿Qué sucede con los derechos que se diferirían a una criatura que está en el vientre materno?",
+    choices: [
+      "Se otorgan automáticamente a los padres.",
+      "Están suspensos hasta que el nacimiento se efectúe.",
+      "Se transfieren al Estado.",
+      "Se otorgan al tutor legal."
+    ],
+    correctAnswer: "Están suspensos hasta que el nacimiento se efectúe.",
+    explanation: "Según el artículo 93, los derechos diferidos a una criatura en el vientre materno están suspensos hasta que el nacimiento se efectúe."
+  },
+  {
+    title: "¿Cuándo termina la existencia de una persona según el Código Civil?",
+    choices: [
+      "Al cumplir 100 años.",
+      "Con la muerte.",
+      "Al ser declarado incapacitado.",
+      "Al perder todos sus bienes."
+    ],
+    correctAnswer: "Con la muerte.",
+    explanation: "La existencia de una persona termina con la muerte, conforme al artículo 94."
+  },
+  {
+    "title": "¿Cuándo puede el cónyuge demandar el divorcio según el artículo 156?",
+    "choices": [
+        "En cualquier momento",
+        "Cuando lo desee el demandante",
+        "Dentro del término de un año desde que tuvo conocimiento de los hechos",
+        "Después de dos años de los hechos"
+    ],
+    "correctAnswer": "Dentro del término de un año desde que tuvo conocimiento de los hechos",
+    "explanation": "El artículo 156 establece que el divorcio sólo podrá ser demandado por el cónyuge que no haya dado lugar a los hechos que lo motivan y dentro del término de un año, contado desde cuando tuvo conocimiento de ellos respecto de las causales 1a. y 7a."
+},
+{
+    "title": "¿Quiénes son las partes en el proceso de divorcio según el artículo 157?",
+    "choices": [
+        "Los cónyuges únicamente",
+        "Los hijos y los cónyuges",
+        "Los cónyuges y el juez",
+        "Este artículo fue derogado"
+    ],
+    "correctAnswer": "Este artículo fue derogado",
+    "explanation": "El artículo 157 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+},
+{
+    "title": "¿Qué medidas cautelares se pueden aplicar en el proceso de divorcio según el artículo 158?",
+    "choices": [
+        "Ninguna",
+        "Embargo de bienes",
+        "Retiro de la patria potestad",
+        "Este artículo fue derogado"
+    ],
+    "correctAnswer": "Este artículo fue derogado",
+    "explanation": "El artículo 158 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+},
+{
+    "title": "¿Qué sucede al finalizar el proceso de divorcio según el artículo 159?",
+    "choices": [
+        "Los cónyuges se reconcilian",
+        "Se inicia un nuevo proceso",
+        "El vínculo matrimonial se disuelve",
+        "Este artículo fue derogado"
+    ],
+    "correctAnswer": "Este artículo fue derogado",
+    "explanation": "El artículo 159 fue derogado por el literal c) del artículo 626 de la Ley 1564 de 2012."
+},
+{
+    "title": "¿Cuáles son los efectos del divorcio según el artículo 160?",
+    "choices": [
+        "No hay efectos civiles",
+        "Se mantiene la sociedad conyugal",
+        "Se disuelven el vínculo matrimonial y la sociedad conyugal",
+        "Los hijos pierden derechos"
+    ],
+    "correctAnswer": "Se disuelven el vínculo matrimonial y la sociedad conyugal",
+    "explanation": "El artículo 160 establece que, ejecutoriada la sentencia que decreta el divorcio, se disuelven el vínculo matrimonial y la sociedad conyugal, pero subsisten los deberes y derechos de las partes respecto de los hijos comunes."
+},
+{
+    "title": "¿Qué efectos tiene el divorcio respecto a los hijos según el artículo 161?",
+    "choices": [
+        "Los hijos pierden derechos",
+        "Los efectos se rigen por el Código Penal",
+        "Se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
+        "No hay efectos específicos"
+    ],
+    "correctAnswer": "Se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil",
+    "explanation": "El artículo 161 establece que los efectos del divorcio respecto de los hijos comunes se rigen por las disposiciones contenidas en los títulos XII y XIV del libro I del Código Civil."
+},
+{
+    "title": "¿Qué puede hacer el cónyuge inocente respecto a las donaciones según el artículo 162?",
+    "choices": [
+        "Nada",
+        "Reclamar porción conyugal",
+        "Revocar las donaciones hechas al cónyuge culpable",
+        "Herederar abintestato"
+    ],
+    "correctAnswer": "Revocar las donaciones hechas al cónyuge culpable",
+    "explanation": "El artículo 162 establece que el cónyuge inocente puede revocar las donaciones hechas por causa de matrimonio al cónyuge culpable en caso de divorcio."
+},
+{
+    "title": "¿Cómo se rige el divorcio de un matrimonio realizado en el extranjero según el artículo 163?",
+    "choices": [
+        "Por la ley colombiana",
+        "Por la ley del país de origen",
+        "Por la ley del domicilio conyugal",
+        "Por la ley internacional"
+    ],
+    "correctAnswer": "Por la ley del domicilio conyugal",
+    "explanation": "El artículo 163 establece que el divorcio del matrimonio civil celebrado en el extranjero se rige por la ley del domicilio conyugal."
+},
+{
+    "title": "¿Qué condición debe cumplirse para que el divorcio decretado en el exterior produzca efectos según el artículo 164?",
+    "choices": [
+        "Debe ser admitido por la ley colombiana",
+        "No necesita condiciones",
+        "Debe ser notificado en Colombia",
+        "Debe ser aprobado por el Congreso"
+    ],
+    "correctAnswer": "Debe ser admitido por la ley colombiana",
+    "explanation": "El artículo 164 establece que el divorcio decretado en el exterior respecto del matrimonio civil celebrado en Colombia solo producirá efectos si la causal respectiva es admitida por la ley colombiana y el demandado ha sido notificado personalmente o emplazado según la ley de su domicilio."
+},
+{
+    "title": "¿En qué casos hay lugar a la separación de cuerpos según el artículo 165?",
+    "choices": [
+        "Por decisión unilateral",
+        "Por mutuo consentimiento manifestado ante el juez",
+        "Por incumplimiento de deberes conyugales",
+        "Este artículo fue derogado"
+    ],
+    "correctAnswer": "Por mutuo consentimiento manifestado ante el juez",
+    "explanation": "El artículo 165 establece que hay lugar a la separación de cuerpos en los casos contemplados en el artículo 154 del Código Civil y por mutuo consentimiento de los cónyuges manifestado ante el juez competente."
+},
+{
+    "title": "¿Qué deben indicar los cónyuges al expresar su mutuo consentimiento en la separación según el artículo 166?",
+    "choices": [
+        "Nada",
+        "El estado en que queda la sociedad conyugal",
+        "La duración de la separación",
+        "Ambas respuestas anteriores"
+    ],
+    "correctAnswer": "Ambas respuestas anteriores",
+    "explanation": "El artículo 166 establece que los cónyuges, al expresar su mutuo consentimiento en la separación, deben indicar el estado en que queda la sociedad conyugal y la duración de la separación si es temporal."
+},
+{
+    "title": "¿Qué efecto tiene la separación de cuerpos según el artículo 167?",
+    "choices": [
+        "Disuelve el matrimonio",
+        "Suspende la vida en común de los casados",
+        "No tiene efecto alguno",
+        "Elimina los deberes conyugales"
+    ],
+    "correctAnswer": "Suspende la vida en común de los casados",
+    "explanation": "El artículo 167 establece que la separación de cuerpos no disuelve el matrimonio, pero suspende la vida en común de los casados."
+},
+{
+    "title": "¿Qué normas se aplican a la separación de cuerpos según el artículo 168?",
+    "choices": [
+        "Las normas de la separación de bienes",
+        "Las normas del matrimonio",
+        "Las normas que regulan el divorcio",
+        "Ninguna norma aplica"
+    ],
+    "correctAnswer": "Las normas que regulan el divorcio",
+    "explanation": "El artículo 168 establece que son aplicables a la separación de cuerpos las normas que regulan el divorcio en cuanto no fueren incompatibles con ella."
+},
+{
+    "title": "¿Qué debe hacer una persona con hijos de un matrimonio anterior antes de volver a casarse según el artículo 169?",
+    "choices": [
+        "Nada",
+        "Pedir permiso a sus hijos",
+        "Hacer un inventario solemne de los bienes que esté administrando",
+        "Divorciarse legalmente"
+    ],
+    "correctAnswer": "Hacer un inventario solemne de los bienes que esté administrando",
+    "explanation": "El artículo 169 establece que una persona con hijos de un matrimonio anterior debe proceder al inventario solemne de los bienes que esté administrando antes de volver a casarse."
+},
+{
+    "title": "¿Habrá lugar al nombramiento de curador si los hijos no tienen bienes según el artículo 170?",
+    "choices": [
+        "Sí",
+        "No",
+        "Solo si el juez lo considera necesario",
+        "Depende de la situación económica del padre"
+    ],
+    "correctAnswer": "Sí",
+    "explanation": "El artículo 170 establece que habrá lugar al nombramiento de curador aunque los hijos no tengan bienes propios de ninguna clase en poder del padre o de la madre."
+},
+{
+    "title": "¿Qué debe presentar la persona que pretende contraer nuevas nupcias al juez según el artículo 171?",
+    "choices": [
+        "Un testamento",
+        "Una copia auténtica de la providencia por la cual se designó curador a los hijos",
+        "Una autorización firmada por los hijos",
+        "Nada"
+    ],
+    "correctAnswer": "Una copia auténtica de la providencia por la cual se designó curador a los hijos",
+    "explanation": "El artículo 171 establece que el juez se abstendrá de autorizar el matrimonio hasta que la persona que pretende contraer nuevas nupcias presente una copia auténtica de la providencia por la cual se designó curador a los hijos."
+},
+{
+    "title": "¿Qué ocurre si una persona administra con culpa grave los bienes del hijo según el artículo 172?",
+    "choices": [
+        "Pierde el derecho a sucederle como legitimario",
+        "No ocurre nada",
+        "Recibe una multa",
+        "Es condenado a prisión"
+    ],
+    "correctAnswer": "Pierde el derecho a sucederle como legitimario",
+    "explanation": "El artículo 172 establece que la persona que administra con culpa grave o dolo los bienes del hijo perderá el usufructo legal y el derecho a sucederle como legitimario o como heredero abintestato."
+},
+{
+    "title": "¿Puede una mujer embarazada celebrar un segundo matrimonio según el artículo 173?",
+    "choices": [
+        "Sí",
+        "No",
+        "Solo con autorización judicial",
+        "Solo si el embarazo es reconocido por el futuro esposo"
+    ],
+    "correctAnswer": "No",
+    "explanation": "El artículo 173 es declarado inexequible, lo que indica que una mujer embarazada no puede celebrar un segundo matrimonio."
+},
+{
+    "title": "¿Qué prohibición establece el artículo 174 respecto a las segundas nupcias?",
+    "choices": [
+        "No se puede casar con el mismo cónyuge",
+        "No se puede casar si hay hijos menores",
+        "No se puede celebrar un segundo matrimonio mientras esté vigente el primero",
+        "Este artículo fue declarado inexequible"
+    ],
+    "correctAnswer": "Este artículo fue declarado inexequible",
+    "explanation": "El artículo 174 fue declarado inexequible, por lo tanto, no establece ninguna prohibición vigente."
+},
+{
+    "title": "¿Qué obligación tienen los cónyuges entre sí según el artículo 176?",
+    "choices": [
+        "No tienen ninguna obligación",
+        "Están obligados a guardarse fe, a socorrerse y ayudarse mutuamente",
+        "Deben vivir separados",
+        "Deben compartir todos los bienes"
+    ],
+    "correctAnswer": "Están obligados a guardarse fe, a socorrerse y ayudarse mutuamente",
+    "explanation": "El artículo 176 establece que los cónyuges están obligados a guardarse fe, a socorrerse y ayudarse mutuamente en todas las circunstancias de la vida."
+},
+{
+    "title": "¿Quién tiene la dirección del hogar según el artículo 177?",
+    "choices": [
+        "El marido",
+        "La mujer",
+        "Ambos cónyuges conjuntamente",
+        "El hijo mayor"
+    ],
+    "correctAnswer": "Ambos cónyuges conjuntamente",
+    "explanation": "El artículo 177 establece que el marido y la mujer tienen conjuntamente la dirección del hogar."
+},
+{
+    "title": "¿Tienen los cónyuges la obligación de vivir juntos según el artículo 178?",
+    "choices": [
+        "No, pueden vivir separados",
+        "Sí, salvo causa justificada",
+        "Solo si tienen hijos",
+        "Solo si el juez lo ordena"
+    ],
+    "correctAnswer": "Sí, salvo causa justificada",
+    "explanation": "El artículo 178 establece que, salvo causa justificada, los cónyuges tienen la obligación de vivir juntos."
+},
+{
+    "title": "¿Quién fija la residencia del hogar en caso de desacuerdo según el artículo 179?",
+    "choices": [
+        "El marido",
+        "La mujer",
+        "El juez",
+        "El hijo mayor"
+    ],
+    "correctAnswer": "El juez",
+    "explanation": "El artículo 179 establece que, en caso de desacuerdo, corresponde al juez fijar la residencia del hogar teniendo en cuenta el interés de la familia."
+},
+{
+    "title": "¿Qué ocurre con la sociedad de bienes por el hecho del matrimonio según el artículo 180?",
+    "choices": [
+        "Se disuelve",
+        "Se mantiene separada",
+        "Se contrae",
+        "Se elimina"
+    ],
+    "correctAnswer": "Se contrae",
+    "explanation": "El artículo 180 establece que por el hecho del matrimonio se contrae una sociedad de bienes entre los cónyuges, según las reglas del título 22, libro IV del Código Civil."
+},
+{
+    "title": "¿Necesita la mujer casada mayor de edad autorización marital para administrar sus bienes según el artículo 181?",
+    "choices": [
+        "Sí",
+        "No",
+        "Solo en casos especiales",
+        "Depende de la ley"
+    ],
+    "correctAnswer": "No",
+    "explanation": "El artículo 181 establece que la mujer casada, mayor de edad, puede administrar y disponer de sus bienes sin necesidad de autorización marital ni licencia del juez."
+},
+{
+    "title": "¿Cuál es el estado legal de los artículos 182 a 187 según sus notas de vigencia?",
+    "choices": [
+        "Están vigentes",
+        "Están modificados",
+        "Están derogados",
+        "Están en revisión"
+    ],
+    "correctAnswer": "Están derogados",
+    "explanation": "Los artículos 182 a 187 fueron derogados por la Ley 28 de 1932, la cual introdujo reformas al régimen patrimonial del matrimonio que suprimieron la potestad marital."
 }
+,
+{
+  "title": "¿Qué se entiende por impugnación de la maternidad según el artículo 335?",
+  "choices": [
+      "La madre puede renunciar a sus derechos sobre el hijo",
+      "La impugnación de la maternidad se refiere a probar que una mujer no es la verdadera madre del hijo",
+      "El hijo puede elegir a sus padres biológicos",
+      "La madre puede reclamar la patria potestad sobre cualquier niño"
+  ],
+  "correctAnswer": "La impugnación de la maternidad se refiere a probar que una mujer no es la verdadera madre del hijo",
+  "explanation": "El artículo 335 establece que la impugnación de la maternidad es el hecho de probar que una mujer no es la verdadera madre del hijo que pasa por suyo, mediante la demostración de un falso parto o suplantación del hijo."
+},
+{
+  "title": "¿Quiénes tienen derecho a impugnar la maternidad según el artículo 335?",
+  "choices": [
+      "Solo el padre biológico",
+      "Cualquier persona interesada",
+      "El marido de la supuesta madre, la madre supuesta, los verdaderos padres legítimos y la verdadera madre",
+      "Solo la madre biológica"
+  ],
+  "correctAnswer": "El marido de la supuesta madre, la madre supuesta, los verdaderos padres legítimos y la verdadera madre",
+  "explanation": "El artículo 335 menciona que tienen derecho a impugnar la maternidad el marido de la supuesta madre, la madre supuesta, los verdaderos padre y madre legítimos del hijo, y la verdadera madre."
+},
+{
+  "title": "¿En qué circunstancias fue derogado el artículo 336?",
+  "choices": [
+      "Por la Ley 1060 de 2006",
+      "Por la Ley 153 de 1887",
+      "Por el Decreto 2820 de 1974",
+      "No fue derogado"
+  ],
+  "correctAnswer": "Por la Ley 1060 de 2006",
+  "explanation": "El artículo 336 fue derogado por el artículo 12 de la Ley 1060 de 2006."
+},
+{
+  "title": "¿Qué derecho se concede a terceros según el artículo 337?",
+  "choices": [
+      "Impugnar la paternidad",
+      "Adoptar al hijo",
+      "Impugnar la maternidad si perjudica sus derechos sucesorios",
+      "Reclamar la patria potestad del hijo"
+  ],
+  "correctAnswer": "Impugnar la maternidad si perjudica sus derechos sucesorios",
+  "explanation": "El artículo 337 establece que se concede la acción de impugnación de la maternidad a toda persona a quien la maternidad putativa perjudique actualmente en sus derechos sobre sucesión testamentaria o abintestato."
+},
+{
+  "title": "¿Qué sucede con los que participaron en el fraude de falso parto según el artículo 338?",
+  "choices": [
+      "Podrán reclamar los derechos de patria potestad",
+      "Podrán exigir alimentos al hijo",
+      "No podrán beneficiarse del descubrimiento del fraude",
+      "Podrán suceder en los bienes del hijo por causa de muerte"
+  ],
+  "correctAnswer": "No podrán beneficiarse del descubrimiento del fraude",
+  "explanation": "El artículo 338 establece que aquellos que participaron en el fraude de falso parto o suplantación no podrán beneficiarse del descubrimiento del fraude, ni aun para ejercer sobre el hijo los derechos de patria potestad, exigirle alimentos o suceder en sus bienes por causa de muerte."
+}
+,
+
+  {
+    title: "¿Qué se asume si dos o más personas perecen en un mismo acontecimiento y no puede saberse el orden de sus fallecimientos?",
+    choices: [
+      "Que una persona sobrevivió a las otras.",
+      "Que todas perecieron en el mismo momento.",
+      "Que las personas desaparecieron.",
+      "Que el evento no afectó a ninguna de las personas."
+    ],
+    correctAnswer: "Que todas perecieron en el mismo momento.",
+    explanation: "Si no puede determinarse el orden de fallecimientos en un mismo acontecimiento, se procede como si todas las personas hubiesen perecido en el mismo momento, según el artículo 95."
+  },
+  {
+    title: "¿Qué se considera cuando una persona desaparece del lugar de su domicilio ignorándose su paradero?",
+    choices: [
+      "Se asume que ha fallecido.",
+      "Se mira el desaparecimiento como mera ausencia.",
+      "Se le declara prófugo.",
+      "Se le confiscan todos sus bienes."
+    ],
+    correctAnswer: "Se mira el desaparecimiento como mera ausencia.",
+    explanation: "Según el artículo 96, si una persona desaparece de su domicilio y se ignora su paradero, se considera como mera ausencia y se encargarán de sus intereses sus apoderados o representantes legales."
+  },
+  {
+    title: "¿Qué condiciones deben cumplirse para declarar la presunción de muerte de una persona ausente?",
+    choices: [
+      "Que pasen cinco años sin noticias.",
+      "Que pasen dos años sin noticias y se cumplan condiciones específicas.",
+      "Que se encuentre el cuerpo.",
+      "Que la familia lo solicite."
+    ],
+    correctAnswer: "Que pasen dos años sin noticias y se cumplan condiciones específicas.",
+    explanation: "Para declarar la presunción de muerte, deben pasar dos años sin noticias del ausente y cumplirse varias condiciones, según el artículo 97."
+  },
+  {
+    title: "¿Quiénes son considerados herederos presuntivos de una persona desaparecida?",
+    choices: [
+      "Sus amigos cercanos.",
+      "El Estado.",
+      "Los testamentarios o legítimos que lo eran a la fecha de la muerte presunta.",
+      "Cualquier persona que lo reclame."
+    ],
+    correctAnswer: "Los testamentarios o legítimos que lo eran a la fecha de la muerte presunta.",
+    explanation: "Los herederos presuntivos son los testamentarios o legítimos a la fecha de la muerte presunta, conforme al artículo 100."
+  },
+  {
+    title: "¿Qué ocurre con el derecho de posesión definitiva si el desaparecido reaparece?",
+    choices: [
+      "El derecho de posesión se mantiene.",
+      "El decreto de posesión definitiva se rescinde a favor del desaparecido.",
+      "El desaparecido pierde todos sus derechos.",
+      "El derecho de posesión se transfiere al Estado."
+    ],
+    correctAnswer: "El decreto de posesión definitiva se rescinde a favor del desaparecido.",
+    explanation: "Si el desaparecido reaparece, el decreto de posesión definitiva puede rescindirse a su favor, conforme al artículo 108."
+  },
+  {
+    title: "¿Qué establece el Código Civil sobre los esponsales o desposorios?",
+    choices: [
+      "Que son un contrato legalmente vinculante.",
+      "Que no producen obligación alguna ante la ley civil.",
+      "Que siempre requieren la aprobación de un juez.",
+      "Que implican una sanción en caso de incumplimiento."
+    ],
+    correctAnswer: "Que no producen obligación alguna ante la ley civil.",
+    explanation: "Los esponsales o desposorios no producen ninguna obligación ante la ley civil, según el artículo 110."
+  },
+  {
+    title: "¿Puede pedirse una multa por incumplimiento de la promesa de matrimonio?",
+    choices: [
+      "Sí, siempre que se haya estipulado en el acuerdo.",
+      "No, la promesa de matrimonio no produce obligaciones legales.",
+      "Sí, si ambas partes están de acuerdo.",
+      "No, a menos que se haya registrado oficialmente."
+    ],
+    correctAnswer: "No, la promesa de matrimonio no produce obligaciones legales.",
+    explanation: "No puede pedirse una multa por incumplimiento de la promesa de matrimonio, conforme al artículo 111."
+  },
+  {
+    title: "¿Qué se puede demandar si un matrimonio prometido no se efectúa?",
+    choices: [
+      "Indemnización por daños y perjuicios.",
+      "Restitución de las cosas donadas bajo la condición de matrimonio.",
+      "Multa compensatoria.",
+      "Nada, ya que no se producen obligaciones legales."
+    ],
+    correctAnswer: "Restitución de las cosas donadas bajo la condición de matrimonio.",
+    explanation: "Si un matrimonio prometido no se efectúa, se puede demandar la restitución de las cosas donadas bajo esa condición, según el artículo 112."
+  },
+  {
+    title: "¿Qué sucede con los derechos que se diferirían a una criatura que está en el vientre materno?",
+    choices: [
+      "Se otorgan automáticamente a los padres.",
+      "Están suspensos hasta que el nacimiento se efectúe.",
+      "Se transfieren al Estado.",
+      "Se otorgan al tutor legal."
+    ],
+    correctAnswer: "Están suspensos hasta que el nacimiento se efectúe.",
+    explanation: "Según el artículo 93, los derechos diferidos a una criatura en el vientre materno están suspensos hasta que el nacimiento se efectúe."
+  },
+  {
+    title: "¿Cuándo termina la existencia de una persona según el Código Civil?",
+    choices: [
+      "Al cumplir 100 años.",
+      "Con la muerte.",
+      "Al ser declarado incapacitado.",
+      "Al perder todos sus bienes."
+    ],
+    correctAnswer: "Con la muerte.",
+    explanation: "La existencia de una persona termina con la muerte, conforme al artículo 94."
+  },
+  {
+    title: "¿Qué se asume si dos o más personas perecen en un mismo acontecimiento y no puede saberse el orden de sus fallecimientos?",
+    choices: [
+      "Que una persona sobrevivió a las otras.",
+      "Que todas perecieron en el mismo momento.",
+      "Que las personas desaparecieron.",
+      "Que el evento no afectó a ninguna de las personas."
+    ],
+    correctAnswer: "Que todas perecieron en el mismo momento.",
+    explanation: "Si no puede determinarse el orden de fallecimientos en un mismo acontecimiento, se procede como si todas las personas hubiesen perecido en el mismo momento, según el artículo 95."
+  },
+  {
+    title: "¿Qué se considera cuando una persona desaparece del lugar de su domicilio ignorándose su paradero?",
+    choices: [
+      "Se asume que ha fallecido.",
+      "Se mira el desaparecimiento como mera ausencia.",
+      "Se le declara prófugo.",
+      "Se le confiscan todos sus bienes."
+    ],
+    correctAnswer: "Se mira el desaparecimiento como mera ausencia.",
+    explanation: "Según el artículo 96, si una persona desaparece de su domicilio y se ignora su paradero, se considera como mera ausencia y se encargarán de sus intereses sus apoderados o representantes legales."
+  },
+  {
+    title: "¿Qué condiciones deben cumplirse para declarar la presunción de muerte de una persona ausente?",
+    choices: [
+      "Que pasen cinco años sin noticias.",
+      "Que pasen dos años sin noticias y se cumplan condiciones específicas.",
+      "Que se encuentre el cuerpo.",
+      "Que la familia lo solicite."
+    ],
+    correctAnswer: "Que pasen dos años sin noticias y se cumplan condiciones específicas.",
+    explanation: "Para declarar la presunción de muerte, deben pasar dos años sin noticias del ausente y cumplirse varias condiciones, según el artículo 97."
+  },
+  {
+    title: "¿Quiénes son considerados herederos presuntivos de una persona desaparecida?",
+    choices: [
+      "Sus amigos cercanos.",
+      "El Estado.",
+      "Los testamentarios o legítimos que lo eran a la fecha de la muerte presunta.",
+      "Cualquier persona que lo reclame."
+    ],
+    correctAnswer: "Los testamentarios o legítimos que lo eran a la fecha de la muerte presunta.",
+    explanation: "Los herederos presuntivos son los testamentarios o legítimos a la fecha de la muerte presunta, conforme al artículo 100."
+  },
+  {
+    title: "¿Qué ocurre con el derecho de posesión definitiva si el desaparecido reaparece?",
+    choices: [
+      "El derecho de posesión se mantiene.",
+      "El decreto de posesión definitiva se rescinde a favor del desaparecido.",
+      "El desaparecido pierde todos sus derechos.",
+      "El derecho de posesión se transfiere al Estado."
+    ],
+    correctAnswer: "El decreto de posesión definitiva se rescinde a favor del desaparecido.",
+    explanation: "Si el desaparecido reaparece, el decreto de posesión definitiva puede rescindirse a su favor, conforme al artículo 108."
+  },
+  {
+    title: "¿Qué establece el Código Civil sobre los esponsales o desposorios?",
+    choices: [
+      "Que son un contrato legalmente vinculante.",
+      "Que no producen obligación alguna ante la ley civil.",
+      "Que siempre requieren la aprobación de un juez.",
+      "Que implican una sanción en caso de incumplimiento."
+    ],
+    correctAnswer: "Que no producen obligación alguna ante la ley civil.",
+    explanation: "Los esponsales o desposorios no producen ninguna obligación ante la ley civil, según el artículo 110."
+  },
+  {
+    title: "¿Puede pedirse una multa por incumplimiento de la promesa de matrimonio?",
+    choices: [
+      "Sí, siempre que se haya estipulado en el acuerdo.",
+      "No, la promesa de matrimonio no produce obligaciones legales.",
+      "Sí, si ambas partes están de acuerdo.",
+      "No, a menos que se haya registrado oficialmente."
+    ],
+    correctAnswer: "No, la promesa de matrimonio no produce obligaciones legales.",
+    explanation: "No puede pedirse una multa por incumplimiento de la promesa de matrimonio, conforme al artículo 111."
+  },
+  {
+    title: "¿Qué se puede demandar si un matrimonio prometido no se efectúa?",
+    choices: [
+      "Indemnización por daños y perjuicios.",
+      "Restitución de las cosas donadas bajo la condición de matrimonio.",
+      "Multa compensatoria.",
+      "Nada, ya que no se producen obligaciones legales."
+    ],
+    correctAnswer: "Restitución de las cosas donadas bajo la condición de matrimonio.",
+    explanation: "Si un matrimonio prometido no se efectúa, se puede demandar la restitución de las cosas donadas bajo esa condición, según el artículo 112."
+  },
 ];
 
 // Función para seleccionar aleatoriamente 20 preguntas
