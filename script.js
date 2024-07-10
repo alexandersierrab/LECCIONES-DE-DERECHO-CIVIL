@@ -6482,10 +6482,13 @@ correctAnswer: "La Corte aceptó por primera vez que el juez corrigiera un contr
 
 // Función para seleccionar aleatoriamente 20 preguntas
 function getRandomQuestions(allQuestions, numQuestions = 10) {
-  const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+  const shuffled = [...allQuestions]; // Hacer una copia para no alterar el arreglo original
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]; // Swap elementos
+  }
   return shuffled.slice(0, numQuestions);
 }
-
 let questions = getRandomQuestions(allQuestions);
 let currentQuestionIndex = 0;
 let score = 0;
