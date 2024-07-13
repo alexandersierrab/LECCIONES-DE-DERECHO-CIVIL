@@ -11,6 +11,315 @@ const allQuestions = [
     explanation: "El Código Civil es fundamental para regular diversos aspectos de la vida civil de los individuos, estableciendo un marco legal para los derechos y obligaciones que emergen de las relaciones personales y patrimoniales."
   },
   {
+    title: "El endoso parcial en un título valor se tendrá como:",
+    choices: [
+      "Válido.",
+      "Falso.",
+      "No escrito.",
+      "Inválido."
+    ],
+    correctAnswer: "No escrito.",
+    explanation: "El endoso parcial en un título valor se tendrá por no escrito."
+  },
+  {
+    title: "El endoso en garantía conferirá además las facultades del endoso.",
+    choices: [
+      "Prenda.",
+      "Propiedad.",
+      "Procuración.",
+      "Posterior al vencimiento."
+    ],
+    correctAnswer: "Prenda.",
+    explanation: "El endoso en garantía confiere las facultades de un endoso en prenda."
+  },
+  {
+    title: "Los títulos valores que no se expiden a favor de persona determinada son títulos valores:",
+    choices: [
+      "En blanco.",
+      "Al portador.",
+      "A la orden.",
+      "Incompletos."
+    ],
+    correctAnswer: "Al portador.",
+    explanation: "Los títulos valores al portador no se expiden a favor de persona determinada."
+  },
+  {
+    title: "Los títulos valores que se expiden sin el lleno de los requisitos dispuestos por la ley serán:",
+    choices: [
+      "Inválidos.",
+      "Válidos.",
+      "Inexistentes.",
+      "Existentes."
+    ],
+    correctAnswer: "Inválidos.",
+    explanation: "Los títulos valores que se expiden sin el lleno de los requisitos dispuestos por la ley serán inválidos."
+  },
+  {
+    title: "Los elementos esenciales de todo contrato son:",
+    choices: [
+      "Aquellos que por su naturaleza le pertenecen.",
+      "Los que las partes tienen a bien estipular o pactar.",
+      "Capacidad, consentimiento, objeto y causa lícitos.",
+      "Aquellos que aunque no se pacten, se entienden inmersos en él."
+    ],
+    correctAnswer: "Capacidad, consentimiento, objeto y causa lícitos.",
+    explanation: "Los elementos esenciales del contrato son capacidad, consentimiento, objeto y causa lícitos."
+  },
+  {
+    title: "Los elementos de la naturaleza del contrato son:",
+    choices: [
+      "Aquellos que, aunque las partes olviden incluirlos, se entienden inmersos en él.",
+      "Aquellos que deben ser incluidos en el contrato para que produzcan efectos frente a las partes y los terceros.",
+      "Capacidad y consentimiento libre de vicios.",
+      "Objeto y causa lícitos."
+    ],
+    correctAnswer: "Aquellos que, aunque las partes olviden incluirlos, se entienden inmersos en él.",
+    explanation: "Los elementos de la naturaleza del contrato son aquellos que, aunque las partes olviden incluirlos, se entienden inmersos en él."
+  },
+  {
+    title: "Los elementos accesorios del contrato son:",
+    choices: [
+      "El plazo y la forma de pago.",
+      "Aquellos que deben ser objeto de acuerdo expreso para que produzcan efectos.",
+      "Aquellos que por su ausencia no pueden ser ejecutados o exigidos.",
+      "Aquellos que, a pesar de no ser incluidos por las partes, se pueden exigir o ejecutar."
+    ],
+    correctAnswer: "Aquellos que deben ser objeto de acuerdo expreso para que produzcan efectos.",
+    explanation: "Los elementos accesorios del contrato son aquellos que deben ser objeto de acuerdo expreso para que produzcan efectos."
+  },
+  {
+    title: "Los elementos esenciales del contrato de seguro son:",
+    choices: [
+      "El riesgo y el interés asegurable.",
+      "La prima, el riesgo y el interés asegurable.",
+      "El interés asegurable, el riesgo, la prima y la obligación condicional de la aseguradora.",
+      "El objeto, el riesgo, y la obligación condicional."
+    ],
+    correctAnswer: "El interés asegurable, el riesgo, la prima y la obligación condicional de la aseguradora.",
+    explanation: "Los elementos esenciales del contrato de seguro son el interés asegurable, el riesgo, la prima y la obligación condicional de la aseguradora."
+  },
+  {
+    title: "El termino de la acción de saneamiento por evicción se empieza a contar:",
+    choices: [
+      "A partir de la fecha de celebración de la venta.",
+      "A partir de la fecha de la entrega de la cosa al comprador.",
+      "Desde la fecha de la sentencia de evicción.",
+      "A partir de la fecha en que el comprador tuvo conocimiento del hecho perturbatorio."
+    ],
+    correctAnswer: "Desde la fecha de la sentencia de evicción.",
+    explanation: "El término de la acción de saneamiento por evicción se empieza a contar desde la fecha de la sentencia de evicción."
+  },
+  {
+    title: "La acción redhibitoria procede cuando:",
+    choices: [
+      "El comprador pide la rescisión del contrato.",
+      "El comprador pide la rescisión por resultar evicta la cosa.",
+      "Existen vicios ocultos en la cosa vendida.",
+      "Se pide rebaja del precio por desperfectos de la cosa vendida."
+    ],
+    correctAnswer: "Existen vicios ocultos en la cosa vendida.",
+    explanation: "La acción redhibitoria procede cuando existen vicios ocultos en la cosa vendida."
+  },
+  {
+    title: "La cesión de un crédito solo produce efectos contra el deudor y los terceros, cuando:",
+    choices: [
+      "Se entrega el título al cesionario.",
+      "Haya sido notificada por el cesionario al deudor.",
+      "Cuando el deudor la haya aceptado.",
+      "Cuando el acreedor la comunica al deudor."
+    ],
+    correctAnswer: "Haya sido notificada por el cesionario al deudor.",
+    explanation: "La cesión de un crédito solo produce efectos contra el deudor y los terceros cuando haya sido notificada por el cesionario al deudor."
+  },
+  {
+    title: "En el contrato de comodato: el comodatario responde frente al comodante o dueño de la cosa, respecto al grado de culpa:",
+    choices: [
+      "Solo por eventos de culpa grave.",
+      "Solo por eventos de culpa leve.",
+      "Solo por eventos de culpa levísima.",
+      "Por regla general hasta por eventos de culpa levísima, y excepcionalmente por eventos de culpa leve."
+    ],
+    correctAnswer: "Por regla general hasta por eventos de culpa levísima, y excepcionalmente por eventos de culpa leve.",
+    explanation: "En el contrato de comodato, el comodatario responde por regla general hasta por eventos de culpa levísima, y excepcionalmente por eventos de culpa leve."
+  },
+  {
+    title: "En el contrato de depósito: el deudor obligado a restituir la cosa tiene frente al depositante una obligación por el grado de culpa cometida:",
+    choices: [
+      "Por regla general solo por eventos de culpa grave, excepcionalmente por eventos de culpa leve.",
+      "Solo por eventos de culpa levísima.",
+      "Solo por eventos de culpa grave.",
+      "Solo por eventos de culpa leve."
+    ],
+    correctAnswer: "Por regla general solo por eventos de culpa grave, excepcionalmente por eventos de culpa leve.",
+    explanation: "En el contrato de depósito, el deudor obligado a restituir la cosa tiene una obligación por el grado de culpa cometida, por regla general solo por eventos de culpa grave, excepcionalmente por eventos de culpa leve."
+  },
+  {
+    title: "En el contrato de mandato: el mandatario tiene una responsabilidad frente al mandante, respecto al grado de culpa:",
+    choices: [
+      "Solo por eventos de culpa levísima.",
+      "Solo por eventos de culpa grave.",
+      "Por regla general responde hasta de la culpa leve, y excepcionalmente solo por la culpa grave cuando ha sido compelido u obligado al encargo.",
+      "Nunca responde por la culpa grave."
+    ],
+    correctAnswer: "Por regla general responde hasta de la culpa leve, y excepcionalmente solo por la culpa grave cuando ha sido compelido u obligado al encargo.",
+    explanation: "En el contrato de mandato, el mandatario responde por regla general hasta de la culpa leve, y excepcionalmente solo por la culpa grave cuando ha sido compelido u obligado al encargo."
+  },
+  {
+    title: "Los herederos del pasajero fallecido en el contrato de transporte, pueden:",
+    choices: [
+      "Cobrar solo perjuicios materiales (daño emergente y lucro cesante).",
+      "En una sola demanda reclamar lo del literal a.",
+      "En demanda separada lo del literal d.",
+      "Cobrar daño moral y perjuicios materiales propios y mortis causa."
+    ],
+    correctAnswer: "Cobrar daño moral y perjuicios materiales propios y mortis causa.",
+    explanation: "Los herederos del pasajero fallecido en el contrato de transporte pueden cobrar daño moral y perjuicios materiales propios y mortis causa."
+  },
+  {
+    title: "El médico está autorizado para revelar el secreto profesional:",
+    choices: [
+      "Para solucionar problemas espirituales del paciente.",
+      "Para evitar la propagación de enfermedades infectocontagiosas.",
+      "Cuando la revelación es útil al paciente o a sus familiares.",
+      "Todas son correctas."
+    ],
+    correctAnswer: "Todas son correctas.",
+    explanation: "El médico puede revelar el secreto profesional para solucionar problemas espirituales del paciente, evitar la propagación de enfermedades infectocontagiosas, o cuando la revelación es útil al paciente o a sus familiares."
+  },
+  {
+    title: "El artículo 58º de la Constitución Política, en su inciso segundo, preceptúa que la propiedad es una función social que implica obligaciones. Del análisis del artículo se desprende que:",
+    choices: [
+      "La propiedad es función social cuando pertenece en su totalidad al Estado sin permitir la titulación en manos privadas o particulares.",
+      "El titular de un bien debe realizar medidas tendientes a la conservación ecológica del mismo.",
+      "La propiedad tiene función social cuando el propietario de un bien debe hacer primar el interés general por encima de su interés particular.",
+      "La propiedad es función social en la medida que se acepta la expropiación, mediante sentencia judicial e indemnización previa, por lo cual el propietario particular debe transferir al Estado un bien para cumplir fines de utilidad pública o de interés social."
+    ],
+    correctAnswer: "La propiedad tiene función social cuando el propietario de un bien debe hacer primar el interés general por encima de su interés particular.",
+    explanation: "La propiedad tiene función social cuando el propietario de un bien debe hacer primar el interés general por encima de su interés particular."
+  },
+  {
+    title: "Una de las características del derecho de propiedad es su exclusividad. Según esta característica, el propietario puede oponerse a la intromisión de un tercero en el ejercicio de su derecho. Sin embargo, a pesar de la exclusividad que se predica de la propiedad, el mismo propietario o la ley, crean en favor de terceros la posibilidad de utilizar los atributos del derecho. Señale un ejemplo que NO corresponda a esta situación:",
+    choices: [
+      "Un propietario de un bien inmueble tiene los tres atributos: facultad de servirse de la cosa, de obtener sus frutos y de disponer del bien.",
+      "El propietario de una finca la entrega en arrendamiento, desprendiéndose de la facultad de disposición sobre la misma.",
+      "El propietario de un predio sirviente soporta el tránsito de sus vecinos para acceder a una vía pública.",
+      "El nudo propietario de un bien inmueble, ostenta la facultad de apropiarse de los frutos del mismo."
+    ],
+    correctAnswer: "El nudo propietario de un bien inmueble, ostenta la facultad de apropiarse de los frutos del mismo.",
+    explanation: "El nudo propietario no tiene la facultad de apropiarse de los frutos del bien, ya que esta facultad corresponde al usufructuario."
+  },
+  {
+    title: "La propiedad se caracteriza por ser perpetua, es decir, la propiedad dura tanto cuanto dure la cosa y no se extingue por el no uso. Un ejemplo que clarifique esta característica es:",
+    choices: [
+      "La propiedad artística o intelectual que se tiene durante la vida del autor y 80 años más.",
+      "El abandono voluntario de una cosa por su dueño.",
+      "La sucesión por causa de muerte, pues los bienes del causante se perpetúan en sus herederos o legatarios.",
+      "Celebrar un contrato de compraventa con un tercero."
+    ],
+    correctAnswer: "La sucesión por causa de muerte, pues los bienes del causante se perpetúan en sus herederos o legatarios.",
+    explanation: "La sucesión por causa de muerte es un ejemplo de la perpetuidad de la propiedad, ya que los bienes del causante se perpetúan en sus herederos o legatarios."
+  },
+  {
+    title: "El artículo 671 del Código Civil afirma que: “las producciones del talento o del ingenio son una especie de propiedad de sus autores. La propiedad intelectual recae sobre una obra literaria o artística, y por tal razón su objeto es:",
+    choices: [
+      "Bienes morales e intelectuales.",
+      "Bienes incorporales e intangibles.",
+      "Bienes tangibles y morales.",
+      "Bienes extra patrimoniales e incorporales."
+    ],
+    correctAnswer: "Bienes incorporales e intangibles.",
+    explanation: "La propiedad intelectual recae sobre bienes incorporales e intangibles, como las producciones del talento o del ingenio."
+  },
+  {
+    title: "Cuando el autor de una obra literaria recibe dinero por la radiodifusión o transmisión de la obra al público, y además, tiene la facultad de modificarla y retirarla del mercado; se evidencian estas características de la propiedad intelectual:",
+    choices: [
+      "Su carácter pecuniario o patrimonial del cual puede su autor sacar beneficios y su carácter moral pues emana de la personalidad humana como producto de su intelecto.",
+      "Su carácter intelectual dado que los beneficios son irrenunciables e inembargables y están por fuera del comercio.",
+      "Su carácter de derechos personales, pues la titularidad radica en una persona unida a un vínculo obligacional con el productor de la obra.",
+      "Su carácter moral e intelectual porque las producciones artísticas tienen un contenido pecuniario y el público puede modificarlas antes o después de su publicación."
+    ],
+    correctAnswer: "Su carácter pecuniario o patrimonial del cual puede su autor sacar beneficios y su carácter moral pues emana de la personalidad humana como producto de su intelecto.",
+    explanation: "La propiedad intelectual tiene un carácter pecuniario o patrimonial del cual puede su autor sacar beneficios y un carácter moral pues emana de la personalidad humana como producto de su intelecto."
+  },
+  {
+    title: "La propiedad industrial está regulada por el código de comercio, siendo una especie de propiedad intelectual y dentro de ella, su objeto tiene una finalidad específica de tipo industrial y comercial. Dicha propiedad se ejerce sobre:",
+    choices: [
+      "Fonogramas, video gramas, películas fotográficas y su ejecución, recitación, representación y adaptación.",
+      "Marcas de fábrica o comercio, emblemas, patentes de invención.",
+      "Imprenta, grabados y patentes.",
+      "Todo tipo de bienes incorporales."
+    ],
+    correctAnswer: "Marcas de fábrica o comercio, emblemas, patentes de invención.",
+    explanation: "La propiedad industrial se ejerce sobre marcas de fábrica o comercio, emblemas y patentes de invención."
+  },
+  {
+    title: "En materia de responsabilidad civil, la causa extraña es aplicable tanto en el campo contractual como en el extracontractual. La causa extraña se configura como:",
+    choices: [
+      "La ocurrencia de un evento extraño pero controlable por parte del demandado.",
+      "La fuerza mayor manifestada en los fenómenos naturales y que es jurídicamente ajeno al sujeto pasivo.",
+      "El evento irresistible y jurídicamente ajeno al agente causante del daño.",
+      "El evento ajeno a las partes aplicable jurídicamente al deudor."
+    ],
+    correctAnswer: "El evento irresistible y jurídicamente ajeno al agente causante del daño.",
+    explanation: "La causa extraña se configura como el evento irresistible y jurídicamente ajeno al agente causante del daño."
+  },
+  {
+    title: "Los requisitos para que haya causa extraña son:",
+    choices: [
+      "La imprevisibilidad, la irresistibilidad y la exterioridad.",
+      "La irresistibilidad, la incapacidad física y la extemporaneidad.",
+      "La imprevisión contractual, la irresistibilidad y la eventualidad.",
+      "Lo improvisto o repentino, la extrañeidad y la eventualidad."
+    ],
+    correctAnswer: "La imprevisibilidad, la irresistibilidad y la exterioridad.",
+    explanation: "Los requisitos para que haya causa extraña son la imprevisibilidad, la irresistibilidad y la exterioridad."
+  },
+  {
+    title: "El daño civil indemnizable es el menoscabo a las facultades jurídicas que tiene una persona para disfrutar un bien patrimonial o extrapatrimonial. Ese daño es indemnizable cuando en forma ilícita es causado por:",
+    choices: [
+      "La víctima",
+      "Cualquiera de las partes (acreedor o deudor)",
+      "Alguien diferente de la víctima",
+      "Un tercero que obra solo con dolo."
+    ],
+    correctAnswer: "Alguien diferente de la víctima",
+    explanation: "El daño civil es indemnizable cuando es causado en forma ilícita por alguien diferente de la víctima."
+  },
+  {
+    title: "La responsabilidad civil es una de las fuentes de las obligaciones. Esta se genera en los hechos, acciones u omisiones que generan daños o perjuicios a las personas, u contrarían el orden jurídico. Señale cuáles son las fuentes de la responsabilidad civil:",
+    choices: [
+      "El incumplimiento de la promesa y la comisión de un hecho punible.",
+      "El incumplimiento de las obligaciones y la transgresión de derechos individuales.",
+      "El incumplimiento de la obligación y la comisión del hecho ilícito.",
+      "El incumplimiento de una norma de carácter imperativo y la transgresión de las buenas costumbres."
+    ],
+    correctAnswer: "El incumplimiento de la obligación y la comisión del hecho ilícito.",
+    explanation: "Las fuentes de la responsabilidad civil son el incumplimiento de la obligación y la comisión del hecho ilícito."
+  },
+  {
+    title: "Las personas actúan o se abstienen de hacerlo, como también pueden generarse hechos de personas a su cargo o de sus cosas, y esa conducta o actividad puede ser culpable, con presunción de culpa o con responsabilidad objetiva. Con ello, la clasificación de la culpabilidad en materia de responsabilidad civil se divide en:",
+    choices: [
+      "La culpa propia, la culpa impropia y la culpa lata.",
+      "La culpa grave, la culpa leve, la culpa levísima y el dolo.",
+      "La culpa leve y la culpa grave.",
+      "La culpa leve, culpa grave y el dolo."
+    ],
+    correctAnswer: "La culpa grave, la culpa leve, la culpa levísima y el dolo.",
+    explanation: "La clasificación de la culpabilidad en materia de responsabilidad civil se divide en la culpa grave, la culpa leve, la culpa levísima y el dolo."
+  },
+  {
+    title: "Manuel Prieto sale todas las mañanas a trotar en las calles de su barrio, un día se hirió en un pie al pisar unos clavos que había en la calle, pertenecientes a una obra de sector. Como consecuencia, le cosieron la herida con cinco puntos de sutura. Además, tuvieron que ponerle una vacuna. En los días posteriores Manuel tuvo que acudir a hacer ciertas curas en el pie, además de ir a rehabilitación. Del caso anterior, siendo usted el abogado de Manuel. ¿Qué presupuestos jurídicos argumentaría para reclamar la debida indemnización, en caso tal de que hubiera lugar a ella?:",
+    choices: [
+      "Omisión del deber de cuidado por parte de los obreros por imprudencia al trabajar y olvidar los clavos en la calle.",
+      "Un acto omisivo que se refleja en la negligencia en el trabajo de los obreros por dejar los clavos en la vía por donde podrían pasar los transeúntes.",
+      "No hay lugar a la indemnización ya que no se configura la responsabilidad civil.",
+      "Una acción omisiva que se refleja en negligencia, impericia e imprudencia de los trabajadores de la obra por dejar los clavos en la vía donde transitan varias personas y vehículos."
+    ],
+    correctAnswer: "Una acción omisiva que se refleja en negligencia, impericia e imprudencia de los trabajadores de la obra por dejar los clavos en la vía donde transitan varias personas y vehículos.",
+    explanation: "En el caso de Manuel Prieto, se puede argumentar una acción omisiva reflejada en negligencia, impericia e imprudencia de los trabajadores de la obra por dejar los clavos en la vía donde transitan varias personas y vehículos."
+  },
+  
+  {
     title: "¿Cómo se aplica el Código Civil en los territorios administrados por el gobierno general según el Artículo 2?",
     choices: [
       "El Código Civil se aplica solo en asuntos internacionales.",
@@ -43,6 +352,3988 @@ const allQuestions = [
     correctAnswer: "La ley es una declaración de la voluntad soberana manifestada en la forma prevenida en la Constitución Nacional y su carácter general es mandar, prohibir, permitir o castigar.",
     explanation: "La ley, al ser una manifestación de la voluntad soberana, es un instrumento para el orden social, estableciendo normas de conducta y mecanismos de control social a través de mandatos, prohibiciones y sanciones."
   },
+  {
+    title: "Para que exista negocio jurídico, debe cumplirse con los preceptos del art. 1502 del Código Civil, por lo que debe haber consentimiento libre de vicios, como lo son el error, la fuerza y el dolo. Sobre el primero se puede conceptuar que:",
+    choices: [
+        "Es toda maniobra o artificio fraudulento que vicia el consentimiento cuando es obra de una de las partes y aparece claramente que sin él no hubiera nacido el negocio.",
+        "Es todo concepto equivocado que tiene una persona sobre una cosa objeto de negocio jurídico.",
+        "Es toda presión física o moral que se ejerce sobre una persona y que la induce a prestar su voluntad.",
+        "Es toda disposición jurídica sobre la que recae el objeto materia del negocio, o la persona, o el acto mismo que realiza."
+    ],
+    correctAnswer: "Es todo concepto equivocado que tiene una persona sobre una cosa objeto de negocio jurídico.",
+    explanation: "El error, como vicio del consentimiento, se refiere a un concepto equivocado que una persona tiene sobre una cosa que es objeto de un negocio jurídico. Este error puede invalidar el consentimiento y, por ende, el negocio jurídico."
+},
+{
+  title: "El art. 57 de la Ley 1996 de 2019 modifica el art. 1504 del Código Civil, pues reza a su tenor: “Incapacidad absoluta y relativa: Son absolutamente incapaces los impúberes. Sus actos no producen ni aún obligaciones naturales, y no admiten caución. Son también incapaces los menores púberes. Pero la incapacidad de estas personas no es absoluta y sus actos pueden tener valor en ciertas circunstancias y bajo ciertos respectos determinados por las leyes. Además de estas incapacidades hay otras particulares que consisten en la prohibición que la ley ha impuesto a ciertas personas para ejecutar ciertos actos”. De lo anterior podemos inferir que:",
+  choices: [
+      "Desaparece el proceso de interdicción; por lo que, en caso de incapacidad, hay lugar a nombrar salvaguardas tal como lo es el apoyo formal.",
+      "Ostenta capacidad de goce de todo menor de dieciocho años.",
+      "Se presume la capacidad legal de toda persona pese a que se encuentre en situación de discapacidad.",
+      "La incapacidad se determina solamente de acuerdo a la edad del sujeto de derechos."
+  ],
+  correctAnswer: "Desaparece el proceso de interdicción; por lo que, en caso de incapacidad, hay lugar a nombrar salvaguardas tal como lo es el apoyo formal.",
+  explanation: "Con la modificación introducida por la Ley 1996 de 2019, desaparece el proceso de interdicción y se implementan figuras como el apoyo formal para las personas en situación de incapacidad, promoviendo así un enfoque más inclusivo y de apoyo."
+},
+{
+  title: "Son Nacionales Colombianos:",
+  choices: [
+      "Los colombianos por nacimiento cuyo padre o madre no sean colombianos pero que ostenten visa de residente en Colombia.",
+      "Los miembros de los pueblos indígenas que comparten territorios fronterizos y los hijos de colombianos nacidos en el exterior.",
+      "Los extranjeros domiciliados en Colombia y colombianos residentes en el exterior.",
+      "Los hijos de padre y madre colombianos nacidos en el extranjero y que han sido registrados en una oficina consular de la república."
+  ],
+  correctAnswer: "Los hijos de padre y madre colombianos nacidos en el extranjero y que han sido registrados en una oficina consular de la república.",
+  explanation: "De acuerdo con la normativa colombiana, los hijos de padre y madre colombianos nacidos en el extranjero son considerados nacionales colombianos si son registrados en una oficina consular de la república."
+},
+{
+  title: "Son Nacionales Colombianos:",
+  choices: [
+      "Los colombianos por nacimiento cuyo padre o madre no sean colombianos pero que ostenten visa de residente en Colombia.",
+      "Los miembros de los pueblos indígenas que comparten territorios fronterizos y los hijos de colombianos nacidos en el exterior.",
+      "Los extranjeros domiciliados en Colombia y colombianos residentes en el exterior.",
+      "Los hijos de padre y madre colombianos nacidos en el extranjero y que han sido registrados en una oficina consular de la república."
+  ],
+  correctAnswer: "Los hijos de padre y madre colombianos nacidos en el extranjero y que han sido registrados en una oficina consular de la república.",
+  explanation: "De acuerdo con el Artículo 96 de la Constitución Política de Colombia, los hijos de padre y madre colombianos nacidos en el extranjero son considerados nacionales colombianos si son registrados en una oficina consular de la república."
+},
+{
+  title: "En los parentescos están en línea directa:",
+  choices: [
+      "Los hermanos con los primos.",
+      "Los sobrinos con los tíos.",
+      "Los nietos con los abuelos.",
+      "Los cuñados y suegros."
+  ],
+  correctAnswer: "Los nietos con los abuelos.",
+  explanation: "En el parentesco en línea directa, se incluyen las personas que descienden una de otra, como los nietos con los abuelos, tal como se establece en el Artículo 35 del Código Civil Colombiano."
+},
+{
+  title: "Dentro del haber de la sociedad conyugal NO se encuentran:",
+  choices: [
+      "Los salarios que cada uno obtiene.",
+      "Los frutos, pensiones, intereses y lucros.",
+      "Bienes y derechos adquiridos a título oneroso.",
+      "Bienes adquiridos a título gratuito."
+  ],
+  correctAnswer: "Bienes adquiridos a título gratuito.",
+  explanation: "De acuerdo con el Artículo 1782 del Código Civil Colombiano, dentro del haber de la sociedad conyugal no se incluyen los bienes adquiridos a título gratuito, es decir, aquellos que se obtienen sin que exista una contraprestación, como donaciones o herencias."
+},
+{
+  title: "Se presume sociedad patrimonial entre compañeros permanentes y hay lugar a declararla judicialmente en cualquiera de los siguientes casos:",
+  choices: [
+      "Cuando exista unión marital de hecho durante un lapso no inferior a dos años, entre un hombre y una mujer sin impedimento legal para contraer matrimonio.",
+      "Cuando exista unión marital de hecho durante un lapso no inferior a tres años, entre un hombre y una mujer sin impedimento legal para contraer matrimonio.",
+      "Cuando exista unión marital de hecho durante un lapso no inferior a cuatro años, entre un hombre y una mujer sin impedimento legal para contraer matrimonio.",
+      "Cuando exista unión marital de hecho durante un lapso no inferior a cinco años, entre un hombre y una mujer sin impedimento legal para contraer matrimonio."
+  ],
+  correctAnswer: "Cuando exista unión marital de hecho durante un lapso no inferior a dos años, entre un hombre y una mujer sin impedimento legal para contraer matrimonio.",
+  explanation: "De acuerdo con el Artículo 2 de la Ley 54 de 1990 y sus modificaciones, se presume la existencia de una sociedad patrimonial entre compañeros permanentes cuando han convivido en una unión marital de hecho durante un lapso no inferior a dos años, siempre que no exista impedimento legal para contraer matrimonio."
+},
+{
+  title: "Cuando se pretende dar solución a un caso con base en una ley o norma que regula un caso similar estamos ante la regla:",
+  choices: [
+      "Lingüística.",
+      "Iusnaturalista.",
+      "Sistemática.",
+      "Extensiva."
+  ],
+  correctAnswer: "Extensiva.",
+  explanation: "La regla extensiva se aplica cuando se da solución a un caso utilizando una ley o norma que regula un caso similar, ampliando la aplicación de la norma para cubrir situaciones no explícitamente previstas en ella."
+},
+{
+  title: "De las principales reformas al Código Civil, se encuentra:",
+  choices: [
+      "La ley 1258 de 2008 que regula las Sociedades por Acciones Simplificadas.",
+      "La ley 70 de 1931 que regula el Patrimonio de Familia No Embargable.",
+      "La ley 80 de 1993 que regula la Contratación del Estado.",
+      "La ley 1755 de 2015 que regula el Derecho de Petición."
+  ],
+  correctAnswer: "La ley 70 de 1931 que regula el Patrimonio de Familia No Embargable.",
+  explanation: "Una de las principales reformas al Código Civil es la Ley 70 de 1931, que regula el Patrimonio de Familia No Embargable, estableciendo un régimen especial de protección para ciertos bienes familiares."
+},
+{
+  title: "La afectación a Vivienda Familiar tiene como finalidad proteger a:",
+  choices: [
+      "Los menores de edad.",
+      "La mujer cabeza de familia.",
+      "Cónyuge o Compañero Permanente.",
+      "Todos los hijos independientemente si son mayores o menores de edad."
+  ],
+  correctAnswer: "Cónyuge o Compañero Permanente.",
+  explanation: "La afectación a Vivienda Familiar tiene como finalidad principal proteger al cónyuge o compañero permanente, garantizando que la vivienda familiar no pueda ser embargada ni enajenada sin el consentimiento de ambos."
+},
+{
+  title: "No son personas jurídicas:",
+  choices: [
+      "Los establecimientos de comercio.",
+      "Las Fundaciones.",
+      "Las sociedades comerciales.",
+      "Las corporaciones."
+  ],
+  correctAnswer: "Los establecimientos de comercio.",
+  explanation: "Los establecimientos de comercio no son personas jurídicas, sino unidades económicas que pueden pertenecer a personas naturales o jurídicas. Las fundaciones, sociedades comerciales y corporaciones sí son personas jurídicas."
+},
+{
+  title: "Las personas que tienen 8 años según el Código Civil se les llama:",
+  choices: [
+      "Infantes.",
+      "Impúberes.",
+      "Menor Adulto.",
+      "Niños."
+  ],
+  correctAnswer: "Impúberes.",
+  explanation: "Según el Código Civil Colombiano, las personas que tienen 8 años se denominan impúberes, ya que no han alcanzado la pubertad, que es la edad a partir de la cual se adquiere la capacidad para ciertos actos jurídicos."
+},
+{
+  title: "Los actos jurídicos que realiza una persona de 13 años son:",
+  choices: [
+      "Inválidos por cuanto la ley no los habilita para realizar actos jurídicos.",
+      "Son válidos porque tiene la capacidad para realizarlo.",
+      "Son válidos siempre y cuando el representante legal lo autorice.",
+      "Son inválidos por cuanto según la ley solamente pueden realizar actos jurídicos los mayores de edad."
+  ],
+  correctAnswer: "Son válidos siempre y cuando el representante legal lo autorice.",
+  explanation: "Los actos jurídicos realizados por una persona de 13 años son válidos siempre y cuando cuenten con la autorización del representante legal, ya que los menores de edad tienen capacidad restringida para ciertos actos jurídicos según el Código Civil Colombiano."
+},
+{
+  title: "Una persona que en sus actuaciones no emplea la diligencia y cuidado que ordinariamente se emplean en los negocios propios está incurriendo en:",
+  choices: [
+      "Culpa leve.",
+      "Culpa levísima.",
+      "Culpa grave.",
+      "Dolo."
+  ],
+  correctAnswer: "Culpa leve.",
+  explanation: "La culpa leve se define como la falta de diligencia y cuidado que una persona ordinariamente emplea en sus propios negocios. Es un estándar intermedio de culpa, más grave que la culpa levísima pero menos que la culpa grave o el dolo."
+},
+{
+  title: "Las personas con respecto de sus primos están en:",
+  choices: [
+      "Cuarto grado de consanguinidad, línea recta.",
+      "Cuarto grado de consanguinidad, línea transversal.",
+      "Tercer grado de consanguinidad, línea recta.",
+      "Tercer grado de consanguinidad, línea transversal."
+  ],
+  correctAnswer: "Cuarto grado de consanguinidad, línea transversal.",
+  explanation: "Las personas con respecto a sus primos están en cuarto grado de consanguinidad en línea transversal, según el Código Civil. Este grado de parentesco incluye a los descendientes de los hermanos de los abuelos (primos)."
+},
+{
+  title: "Se presume que la concepción ha precedido al nacimiento:",
+  choices: [
+      "No menos que ciento ochenta días cabales, y no más que trescientos, contados hacia atrás, desde la media noche en que principie el día del nacimiento.",
+      "No menos que ciento sesenta días cabales, y no más que trescientos cincuenta, contados hacia atrás, desde la media noche en que principie el día del nacimiento.",
+      "No menos que ciento noventa días cabales, y no más que trescientos, contados hacia atrás, desde la media noche en que principie el día del nacimiento.",
+      "No menos que ciento ochenta días cabales, y no más que trescientos veinte, contados hacia atrás, desde la media noche en que principie el día del nacimiento."
+  ],
+  correctAnswer: "No menos que ciento ochenta días cabales, y no más que trescientos, contados hacia atrás, desde la media noche en que principie el día del nacimiento.",
+  explanation: "Según el Código Civil Colombiano, se presume que la concepción ha precedido al nacimiento no menos que ciento ochenta días cabales y no más que trescientos, contados hacia atrás desde la media noche en que principie el día del nacimiento."
+},
+{
+  title: "María y Héctor, no se han casado, y llevan viviendo juntos 2 años y tres meses, además tienen un hijo de 1 año. Entre María y Héctor se puede decir que:",
+  choices: [
+      "Hay parentesco de afinidad porque tienen más de 2 años de estar conviviendo.",
+      "Hay parentesco de consanguinidad porque tienen un hijo.",
+      "Hay parentesco civil por cuanto no han contraído matrimonio religioso.",
+      "No hay ninguna clase de parentesco."
+  ],
+  correctAnswer: "No hay ninguna clase de parentesco.",
+  explanation: "Entre María y Héctor no existe parentesco de consanguinidad ni de afinidad. El parentesco de consanguinidad es el vínculo entre personas que descienden de un mismo progenitor, y el de afinidad es el vínculo que se establece con la familia del cónyuge. Dado que no están casados y no hay vínculo con la familia del otro, no hay ningún parentesco entre ellos."
+},
+{
+  title: "Las personas con sus padres y tíos están en:",
+  choices: [
+      "Primer grado de consanguinidad línea recta y Segundo grado de consanguinidad línea transversal.",
+      "Primer grado civil línea recta y tercer grado de consanguinidad línea transversal.",
+      "Primer grado de consanguinidad línea recta y tercer grado de consanguinidad línea transversal.",
+      "Primer grado de consanguinidad línea recta y cuarto grado de consanguinidad línea transversal."
+  ],
+  correctAnswer: "Primer grado de consanguinidad línea recta y tercer grado de consanguinidad línea transversal.",
+  explanation: "Las personas están en primer grado de consanguinidad en línea recta con sus padres, ya que es una relación directa de descendencia. Con sus tíos están en tercer grado de consanguinidad en línea transversal, ya que los tíos son hermanos de los padres."
+},
+{
+  title: "Para señalar que hay fuerza mayor o caso fortuito, la situación debe ser:",
+  choices: [
+      "Imprevista e inesperada.",
+      "Incontenible e irresistible.",
+      "Imprevista e irresistible.",
+      "Basta con que sea imprevista."
+  ],
+  correctAnswer: "Imprevista e irresistible.",
+  explanation: "Para que se configure la fuerza mayor o caso fortuito, la situación debe ser tanto imprevista como irresistible, de acuerdo con el Código Civil Colombiano. Esto significa que el evento no podía ser anticipado y que, aunque se hubiera anticipado, no se podría haber evitado."
+},
+{
+  title: "Cuando a una persona se le impide ejercer su religión se está vulnerando el derecho de:",
+  choices: [
+      "Libertad de Culto.",
+      "Libertad de Conciencia.",
+      "Libertad de Asociación.",
+      "Libertad Ideológica."
+  ],
+  correctAnswer: "Libertad de Culto.",
+  explanation: "El derecho a la libertad de culto se refiere a la capacidad de una persona para practicar su religión libremente sin ser impedido o coaccionado, tal como lo establece la Constitución Colombiana."
+},
+{
+  title: "El atributo de la personalidad donde se mira la posibilidad de transmitir los bienes a otra persona es:",
+  choices: [
+      "Capacidad.",
+      "Patrimonio.",
+      "Estado Civil.",
+      "Domicilio."
+  ],
+  correctAnswer: "Patrimonio.",
+  explanation: "El patrimonio es el conjunto de bienes, derechos y obligaciones de una persona que pueden ser transmitidos a otra, conforme al Código Civil Colombiano."
+},
+{
+  title: "El acto jurídico suscrito por una persona de 16 años genera:",
+  choices: [
+      "Nulidad Absoluta.",
+      "Nulidad Relativa.",
+      "Inexistencia del acto.",
+      "Ineficacia."
+  ],
+  correctAnswer: "Nulidad Relativa.",
+  explanation: "Los actos jurídicos realizados por menores de edad pueden ser anulados si no cuentan con la autorización correspondiente, lo que genera nulidad relativa según el Código Civil Colombiano."
+},
+{
+  title: "Cuando una persona otorga su consentimiento en un acto jurídico y este se encuentra viciado por la fuerza debe declararse:",
+  choices: [
+      "La nulidad relativa del acto jurídico.",
+      "La nulidad absoluta del acto jurídico.",
+      "La inexistencia del acto.",
+      "Válido por cuanto la fuerza no vicia el consentimiento."
+  ],
+  correctAnswer: "La nulidad relativa del acto jurídico.",
+  explanation: "El consentimiento viciado por fuerza en un acto jurídico da lugar a la nulidad relativa del acto, de acuerdo con las disposiciones del Código Civil Colombiano."
+},
+{
+  title: "Cuando se dice que el motivo por el cual las partes suscribieron un negocio jurídico va en contra de la ley, ese acto:",
+  choices: [
+      "Está viciado por Dolo.",
+      "Tiene Objeto ilícito.",
+      "Está viciado por Error.",
+      "Tiene Causa ilícita."
+  ],
+  correctAnswer: "Tiene Causa ilícita.",
+  explanation: "Un negocio jurídico con un motivo que va en contra de la ley se considera que tiene causa ilícita, lo que lo hace nulo según el Código Civil Colombiano."
+},
+{
+  title: "¿Quiénes son incapaces absolutos.?",
+  choices: [
+      "Los impúberes e infantes.",
+      "Los menores adultos.",
+      "Los disipadores.",
+      "Los discapacitados."
+  ],
+  correctAnswer: "Los impúberes e infantes.",
+  explanation: "Los impúberes e infantes son considerados incapaces absolutos según el Código Civil Colombiano, lo que significa que sus actos no producen efectos jurídicos."
+},
+{
+  title: "Los actos jurídicos que celebran las personas con un apoyo conforme a la ley 1996 de 2019 se consideran:",
+  choices: [
+      "Nulos por Falta de Consentimiento.",
+      "Nulos Por falta de Objeto lícito.",
+      "Nulos Por falta de Capacidad.",
+      "Válidos."
+  ],
+  correctAnswer: "Válidos.",
+  explanation: "Según la ley 1996 de 2019, los actos jurídicos realizados con el apoyo adecuado son válidos, reconociendo la capacidad legal de las personas con discapacidad."
+},
+{
+  title: "María celebra un contrato con Pedro con la convicción que el bien que Pedro le está entregando se lo está donando, pero Pedro se lo está prestando. Cuando María entiende la verdadera intención de Pedro, ese contrato debe:",
+  choices: [
+      "Declararse válido por cuanto no hay motivos para la nulidad.",
+      "Declararse la nulidad relativa por error en el consentimiento de María.",
+      "Declararse la nulidad absoluta por falta de capacidad en María.",
+      "Declararse la nulidad relativa por dolo en la actitud de Pedro."
+  ],
+  correctAnswer: "Declararse la nulidad relativa por error en el consentimiento de María.",
+  explanation: "El error en el consentimiento de María sobre la naturaleza del contrato celebrado con Pedro puede llevar a la nulidad relativa del contrato, según el Código Civil Colombiano."
+},
+{
+  title: "Cuando Jorge le compra a José una cosa de cobre creyendo que es de oro, se incurre en:",
+  choices: [
+      "Error por la naturaleza del acto.",
+      "Error acerca de la persona.",
+      "Error sobre la calidad del objeto.",
+      "Error sobre un punto de derecho."
+  ],
+  correctAnswer: "Error sobre la calidad del objeto.",
+  explanation: "El error de Jorge respecto a la calidad del objeto (creyendo que era de oro cuando en realidad era de cobre) es un error sobre la calidad del objeto, lo que puede afectar la validez del contrato."
+},
+{
+  title: "Para que la fuerza vicie el consentimiento debe:",
+  choices: [
+      "Producir una impresión en una persona.",
+      "Producir un temor reverencial.",
+      "Producir un Justo temor.",
+      "Causar un daño sicológico en la persona."
+  ],
+  correctAnswer: "Producir un Justo temor.",
+  explanation: "Para que la fuerza vicie el consentimiento, debe producir un justo temor en la persona, lo que significa que el temor debe ser suficientemente grave para influir en su decisión, según el Código Civil Colombiano."
+},
+{
+  title: "Según en la vigencia del régimen de guardas la persona que tiene a su cargo el cuidado personal y la administración de los bienes del pupilo se le llama:",
+  choices: [
+      "Curador.",
+      "Consejero.",
+      "Administrador Fiduciario.",
+      "Tutor."
+  ],
+  correctAnswer: "Tutor.",
+  explanation: "En el régimen de guardas, el tutor es la persona encargada del cuidado personal y la administración de los bienes del pupilo, conforme a la legislación civil."
+},
+{
+  title: "La inscripción del nacimiento en el registro respectivo debe realizarse dentro del siguiente tiempo a su ocurrencia:",
+  choices: [
+      "Dos meses.",
+      "Tres meses.",
+      "Cuatro meses.",
+      "Un mes."
+  ],
+  correctAnswer: "Un mes.",
+  explanation: "La inscripción del nacimiento en el registro civil debe realizarse dentro del mes siguiente a su ocurrencia, según la normativa vigente."
+},
+{
+  title: "Uno de estos aspectos NO debe expresar el Registro de Matrimonio.",
+  choices: [
+      "El lugar y fecha de la celebración.",
+      "Patrimonio de los contrayentes.",
+      "Funcionario o Sacerdote que celebró el matrimonio.",
+      "Nombre de los padres de los contrayentes."
+  ],
+  correctAnswer: "Patrimonio de los contrayentes.",
+  explanation: "El Registro de Matrimonio no debe expresar el patrimonio de los contrayentes. Los demás aspectos, como el lugar y fecha de la celebración, el nombre del funcionario o sacerdote, y el nombre de los padres de los contrayentes, sí deben estar incluidos."
+},
+{
+  title: "Para adoptar de manera individual o conjunta se debe:",
+  choices: [
+      "Tener 18 años cumplidos.",
+      "Tener 25 años cumplidos.",
+      "Tener un patrimonio superior a 500 SMLV.",
+      "Tener al menos 10 años más que el adoptable."
+  ],
+  correctAnswer: "Tener 25 años cumplidos.",
+  explanation: "Para adoptar de manera individual o conjunta en Colombia, se debe tener al menos 25 años cumplidos, según el Código de Infancia y Adolescencia."
+},
+{
+  title: "Se designa un Administrador Fiduciario cuando el valor de los bienes productivos de la persona con discapacidad mental supere los:",
+  choices: [
+      "200 salarios mínimos legales mensuales.",
+      "300 salarios mínimos legales mensuales.",
+      "500 salarios mínimos legales mensuales.",
+      "600 salarios mínimos legales mensuales."
+  ],
+  correctAnswer: "300 salarios mínimos legales mensuales.",
+  explanation: "Según la legislación colombiana, se designa un Administrador Fiduciario cuando el valor de los bienes productivos de la persona con discapacidad mental supere los 300 salarios mínimos legales mensuales."
+},
+{
+  title: "ANA y MARCELO, son casados desde el 20 de diciembre de 1998. El 12 de marzo de 2005, ANA acude a la Notaría X, para afectar a vivienda familiar una casa que adquirió el 14 de abril de 1997, declarando que no tiene otro bien afectado a vivienda familiar y que esa casa está destinada para la vivienda de la familia. De acuerdo al caso planteado, el Notario debe:",
+  choices: [
+      "Abstenerse de autorizar la escritura de afectación, porque el bien no hace parte de la sociedad conyugal.",
+      "Autorizar la escritura pública, porque está destinada para la vivienda de la familia.",
+      "Abstenerse de autorizar la escritura pública, porque debe tener el consentimiento de MARCELO.",
+      "Autorizar la escritura pública, porque los cónyuges tienen la libre administración y disposición de los bienes, durante la sociedad conyugal, por lo tanto, ANA no requiere del consentimiento del otro cónyuge."
+  ],
+  correctAnswer: "Abstenerse de autorizar la escritura pública, porque debe tener el consentimiento de MARCELO.",
+  explanation: "Para afectar un bien a vivienda familiar se requiere el consentimiento de ambos cónyuges, independientemente de si el bien hace parte de la sociedad conyugal o es propio de uno de ellos."
+},
+{
+  title: "Elena tiene un hijo de 9 años llamado Andrés y a los 7 meses de embarazo del segundo hijo, queda viuda de su esposo Pedro. Se tramita el proceso de sucesión para adjudicar los bienes que dejó Pedro. De acuerdo con el caso planteado, la herencia del hijo que espera Elena:",
+  choices: [
+      "Se le adjudica, porque se demostró su calidad de heredero.",
+      "Se le adjudica, y se le entrega a la madre, para que administre los bienes.",
+      "Se le adjudica, pero se mantiene en suspenso hasta que se efectúe el nacimiento.",
+      "Se le adjudica, pero se mantiene en suspenso hasta que adquiera la capacidad legal."
+  ],
+  correctAnswer: "Se le adjudica, pero se mantiene en suspenso hasta que se efectúe el nacimiento.",
+  explanation: "El hijo por nacer (nasciturus) tiene derechos hereditarios que quedan en suspenso hasta que se produzca su nacimiento con vida, conforme a la legislación sucesoral colombiana."
+},
+{
+  title: "La diferencia existente entre Impedimento y Recusación es:",
+  choices: [
+      "El impedimento se presenta cuando el funcionario manifiesta espontáneamente la existencia de la causal que afecta su parcialidad en un proceso y, como consecuencia, se separa del conocimiento del proceso; mientras que la recusación ocurre cuando la parte afectada por la parcialidad del funcionario la propone ante el silencio del funcionario en quien existe la causal.",
+      "El impedimento se refiere a las incompatibilidades del funcionario judicial con su ejercicio profesional, mientras que la recusación se refiere a las inhabilidades para asumir un cargo.",
+      "El impedimento es regulado por el código civil, mientras que la recusación se encuentra regulada por el código general del proceso.",
+      "No hay diferencias evidentes en estas instituciones jurídicas."
+  ],
+  correctAnswer: "El impedimento se presenta cuando el funcionario manifiesta espontáneamente la existencia de la causal que afecta su parcialidad en un proceso y, como consecuencia, se separa del conocimiento del proceso; mientras que la recusación ocurre cuando la parte afectada por la parcialidad del funcionario la propone ante el silencio del funcionario en quien existe la causal.",
+  explanation: "La diferencia entre impedimento y recusación radica en quién inicia el proceso: el impedimento lo manifiesta el propio funcionario, mientras que la recusación la solicita la parte interesada."
+},
+{
+  title: "¿Qué tipos de posesiones podemos distinguir en la sucesión por causa de muerte?",
+  choices: [
+      "Posesión ficta.",
+      "Posesión legal, real y efectiva de la herencia.",
+      "Posesión Regular e Irregular.",
+      "Posesión Clandestina."
+  ],
+  correctAnswer: "Posesión legal, real y efectiva de la herencia.",
+  explanation: "En la sucesión por causa de muerte, se distingue entre posesión legal, real y efectiva de la herencia, cada una con sus propias características y efectos jurídicos."
+},
+{
+  title: "¿Cuáles son los modos de adquirir el derecho real de herencia?",
+  choices: [
+      "Sucesión por causa de muerte, Tradición, Prescripción.",
+      "Cesión de Derechos.",
+      "Transmisibilidad.",
+      "Solamente por tradición."
+  ],
+  correctAnswer: "Sucesión por causa de muerte, Tradición, Prescripción.",
+  explanation: "Los modos de adquirir el derecho real de herencia incluyen la sucesión por causa de muerte, la tradición y la prescripción, según el Código Civil Colombiano."
+},
+{
+  title: "¿Qué son los acervos, en materia sucesoral?",
+  choices: [
+      "Mecanismo que contempla la ley para proteger las asignaciones forzosas.",
+      "Deudas de la herencia.",
+      "Protección legal del ausente.",
+      "Una forma de posesión de la herencia."
+  ],
+  correctAnswer: "Mecanismo que contempla la ley para proteger las asignaciones forzosas.",
+  explanation: "En materia sucesoral, los acervos son mecanismos legales destinados a proteger las asignaciones forzosas y garantizar que se respeten los derechos de los herederos forzosos."
+},
+{
+  title: "En un Testamento, en caso de violación o desconocimiento a los asignatarios forzosos ¿qué acción se les otorga a los herederos afectados?",
+  choices: [
+      "Repudio del testamento.",
+      "Reforma del testamento.",
+      "Indignidad del testamento.",
+      "No hay acción porque el testamento es irrevocable."
+  ],
+  correctAnswer: "Reforma del testamento.",
+  explanation: "Los herederos afectados por la violación o desconocimiento de sus derechos pueden solicitar la reforma del testamento para que se ajusten las disposiciones a la ley."
+},
+{
+  title: "Es una sanción que impone la ley a ciertas personas que tienen como objeto excluirlo de la sucesión por falta de mérito para suceder.",
+  choices: [
+      "División de la Sucesión.",
+      "Aceptación de la Herencia.",
+      "Derecho de Acrecencia.",
+      "Desheredamiento."
+  ],
+  correctAnswer: "Desheredamiento.",
+  explanation: "El desheredamiento es la sanción legal que excluye a ciertas personas de la sucesión por falta de mérito para suceder, según lo establecido en el Código Civil Colombiano."
+},
+{
+  title: "Efecto producido en la sucesión hereditaria cuando uno de los llamados solidariamente a la herencia no quiere o no puede heredar, conforme con el principio concursus partes funt, por cuya virtud la cuota resultante para los efectivamente herederos será mayor o menor. Esta definición corresponde a:",
+  choices: [
+      "División de la Sucesión.",
+      "Aceptación de la Herencia.",
+      "Derecho de Acrecencia.",
+      "Desheredamiento."
+  ],
+  correctAnswer: "Derecho de Acrecencia.",
+  explanation: "El derecho de acrecencia se produce cuando uno de los herederos no quiere o no puede heredar, y su parte acrece a la de los demás herederos, aumentando su cuota hereditaria."
+},
+{
+  title: "Abby murió sin haber otorgado testamento. Le sobrevivieron su única hija Yolanda y su nieta Noelia, hija de Yolanda. Cuando Yolanda escuchó que su madre Abby había muerto, sufrió un infarto y murió al instante. Noelia repudió el llamado a la herencia de su madre Yolanda porque contenía múltiples deudas. Días después, Noelia reclamó su derecho en la herencia de su abuela Abby. Indique si Noelia tiene derecho a la herencia de su abuela Abby y por qué",
+  choices: [
+      "Sí, porque, al repudiar la herencia de su madre Yolanda, no rechazó el derecho de transmisión que ya había heredado de ella.",
+      "Sí, porque heredó por derecho propio.",
+      "No, porque, al repudiar la herencia de su madre Yolanda, rechazó el Derecho de transmisión que hubiese heredado de ella.",
+      "No, porque su madre Yolanda no premurió a Abby."
+  ],
+  correctAnswer: "No, porque, al repudiar la herencia de su madre Yolanda, rechazó el Derecho de transmisión que hubiese heredado de ella.",
+  explanation: "Noelia no tiene derecho a la herencia de su abuela Abby porque al repudiar la herencia de su madre Yolanda, también rechazó el derecho de transmisión que podría haber heredado de ella."
+},
+{
+  title: "Ana y Juan casados entre sí, evidencian que la nevera de su casa, la cual compraron al contraer matrimonio hace 10 años, presenta fallas recurrentes. Por ello, llamaron al centro de servicios autorizado de la marca del refrigerador. En la revisión al electrodoméstico les manifiesta el técnico que debido a lo antiguo del electrodoméstico ya no se fabrican repuestos, por lo cual recomienda comprar una nueva nevera. La pareja atiende la recomendación del técnico y se dirigen a Alkosto y compran una nueva nevera para su casa. Atendiendo el caso expuesto, Ana y Juan:",
+  choices: [
+      "Son comerciantes en tanto la compra de electrodomésticos se considera un acto de comercio.",
+      "Son comerciantes en atención a que la compra de la nueva nevera la realizaron en un establecimiento de comercio cuyo propietario es una sociedad netamente mercantil.",
+      "Son comerciantes por cuanto el contrato de compraventa de la nevera se rige por el código de comercio.",
+      "No son comerciantes en razón a que la compra del refrigerador es para uso doméstico."
+  ],
+  correctAnswer: "No son comerciantes en razón a que la compra del refrigerador es para uso doméstico.",
+  explanation: "Ana y Juan no son considerados comerciantes ya que la compra del refrigerador es para uso doméstico y no constituye un acto de comercio según el Código de Comercio Colombiano."
+},
+{
+  title: "Teniendo en cuenta que el Registro Mercantil es un sistema de inscripción pormenorizado y cronológico de asuntos que por disposición legal deben efectuar todas las personas naturales y jurídicas que ejercen profesionalmente el comercio y sus establecimientos de comercio. Podemos concluir que su principal finalidad es:",
+  choices: [
+      "Llevar los libros de contabilidad de los comerciantes.",
+      "Llevar el registro de las costumbres mercantiles.",
+      "Ser un medio legal de publicidad que permite al público informarse sobre los actos y transacciones comerciales inscritas en el mismo.",
+      "Servir de Consulta para determinar si una persona es legalmente hábil para ser comerciante."
+  ],
+  correctAnswer: "Ser un medio legal de publicidad que permite al público informarse sobre los actos y transacciones comerciales inscritas en el mismo.",
+  explanation: "La principal finalidad del Registro Mercantil es ser un medio legal de publicidad que permite al público informarse sobre los actos y transacciones comerciales inscritas, garantizando la transparencia y seguridad jurídica en el comercio."
+},
+{
+  title: "Una de las finalidades del Registro Mercantil es dar a conocer a los terceros la existencia, modificación o extinción de ciertos actos y circunstancias en los cuales puede tener interés. De este modo, al no registrarse un acto susceptible de registro se incumple con la finalidad de publicidad respecto de terceros, lo cual apareja como sanción:",
+  choices: [
+      "Ineficacia.",
+      "Inexistencia.",
+      "Nulidad.",
+      "Inoponibilidad."
+  ],
+  correctAnswer: "Inoponibilidad.",
+  explanation: "La sanción por no registrar un acto susceptible de registro en el Registro Mercantil es la inoponibilidad, lo que significa que dicho acto no puede ser oponible a terceros y carece de efectos frente a ellos."
+},
+{
+  title: "La Corte Constitucional en una sentencia del año 2006 afirmó: “Se acepta de forma unánime que la naturaleza de las cámaras de comercio es privada y gremial, pero la función o servicio de registro mercantil que desarrollan es una actividad administrativa cuyo titular original es el Estado, y que en virtud a lo dispuesto en los Artículos 123 y 365 de la Constitución Nacional puede ser prestada por particulares”. Con base en lo anterior ¿cuál de las siguientes afirmaciones es correcta?",
+  choices: [
+      "Las cámaras de comercio son entidades públicas.",
+      "Las cámaras de comercio son las entidades titulares del servicio de registro mercantil.",
+      "Las cámaras de comercio son entidades privadas que solo cumplen funciones privadas.",
+      "Las cámaras de comercio prestan funciones públicas por mandato de la Constitución Nacional."
+  ],
+  correctAnswer: "Las cámaras de comercio prestan funciones públicas por mandato de la Constitución Nacional.",
+  explanation: "Las cámaras de comercio, aunque son entidades privadas, prestan funciones públicas como el registro mercantil por mandato de la Constitución Nacional, delegadas por el Estado."
+},
+{
+  title: "El artículo 163 del código de comercio dispone: 'La designación o revocación de los administradores o de los revisores fiscales previstas en la ley o en el contrato social no se considerará como reforma, sino como desarrollo o ejecución del contrato, y no estará sujeta sino a simple registro en la cámara de comercio, mediante copias del acta o acuerdo en que conste la designación o la revocación. Las cámaras se abstendrán, no obstante, de hacer la inscripción de la designación o revocación cuando no se hayan observado respecto de las mismas las prescripciones de la ley o del contrato. La revocación o reemplazo de los funcionarios a que se refiere este artículo se hará con el quórum y la mayoría de votos prescritos en la ley o en el contrato para su designación.' Con base en esta norma podemos concluir respecto de las cámaras de comercio que:",
+  choices: [
+      "El acto de cambiar a un representante legal de una sociedad comercial es un acto sujeto a registro mercantil.",
+      "Estas instituciones deben realizar un control de legalidad al acto que contiene la modificación del representante legal de una sociedad comercial.",
+      "Tienen una función pública como lo es el llevar el registro mercantil de todos los actos señalados en el Código de Comercio.",
+      "La decisión de abstenerse de registrar un nuevo nombramiento de representante legal serán apeladas ante la SIC."
+  ],
+  correctAnswer: "El acto de cambiar a un representante legal de una sociedad comercial es un acto sujeto a registro mercantil.",
+  explanation: "El artículo 163 del Código de Comercio establece que la designación o revocación de los administradores o revisores fiscales es un acto que debe ser registrado en la cámara de comercio, aunque no se considera una reforma del contrato social."
+},
+{
+  title: "Una sociedad comercial que desee participar en un proceso de licitación con una entidad pública se le exigirá que esté registrada en:",
+  choices: [
+      "El RNT y en el registro mercantil.",
+      "Solamente en el RUP.",
+      "En el registro mercantil y en el RUP.",
+      "Solamente en el registro mercantil."
+  ],
+  correctAnswer: "En el registro mercantil y en el RUP.",
+  explanation: "Para participar en un proceso de licitación con una entidad pública, una sociedad comercial debe estar registrada tanto en el Registro Mercantil como en el Registro Único de Proponentes (RUP), según la normativa colombiana."
+},
+{
+  title: "RICARDO y JUANA, convivieron en Unión marital de hecho, desde el 16 de Julio de 2011, hasta el 23 de noviembre de 2018, fecha en la cual murió JUANA. De dicha unión nacieron dos hijos, aún menores de edad. Para que, en la sucesión de JUANA, su compañero RICARDO tenga derecho al reconocimiento de gananciales en la sociedad patrimonial de hecho, formada entre él y la causante, se requiere:",
+  choices: [
+      "Escritura Pública de declaración de existencia de la sociedad patrimonial de hecho, otorgada por RICARDO.",
+      "Sentencia judicial de declaración de existencia de la sociedad patrimonial de hecho.",
+      "Escritura Pública de Declaración juramentada de dos testigos hábiles, sobre la existencia de la Unión Marital de hecho de RICARDO y JUANA.",
+      "Sentencia judicial de declaración de la Unión Marital de Hecho."
+  ],
+  correctAnswer: "Sentencia judicial de declaración de existencia de la sociedad patrimonial de hecho.",
+  explanation: "Para que RICARDO tenga derecho al reconocimiento de gananciales en la sociedad patrimonial de hecho, se requiere una sentencia judicial que declare la existencia de dicha sociedad, conforme a la legislación colombiana."
+},
+{
+  title: "Hay lugar a la rescisión de la sentencia aprobatoria de la partición, por parte del declarado presuntamente muerto, que reaparece, si la solicita dentro de los:",
+  choices: [
+      "Cinco años siguientes a la publicación de la sentencia que lo declaró presuntivamente muerto.",
+      "Diez años siguientes a la reaparición.",
+      "Diez años siguientes a la publicación de la sentencia que lo declaró presuntivamente muerto.",
+      "Veinte años siguientes a la ejecutoria de la sentencia que lo declaró presuntivamente muerto."
+  ],
+  correctAnswer: "Cinco años siguientes a la publicación de la sentencia que lo declaró presuntivamente muerto.",
+  explanation: "La persona declarada presuntamente muerta puede solicitar la rescisión de la sentencia aprobatoria de la partición dentro de los cinco años siguientes a la publicación de la sentencia que lo declaró presuntivamente muerto, según la normativa colombiana."
+},
+{
+  title: "A diferencia de las personas jurídicas las personas naturales son sujetos de derecho desde…",
+  choices: [
+      "Su nacimiento, y respirar por sí mismos un instante.",
+      "Su nacimiento, desprenderse de la madre y respirar 10 minutos.",
+      "Su nacimiento, desprenderse y respirar por un instante.",
+      "Desde que nacen."
+  ],
+  correctAnswer: "Su nacimiento, y respirar por sí mismos un instante.",
+  explanation: "Las personas naturales son sujetos de derecho desde su nacimiento y el momento en que respiran por sí mismas, según el Código Civil Colombiano."
+},
+{
+  title: "Interpretar una norma es aplicarla a un caso particular y concreto. En consecuencia:",
+  choices: [
+      "Todas las normas son susceptibles de interpretación.",
+      "Solo son susceptibles de interpretar las normas ambiguas.",
+      "Solo son susceptibles de interpretar las normas oscuras y ambiguas.",
+      "Solo son susceptibles de interpretar las normas equívocas."
+  ],
+  correctAnswer: "Todas las normas son susceptibles de interpretación.",
+  explanation: "Todas las normas pueden ser interpretadas para ser aplicadas a casos particulares y concretos, según los principios de interpretación jurídica."
+},
+{
+  title: "Si una norma que ha sido derogada, pero por decisión del legislador continúa vigente para ciertas situaciones de excepción, dicha precepto tiene el carácter de norma.",
+  choices: [
+      "Especial.",
+      "Ultractiva.",
+      "Retrospectiva.",
+      "Excepción."
+  ],
+  correctAnswer: "Ultractiva.",
+  explanation: "Una norma derogada que continúa vigente para ciertas situaciones de excepción tiene el carácter de norma ultractiva, ya que su efecto se extiende más allá de su derogación."
+},
+{
+  title: "El sustrato material de las corporaciones sin ánimo de lucro, lo constituye:",
+  choices: [
+      "El patrimonio económico y los asociados.",
+      "Los estatutos y el patrimonio económico.",
+      "Los asociados simplemente.",
+      "El acto de constitución."
+  ],
+  correctAnswer: "El patrimonio económico y los asociados.",
+  explanation: "El sustrato material de las corporaciones sin ánimo de lucro está constituido por el patrimonio económico y los asociados, que son los elementos fundamentales para su funcionamiento."
+},
+{
+  title: "El domicilio civil de las personas está determinado por:",
+  choices: [
+      "Presunciones.",
+      "Un propósito.",
+      "Una expresión de voluntad.",
+      "Un hecho jurídico."
+  ],
+  correctAnswer: "Un hecho jurídico.",
+  explanation: "El domicilio civil de las personas está determinado por un hecho jurídico, que incluye tanto la residencia como la intención de permanecer en ese lugar."
+},
+{
+  title: "El elemento material del domicilio está constituido por una circunscripción:",
+  choices: [
+      "Departamental.",
+      "Municipal.",
+      "Nacional.",
+      "Local."
+  ],
+  correctAnswer: "Municipal.",
+  explanation: "El elemento material del domicilio está constituido por una circunscripción municipal, que es el ámbito geográfico donde una persona fija su residencia."
+},
+{
+  title: "El domicilio contractual puede ser fijado por los contratantes para fines:",
+  choices: [
+      "Judiciales y extra judiciales.",
+      "Extrajudiciales únicamente.",
+      "No existe domicilio contractual.",
+      "Judiciales únicamente."
+  ],
+  correctAnswer: "Judiciales y extra judiciales.",
+  explanation: "El domicilio contractual puede ser fijado por los contratantes para fines judiciales y extrajudiciales, según los términos acordados en el contrato."
+},
+{
+  title: "El artículo 230 de la Constitución Política determina que los jueces en sus decisiones solo están sometidos al imperio de la ley. La norma constitucional señala los elementos auxiliares en la interpretación, a saber:",
+  choices: [
+      "La analogía legal y la costumbre.",
+      "La buena fe exenta de culpa.",
+      "La analogía legis.",
+      "La doctrina y los principios generales del derecho."
+  ],
+  correctAnswer: "La doctrina y los principios generales del derecho.",
+  explanation: "El artículo 230 de la Constitución Política de Colombia establece que los jueces deben considerar como elementos auxiliares de la interpretación la doctrina y los principios generales del derecho."
+},
+{
+  title: "Patricia y Jaime contraen matrimonio, dentro de su matrimonio procrean a Rita, Roberto y José. Patricia tiene a sus padres legítimos Alicia y Oscar. El parentesco que existe entre Alicia y Oscar con Rita, Roberto, José y Jaime es:",
+  choices: [
+      "De consanguinidad y afinidad 2º grado descendente.",
+      "De afinidad.",
+      "De consanguinidad legítima, línea recta descendente, en 2º. Grado.",
+      "De consanguinidad legítima, línea recta descendente en 2º. Grado y afinidad legítima primer grado línea recta descendente."
+  ],
+  correctAnswer: "De consanguinidad legítima, línea recta descendente en 2º. Grado y afinidad legítima primer grado línea recta descendente.",
+  explanation: "El parentesco entre Alicia y Oscar con Rita, Roberto y José es de consanguinidad en línea recta descendente en 2º grado, y con Jaime es de afinidad en primer grado en línea recta descendente."
+},
+{
+  title: "La promulgación de la ley se da cuando:",
+  choices: [
+      "El presidente la firma.",
+      "Se inserta en el diario oficial para que sea conocida por todos los habitantes del territorio nacional.",
+      "La aprueba el Congreso de la República.",
+      "Empieza a aplicarse a todos los ciudadanos."
+  ],
+  correctAnswer: "Se inserta en el diario oficial para que sea conocida por todos los habitantes del territorio nacional.",
+  explanation: "La promulgación de la ley se da cuando se inserta en el diario oficial, permitiendo que sea conocida por todos los habitantes del territorio nacional, de acuerdo con la normativa colombiana."
+},
+{
+  title: "La declaración de muerte presunta por desaparecimiento surte efectos de tipo:",
+  choices: [
+      "Patrimonial y personal.",
+      "Penal.",
+      "General.",
+      "Personalísimo."
+  ],
+  correctAnswer: "Patrimonial y personal.",
+  explanation: "La declaración de muerte presunta por desaparecimiento surte efectos de tipo patrimonial y personal, ya que afecta tanto los derechos sobre bienes como el estado civil de la persona declarada presuntamente muerta."
+},
+{
+  title: "Los derechos subjetivos patrimoniales de la persona natural son:",
+  choices: [
+      "La herencia, derechos de autor.",
+      "Liquidación de la sociedad conyugal, herencia, reales.",
+      "Personales, reales, inmateriales y universales.",
+      "Herencia, universales, de dar hacer o no hacer, personales, inmateriales."
+  ],
+  correctAnswer: "Personales, reales, inmateriales y universales.",
+  explanation: "Los derechos subjetivos patrimoniales de la persona natural incluyen derechos personales, reales, inmateriales y universales, que abarcan una amplia gama de derechos sobre bienes y relaciones jurídicas."
+},
+{
+  title: "Interpretar una ley es:",
+  choices: [
+      "Aplicarla en el momento de fallar.",
+      "Estudiarla y adaptarla al caso controvertido.",
+      "Darla a conocer mediante la inserción en el diario oficial.",
+      "Conocer y adaptar las normas abstractas a los casos singulares."
+  ],
+  correctAnswer: "Conocer y adaptar las normas abstractas a los casos singulares.",
+  explanation: "Interpretar una ley implica conocer y adaptar las normas abstractas a los casos singulares, lo que permite aplicar la norma general a situaciones específicas y concretas."
+},
+{
+  title: "Los requisitos de validez del negocio jurídico son:",
+  choices: [
+      "Consentimiento exento de vicios y capacidad de ejercicio.",
+      "Formalidades determinadas por el legislador, manifestación de voluntad, objeto y causa.",
+      "Relaciones evaluables en dinero, objeto, manifestación de voluntad libre consciente, causa.",
+      "Manifestación de voluntad exenta de vicios, objeto y causa lícita, capacidad de ejercicio y formalidades habilitantes."
+  ],
+  correctAnswer: "Manifestación de voluntad exenta de vicios, objeto y causa lícita, capacidad de ejercicio y formalidades habilitantes.",
+  explanation: "Los requisitos de validez del negocio jurídico incluyen la manifestación de voluntad exenta de vicios, un objeto y causa lícitos, capacidad de ejercicio y las formalidades establecidas por la ley."
+},
+{
+  title: "La patria potestad es:",
+  choices: [
+      "El conjunto de derechos y obligaciones reconocidos por la ley a los padres sobre los hijos no emancipados.",
+      "Conjunto de derechos de los hijos hacia los padres.",
+      "Conjunto de derechos y obligaciones de los hijos para con los padres.",
+      "Conjunto de obligaciones de los padres para con los hijos y que son vitalicios."
+  ],
+  correctAnswer: "El conjunto de derechos y obligaciones reconocidos por la ley a los padres sobre los hijos no emancipados.",
+  explanation: "La patria potestad es el conjunto de derechos y obligaciones que la ley reconoce a los padres sobre sus hijos no emancipados, incluyendo su cuidado y educación."
+},
+{
+  title: "Presunción de derecho es la deducción que:",
+  choices: [
+      "Admite prueba en contrario.",
+      "Exige un antecedente conocido y un hecho resultante.",
+      "No admite prueba en contrario y a quien lo favorezca lo exime de cualquier prueba.",
+      "Admite prueba en contrario, a quien lo favorezca corre el riesgo de perder el derecho que tenía."
+  ],
+  correctAnswer: "No admite prueba en contrario y a quien lo favorezca lo exime de cualquier prueba.",
+  explanation: "La presunción de derecho no admite prueba en contrario y exime a quien lo favorezca de presentar pruebas adicionales, ya que se considera una deducción legal definitiva."
+},
+{
+  title: "El parentesco de afinidad es el vínculo:",
+  choices: [
+      "Que se establece entre las personas que descienden unas de otras.",
+      "Que existe entre las personas que sin descender unas de otras sí provienen de un mismo tronco o raíz común.",
+      "Existente entre las personas que descienden de un mismo tronco o raíz común.",
+      "Que se establece entre un cónyuge o compañero y los consanguíneos del otro."
+  ],
+  correctAnswer: "Que se establece entre un cónyuge o compañero y los consanguíneos del otro.",
+  explanation: "El parentesco de afinidad es el vínculo que se establece entre un cónyuge o compañero y los consanguíneos del otro, generado por el matrimonio o la unión marital de hecho."
+},
+{
+  title: "La persona natural adquiere la calidad de comerciante cuando:",
+  choices: [
+      "Se dedica profesionalmente al comercio y tiene capacidad.",
+      "Abre un establecimiento de comercio y se inscribe en la cámara de comercio.",
+      "Da a conocer sus productos.",
+      "Constituye una sociedad."
+  ],
+  correctAnswer: "Se dedica profesionalmente al comercio y tiene capacidad.",
+  explanation: "La persona natural adquiere la calidad de comerciante cuando se dedica profesionalmente al comercio y tiene la capacidad para ejercer dicha actividad, conforme al Código de Comercio Colombiano."
+},
+{
+  title: "La incapacidad de un socio que actúa por sí mismo produce nulidad.",
+  choices: [
+      "Absoluta del contrato de sociedad.",
+      "De la relación entre el incapaz y la sociedad.",
+      "De la escritura de constitución.",
+      "Relativa del contrato de sociedad."
+  ],
+  correctAnswer: "Relativa del contrato de sociedad.",
+  explanation: "La incapacidad de un socio que actúa por sí mismo produce la nulidad relativa del contrato de sociedad, lo que permite que dicho contrato sea anulable bajo ciertas condiciones."
+},
+{
+  title: "Es una característica de la sociedad comanditaria.",
+  choices: [
+      "Tener dos clases de socios.",
+      "La responsabilidad solidaria y personal de todos los socios.",
+      "No tener objeto social.",
+      "Ser de carácter civil."
+  ],
+  correctAnswer: "Tener dos clases de socios.",
+  explanation: "La sociedad comanditaria se caracteriza por tener dos clases de socios: los socios comanditados, que responden ilimitadamente por las obligaciones sociales, y los socios comanditarios, cuya responsabilidad se limita al monto de sus aportes."
+},
+{
+  title: "Sobre la pluralidad como elemento de existencia de la sociedad podemos decir que:",
+  choices: [
+      "La anónima no tiene límite ni inferior ni superior.",
+      "La Colectiva se constituye con un máximo de 30 socios.",
+      "La Anónima debe tener mínimo 5 socios accionistas.",
+      "La Comanditaria debe tener más socios gestores que comanditarios."
+  ],
+  correctAnswer: "La Anónima debe tener mínimo 5 socios accionistas.",
+  explanation: "La sociedad anónima debe tener un mínimo de 5 socios accionistas, según la normativa vigente en Colombia."
+},
+{
+  title: "De una persona que tiene un establecimiento de comercio abierto al público y que de la actividad que desarrolla allí, deriva su sustento. Podemos decir:",
+  choices: [
+      "Debe tener matriculado, en la Cámara de Comercio de su domicilio, su establecimiento de comercio para tener la calidad de comerciante.",
+      "Debe anunciar sus productos en la Cámara de Comercio para darles publicidad y hacerlos oponibles frente a terceros.",
+      "Debe llevar la contabilidad de sus negocios para tener la calidad de comerciante.",
+      "Es comerciante aunque no se haya matriculado en la Cámara de Comercio y no haya matriculado su establecimiento de comercio."
+  ],
+  correctAnswer: "Es comerciante aunque no se haya matriculado en la Cámara de Comercio y no haya matriculado su establecimiento de comercio.",
+  explanation: "Una persona que tiene un establecimiento de comercio abierto al público y que deriva su sustento de esa actividad es comerciante aunque no se haya matriculado en la Cámara de Comercio, según el Código de Comercio Colombiano."
+},
+{
+  title: "Es una característica de la sociedad de responsabilidad limitada:",
+  choices: [
+      "Se puede constituir con un socio capitalista y uno industrial.",
+      "Los socios responden, por las obligaciones sociales, hasta el monto de sus aportes.",
+      "Tener mínimo 5 socios capitalistas y uno gestor.",
+      "El capital está dividido en cuotas sociales o en acciones de igual valor."
+  ],
+  correctAnswer: "Los socios responden, por las obligaciones sociales, hasta el monto de sus aportes.",
+  explanation: "Una característica de la sociedad de responsabilidad limitada es que los socios responden por las obligaciones sociales hasta el monto de sus aportes, limitando así su responsabilidad."
+},
+{
+  title: "Son elementos esenciales del contrato de sociedad:",
+  choices: [
+      "La pluralidad, los aportes y la escritura pública.",
+      "El contrato social, los socios y los aportes.",
+      "El reparto de utilidades, la pluralidad y las reservas legales.",
+      "La pluralidad, los aportes y el reparto de utilidades."
+  ],
+  correctAnswer: "La pluralidad, los aportes y el reparto de utilidades.",
+  explanation: "Los elementos esenciales del contrato de sociedad incluyen la pluralidad de socios, los aportes de capital y el reparto de utilidades, según el Código de Comercio Colombiano."
+},
+{
+  title: "De la SAS podemos decir:",
+  choices: [
+      "Su objeto social puede ser indeterminado.",
+      "Se constituye por escritura pública.",
+      "No puede tener ánimo de lucro.",
+      "No hay necesidad de inscribirla en el registro mercantil."
+  ],
+  correctAnswer: "Su objeto social puede ser indeterminado.",
+  explanation: "Una característica de la Sociedad por Acciones Simplificada (SAS) es que su objeto social puede ser indeterminado, permitiendo una mayor flexibilidad en sus actividades comerciales."
+},
+{
+  title: "Se presume que una persona es comerciante cuando:",
+  choices: [
+      "Está matriculado en la cámara de comercio y se anuncia como comerciante.",
+      "Ejerce la profesión de comerciante y tiene establecimiento de comercio abierto al público.",
+      "Se anuncia como comerciante y ejerce la profesión de comerciante.",
+      "Lleva la contabilidad de sus negocios y no realiza actos de competencia desleal."
+  ],
+  correctAnswer: "Ejerce la profesión de comerciante y tiene establecimiento de comercio abierto al público.",
+  explanation: "Se presume que una persona es comerciante cuando ejerce la profesión de comerciante y tiene un establecimiento de comercio abierto al público, conforme al Código de Comercio Colombiano."
+},
+{
+  title: "Son deberes de los comerciantes.",
+  choices: [
+      "Inscribir en el registro mercantil libros actos y documentos.",
+      "Abrir un establecimiento de comercio al público.",
+      "Dar publicidad a sus negocios, inscribiéndolos en la cámara de comercio, para hacerlos más atractivos.",
+      "Comunicar a los demás comerciantes acerca de su actividad."
+  ],
+  correctAnswer: "Inscribir en el registro mercantil libros actos y documentos.",
+  explanation: "Uno de los deberes de los comerciantes es inscribir en el registro mercantil los libros, actos y documentos relacionados con su actividad comercial, para garantizar la transparencia y publicidad de sus operaciones."
+},
+{
+  title: "Una diferencia entre sociedades de capital y sociedades de personas está en:",
+  choices: [
+      "La pluralidad.",
+      "Los aportes.",
+      "El objeto social.",
+      "La responsabilidad de los socios."
+  ],
+  correctAnswer: "La responsabilidad de los socios.",
+  explanation: "Una diferencia clave entre las sociedades de capital y las sociedades de personas radica en la responsabilidad de los socios: en las primeras, la responsabilidad se limita al monto de los aportes, mientras que en las segundas, la responsabilidad puede ser solidaria e ilimitada."
+},
+{
+  title: "La muerte es el fin de la existencia de la persona natural, a la vez es un hecho que tiene consecuencias desde el punto de vista legal. Una de las siguientes NO es una de ellas:",
+  choices: [
+      "Debe expedirse un certificado de defunción y el respectivo registro civil.",
+      "Se debe por obligación realizar una autopsia.",
+      "Se abre una sucesión de manera sustancial.",
+      "Hay que disponer del cadáver."
+  ],
+  correctAnswer: "Se debe por obligación realizar una autopsia.",
+  explanation: "No siempre es obligatorio realizar una autopsia cuando una persona muere. Las otras opciones mencionadas (expedir un certificado de defunción, abrir una sucesión y disponer del cadáver) son consecuencias legales de la muerte."
+},
+{
+  title: "La extraterritorialidad de la ley se refiere a:",
+  choices: [
+      "La aplicación a los nacionales de las leyes del país en el que residen.",
+      "La sujeción de los nacionales al código civil.",
+      "La sujeción a las normas familiares y contractuales de la Nación donde resida.",
+      "El acatamiento sólo de las normas internacionales de familia y contractuales."
+  ],
+  correctAnswer: "La aplicación a los nacionales de las leyes del país en el que residen.",
+  explanation: "La extraterritorialidad de la ley se refiere a la aplicación de las leyes de un país a sus nacionales, incluso cuando se encuentran en el extranjero."
+},
+{
+  title: "La destinación de capital hecha por una persona o personas dirigida a un fin de interés general corresponde al concepto de:",
+  choices: [
+      "Fundación.",
+      "Corporación benéfica.",
+      "Cooperativa.",
+      "Institución benéfica."
+  ],
+  correctAnswer: "Fundación.",
+  explanation: "Una fundación es una entidad creada por una o varias personas que destinan un capital a un fin de interés general, como lo establece la normativa colombiana."
+},
+{
+  title: "La interpretación para fijar el sentido de una ley oscura de manera general le corresponde:",
+  choices: [
+      "La doctrina.",
+      "La jurisprudencia.",
+      "Al legislador.",
+      "A la Corte Constitucional."
+  ],
+  correctAnswer: "Al legislador.",
+  explanation: "La interpretación auténtica de una ley oscura corresponde al legislador, que es quien la crea y puede aclarar su sentido mediante la expedición de nuevas normas."
+},
+{
+  title: "Dentro del régimen de bienes del matrimonio, los aumentos o valorizaciones de los bienes propios pertenecen:",
+  choices: [
+      "Al cónyuge dueño del bien propio.",
+      "A la sociedad conyugal.",
+      "A la sociedad conyugal pero genera una recompensa en su contra.",
+      "Al dueño del bien pero genera una recompensa en su contra."
+  ],
+  correctAnswer: "Al cónyuge dueño del bien propio.",
+  explanation: "Según el Código Civil Colombiano, los aumentos o valorizaciones de los bienes propios pertenecen al cónyuge dueño del bien propio."
+},
+{
+  title: "Camila es la bisabuela materna de Johanna. Ésta última se encuentra casada con Jaime. El parentesco que existe entre éste y Camila es:",
+  choices: [
+      "Consanguinidad, línea recta en segundo grado.",
+      "Afinidad, línea recta en tercer grado.",
+      "Afinidad, línea colateral en tercer grado.",
+      "Afinidad, línea recta en segundo grado."
+  ],
+  correctAnswer: "Afinidad, línea recta en tercer grado.",
+  explanation: "El parentesco entre Camila (bisabuela materna de Johanna) y Jaime (esposo de Johanna) es de afinidad en línea recta en tercer grado, conforme al Código Civil Colombiano."
+},
+{
+  title: "Adán casado con Eva se separa de ésta mediante sentencia judicial, y luego de 3 años se casa por lo civil con Sara, a la cual le es infiel a los 6 meses de casado. Sara le consulta a usted sobre qué acción judicial iniciar en contra de Adán:",
+  choices: [
+      "Divorcio por causas atribuibles a Adán.",
+      "Separación de cuerpos sin disolver el vínculo.",
+      "Nulidad por mandato legal.",
+      "Cesación de efectos civiles de matrimonio religioso."
+  ],
+  correctAnswer: "Divorcio por causas atribuibles a Adán.",
+  explanation: "Sara puede iniciar una acción de divorcio por causas atribuibles a Adán, debido a la infidelidad, según las causales de divorcio establecidas en la ley colombiana."
+},
+{
+  title: "El vínculo matrimonial entre Juan y María quedó disuelto por la muerte de ésta última en enero de 1999. Juan sin tramitar la Sucesión de María rehace su vida sentimental con Claudia en octubre de 2000, con quien comienza una unión marital de hecho. En octubre de 2003 por desavenencias entre Claudia y Juan deciden separarse. Se pregunta: ¿Existió entre ellos sociedad patrimonial?",
+  choices: [
+      "Sí, de acuerdo a los lineamientos de jurisprudencia proferida por la Corte Suprema de Justicia.",
+      "No, porque no se cumplió con el requisito temporal exigido en la ley 54/90.",
+      "No, porque no se liquidó la sociedad conyugal anterior.",
+      "Sí, porque la ley permite que se forme sociedad patrimonial en uniones maritales de hecho en cualquier tiempo."
+  ],
+  correctAnswer: "No, porque no se liquidó la sociedad conyugal anterior.",
+  explanation: "No puede formarse una sociedad patrimonial en una nueva unión marital de hecho sin haber liquidado previamente la sociedad conyugal anterior, conforme a la ley colombiana."
+},
+{
+  title: "Los bienes que ingresan a la sociedad conyugal de las personas que contraen matrimonio según el código civil son los:",
+  choices: [
+      "Provenientes de juegos de azar y que se obtienen durante el matrimonio.",
+      "Inmuebles que se adquieran en vigencia de la sociedad conyugal.",
+      "Muebles que se reservan en capitulaciones matrimoniales.",
+      "Dineros o los muebles que se posean antes del matrimonio."
+  ],
+  correctAnswer: "Inmuebles que se adquieran en vigencia de la sociedad conyugal.",
+  explanation: "Los inmuebles adquiridos durante la vigencia de la sociedad conyugal ingresan a la sociedad conyugal, según el Código Civil Colombiano."
+},
+{
+  title: "La sociedad mercantil tiene capacidad, esta se encuentra establecida en:",
+  choices: [
+      "El documento con el cual se constituye.",
+      "El objeto social.",
+      "Lo ordenado en cámara de comercio.",
+      "Lo ordenado por el juez."
+  ],
+  correctAnswer: "El objeto social.",
+  explanation: "La capacidad de una sociedad mercantil se encuentra establecida en su objeto social, que define las actividades que la sociedad puede realizar."
+},
+{
+  title: "Si los administradores de las sucursales de una sociedad no tienen facultades se dice que:",
+  choices: [
+      "Carecen de cualquier poder.",
+      "Sus facultades son las mismas del administrador de la principal.",
+      "Son las mismas de la asamblea general.",
+      "Son las mismas de la junta directiva."
+  ],
+  correctAnswer: "Sus facultades son las mismas del administrador de la principal.",
+  explanation: "Si no se especifican facultades distintas, los administradores de las sucursales de una sociedad tienen las mismas facultades que el administrador de la principal, conforme a la normativa mercantil colombiana."
+},
+{
+  title: "La existencia y representación de una sociedad mercantil se prueba con:",
+  choices: [
+      "El acta de constitución.",
+      "El certificado de cámara de comercio.",
+      "Los estatutos de la sociedad.",
+      "El acta de junta directiva."
+  ],
+  correctAnswer: "El certificado de cámara de comercio.",
+  explanation: "La existencia y representación de una sociedad mercantil se prueba con el certificado de cámara de comercio, que acredita su inscripción y vigencia."
+},
+{
+  title: "El capital social de una sociedad mercantil se encuentra establecido en:",
+  choices: [
+      "Las actas de aprobación.",
+      "Los estatutos de la organización.",
+      "Los informes de la administración.",
+      "Las utilidades del periodo."
+  ],
+  correctAnswer: "Los estatutos de la organización.",
+  explanation: "El capital social de una sociedad mercantil se establece en los estatutos de la organización, que definen la estructura y el monto del capital."
+},
+{
+  title: "En la sociedad mercantil, sus socios están obligados a aumentar el aporte siempre que lo ordene:",
+  choices: [
+      "La junta directiva.",
+      "La gerencia general.",
+      "El contrato social.",
+      "La superintendencia de sociedades."
+  ],
+  correctAnswer: "El contrato social.",
+  explanation: "Los socios de una sociedad mercantil están obligados a aumentar sus aportes siempre que lo ordene el contrato social, que establece las condiciones y obligaciones de los socios."
+},
+{
+  title: "Tienen lucro indirecto o subjetivo las:",
+  choices: [
+      "Asociaciones.",
+      "Fundaciones.",
+      "Sociedades.",
+      "Corporaciones de fines ideales."
+  ],
+  correctAnswer: "Sociedades.",
+  explanation: "Las sociedades tienen lucro indirecto o subjetivo, ya que su objetivo principal es la obtención de beneficios económicos para sus socios."
+},
+{
+  title: "Deben tener razón social las sociedades:",
+  choices: [
+      "Por acciones simplificadas.",
+      "Comanditarias.",
+      "De responsabilidad limitada.",
+      "Anónimas."
+  ],
+  correctAnswer: "Comanditarias.",
+  explanation: "Las sociedades comanditarias deben tener razón social, que es el nombre bajo el cual realizan sus actividades comerciales."
+},
+{
+  title: "El máximo órgano de las sociedades de capitales lo constituye la:",
+  choices: [
+      "Junta directiva.",
+      "Junta de socios.",
+      "Asamblea general de accionistas.",
+      "Junta central."
+  ],
+  correctAnswer: "Asamblea general de accionistas.",
+  explanation: "El máximo órgano de las sociedades de capitales es la asamblea general de accionistas, que toma las decisiones más importantes para la sociedad."
+},
+{
+  title: "Deben constituirse y funcionar como sociedades de responsabilidad limitada:",
+  choices: [
+      "Las sucursales de sociedades extranjeras.",
+      "Los joint ventures.",
+      "Las empresas de seguridad privada.",
+      "Las asociaciones de fines ideales."
+  ],
+  correctAnswer: "Las empresas de seguridad privada.",
+  explanation: "Las empresas de seguridad privada deben constituirse y funcionar como sociedades de responsabilidad limitada, según la normativa colombiana."
+},
+{
+  title: "Si en una sociedad en comandita simple un socio gestor o colectivo hace aportes de dinero o de bienes apreciables en dinero, recibe como contraprestación en el capital social:",
+  choices: [
+      "Partes de interés.",
+      "Cuotas sociales.",
+      "Acciones.",
+      "Bloques."
+  ],
+  correctAnswer: "Partes de interés.",
+  explanation: "En una sociedad en comandita simple, los aportes de dinero o bienes apreciables en dinero hechos por un socio gestor o colectivo se reflejan en partes de interés en el capital social."
+},
+{
+  title: "El capital social de las sociedades colectivas está dividido en:",
+  choices: [
+      "Partes de interés.",
+      "Cuotas sociales.",
+      "Acciones.",
+      "Bloques."
+  ],
+  correctAnswer: "Partes de interés.",
+  explanation: "El capital social de las sociedades colectivas está dividido en partes de interés, que representan las aportaciones de cada socio."
+},
+{
+  title: "No es un derecho del que aporta la industria sin estimación de su valor:",
+  choices: [
+      "Participar en las utilidades sociales.",
+      "Votar en la asamblea de accionistas o junta de socios.",
+      "Administrar la sociedad.",
+      "Asistir a las deliberaciones de la asamblea de accionistas o junta de socios."
+  ],
+  correctAnswer: "Administrar la sociedad.",
+  explanation: "El derecho de administrar la sociedad no se concede a quienes aportan industria sin estimación de su valor, ya que este derecho está reservado a quienes realizan aportes de capital."
+},
+{
+  title: "Al tenor del artículo 263 del Código de Comercio colombiano, los establecimientos de comercio abiertos por una sociedad, dentro o fuera de su domicilio, para el desarrollo de los negocios sociales o parte de ellos, administrados por mandatarios con facultades para representar a la sociedad, se denominan:",
+  choices: [
+      "Sucursales.",
+      "Agencias.",
+      "Filiales.",
+      "Subsidiarias."
+  ],
+  correctAnswer: "Sucursales.",
+  explanation: "Según el artículo 263 del Código de Comercio colombiano, los establecimientos de comercio abiertos por una sociedad para el desarrollo de sus negocios, administrados por mandatarios con facultades, se denominan sucursales."
+},
+{
+  title: "La industria estimada en un valor determinado NO puede ser objeto de aportación en la:",
+  choices: [
+      "S.A.S.",
+      "Comanditaria por acciones.",
+      "Sociedad de responsabilidad limitada.",
+      "Sociedad anónima."
+  ],
+  correctAnswer: "Sociedad anónima.",
+  explanation: "En una sociedad anónima, la industria estimada en un valor determinado no puede ser objeto de aportación, ya que los aportes deben ser en dinero o bienes."
+},
+{
+  title: "De conformidad con el artículo 488 del Estatuto Mercantil colombiano, la sociedad comercial será de hecho:",
+  choices: [
+      "Mientras no se efectúe la inscripción del documento privado o público de constitución en la cámara de comercio.",
+      "Cuando no se constituya por documento privado.",
+      "Cuando no se constituya por escritura pública.",
+      "Mientras no obtenga el permiso de funcionamiento de la Superintendencia de Sociedades."
+  ],
+  correctAnswer: "Mientras no se efectúe la inscripción del documento privado o público de constitución en la cámara de comercio.",
+  explanation: "Según el artículo 488 del Estatuto Mercantil colombiano, una sociedad comercial será considerada de hecho mientras no se inscriba su documento de constitución en la cámara de comercio."
+},
+{
+  title: "Son deberes del comerciante:",
+  choices: [
+      "Llevar la contabilidad de sus negocios, dar publicidad sobre la calidad de sus productos y abrir un establecimiento de comercio al público.",
+      "Matricularse en la Cámara de Comercio, inscribir en el registro mercantil sus propiedades inmuebles y abstenerse de realizar actos de competencia desleal.",
+      "Abstenerse de realizar actos de competencia desleal, llevar el archivo de su correspondencia y matricularse en la Cámara de comercio de su domicilio.",
+      "Inscribir en el registro mercantil libros actos y documentos, anunciar al público que abrió un establecimiento de comercio y llevar la contabilidad de sus negocios."
+  ],
+  correctAnswer: "Inscribir en el registro mercantil libros actos y documentos, anunciar al público que abrió un establecimiento de comercio y llevar la contabilidad de sus negocios.",
+  explanation: "Los deberes del comerciante incluyen inscribir en el registro mercantil los libros, actos y documentos, anunciar la apertura de un establecimiento de comercio y llevar la contabilidad de sus negocios."
+},
+{
+  title: "La persona natural adquiere la calidad de comerciante cuando:",
+  choices: [
+      "Se dedica profesionalmente al comercio y tiene capacidad.",
+      "Abre un establecimiento de comercio y se inscribe en la cámara de comercio.",
+      "Da a conocer sus productos.",
+      "Constituye una sociedad."
+  ],
+  correctAnswer: "Se dedica profesionalmente al comercio y tiene capacidad.",
+  explanation: "Una persona natural adquiere la calidad de comerciante cuando se dedica profesionalmente al comercio y tiene la capacidad para realizar actos de comercio, según el Código de Comercio Colombiano."
+},
+{
+  title: "La incapacidad de un socio que actúa por sí mismo produce:",
+  choices: [
+      "Nulidad absoluta del contrato de sociedad.",
+      "Nulidad de la relación entre el incapaz y la sociedad.",
+      "Nulidad de la escritura de constitución.",
+      "Nulidad relativa del contrato de sociedad."
+  ],
+  correctAnswer: "Nulidad relativa del contrato de sociedad.",
+  explanation: "La incapacidad de un socio que actúa por sí mismo produce la nulidad relativa del contrato de sociedad, lo que permite que dicho contrato sea anulable bajo ciertas condiciones."
+},
+{
+  title: "Es una característica de la sociedad comanditaria:",
+  choices: [
+      "Tener dos clases de socios.",
+      "La responsabilidad solidaria y personal de todos los socios.",
+      "No tener objeto social.",
+      "Ser de carácter civil."
+  ],
+  correctAnswer: "Tener dos clases de socios.",
+  explanation: "La sociedad comanditaria se caracteriza por tener dos clases de socios: los socios comanditados, que responden ilimitadamente por las obligaciones sociales, y los socios comanditarios, cuya responsabilidad se limita al monto de sus aportes."
+},
+{
+  title: "Sobre la pluralidad como elemento de existencia de la sociedad podemos decir la sociedad:",
+  choices: [
+      "Anónima no tiene límite ni inferior ni superior.",
+      "Colectiva se constituye con un máximo de 30 socios.",
+      "Anónima debe tener mínimo 5 socios accionistas.",
+      "Comanditaria debe tener más socios gestores que comanditarios."
+  ],
+  correctAnswer: "Anónima debe tener mínimo 5 socios accionistas.",
+  explanation: "La sociedad anónima debe tener un mínimo de 5 socios accionistas, según la normativa vigente en Colombia."
+},
+{
+  title: "De una persona que tiene un establecimiento de comercio abierto al público y que de la actividad que desarrolla allí, deriva su sustento. Podemos decir:",
+  choices: [
+      "Debe tener matriculado, en la Cámara de Comercio de su domicilio, su establecimiento de comercio para tener la calidad de comerciante.",
+      "Debe anunciar sus productos en la Cámara de Comercio para darles publicidad y hacerlos oponibles frente a terceros.",
+      "Debe llevar la contabilidad de sus negocios para tener la calidad de comerciante.",
+      "Es comerciante aunque no se haya matriculado en la Cámara de Comercio y no haya matriculado su establecimiento de comercio."
+  ],
+  correctAnswer: "Es comerciante aunque no se haya matriculado en la Cámara de Comercio y no haya matriculado su establecimiento de comercio.",
+  explanation: "Una persona que tiene un establecimiento de comercio abierto al público y que deriva su sustento de esa actividad es comerciante aunque no se haya matriculado en la Cámara de Comercio, según el Código de Comercio Colombiano."
+},
+{
+  title: "Es una característica de la sociedad de responsabilidad limitada:",
+  choices: [
+      "Se puede constituir con un socio capitalista y uno industrial.",
+      "Los socios responden, por las obligaciones sociales, hasta el monto de sus aportes.",
+      "Tener mínimo 5 socios capitalistas y uno gestor.",
+      "El capital está dividido en cuotas sociales o en acciones de igual valor."
+  ],
+  correctAnswer: "Los socios responden, por las obligaciones sociales, hasta el monto de sus aportes.",
+  explanation: "Una característica de la sociedad de responsabilidad limitada es que los socios responden por las obligaciones sociales hasta el monto de sus aportes, limitando así su responsabilidad."
+},
+{
+  title: "El Defensor de Familia acepta el acuerdo de dejar a la señora Adela, tía paterna de Nataly de 11 años, su cuidado personal, habida cuenta que la madre de la niña, quien hasta ese momento convivía con ella viajó a Medellín por asuntos laborales. La tía de la niña solicita al padre de ésta mediante acta de conciliación, que le sea fijada cuota de alimentos. La ley considera que:",
+  choices: [
+      "El Padre no tiene obligación de subsidiar los alimentos para la niña.",
+      "Tanto el padre como la madre tienen obligación de subsidiar los alimentos para su hija.",
+      "La madre es la única que tiene obligación de subsidiar los alimentos a la menor.",
+      "Los alimentos le corresponden a la persona a la que se le asigna la custodia y cuidado personal."
+  ],
+  correctAnswer: "Tanto el padre como la madre tienen obligación de subsidiar los alimentos para su hija.",
+  explanation: "Según la legislación colombiana, ambos padres tienen la obligación de subsidiar los alimentos para su hija, independientemente de quién tenga la custodia."
+},
+{
+  title: "Marina y Juvenal, ambos sin impedimento para contraer matrimonio, deciden convivir de manera permanente y singular, pero sin casarse y efectivamente, comienzan su convivencia. Hoy llevan dos días en Unión Marital de Hecho. En tal situación, la legal y cierta es que:",
+  choices: [
+      "No existe Unión Marital de Hecho en tanto no han transcurrido dos años de convivencia permanente y singular.",
+      "Existe Unión Marital de Hecho en tanto la temporalidad no incide para su formación.",
+      "Juvenal puede exigir a Marina derechos patrimoniales derivados de la convivencia permanente y singular que están realizando.",
+      "Sólo cuando transcurran más de dos años de convivencia permanente y singular entre Marina y Juvenal podrá decirse que existe Unión Marital de Hecho entre ellos."
+  ],
+  correctAnswer: "No existe Unión Marital de Hecho en tanto no han transcurrido dos años de convivencia permanente y singular.",
+  explanation: "La ley colombiana establece que se requiere una convivencia mínima de dos años para que se considere una Unión Marital de Hecho."
+},
+{
+  title: "Jorge convivió desde 1983 con Luis, quien falleció el 18 de mayo de 2009, tiempo durante el cual compartieron su lugar de habitación y llevaron una vida de pareja. En junio de 2009, Jorge presentó demanda declarativa de unión marital de hecho, la cual es fallada en diciembre de 2010 expresando que al no allegar dentro de las pruebas acta de conciliación o escritura pública suscrita por ambos, no hay lugar a declarar la existencia de esta, desconociendo las demás pruebas practicadas que demuestran la existencia de la unión por más de dos años. De lo anterior se infiere que:",
+  choices: [
+      "Hay lugar a declarar la existencia de la unión, pero no de la sociedad patrimonial de hecho.",
+      "El fallo está correcto, por cuando la existencia de la sociedad patrimonial de hecho requiere obligatoriamente alguno de estos documentos.",
+      "No es posible declarar la existencia de la unión, por cuanto el término de prescripción se venció.",
+      "Está correcta la sentencia, porque según el art. 1 de la Ley 54 de 1990, la unión marital de hecho es la suscrita entre un hombre y una mujer."
+  ],
+  correctAnswer: "Está correcta la sentencia, porque según el art. 1 de la Ley 54 de 1990, la unión marital de hecho es la suscrita entre un hombre y una mujer.",
+  explanation: "Según la Ley 54 de 1990, la unión marital de hecho se reconoce entre un hombre y una mujer, por lo que la sentencia que niega la existencia de la unión entre Jorge y Luis está acorde con la normativa vigente."
+},
+{
+  title: "El señor Roberto debido a tener 66 años de edad, le es imposible conseguir un lugar donde laborar, y además no cuenta con ahorro o pensión alguna para subsistir, por cuanto nunca hizo las cotizaciones que la ley le exige para ello. Cuenta con un hijo de su primer matrimonio, el cual su posición económica es estable por tener varias empresas automotrices de su propiedad que le generan utilidades de más de $10.000.000.oo mensuales. El señor Roberto convive en unión marital de hecho de la cual es producto un hijo de 8 años de edad. Este pide ayuda a su hijo mayor el cual se niega por decir no tener obligación, en consecuencia, el señor Roberto inicia proceso de Alimentos. El Juez deberá:",
+  choices: [
+      "Fallar alimentos por parte de su hijo mayor, por cuanto existe necesidad alimentaria del señor Roberto.",
+      "Desestimar la pretensión del señor Roberto, ya que su hijo tiene una obligación prevalente con sus hijos.",
+      "Fallar alimentos por parte de su hijo mayor a favor de su hermano menor de edad.",
+      "Desestimar la pretensión por cuanto no han acudido a la comisaría de familia a conciliar la cuota de alimentos de mayor."
+  ],
+  correctAnswer: "Fallar alimentos por parte de su hijo mayor, por cuanto existe necesidad alimentaria del señor Roberto.",
+  explanation: "El juez deberá fallar alimentos a favor del señor Roberto por parte de su hijo mayor debido a la necesidad alimentaria que presenta, conforme a la legislación colombiana."
+},
+{
+  title: "Para la exigibilidad de los derechos de los menores de edad, están legitimados:",
+  choices: [
+      "El ICBF.",
+      "Toda persona mayor de 18 años.",
+      "El defensor de familia.",
+      "Cualquier persona."
+  ],
+  correctAnswer: "Cualquier persona.",
+  explanation: "Cualquier persona está legitimada para exigir los derechos de los menores de edad, según el Código de la Infancia y Adolescencia."
+},
+{
+  title: "Teniendo en cuenta que a los niños Deiner y Matias han sido declarados en situación de adoptabilidad, debido a que su madre, la señora Yolanda Rocha ejerce mendicidad, consume sustancias psicoactivas y por ende se encuentra en una situación económica precaria; esta se opone ante del defensor de familia por lo que se debe:",
+  choices: [
+      "Dar trámite al recurso de reposición en subsidio de apelación.",
+      "No se debe dar ningún tipo de trámite, debido a la circunstancia de la madre.",
+      "Enviar al juez de familia para que dé trámite a la homologación.",
+      "Dar trámite a la revisión administrativa por parte del director regional."
+  ],
+  correctAnswer: "Dar trámite al recurso de reposición en subsidio de apelación.",
+  explanation: "Se debe dar trámite al recurso de reposición en subsidio de apelación presentado por la madre, conforme a los procedimientos establecidos en el Código de la Infancia y Adolescencia."
+},
+{
+  title: "¿Cuáles son los elementos indispensables para que exista una sucesión?",
+  choices: [
+      "Causante - Patrimonio - De Cujus.",
+      "Asignatarios - Legatarios – Herederos.",
+      "Causante - Patrimonio – Asignatarios.",
+      "Patrimonio - Herederos – Causante."
+  ],
+  correctAnswer: "Causante - Patrimonio – Asignatarios.",
+  explanation: "Los elementos indispensables para que exista una sucesión son el causante, el patrimonio y los asignatarios, conforme a la normativa sucesoral colombiana."
+},
+{
+  title: "¿Cómo se prueba la muerte real?",
+  choices: [
+      "Con el acta de defunción.",
+      "Con el certificado médico de defunción.",
+      "Con el registro civil de defunción.",
+      "Con el acta de necropsia."
+  ],
+  correctAnswer: "Con el registro civil de defunción.",
+  explanation: "La muerte real se prueba con el registro civil de defunción, que es el documento oficial que certifica el fallecimiento de una persona."
+},
+{
+  title: "En relación a la teoría del título y el modo en el derecho real de herencia, se colige que:",
+  choices: [
+      "El título en la sucesión testada es el contrato.",
+      "El título en la sucesión mixta es el contrato (en la parte testada) y la ley (en la parte intestada).",
+      "El título siempre varía según la sucesión y el modo siempre será la sucesión por causa de muerte.",
+      "El título en la sucesión intestada (abintestato) es la ley - disposición legal."
+  ],
+  correctAnswer: "El título en la sucesión intestada (abintestato) es la ley - disposición legal.",
+  explanation: "En la sucesión intestada, el título es la disposición legal que establece quiénes son los herederos, mientras que el modo es la sucesión por causa de muerte."
+},
+{
+  title: "Sobre la base de los señalado por el artículo 1282 del código civil, el derecho de opción 'es una facultad que poseen los asignatarios para aceptar o repudiar la herencia o legado'. Se desprende que la delación de la herencia consiste en:",
+  choices: [
+      "El llamamiento que hace la ley a los asignatarios para que ejerciten debidamente el derecho de opción.",
+      "El llamamiento que hace el testador a los asignatarios para que ejerciten debidamente el derecho de opción.",
+      "El llamamiento que hace el juez a los asignatarios para que ejerciten debidamente el derecho de opción.",
+      "El llamamiento que hace la ley o el testador a los asignatarios para que ejerciten el derecho de opción."
+  ],
+  correctAnswer: "El llamamiento que hace la ley o el testador a los asignatarios para que ejerciten el derecho de opción.",
+  explanation: "La delación de la herencia es el llamamiento que hace la ley o el testador a los asignatarios para que ejerciten el derecho de opción, es decir, para que acepten o repudien la herencia o legado."
+},
+{
+  title: "¿Quienes son los legitimarios?",
+  choices: [
+      "Los descendientes y los ascendientes.",
+      "Los descendientes y a falta de estos los ascendientes.",
+      "Los ascendientes o los descendientes.",
+      "Los ascendientes y a falta de estos los descendientes."
+  ],
+  correctAnswer: "Los descendientes y a falta de estos los ascendientes.",
+  explanation: "Los legitimarios son los descendientes y, a falta de estos, los ascendientes, quienes tienen derecho a una parte de la herencia, según el Código Civil Colombiano."
+},
+{
+  title: "A partir de la vigencia de la ley 1934 de 2018 ¿cuáles son las modificaciones en relación con las asignaciones forzosas?",
+  choices: [
+      "Se modifican las legítimas respecto a sus beneficiarios.",
+      "Se modifica la porción conyugal, ya que la compañera (o) permanente pueden ser ya titulares de esta.",
+      "Se modifica el monto de la de libre disposición y se condiciona la existencia de la cuarta de mejoras.",
+      "Se modifica el monto de los alimentos debidos o forzosos y los titulares de los mismos."
+  ],
+  correctAnswer: "Se modifica la porción conyugal, ya que la compañera (o) permanente pueden ser ya titulares de esta.",
+  explanation: "La Ley 1934 de 2018 modifica la porción conyugal para incluir a la compañera o compañero permanente como titulares de esta, entre otros cambios."
+},
+{
+  title: "En relación a los actos testamentarios y su clasificación, se puede afirmar que:",
+  choices: [
+      "Son solemnes y más o menos solemnes.",
+      "Son abiertos y cerrados.",
+      "Son verbales, militares y marítimos.",
+      "Son solemnes y noncupativos."
+  ],
+  correctAnswer: "Son solemnes y noncupativos.",
+  explanation: "Los actos testamentarios se clasifican en solemnes y noncupativos, según el Código Civil Colombiano."
+},
+{
+  title: "Para que opere el derecho de representación se hace necesario que el lugar del asignatario llamado a suceder esté vacante. Quienes pueden solicitar la aplicación de este derecho son:",
+  choices: [
+      "Los herederos de todos los órdenes.",
+      "Los herederos del 1er y 3er orden respectivamente.",
+      "Los herederos y los legatarios.",
+      "Los asignatarios como concepto en general."
+  ],
+  correctAnswer: "Los herederos de todos los órdenes.",
+  explanation: "El derecho de representación puede ser solicitado por los herederos de todos los órdenes cuando el lugar del asignatario llamado a suceder esté vacante."
+},
+{
+  title: "La institución del derecho de transmisión regulada en el artículo 1014 del código civil, manifiesta que para que pueda materializarse el derecho se hace necesario que el lugar del asignatario llamado a suceder esté vacante y ello ocurre cuando ha fallecido sin haber ejercitado el derecho de opción y desconocía que se le había deferido una herencia o legado. Los que pueden solicitar la aplicación de este derecho son:",
+  choices: [
+      "Los herederos de todos los órdenes.",
+      "Los herederos del 1er y 3er orden respectivamente.",
+      "Los herederos y los legatarios.",
+      "Los asignatarios como concepto en general."
+  ],
+  correctAnswer: "Los herederos de todos los órdenes.",
+  explanation: "El derecho de transmisión puede ser solicitado por los herederos de todos los órdenes cuando el asignatario fallecido no ejercitó el derecho de opción y desconocía que se le había deferido una herencia o legado."
+},
+{
+  title: "La familia se constituye por vínculos naturales y jurídicos, señala la C. Nacional en su artículo 42 que en el caso de los primeros serán:",
+  choices: [
+      "El concubinato.",
+      "El matrimonio.",
+      "El vínculo civil ante notario.",
+      "La unión marital de hecho."
+  ],
+  correctAnswer: "La unión marital de hecho.",
+  explanation: "Según el artículo 42 de la Constitución Nacional, la familia se constituye por vínculos naturales como la unión marital de hecho y por vínculos jurídicos como el matrimonio."
+},
+{
+  title: "Hacen parte del patrimonio de la sociedad conyugal:",
+  choices: [
+      "Los salarios del marido.",
+      "Las donaciones gratuitas.",
+      "La herencia que recibe la esposa.",
+      "El legado en favor de ambos."
+  ],
+  correctAnswer: "El legado en favor de ambos.",
+  explanation: "El legado en favor de ambos cónyuges hace parte del patrimonio de la sociedad conyugal, conforme a la normativa colombiana."
+},
+{
+  title: "Los bienes que los cónyuges posean antes del matrimonio:",
+  choices: [
+      "Hacen parte del haber absoluto.",
+      "Pertenecen al haber relativo.",
+      "Pertenecen solo a ese cónyuge.",
+      "Ingresan en la partición."
+  ],
+  correctAnswer: "Pertenecen solo a ese cónyuge.",
+  explanation: "Los bienes que los cónyuges posean antes del matrimonio pertenecen solo a ese cónyuge y no forman parte del patrimonio de la sociedad conyugal."
+},
+{
+  title: "Las capitulaciones matrimoniales:",
+  choices: [
+      "Se deben protocolizar por medio escritural.",
+      "Pueden ser dispuestas en cualquier momento de la vida matrimonial.",
+      "No requieren formalidades legales.",
+      "Podrían ser revocadas en cualquier tiempo."
+  ],
+  correctAnswer: "Se deben protocolizar por medio escritural.",
+  explanation: "Las capitulaciones matrimoniales deben protocolizarse por medio escritural, cumpliendo con las formalidades legales establecidas."
+},
+{
+  title: "Los salarios que devenga uno de los cónyuges hace parte de:",
+  choices: [
+      "Del haber absoluto de la sociedad conyugal.",
+      "Del haber relativo de la sociedad.",
+      "Del haber propio de cada cónyuge.",
+      "Como bien fungible no ingresa a los haberes."
+  ],
+  correctAnswer: "Del haber absoluto de la sociedad conyugal.",
+  explanation: "Los salarios que devenga uno de los cónyuges forman parte del haber absoluto de la sociedad conyugal, según el Código Civil Colombiano."
+},
+{
+  title: "Ricardo Fuentes, tiene 17 años, desea ejercer su propia representación y ejercer la administración de sus bienes, situación que consienten sus padres. Estamos frente a una emancipación de qué tipo:",
+  choices: [
+      "Legal.",
+      "Judicial.",
+      "Administrativa.",
+      "Voluntaria."
+  ],
+  correctAnswer: "Voluntaria.",
+  explanation: "La emancipación voluntaria ocurre cuando los padres consienten que un menor de edad ejerza su propia representación y administre sus bienes, según la normativa colombiana."
+},
+{
+  title: "¿Cuál es el requisito que necesita un Juez para resolver un proceso apartándose de la doctrina probable?",
+  choices: [
+      "Que la doctrina probable sea de aquellas donde haya salvamento de voto.",
+      "Que la doctrina probable sea de aquellas que no merece credibilidad.",
+      "Que la doctrina probable sea contraria al criterio del juez que está resolviendo el proceso y éste lo argumenta muy bien.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Que la doctrina probable sea contraria al criterio del juez que está resolviendo el proceso y éste lo argumenta muy bien.",
+  explanation: "El juez puede apartarse de la doctrina probable si considera que es contraria a su criterio y lo argumenta adecuadamente, justificando su decisión."
+},
+{
+  title: "¿En qué consiste el plano de coordinación, hablando del derecho civil?",
+  choices: [
+      "En pasar de una norma que es particular a lo general.",
+      "En que las personas están autorizadas por el ordenamiento jurídico para gobernar lo relativo a sus intereses privados mediante su voluntad.",
+      "En que las personas son iguales ante la ley.",
+      "En que las personas deben actuar de manera coordinada para gobernar sus intereses."
+  ],
+  correctAnswer: "En que las personas están autorizadas por el ordenamiento jurídico para gobernar lo relativo a sus intereses privados mediante su voluntad.",
+  explanation: "El plano de coordinación en el derecho civil consiste en que las personas están autorizadas por el ordenamiento jurídico para gobernar lo relativo a sus intereses privados mediante su voluntad."
+},
+{
+  title: "¿En qué consisten los derechos absolutos?",
+  choices: [
+      "Son los derechos que deben respetar todas las personas.",
+      "Son los derechos que deben respetar algunas personas.",
+      "Son los derechos que deben respetar algunos familiares.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Son los derechos que deben respetar todas las personas.",
+  explanation: "Los derechos absolutos son aquellos que deben ser respetados por todas las personas, independientemente de su relación con el titular del derecho."
+},
+{
+  title: "La consecuencia jurídica puede ser clasificada como:",
+  choices: [
+      "Penas, castigos y premios.",
+      "Penas, derechos objetivos, situaciones o estados.",
+      "Penas, derechos subjetivos, situaciones o estados.",
+      "Penas, premios y estados o situaciones."
+  ],
+  correctAnswer: "Penas, derechos subjetivos, situaciones o estados.",
+  explanation: "La consecuencia jurídica puede ser clasificada como penas, derechos subjetivos, situaciones o estados, según el marco legal y la naturaleza de la consecuencia."
+},
+{
+  title: "¿La interpretación doctrinal es obligatoria en los siguientes casos?",
+  choices: [
+      "Cuando el Juez no tiene ninguna salida legal.",
+      "Cuando el legislador lo sugiere.",
+      "Cuando el autor es la eminencia en la materia.",
+      "En ningún caso."
+  ],
+  correctAnswer: "En ningún caso.",
+  explanation: "La interpretación doctrinal no es obligatoria en ningún caso, ya que la doctrina es una fuente auxiliar del derecho y no vinculante."
+},
+{
+  title: "¿El método sistemático consiste en?",
+  choices: [
+      "La interpretación de la ley se debe hacer a través de sistemas modernos de interpretación.",
+      "En interpretar el texto al tenor literal teniendo en cuenta la jurisprudencia moderna.",
+      "Sacar el sentido de las palabras y proposiciones de un texto legal relacionándolo con la institución de que hacen parte y con el propio sistema jurídico.",
+      "En saber el significado de cada palabra para interpretar la ley pero además remontarse hasta los principios esenciales del sistema jurídico."
+  ],
+  correctAnswer: "Sacar el sentido de las palabras y proposiciones de un texto legal relacionándolo con la institución de que hacen parte y con el propio sistema jurídico.",
+  explanation: "El método sistemático consiste en interpretar el texto legal sacando el sentido de las palabras y proposiciones, relacionándolas con la institución de la que forman parte y con el propio sistema jurídico."
+},
+{
+  title: "¿Cuando de responsabilidad precontractual se trata, estamos hablando principalmente de?",
+  choices: [
+      "La oferta.",
+      "Contrato de promesa de compraventa.",
+      "Contrato de compraventa.",
+      "Nueva oferta."
+  ],
+  correctAnswer: "La oferta.",
+  explanation: "La responsabilidad precontractual se refiere principalmente a la oferta, que es la manifestación de voluntad que precede a la formación del contrato."
+},
+{
+  title: "¿La teoría de la imprevisión de los contratos en Colombia consiste en?",
+  choices: [
+      "Improvisar un contrato por parte de particulares.",
+      "Improvisar el objeto de un contrato por parte de particulares.",
+      "Improvisar el precio de un contrato por parte de los particulares.",
+      "Que de manera imprevista surja en la ejecución del contrato una situación no esperada y ésta haga variar el precio del mismo."
+  ],
+  correctAnswer: "Que de manera imprevista surja en la ejecución del contrato una situación no esperada y ésta haga variar el precio del mismo.",
+  explanation: "La teoría de la imprevisión de los contratos en Colombia implica que una situación imprevista durante la ejecución del contrato haga variar el precio del mismo, afectando el equilibrio contractual."
+},
+{
+  title: "¿En cuál de los siguientes casos de compraventa de un apartamento hay buena fe exenta de culpa por parte del comprador?",
+  choices: [
+      "Cuando el comprador cree al vendedor por la información verbal acerca del estado del bien.",
+      "Cuando el comprador revisa la escritura pública del bien.",
+      "Cuando el comprador cree la información acerca del estado del bien con un certificado de tradición que fue expedido hace 7 meses.",
+      "Cuando el comprador además de revisar la escritura del apartamento, posesión, también revisa un certificado de tradición al día."
+  ],
+  correctAnswer: "Cuando el comprador además de revisar la escritura del apartamento, posesión, también revisa un certificado de tradición al día.",
+  explanation: "Hay buena fe exenta de culpa cuando el comprador, además de revisar la escritura y la posesión del apartamento, verifica un certificado de tradición actualizado."
+},
+{
+  title: "Encuentre el concepto del efecto ultractivo de la norma jurídica:",
+  choices: [
+      "Es aquel que permite que la norma rija hacia el pasado sobre el hecho jurídico.",
+      "Es aquel que permite que la norma rija hacia el pasado sobre la consecuencia jurídica.",
+      "Es aquel que no se aplica con efecto inmediato, ni retroactivo, pero permite que sobreviva la norma antigua.",
+      "Es aquel que permite que la norma rija hacia el futuro sobre la consecuencia jurídica."
+  ],
+  correctAnswer: "Es aquel que no se aplica con efecto inmediato, ni retroactivo, pero permite que sobreviva la norma antigua.",
+  explanation: "El efecto ultractivo de la norma jurídica significa que la norma no se aplica de inmediato ni retroactivamente, pero permite que la norma antigua sobreviva y siga rigiendo ciertos aspectos."
+},
+{
+  title: "¿Qué significa que una norma es coactiva?",
+  choices: [
+      "Que la consecuencia se aplica aún contra el querer de la persona.",
+      "Que la consecuencia se aplica si hay querer de la persona.",
+      "Que la consecuencia se aplica si la norma lo exige de manera imperativa.",
+      "Que la consecuencia se aplica siempre y cuando el interesado lo necesite."
+  ],
+  correctAnswer: "Que la consecuencia se aplica aún contra el querer de la persona.",
+  explanation: "Una norma es coactiva cuando la consecuencia se aplica aún contra el querer de la persona, es decir, su cumplimiento es obligatorio y puede ser forzado."
+},
+{
+  title: "Me caso en Colombia con mujer colombiana. Nos vamos a vivir a Roma. Después de 12 años decidimos divorciarnos en Roma. Para que ese divorcio pueda inscribirse en Colombia y sea aceptado, se requiere:",
+  choices: [
+      "Que el divorcio se haya adelantado por medio de notaría.",
+      "Que el divorcio se haya adelantado por medio de juzgado.",
+      "Que la causal de divorcio sea una de las que estipula la legislación colombiana.",
+      "Puede ser por cualquier causal y solo se requiere se registre en Colombia."
+  ],
+  correctAnswer: "Que la causal de divorcio sea una de las que estipula la legislación colombiana.",
+  explanation: "Para que el divorcio pueda inscribirse y sea aceptado en Colombia, la causal de divorcio debe ser una de las que estipula la legislación colombiana."
+},
+{
+  title: "Para que la costumbre mercantil tenga la misma autoridad que la ley comercial, es necesaria que:",
+  choices: [
+      "No exista ley comercial.",
+      "No contrarié la ley comercial ni manifiesta ni tácitamente.",
+      "Que la costumbre rija en el lugar donde hayan de cumplirse las prestaciones.",
+      "Debe cumplir con los tres requisitos anteriores."
+  ],
+  correctAnswer: "Debe cumplir con los tres requisitos anteriores.",
+  explanation: "Para que la costumbre mercantil tenga la misma autoridad que la ley comercial, debe no existir ley comercial, no contradecir la ley comercial ni manifiesta ni tácitamente, y regir en el lugar donde hayan de cumplirse las prestaciones."
+},
+{
+  title: "Un comerciante podrá inscribirse en el registro mercantil con el mismo nombre de otro ya inscrito cuando:",
+  choices: [
+      "Existe homonimia de personas naturales.",
+      "En cualquier de caso.",
+      "Por el uso del mismo nombre por más de 5 años consecutivos.",
+      "Cuando la Cámara de Comercio de su jurisdicción así lo ordene."
+  ],
+  correctAnswer: "Existe homonimia de personas naturales.",
+  explanation: "Un comerciante podrá inscribirse en el registro mercantil con el mismo nombre de otro ya inscrito cuando existe homonimia de personas naturales."
+},
+{
+  title: "Los libros de un comerciante llevados en forma irregular tendrán como sanción:",
+  choices: [
+      "Multas de carácter económico para su propietario.",
+      "Sanciones penales para quien cometió la irregularidad.",
+      "Pérdida del valor probatorio de los libros a favor de quien los lleva.",
+      "Cualquiera de las sanciones anteriores."
+  ],
+  correctAnswer: "Pérdida del valor probatorio de los libros a favor de quien los lleva.",
+  explanation: "Los libros de un comerciante llevados en forma irregular tendrán como sanción la pérdida del valor probatorio de los libros a favor de quien los lleva."
+},
+{
+  title: "Podrá pedirse la exhibición general de los libros y papeles de un comerciante en los siguientes casos:",
+  choices: [
+      "Para la tasación de los impuestos por parte de la DIAN.",
+      "Para la vigilancia de los establecimientos de crédito.",
+      "En la investigación de delitos o en procesos ante cualquier autoridad judicial.",
+      "En el caso de liquidación de una sociedad."
+  ],
+  correctAnswer: "En la investigación de delitos o en procesos ante cualquier autoridad judicial.",
+  explanation: "Podrá pedirse la exhibición general de los libros y papeles de un comerciante en la investigación de delitos o en procesos ante cualquier autoridad judicial."
+},
+{
+  title: "Si el comerciante no presenta los libros y papeles cuya exhibición se decreta legalmente, o las oculta o impide su examen, el Juez de la causa podrá:",
+  choices: [
+      "Ordenar la aprensión material de los libros y papeles del comerciante.",
+      "Dar por probados los hechos que la otra parte se proponga demostrar.",
+      "Arresto hasta por 24 horas para el comerciante renuente.",
+      "Iniciar investigación por la comisión de un delito."
+  ],
+  correctAnswer: "Dar por probados los hechos que la otra parte se proponga demostrar.",
+  explanation: "Si el comerciante no presenta los libros y papeles cuya exhibición se decreta legalmente, o las oculta o impide su examen, el Juez de la causa podrá dar por probados los hechos que la otra parte se proponga demostrar."
+},
+{
+  title: "La finalidad concurrencial del acto de competencia desleal significa que:",
+  choices: [
+      "Que todos los elementos del acto deben concurrir en la persona que lo ejecuta.",
+      "Que todos los elementos del acto deben concurrir en las mismas circunstancias de tiempo, modo y lugar.",
+      "Que todos los elementos del acto deben concurrir en la misma ejecución del hecho.",
+      "Que el acto se realice por un medio idóneo para mantener o incrementar la participación en el mercado."
+  ],
+  correctAnswer: "Que el acto se realice por un medio idóneo para mantener o incrementar la participación en el mercado.",
+  explanation: "La finalidad concurrencial del acto de competencia desleal significa que el acto se realice por un medio idóneo para mantener o incrementar la participación en el mercado."
+},
+{
+  title: "El error esencial en la constitución de una sociedad es el que versa sobre:",
+  choices: [
+      "El hecho de no registrarla en la Cámara de Comercio correspondiente.",
+      "El hecho de que uno de los socios adquiera una mayor responsabilidad a la que quiso adquirir.",
+      "El hecho de que se equivoque en relación con las personas o socios con quienes pretendió constituir la sociedad.",
+      "Sobre los móviles que determinaran la constitución del acto o contrato por ser comunes o conocidas por las partes."
+  ],
+  correctAnswer: "El hecho de que se equivoque en relación con las personas o socios con quienes pretendió constituir la sociedad.",
+  explanation: "El error esencial en la constitución de una sociedad es el que versa sobre el hecho de que se equivoque en relación con las personas o socios con quienes pretendió constituir la sociedad."
+},
+{
+  title: "Si en la escritura de constitución de una sociedad, no se determinan las facultades de los administradores de las sucursales:",
+  choices: [
+    "Se deben asignar sus funciones en documento privado determinadas por la Asamblea General de Socios.",
+    "Se entiende que tiene las mismas facultades de los administradores de la principal.",
+    "Tiene las funciones del giro normal de los negocios de las sucursales.",
+    "No puede ejercer como administrador por no habérsele asignado sus funciones."
+  ],
+  correctAnswer: "Se entiende que tiene las mismas facultades de los administradores de la principal.",
+  explanation: "En ausencia de determinación específica en la escritura de constitución, los administradores de las sucursales se entienden con las mismas facultades que los de la oficina principal."
+},
+{
+  title: "Si un socio incumple con la entrega de los aportes que se comprometió a hacer a la sociedad, la sociedad perjudicada podrá:",
+  choices: [
+    "Excluirlo como socio.",
+    "Reducirle su participación en la sociedad a lo efectivamente entregado.",
+    "Iniciar el cobro ejecutivo de lo no entregado.",
+    "Cualquiera de las anteriores a elección de la sociedad."
+  ],
+  correctAnswer: "Cualquiera de las anteriores a elección de la sociedad.",
+  explanation: "La sociedad tiene varias opciones para manejar la falta de cumplimiento en la entrega de los aportes por parte de un socio."
+},
+{
+  title: "La reforma de los estatutos sociales de una sociedad de responsabilidad limitada debe hacerse:",
+  choices: [
+    "Por documento privado autenticado proveniente de la totalidad de los socios.",
+    "Por documento privado con la suscripción de todos los socios que la aprobaron.",
+    "Por escritura pública.",
+    "Por manifestación verbal del gerente donde se manifieste bajo juramento que fue aprobada por todos los socios."
+  ],
+  correctAnswer: "Por escritura pública.",
+  explanation: "La reforma de los estatutos sociales de una sociedad de responsabilidad limitada debe hacerse mediante escritura pública."
+},
+{
+  title: "Los menores pueden hacer parte de sociedades, menos pertenecer a sociedades colectivos o ser gestores de sociedades en comanditas. Para el aporte de capital representado en especie de bienes inmuebles:",
+  choices: [
+    "Se debe valorar el valor de los bienes inmuebles.",
+    "Se debe elevar a escritura pública y registrarse en la oficina de registro correspondiente.",
+    "Se debe promover una licencia judicial.",
+    "No se pueden aportar bienes inmuebles a una sociedad."
+  ],
+  correctAnswer: "Se debe elevar a escritura pública y registrarse en la oficina de registro correspondiente.",
+  explanation: "Para el aporte de capital en especie de bienes inmuebles por parte de menores, se debe elevar a escritura pública y registrarse en la oficina de registro correspondiente."
+},
+{
+  title: "Es requisito para constituir una sociedad de las que trata la ley 1258 de 2008 (S.A.S).",
+  choices: [
+    "Por escritura Pública.",
+    "Mediante documento privado autenticado ante Notario.",
+    "Mediante documento escrito.",
+    "De forma verbal solicitando la inscripción en la Cámara de Comercio."
+  ],
+  correctAnswer: "Mediante documento escrito.",
+  explanation: "La constitución de una S.A.S. según la ley 1258 de 2008 se realiza mediante documento escrito."
+},
+{
+  title: "En una sociedad de capital, en caso de que uno de los socios se encuentre en mora en el pago del capital suscrito, la Junta Directiva podrá decidir:",
+  choices: [
+    "Expulsar al socio de la sociedad.",
+    "Al cobro judicial.",
+    "A la Superintendencia de Sociedad con el fin de evitar que pertenezca a más sociedades.",
+    "Restringirle que asista a las asambleas de la sociedad."
+  ],
+  correctAnswer: "Al cobro judicial.",
+  explanation: "En caso de mora en el pago del capital suscrito, la Junta Directiva de una sociedad de capital puede decidir llevar el caso al cobro judicial."
+},
+{
+  title: "La cesión de cuotas en una sociedad de Responsabilidad limitada debe hacerse:",
+  choices: [
+    "Por documento privado que contenga el consentimiento del cedente.",
+    "Por escritura pública.",
+    "Por documento privado autenticado.",
+    "Por endoso y entrega."
+  ],
+  correctAnswer: "Por escritura pública.",
+  explanation: "La cesión de cuotas en una sociedad de responsabilidad limitada debe hacerse por escritura pública."
+},
+{
+  title: "Se entiende por reunión universal:",
+  choices: [
+    "Aquella en la cual participa cualquier número de socios.",
+    "Aquella en la cual se deciden los asuntos más importantes de la sociedad.",
+    "Aquella que se celebra en el domicilio principal de la sociedad.",
+    "Es aquella que se celebra con la presencia de todos los socios sin importar el lugar de la reunión."
+  ],
+  correctAnswer: "Es aquella que se celebra con la presencia de todos los socios sin importar el lugar de la reunión.",
+  explanation: "Una reunión universal es aquella que se celebra con la presencia de todos los socios, sin importar el lugar de la reunión."
+},
+{
+  title: "Si en la constitución de una sociedad comercial se decretase una nulidad absoluta por objeto ilícito respecto de uno de los contratantes, sus consecuencias son:",
+  choices: [
+    "Se desvincula el contratante que incurrió en la nulidad de la sociedad y se le devuelven los aportes.",
+    "Se desvincula el contratante que incurrió en la nulidad de la sociedad y no se le devuelven los aportes.",
+    "La sociedad será inexistente.",
+    "Se puede decir que hay ineficacia en los aportes."
+  ],
+  correctAnswer: "La sociedad será inexistente.",
+  explanation: "Si se decreta una nulidad absoluta por objeto ilícito respecto de uno de los contratantes, la sociedad será inexistente."
+},
+{
+  title: "¿Qué sociedades están obligadas a tener Revisor Fiscal?",
+  choices: [
+    "Las sociedades por acciones.",
+    "Las sociedades de personas.",
+    "Las sociedades por Acciones Simplificadas.",
+    "Las sociedades de hecho."
+  ],
+  correctAnswer: "Las sociedades por acciones.",
+  explanation: "Las sociedades por acciones están obligadas a tener Revisor Fiscal."
+},
+{
+  title: "La representación legal de una sociedad de responsabilidad limitada corresponde a:",
+  choices: [
+    "Todos los socios.",
+    "A la Junta de socios.",
+    "Al Revisor Fiscal.",
+    "Al menos si concurre el 50% de los socios."
+  ],
+  correctAnswer: "A la Junta de socios.",
+  explanation: "La representación legal de una sociedad de responsabilidad limitada corresponde a la Junta de socios."
+},
+{
+  title: "En una sociedad de capital, el término para el pago de los aportes de los socios se puede extender hasta:",
+  choices: [
+    "Hasta un año.",
+    "Hasta dos años.",
+    "Hasta cuatro años.",
+    "Hasta seis meses."
+  ],
+  correctAnswer: "Hasta un año.",
+  explanation: "En una sociedad de capital, el término para el pago de los aportes de los socios se puede extender hasta un año."
+},
+{
+  title: "Las causales de disolución y liquidación de la sociedad patrimonial entre compañeros permanentes son:",
+  choices: [
+    "Muerte de uno de los compañeros y matrimonio con terceros.",
+    "Separación temporal o definitiva, matrimonio con terceros.",
+    "Mutuo acuerdo, muerte de uno de los compañeros.",
+    "Muerte de uno de los compañeros, separación definitiva, matrimonio con la misma persona o con otra diferente, mutuo acuerdo."
+  ],
+  correctAnswer: "Muerte de uno de los compañeros, separación definitiva, matrimonio con la misma persona o con otra diferente, mutuo acuerdo.",
+  explanation: "Las causales de disolución y liquidación de la sociedad patrimonial entre compañeros permanentes incluyen muerte de uno de los compañeros, separación definitiva, matrimonio con la misma persona o con otra diferente, y mutuo acuerdo."
+},
+{
+  title: "En el proceso de separación de cuerpos:",
+  choices: [
+    "Se disuelve el vínculo matrimonial.",
+    "Cesan los deberes de los esposos pero continúa el vínculo matrimonial.",
+    "Se disuelve y liquida la sociedad conyugal.",
+    "Se suspende la vida común de los casados pero sigue vigente el vínculo matrimonial."
+  ],
+  correctAnswer: "Se suspenden la vida común de los casados pero sigue vigente el vínculo matrimonial.",
+  explanation: "En el proceso de separación de cuerpos, se suspende la vida común de los casados pero sigue vigente el vínculo matrimonial."
+},
+{
+  title: "Jacinta en las capitulaciones matrimoniales se reservó la suma de $70.000.000. Casada con Oscar compra un apartamento con ese dinero y hace subrogación real de $100.000.000. Frente a esto se puede decir:",
+  choices: [
+    "Que el apartamento es un bien propio de Jacinta.",
+    "Que el apartamento es un bien que ingresa al haber relativo de la sociedad.",
+    "Que existe copropiedad entre Jacinta y la sociedad conyugal.",
+    "Que el apartamento es un bien propio pero le debe a la sociedad conyugal una recompensa de $30.000.000."
+  ],
+  correctAnswer: "Que el apartamento es un bien propio pero le debe a la sociedad conyugal una recompensa de $30.000.000.",
+  explanation: "El apartamento es un bien propio de Jacinta, pero le debe a la sociedad conyugal una recompensa de $30.000.000."
+},
+{
+  title: "Pepe casado con Rita, compra una boleta de una rifa de un apartamento y se lo gana. Podemos decir que el apartamento pertenece a:",
+  choices: [
+    "Al haber relativo de la sociedad conyugal.",
+    "Es un bien propio de Pepe.",
+    "Al haber absoluto de la sociedad conyugal.",
+    "Existe una copropiedad entre Pepe y la sociedad conyugal."
+  ],
+  correctAnswer: "Es un bien propio de Pepe.",
+  explanation: "El apartamento ganado en la rifa es un bien propio de Pepe."
+},
+{
+  title: "El derecho a gananciales surge cuando:",
+  choices: [
+    "Se contrae matrimonio.",
+    "Se decreta la separación de cuerpos.",
+    "Se disuelve y liquida la sociedad conyugal.",
+    "Se decreta el divorcio."
+  ],
+  correctAnswer: "Se disuelve y liquida la sociedad conyugal.",
+  explanation: "El derecho a gananciales surge cuando se disuelve y liquida la sociedad conyugal."
+},
+{
+  title: "Paco y Pepita inician su convivencia el 10 de septiembre de 2008. En agosto de 2009 deciden terminar la convivencia, frente a esto podemos decir:",
+  choices: [
+    "Que se puede declarar unión marital de hecho y la sociedad patrimonial.",
+    "Que puede solicitarse la declaración de una sociedad de hecho.",
+    "Que se puede declarar la unión marital de hecho pero no la sociedad patrimonial.",
+    "Que solo puede haber una convivencia sin ningún efecto."
+  ],
+  correctAnswer: "Que se puede declarar la unión marital de hecho pero no la sociedad patrimonial.",
+  explanation: "Dado que la convivencia fue inferior a dos años, se puede declarar la unión marital de hecho pero no la sociedad patrimonial."
+},
+{
+  title: "Juan y Pepita contraen matrimonio el 10 de abril de 2004 en la Parroquia San Cayetano de Pereira. Se separaron de hecho hace 6 años y a su oficina de abogado hoy acude Juan con el fin de que instaure el proceso de divorcio. Usted le responde:",
+  choices: [
+    "Que ya está legalizado el divorcio por el transcurso del tiempo.",
+    "Que la causal que puede invocarle es la separación judicial.",
+    "Que, para poder tramitarle el divorcio, primero debe instaurar el proceso de separación de cuerpos.",
+    "Que solicitará el divorcio con fundamento en la causal de separación de hecho por más de 2 años."
+  ],
+  correctAnswer: "Que solicitará el divorcio con fundamento en la causal de separación de hecho por más de 2 años.",
+  explanation: "Para poder tramitar el divorcio, se puede invocar la causal de separación de hecho por más de 2 años."
+},
+{
+  title: "La ley 28 de 1932 que reconoció la plena capacidad civil a la mujer casada, estableció frente a los bienes que cada cónyuge adquiere en vigencia del matrimonio:",
+  choices: [
+    "La administración compartida.",
+    "La responsabilidad personal de su gestión en virtud de la administración independiente de los bienes que adquieren.",
+    "La obligación de responder solidariamente ante terceros por deudas contraídas sin gravar los bienes de la sociedad conyugal.",
+    "La responsabilidad compartida por las deudas que adquieren cada uno de los cónyuges sin interesar en qué invierten el dinero."
+  ],
+  correctAnswer: "La responsabilidad personal de su gestión en virtud de la administración independiente de los bienes que adquieren.",
+  explanation: "La ley 28 de 1932 estableció que cada cónyuge es responsable personalmente de la administración independiente de los bienes que adquieren."
+},
+{
+  title: "Las capitulaciones matrimoniales tienen por objeto:",
+  choices: [
+    "Que no nazca a la vida sociedad conyugal.",
+    "Excluir los bienes propios de cada uno de los contrayentes de la sociedad conyugal al igual que los frutos.",
+    "Dejar sin efecto la sociedad conyugal.",
+    "Excluir o aportar bienes propios y sus frutos a la sociedad conyugal y hacerse concesiones recíprocas."
+  ],
+  correctAnswer: "Excluir o aportar bienes propios y sus frutos a la sociedad conyugal y hacerse concesiones recíprocas.",
+  explanation: "Las capitulaciones matrimoniales permiten a los contrayentes excluir o aportar bienes propios y sus frutos a la sociedad conyugal y hacerse concesiones recíprocas."
+},
+{
+  title: "Con relación a la aplicación de la reforma en materia de filiación con la ley 1060 de 2006, uno de los cambios establecidos es que permite la ampliación de la presunción de la paternidad legítima a ciertos casos de hijos extramatrimoniales. Si María inicia una unión marital de hecho con Javier el 12 de agosto de 2002 y la pareja procrea un hijo que nace el 19 de mayo de 2003. Debido a la muerte de Javier el 16 de octubre del 2011, María inició un proceso judicial por medio del cual el juez de familia declaró que entre María y Javier existió una unión marital del hecho desde el 12 de agosto de 2002 hasta el 16 de octubre de 2011. En este caso tenemos que:",
+  choices: [
+    "El hijo de la pareja es legítimo.",
+    "Aplica la presunción de la paternidad.",
+    "No aplica la presunción de paternidad.",
+    "Es un hijo extramatrimonial legitimado."
+  ],
+  correctAnswer: "Aplica la presunción de la paternidad.",
+  explanation: "En este caso, la reforma permite aplicar la presunción de la paternidad debido a la existencia de una unión marital de hecho reconocida judicialmente."
+},
+{
+  title: "Pedro crea una fundación para la protección de animales callejeros, aporta como patrimonio la suma de TREINTA MILLONES DE PESOS y una casa que sirve de albergue, Tomás es el administrador, María y Berta son las asistentes, quienes laboran de manera gratuita, después de tres años de funcionamiento no se cumplen los objetivos y no tienen patrimonio para seguir la labor y por lo tanto se extingue la fundación; al disolverse qué consecuencia tiene con su patrimonio:",
+  choices: [
+    "Pasa al estado para funciones similares.",
+    "Pasa a favor del administrador por tener la representación de la persona jurídica.",
+    "Se la reparten entre el administrador y las asistentes por ser personas que han realizado una labor gratuita.",
+    "Se le entrega a otra fundación de igual función."
+  ],
+  correctAnswer: "Se le entrega a otra fundación de igual función.",
+  explanation: "En caso de disolución, el patrimonio de la fundación se entrega a otra fundación con fines similares."
+},
+{
+  title: "Cuando hablamos de la sanción legal de la norma, nos referimos a:",
+  choices: [
+    "La validez que le da la Corte Constitucional.",
+    "El trámite debido que le da el congreso a la norma en sus respectivas cámaras.",
+    "La aprobación que le da el presidente con su firma.",
+    "La pena o recompensa que señala la ley al ciudadano por su cumplimiento o incumplimiento."
+  ],
+  correctAnswer: "La aprobación que le da el presidente con su firma.",
+  explanation: "La sanción legal de la norma se refiere a la aprobación final que le da el presidente mediante su firma."
+},
+{
+  title: "El código civil nos explica varias formas de interpretación de la ley, cuando nos habla de la interpretación doctrinal se refiere a:",
+  choices: [
+    "La interpretación del texto en su sentido literal.",
+    "La interpretación que da los jueces en la aplicación de la ley en casos similares.",
+    "La aplicación de lo favorable de la ley, haciéndola extensiva en su aplicación.",
+    "La interpretación correlativa con otras normas que permiten aclarar sentidos oscuros."
+  ],
+  correctAnswer: "La interpretación correlativa con otras normas que permiten aclarar sentidos oscuros.",
+  explanation: "La interpretación doctrinal consiste en aclarar sentidos oscuros mediante la correlación con otras normas."
+},
+{
+  title: "En qué consiste la conmoriencia:",
+  choices: [
+    "El presumir la muerte de una persona por no saber dónde se encuentra.",
+    "En presumir que en un hecho o accidente murieron a la vez varias personas, por no poderse establecer el orden de su muerte.",
+    "Ante la ausencia presunta de unas personas se declara su muerte.",
+    "Cuándo se da una masacre, este acto repudiable con lleva el rechazo de los ciudadanos al conmoverlos por el dolor."
+  ],
+  correctAnswer: "En presumir que en un hecho o accidente murieron a la vez varias personas, por no poderse establecer el orden de su muerte.",
+  explanation: "La conmoriencia consiste en la presunción de que varias personas murieron al mismo tiempo en un hecho o accidente, sin poder establecer el orden de su muerte."
+},
+{
+  title: "Tomás salió de su casa y no se volvió a saber de él, ante esta situación y por razón de sus negocios y bienes se tramita un proceso de declaración de ausencia, y de acuerdo a las pruebas el juez accede a las pretensiones. Qué facultades o derechos tienen sus allegados o interesados:",
+  choices: [
+    "Solo la administración de los bienes y negocios.",
+    "Derecho de disposición de los bienes a su arbitrio.",
+    "Derecho a iniciar un proceso de sucesión y que les adjudiquen sus bienes.",
+    "Ningún derecho."
+  ],
+  correctAnswer: "Solo la administración de los bienes y negocios.",
+  explanation: "En un proceso de declaración de ausencia, los allegados tienen el derecho de administrar los bienes y negocios del ausente."
+},
+{
+  title: "Pedro Ciagama hace parte del grupo indígena Embera que ocupa el resguardo del Bajo Baudó, en su familia tiene una hija, a la cual le practica la operación de la ablación; ante esta situación es requerido por la autoridad. Considera usted que aquí se da:",
+  choices: [
+    "La costumbre de su etnia, teniendo en cuenta que la misma es fuente de la ley.",
+    "Por ser un indígena de resguardo, se le admite el desconocimiento de la ley del país.",
+    "Los resguardos indígenas tienen protección constitucional y legal, y sus propias leyes de su etnia, que les permite como valido estos actos.",
+    "La ley colombiana prohíbe estos actos y los sancionan penalmente y prima frente a las normas del resguardo indígena."
+  ],
+  correctAnswer: "La ley colombiana prohíbe estos actos y los sancionan penalmente y prima frente a las normas del resguardo indígena.",
+  explanation: "La ley colombiana prohíbe y sanciona penalmente la ablación, y esta ley prima sobre las normas del resguardo indígena."
+},
+{
+  title: "Andrés desaparece un día de su lugar de residencia sin justa causa y por esta razón sus familiares promueven un proceso de presunción de muerte por desaparecimiento, a lo cual accede el juez y decreta su muerte presunta señalando como fecha de su muerte el diez de mayo de dos mil cinco; se tramita su sucesión y se adjudica sus bienes a sus herederos. Resulta que Andrés no está muerto, vive en un lugar lejano, se casó con Berta con quien tiene dos hijos, el día dieciocho de junio del dos mil quince, Andrés fallece realmente, el diez de agosto del dos mil veinte, Berta y sus hijos pide la recisión de la sentencia de muerte presunta y reclaman los bienes asignados en el proceso de sucesión de sus presuntos herederos. Ante esta situación que se puede resolver:",
+  choices: [
+    "La recisión por reaparecimiento solo la puede solicitar el presunto muerto.",
+    "Los herederos presuntos que recibieron los bienes obraron de buena fe y no tienen obligación de devolver los bienes.",
+    "Se deben entregar los bienes a Berta y sus hijos en el estado que se encuentren.",
+    "Los herederos presuntos no están obligados a restituir los bienes por cuanto ha prescrito el derecho de reclamación de Berta y sus hijos."
+  ],
+  correctAnswer: "Se deben entregar los bienes a Berta y sus hijos en el estado que se encuentren.",
+  explanation: "En este caso, se deben entregar los bienes a Berta y sus hijos en el estado en que se encuentren, ya que Andrés había sido declarado muerto presuntamente por error."
+},
+{
+  title: "¿En qué consiste la doctrina constitucional?",
+  choices: [
+    "En la interpretación que de la ley hace la Corte Constitucional.",
+    "En que un argumento o interpretación que ha dado un autor sobre una ley se toma como una última palabra para resolver un caso concreto.",
+    "En que los argumentos de los estudiosos del derecho o autores siempre deben ser tomados por un juez para resolver un caso concreto.",
+    "En ser la teoría más probable con relación a un tema que han desarrollado los estudiosos del derecho."
+  ],
+  correctAnswer: "En la interpretación que de la ley hace la Corte Constitucional.",
+  explanation: "La doctrina constitucional consiste en la interpretación que de la ley hace la Corte Constitucional."
+},
+{
+  title: "Al efectuar una promesa de contrato de compraventa, el vendedor me hizo entrega material del inmueble negociado en atención a que yo le pagué el precio total. Considerando que el citado vendedor se niega a suscribir la correspondiente escritura a pesar de que el plazo fijado en la promesa ya se venció, quiero saber cuál es la solución legal aquí.",
+  choices: [
+    "Obligación de dar",
+    "Obligación de hacer",
+    "Obligación de no hacer",
+    "Obligación condicional"
+  ],
+  correctAnswer: "Obligación de hacer",
+  explanation: "La solución legal es una obligación de hacer, ya que el vendedor está obligado a suscribir la correspondiente escritura."
+},
+{
+  title: "En lo referente a las obligaciones cuando la calidad de acreedor y de deudor se reúnen en una misma persona. Es imposible ser acreedor y deudor de si mismo (artículo 1.724 y siguientes del código Civil). Este modo no sólo permite la extinción de las obligaciones, sino de algunos derechos reales como la propiedad fiduciaria y las servidumbres. Aquí estamos frente a uno de los modos de extinguir las obligaciones.",
+  choices: [
+    "Remisión",
+    "Dación en pago",
+    "Confusión",
+    "Condonación"
+  ],
+  correctAnswer: "Confusión",
+  explanation: "La confusión es uno de los modos de extinguir las obligaciones, cuando la calidad de acreedor y deudor se reúnen en una misma persona."
+},
+{
+  title: "SANTIAGO se obliga a dar a RENE $2.000.000 en dinero efectivo o un televisor LED DE 47” o una Tablet Samsung Galaxy. Vencido el plazo, SANTIAGO entregó a RENE el Televisor LED de 47” y la obligación se extinguió. En este caso.",
+  choices: [
+    "Se trataba de una obligación facultativa",
+    "Se trataba de una obligación de género",
+    "Se trataba de una obligación divisible",
+    "Se trataba de una obligación alternativa o disyuntiva"
+  ],
+  correctAnswer: "Se trataba de una obligación alternativa o disyuntiva",
+  explanation: "La obligación era alternativa o disyuntiva, ya que SANTIAGO podía cumplirla entregando cualquiera de los tres elementos."
+},
+{
+  title: "Rodrigo Gómez abogado penalista suscribe un contrato de prestación de servicios profesionales con Aurelio Sánchez en el cual se compromete por la suma de $70.000.000 con la finalidad de conseguir la libertad de su hijo Juan Pablo Sánchez quien se encuentra en la cárcel judicializado por homicidio. Del anterior postulado se entiende una obligación de:",
+  choices: [
+    "Obligación de resultado.",
+    "Obligación sujeta a condición.",
+    "Obligación de medio.",
+    "Obligación pura y simple.",
+    "No es una obligación."
+  ],
+  correctAnswer: "Obligación de medio.",
+  explanation: "Rodrigo Gómez asumió una obligación de medio, comprometiéndose a realizar todos los esfuerzos posibles para conseguir la libertad de Juan Pablo Sánchez."
+},
+{
+  title: "Según el artículo 1625 del código Civil y la jurisprudencia los modos de extinguir las obligaciones son:",
+  choices: [
+    "Por la solución o pago efectivo, por la novación, por la transacción, por la remisión, por la compensación, por la confusión, por la perdida de la cosa que se debe, por la declaración de nulidad o por rescisión, por el evento de la condición resolutoria. Por la prescripción.",
+    "Por la solución o pago efectivo, Dación en pago, por la novación, por la transacción, por la remisión, por la compensación, por la confusión, por la perdida de la cosa que se debe, por la declaración de nulidad o por rescisión, por el evento de la condición resolutoria, Por la prescripción.",
+    "Pago solución de pago efectivo, por la novación, por la transacción, por la remisión, perdón de la deuda, por la confusión, por la perdida de la cosa que se debe, por la declaración de nulidad o por rescisión, por el evento de la condición resolutoria. Por la prescripción.",
+    "Perdón de la deuda, por la novación, por la transacción, por la remisión, dación en pago, por la compensación, por la confusión, por la perdida de la cosa que se debe, por la declaración de nulidad o por rescisión, por el evento de la condición resolutoria. Por la prescripción."
+  ],
+  correctAnswer: "Por la solución o pago efectivo, por la novación, por la transacción, por la remisión, por la compensación, por la confusión, por la perdida de la cosa que se debe, por la declaración de nulidad o por rescisión, por el evento de la condición resolutoria. Por la prescripción.",
+  explanation: "Los modos de extinguir las obligaciones según el artículo 1625 del Código Civil y la jurisprudencia incluyen todas las opciones mencionadas en esta respuesta."
+},
+{
+  title: "Intervine obrando como fiador para que le aprobaran un crédito a un amigo mío, destinado a la compra de un automotor. El caso es que esta persona se sustrajo a la obligación contraída, razón por la cual me tocó pagar a mí la deuda. Se refieren a este caso de estudio el articulo 1666 del Código Civil “es la transmisión de los derechos del acreedor a un tercero, que le paga”. Esto es:",
+  choices: [
+    "Pago de deuda ajena con subrogación.",
+    "Pago por consignación.",
+    "Pago de lo no debido.",
+    "Pago efectivo."
+  ],
+  correctAnswer: "Pago de deuda ajena con subrogación.",
+  explanation: "El artículo 1666 del Código Civil se refiere al pago de deuda ajena con subrogación, donde el fiador que paga la deuda asume los derechos del acreedor."
+},
+{
+  title: "En un documento crediticio que recibí, figura como codeudor una persona que tiene diecisiete años de edad debido a que el deudor principal se marchó, quiero saber si puedo demandar a este menor o debo esperar a que cumpla la mayoría de edad. En este caso es necesario saber a qué tipo de capacidad corresponde.",
+  choices: [
+    "Capacidad de ejercicio.",
+    "Capacidad de goce.",
+    "Capacidad legal para obligarse.",
+    "Capacidad procesal."
+  ],
+  correctAnswer: "Capacidad de ejercicio.",
+  explanation: "La capacidad de ejercicio se refiere a la capacidad legal de una persona para obligarse y celebrar contratos, la cual se obtiene al alcanzar la mayoría de edad."
+},
+{
+  title: "A los pocos días después de haber comprado un automotor lo secuestraron porque una persona mediante demanda había hecho embargar el vehículo. Recordando que en el juzgado me dijeron que yo había celebrado un negocio con objeto y causa ilícitos. En este caso nos referimos al:",
+  choices: [
+    "Contrato.",
+    "Cuasicontrato.",
+    "Objeto de las obligaciones.",
+    "Objeto y causa de las obligaciones."
+  ],
+  correctAnswer: "Objeto y causa de las obligaciones.",
+  explanation: "El negocio fue considerado ilícito debido al objeto y causa de las obligaciones involucradas."
+},
+{
+  title: "Según la estructura que presenta el código civil colombiano, este consta de:",
+  choices: [
+    "Cuatro (04) libros; bienes, contratos, personas y obligaciones.",
+    "Cinco (05) libros; personas, bienes, familia, obligaciones y contratos.",
+    "Cuatro (04) libros; personas como sujeto de derecho, de los bienes, su dominio posesión uso y goce, de las obligaciones y los contratos, sucesiones por causa de muerte y las donaciones.",
+    "Seis (06) libros; de las donaciones, sucesiones por causa de muerte, obligaciones, contratos y familia."
+  ],
+  correctAnswer: "Cinco (05) libros; personas, bienes, familia, obligaciones y contratos.",
+  explanation: "El Código Civil colombiano está estructurado en cinco libros: personas, bienes, familia, obligaciones y contratos."
+},
+{
+  title: "Lina Zuluaga le debe a Bancolombia por concepto de tarjeta de crédito $10.0000.000 de la cual paga una cuota mensual de $800.000 y lleva 4 meses sin pagar su cuota, por lo que Bancolombia le propone que firme un nuevo pagaré por el valor de los $10.000.000 pero que las cuotas mensuales se las baja a $300.000. El anterior acto se entiende como:",
+  choices: [
+    "Transacción.",
+    "Novación.",
+    "Compensación.",
+    "Remisión."
+  ],
+  correctAnswer: "Novación.",
+  explanation: "La firma de un nuevo pagaré con nuevas condiciones de pago se considera una novación, ya que reemplaza la obligación original por una nueva."
+},
+{
+  title: "CASIMIRO tiene activos y pasivos que conforman su patrimonio, este último en relación con CASIMIRO se puede decir que es:",
+  choices: [
+    "La extensión de la personalidad humana.",
+    "Un atributo de la personalidad.",
+    "La manifestación de la voluntad del individuo.",
+    "Un objeto lícito inconsumible."
+  ],
+  correctAnswer: "Un atributo de la personalidad.",
+  explanation: "El patrimonio, incluyendo pasivos, es un atributo de la personalidad en relación con CASIMIRO."
+},
+{
+  title: "CUCO VALOY mayor de edad, domiciliado en Bogotá tiene la idea de su vida, decide venderle uno de sus riñones a JUAN PIÑA persona mayor de edad, domiciliada en Cali, pues este último está necesitado de un trasplante. Los interesados se reúnen en Pereira y le solicitan a usted como abogado que les asesore. Usted les señala que en caso de realizarse este negocio jurídico se realizaría sobre un bien:",
+  choices: [
+    "Mueble que está por fuera del comercio jurídico.",
+    "Inmueble que puede ser ingresado al patrimonio.",
+    "Sui Generis que está por fuera del comercio jurídico.",
+    "Sintiente que puede ser ingresado al patrimonio."
+  ],
+  correctAnswer: "Sui Generis que está por fuera del comercio jurídico.",
+  explanation: "La venta de un órgano humano, como un riñón, se considera un bien sui generis que está por fuera del comercio jurídico."
+},
+{
+  title: "CARLOS llena una botella con agua de un río. Esta botella con agua se puede decir que es:",
+  choices: [
+    "Mueble por naturaleza.",
+    "Mueble por anticipación.",
+    "Inmueble por adhesión.",
+    "Inmueble por destinación."
+  ],
+  correctAnswer: "Mueble por naturaleza.",
+  explanation: "Una botella con agua se considera un bien mueble por naturaleza."
+},
+{
+  title: "Un caballo es dispuesto por su dueño para pisar barro en una ladrillera, el caballo se encuentra realizando la labor por 12 o 13 horas diarias. Una asociación protectora de animales presenta un Habeas Corpus para que sea liberado ese ser sintiente que está siendo, sin duda alguna, sometido al maltrato. Según el precedente vigente en la actualidad Usted como juez decide:",
+  choices: [
+    "Otorgar el habeas corpus.",
+    "Negar el habeas corpus.",
+    "Declararse inhibido para conocer la acción.",
+    "Fallar la excepción de inconstitucionalidad."
+  ],
+  correctAnswer: "Negar el habeas corpus.",
+  explanation: "El habeas corpus es una acción judicial para proteger la libertad de las personas, no aplicable a animales en este contexto."
+},
+{
+  title: "CLAUDIO recibe el desembolso de un crédito por valor de DOSCIENTOS MILLONES DE PESOS ($200.000.000) y hace una transferencia por VEINTICINCO MILLONES ($25.000.000) a la cuenta de MESALINA (su cónyuge) para pagarle un dinero que le adeudaba; MESALINA le devuelve CUATRO MILLONES DE PESOS ($4.000.000) pues considera que no desea cobrarle el dinero completo y lo hace también por transferencia electrónica. Esos CUATRO MILLONES DE PESOS ($4.000.000) que fueron devueltos por MESALINA a CLAUDIO se consideran un bien:",
+  choices: [
+    "Infungible; Consumible; Inconsumible; Fungible.",
+    "Infungible; Consumible; Fungible; Inconsumible.",
+    "Infungible; Inconsumible; Fungible; Consumible.",
+    "Fungible; Consumible; Inconsumible; Infungible."
+  ],
+  correctAnswer: "Fungible; Consumible; Inconsumible; Infungible.",
+  explanation: "El dinero devuelto por MESALINA a CLAUDIO es considerado fungible y consumible, ya que puede ser reemplazado por otro de la misma especie y se consume con el uso."
+},
+{
+  title: "Una cadena hecha a mano por los indígenas de la Isla de Pascua (de los cuales ya no queda ninguno con vida) es un bien:",
+  choices: [
+    "Infungible; Fungible; Inconsumible; Consumible.",
+    "Infungible; Inconsumible; Fungible; Consumible.",
+    "Fungible; Consumible; Inconsumible; Infungible.",
+    "Consumible; Fungible; Infungible; Inconsumible."
+  ],
+  correctAnswer: "Infungible; Inconsumible; Fungible; Consumible.",
+  explanation: "Una cadena hecha a mano por indígenas ya extintos es infungible e inconsumible, ya que es única y no se consume con el uso."
+},
+{
+  title: "PABLO MÁRMOL suscribe escritura pública de compraventa por una casa de habitación de propiedad de PEDRO PICAPIEDRA ubicada en la ciudad de PIEDRADURA. La escritura pública es llevada a la oficina de Registro de Instrumentos Públicos y Privados de esa ciudad, tal escritura es registrada en el folio de matrícula inmobiliaria perteneciente a dicho bien inmueble. En este caso el título es _______________ y el modo es ________________.",
+  choices: [
+    "La escritura pública – la tradición.",
+    "La compraventa – la escritura pública.",
+    "La escritura pública – la compraventa.",
+    "La compraventa – la tradición."
+  ],
+  correctAnswer: "La escritura pública – la tradición.",
+  explanation: "En este caso, la escritura pública es el título y la tradición es el modo de transferencia de propiedad."
+},
+{
+  title: "El nombre de nuestro premio Nobel de literatura quedará grabado para la historia en los anaqueles de la humanidad. La obra CIEN AÑOS DE SOLEDAD escrita por GABRIEL GARCÍA MÁRQUEZ se inmortalizó en 1982. Después de su muerte su familia todavía recibe el dinero por la explotación de la obra. Uno de sus familiares lo consulta a usted como abogado pues un millonario excéntrico le ha ofrecido VEINTE MILLONES DE DOLARES para aparecer como coautor de la obra y así pasar también a la historia como un brillante escritor. Usted como abogado le dice que ello:",
+  choices: [
+    "Es posible porque esa circunstancia está dentro del ámbito de la Propiedad Intelectual.",
+    "NO es posible porque la transferencia de la autoría solo se permite en el campo de la Propiedad Industrial.",
+    "Es posible porque todo lo que sea negociable cabe dentro de los derechos patrimoniales del autor.",
+    "NO es posible porque los Derechos Morales como categoría son de propiedad exclusiva del autor."
+  ],
+  correctAnswer: "NO es posible porque los Derechos Morales como categoría son de propiedad exclusiva del autor.",
+  explanation: "Los derechos morales de un autor, como la autoría de una obra, son intransferibles y exclusivos del autor."
+},
+{
+  title: "CASIO se ve afectado por el derrumbe de una montaña en una finca de su propiedad, lo que le quita el paso hacia la carretera más cercana. Para remover la tierra y volver a dar paso se ha calculado por ingenieros que se demorará alrededor de un año. CASIO le solicita a BRUTO y a JULIO CESAR que le den paso por sus fincas, para lo cual se establece ____________ donde el predio de CASIO se considera el predio ______________ y los predios de Bruto y César serían los predios _____________.",
+  choices: [
+    "Una servidumbre – dominante – sirvientes.",
+    "Un usufructo – usufructuante – usufructuados.",
+    "Un derecho de uso – usuario – usados.",
+    "Una anticresis – beneficiario - anticréticos."
+  ],
+  correctAnswer: "Una servidumbre – dominante – sirvientes.",
+  explanation: "Se establece una servidumbre, donde el predio de CASIO es el dominante y los predios de Bruto y César son los sirvientes."
+},
+{
+  title: "A comienzos de los años 80´s BERNARDO ELIZONDO muere, al momento de su fallecimiento estaba casado con doña GABRIELA de ELIZONDO, mujer, mayor de edad y tenía 3 hijas NORMA, JIMENA y SARA que también, son mayores de edad y estudiaban en la Universidad Libre. JUAN, OSCAR Y FRANCO REYES, todos mayores de edad le ofrecieron a las citadas señoras la suma de TRESCIENTOS MILLONES DE PESOS ($300.000.000) por la finca. El predio realmente podía costar un 20% más, sin embargo, en esa época para ellas era negocio y aceptaron. Aprovechando que las notarías y las oficinas de registro para esas fechas no ponían ningún problema, pues era legal, decidieron hacer escritura pública de venta y registrarla. En este caso la oficina de registro debió inscribir el acto como ____________________.",
+  choices: [
+    "Falsa tradición – Justo título.",
+    "Compraventa – Título precario.",
+    "Falsa tradición – Título incompleto.",
+    "Compraventa – Justo título."
+  ],
+  correctAnswer: "Compraventa – Justo título.",
+  explanation: "La oficina de registro debió inscribir el acto como compraventa, considerándolo un justo título."
+},
+{
+  title: "Una de las siguientes afirmaciones es cierta en relación con la propiedad fiduciaria, por favor indique cuál es:",
+  choices: [
+    "Procede el embargo en contra del constituyente o fideicomitente.",
+    "NO está pendiente de una condición sino de un determinado plazo.",
+    "El beneficiario es dueño de la cosa desde la constitución de la propiedad fiduciaria.",
+    "El administrador fiduciario puede enajenar la cosa antes del cumplimiento de la condición."
+  ],
+  correctAnswer: "Procede el embargo en contra del constituyente o fideicomitente.",
+  explanation: "En la propiedad fiduciaria, procede el embargo en contra del constituyente o fideicomitente."
+},
+{
+  title: "En un proceso declarativo verbal de prescripción extintiva de una obligación dineraria garantizada con una hipoteca. El juez declara extinta la obligación principal y debe:",
+  choices: [
+    "Dejar vigente la hipoteca por ser un derecho real principal.",
+    "Dejar vigente la hipoteca por ser un derecho real accesorio.",
+    "Extinguir la hipoteca por ser un derecho real principal.",
+    "Extinguir la hipoteca por ser un derecho real accesorio."
+  ],
+  correctAnswer: "Extinguir la hipoteca por ser un derecho real accesorio.",
+  explanation: "Al extinguir la obligación principal, la hipoteca como derecho real accesorio también se extingue."
+},
+{
+  title: "Un contrato de compraventa de un bien inmueble se perfecciona:",
+  choices: [
+    "Con la firma del contrato de promesa de compraventa.",
+    "Con la entrega al comprador del bien inmueble por parte del vendedor.",
+    "Con el otorgamiento de la Escritura Pública.",
+    "Con el registro del título en la Oficina de Registro de Instrumentos Públicos."
+  ],
+  correctAnswer: "Con el registro del título en la Oficina de Registro de Instrumentos Públicos.",
+  explanation: "El contrato de compraventa de un bien inmueble se perfecciona con el registro del título en la Oficina de Registro de Instrumentos Públicos."
+},
+{
+  title: "Hablando en materia civil del saneamiento por vicios redhibitorios, la acción “Quanti minoris” para bienes inmuebles prescribe, en:",
+  choices: [
+    "Seis meses contados a partir de la entrega real y material del bien.",
+    "Dieciocho meses contados a partir de la entrega real y material del bien.",
+    "Dieciocho meses contados a partir de la celebración del contrato.",
+    "Seis meses contados a partir de la celebración del contrato."
+  ],
+  correctAnswer: "Dieciocho meses contados a partir de la entrega real y material del bien.",
+  explanation: "La acción “Quanti minoris” para bienes inmuebles prescribe en dieciocho meses contados a partir de la entrega real y material del bien."
+},
+{
+  title: "De la promesa de contrato emerge un (a):",
+  choices: [
+    "Obligación de Hacer.",
+    "Obligación Real.",
+    "Obligación de Dar.",
+    "Obligación Patrimonial."
+  ],
+  correctAnswer: "Obligación de Hacer.",
+  explanation: "De la promesa de contrato emerge una obligación de hacer, ya que se compromete a realizar un acto futuro."
+},
+{
+  title: "¿Cuál es el objeto del contrato de promesa de venta de un bien inmueble?",
+  choices: [
+    "La celebración del contrato de Promesa por las partes.",
+    "La celebración del contrato prometido.",
+    "La entrega del bien inmueble al momento de la firma de la Promesa.",
+    "La firma del contrato de promesa por las partes."
+  ],
+  correctAnswer: "La celebración del contrato prometido.",
+  explanation: "El objeto del contrato de promesa de venta de un bien inmueble es la celebración del contrato prometido."
+},
+{
+  title: "La acción proveniente de la Lesión enorme es la:",
+  choices: [
+    "Resciliatoria.",
+    "Resolutoria.",
+    "Rescisoria.",
+    "Estimatoria."
+  ],
+  correctAnswer: "Rescisoria.",
+  explanation: "La acción proveniente de la Lesión enorme es la rescisoria, que permite la rescisión del contrato."
+},
+{
+  title: "Cuando el vendedor se reserva la facultad de recobrar la cosa vendida, reembolsando al comprador la cantidad determinada que se estipulare, o en su defecto de esta estipulación lo que le haya costado la compra, nos encontramos frente al pacto de:",
+  choices: [
+    "Reventa.",
+    "Retracto.",
+    "Retroventa.",
+    "Recompra."
+  ],
+  correctAnswer: "Recompra.",
+  explanation: "El pacto de recompra permite al vendedor recobrar la cosa vendida reembolsando al comprador la cantidad estipulada o el costo de la compra."
+},
+{
+  title: "En el contrato de permuta:",
+  choices: [
+    "Se cambia una especie o cuerpo cierto por un género.",
+    "Se cambia una especie o cuerpo cierto por otro.",
+    "Se cambia un género por otro.",
+    "En virtud del principio de la autonomía de la voluntad de las partes, lo que las partes quiera permutar."
+  ],
+  correctAnswer: "Se cambia una especie o cuerpo cierto por otro.",
+  explanation: "En el contrato de permuta, se cambia una especie o cuerpo cierto por otro."
+},
+{
+  title: "Queda definitivo el contrato cuando se pactan:",
+  choices: [
+    "Arras penitenciales.",
+    "Arras confirmatorias.",
+    "Arras simples.",
+    "Arras confirmatorias penales."
+  ],
+  correctAnswer: "Arras confirmatorias.",
+  explanation: "El contrato queda definitivo cuando se pactan arras confirmatorias, que confirman el acuerdo y comprometen a las partes."
+},
+{
+  title: "En el acto de la venta de cosa ajena:",
+  choices: [
+    "Sólo opera el modo.",
+    "Primero opera el título y después el modo.",
+    "Sólo opera el título.",
+    "Primero opera el modo y después el título."
+  ],
+  correctAnswer: "Primero opera el título y después el modo.",
+  explanation: "En la venta de cosa ajena, primero debe existir un título que justifique la transferencia, seguido del modo que efectúa la transferencia."
+},
+{
+  title: "Hablando de la parte general de los títulos valores y de la prescripción de la acción del obligado de regreso contra los demás obligados anteriores, el término de prescripción de esta se produce:",
+  choices: [
+    "En un (1) año contado a partir de la presentación de la demanda.",
+    "En tres (3) años contados a partir de la presentación de la demanda.",
+    "En seis (6) meses contados a partir del pago voluntario o de la fecha en que se notifique la demanda.",
+    "En un (1) año contado a partir de la notificación de la demanda."
+  ],
+  correctAnswer: "En seis (6) meses contados a partir del pago voluntario o de la fecha en que se notifique la demanda.",
+  explanation: "El término de prescripción para la acción del obligado de regreso es de seis meses contados a partir del pago voluntario o de la notificación de la demanda."
+},
+{
+  title: "Un tenedor legítimo puede ejercer los derechos que se encuentran incorporados en un título valor de la siguiente manera:",
+  choices: [
+    "Presentándolo al principal obligado para que se lo cancele.",
+    "Presentándolo ante el Juez correspondiente para que ordene su pago.",
+    "Presentándolo ante cualquiera de los endosantes del mismo título valor para que se lo pague.",
+    "De cualquiera de las maneras consagradas en los literales anteriores."
+  ],
+  correctAnswer: "De cualquiera de las maneras consagradas en los literales anteriores.",
+  explanation: "El tenedor legítimo puede ejercer los derechos del título valor presentándolo al principal obligado, ante el juez o ante cualquiera de los endosantes."
+},
+{
+  title: "Establece el artículo 621 del Código de Comercio que los requisitos comunes a todos los títulos valores son: i) La mención del derecho que en el título se incorpora, y (ii) La firma de quien lo crea. Por tanto:",
+  choices: [
+    "La ley no acepta la existencia de ningún tipo de título valor sin la firma de quien lo crea.",
+    "La ley permite que existan cualquier tipo de títulos valores sin la firma de quien los crea.",
+    "La firma no es un requisito esencial en la formación de un título valor.",
+    "Sólo se pueden crear facturas sin la firma de del principal obligado."
+  ],
+  correctAnswer: "La ley no acepta la existencia de ningún tipo de título valor sin la firma de quien lo crea.",
+  explanation: "La firma de quien crea el título valor es un requisito esencial para su validez según el artículo 621 del Código de Comercio."
+},
+{
+  title: "¿Qué sucede con un título valor al cual se le ha adulterado el contenido consagrado por su creador?",
+  choices: [
+    "Carece de efectos como título valor.",
+    "Sólo tiene valor por el derecho consignado en su texto original.",
+    "Los que firmaron antes de la alteración se obligan conforme al título original, y quienes firmaron después de la alteración se obligan conforme al título valor alterado.",
+    "Sólo tiene valor por el menor derecho consignado en título mismo."
+  ],
+  correctAnswer: "Los que firmaron antes de la alteración se obligan conforme al título original, y quienes firmaron después de la alteración se obligan conforme al título valor alterado.",
+  explanation: "Las obligaciones de los firmantes antes y después de la alteración se mantienen conforme a la situación en que se firmaron."
+},
+{
+  title: "El principio de la autonomía en los títulos valores, significa que:",
+  choices: [
+    "Los títulos valores, no necesitan de ningún otro documento para que sean considerados como tales.",
+    "Que el negocio causal, nada tiene que ver con la existencia del título valor mismo.",
+    "Que cada negocio que se haga con un mismo título valor es independiente a los demás; y que las circunstancias que invaliden la obligación de alguno o algunos de los signatarios no afectan las de los demás.",
+    "Que no se pueden proponer excepciones personales entre los endosantes de un mismo título valor."
+  ],
+  correctAnswer: "Que cada negocio que se haga con un mismo título valor es independiente a los demás; y que las circunstancias que invaliden la obligación de alguno o algunos de los signatarios no afectan las de los demás.",
+  explanation: "La autonomía en los títulos valores implica que cada obligación es independiente y las circunstancias que invalidan una no afectan las demás."
+},
+{
+  title: "La omisión de alguna de las menciones y requisitos que la ley exige para los títulos valores trae como consecuencia:",
+  choices: [
+    "La nulidad del título valor.",
+    "La inexistencia del documento.",
+    "No produce efectos de título valor.",
+    "La ineficacia del documento."
+  ],
+  correctAnswer: "No produce efectos de título valor.",
+  explanation: "La omisión de algún requisito esencial en un título valor impide que produzca efectos como tal."
+},
+{
+  title: "Las formas que establece la ley para hacer constar un aval en relación con los títulos valores son las siguientes:",
+  choices: [
+    "Puede hacerse constar en el mismo título valor.",
+    "Puede hacerse constar en hoja adherida al título valor mismo.",
+    "Puede hacerse constar en hoja separada al título valor mismo.",
+    "Puede hacerse constar de cualquiera de las formas descritas en los literales anteriores."
+  ],
+  correctAnswer: "Puede hacerse constar de cualquiera de las formas descritas en los literales anteriores.",
+  explanation: "El aval puede constar en el mismo título valor, en hoja adherida o en hoja separada, según la ley."
+},
+{
+  title: "¿Qué tiempo de presentación para el pago tiene un cheque que fue expedido dentro del territorio nacional para ser pagado en lugar distinto al de expedición, pero dentro del mismo territorio nacional?",
+  choices: [
+    "Dentro de los quince días a partir de su fecha.",
+    "Dentro de los treinta días a partir de su fecha.",
+    "Dentro de los sesenta días a partir de su fecha.",
+    "Dentro de los noventa días a partir de su fecha."
+  ],
+  correctAnswer: "Dentro de los quince días a partir de su fecha.",
+  explanation: "Un cheque expedido dentro del territorio nacional para ser pagado en lugar distinto al de expedición debe presentarse para el pago dentro de los quince días a partir de su fecha."
+},
+{
+  title: "Si una letra de cambio es presentada ante el girado para su aceptación y éste no la acepta, la obligación literal incorporada en el título:",
+  choices: [
+    "No es válida.",
+    "Deberá cumplirse por parte del girado.",
+    "Deberá cumplirse por parte del girador.",
+    "No existe letra de cambio (título valor)."
+  ],
+  correctAnswer: "Deberá cumplirse por parte del girador.",
+  explanation: "Si el girado no acepta la letra de cambio, la obligación debe ser cumplida por parte del girador."
+},
+{
+  title: "La caducidad de la acción cambiaria contra el girador y sus avalistas en un cheque, se produce:",
+  choices: [
+    "Por no haber sido presentado para el pago y protestado en tiempo oportuno.",
+    "Por tener fondos suficientes durante el tiempo de presentación para el pago.",
+    "Por no haberse pagado por causa no imputable al girador.",
+    "Se tienen que cumplir todas las condiciones anteriores para que se produzca la caducidad."
+  ],
+  correctAnswer: "Por no haber sido presentado para el pago y protestado en tiempo oportuno.",
+  explanation: "La caducidad de la acción cambiaria se produce si el cheque no es presentado para el pago y protestado en tiempo oportuno."
+},
+{
+  title: "La prescripción se interrumpe de forma civil, de la siguiente manera con:",
+  choices: [
+    "La simple presentación de la demanda.",
+    "El reconocimiento de la deuda por parte del acreedor.",
+    "La presentación de la demanda y la notificación de esta al deudor.",
+    "La presentación de la demanda y la notificación de esta al deudor, siempre y cuando este aporte un acuerdo de pago."
+  ],
+  correctAnswer: "La presentación de la demanda y la notificación de esta al deudor.",
+  explanation: "La prescripción se interrumpe civilmente con la presentación de la demanda y la notificación de esta al deudor."
+},
+{
+  title: "El término de la prescripción extintiva de largo tiempo o plazo para la acción ordinaria y para la acción ejecutiva es de:",
+  choices: [
+    "5 años para la acción ordinaria y 5 años para la acción ejecutiva.",
+    "8 años para la acción ordinaria y 5 años para la acción ejecutiva.",
+    "5 años para la acción ordinaria y 10 años para la acción ejecutiva.",
+    "10 años para la acción ordinaria y 5 años para la acción ejecutiva."
+  ],
+  correctAnswer: "10 años para la acción ordinaria y 5 años para la acción ejecutiva.",
+  explanation: "El término de prescripción extintiva es de 10 años para la acción ordinaria y 5 años para la acción ejecutiva."
+},
+{
+  title: "Usted se desempeña como Juez 20 Civil del Circuito de la ciudad de Bogotá y debe proferir sentencia dentro del proceso ejecutivo de IVÁN VELÁSQUEZ contra PAULINA RUBIO. Al efectuar el estudio del expediente usted observa que es evidente que se presenta la prescripción de la obligación, sin embargo, observa igualmente que la demandada no presentó la excepción de prescripción correspondiente. En este orden de ideas, usted procedería a:",
+  choices: [
+    "Reconocer la prescripción de oficio.",
+    "Abstenerse de reconocer la prescripción de oficio.",
+    "Declarar la nulidad absoluta del proceso para que la demandada la pueda alegar.",
+    "Declarar la nulidad relativa del proceso para que la demandada la pueda alegar."
+  ],
+  correctAnswer: "Abstenerse de reconocer la prescripción de oficio.",
+  explanation: "El juez no puede reconocer la prescripción de oficio si no ha sido alegada por la parte demandada."
+},
+{
+  title: "La diferencia entre el contrato y el cuasicontrato como fuentes de obligaciones radica en",
+  choices: [
+    "Los conceptos de “solvens” y “accipiens” que se aplican al contrato.",
+    "El número de voluntades que intervienen como fuente generadora de obligaciones.",
+    "El contrato es fuente tradicional y el cuasicontrato es fuente contemporánea.",
+    "En el contrato la fuente es la ley y en el cuasicontrato la fuente es el hecho ilícito."
+  ],
+  correctAnswer: "El número de voluntades que intervienen como fuente generadora de obligaciones.",
+  explanation: "La diferencia radica en el número de voluntades que intervienen; en el contrato, son dos o más, mientras que en el cuasicontrato, generalmente es una."
+},
+{
+  title: "Los elementos del negocio jurídico sin los cuales el negocio no genera efecto alguno o degenera en otro completamente diferente, son los elementos",
+  choices: [
+    "De la naturaleza del negocio jurídico.",
+    "Accidentales del negocio jurídico.",
+    "De la esencia del negocio jurídico.",
+    "Integradores del negocio jurídico."
+  ],
+  correctAnswer: "De la esencia del negocio jurídico.",
+  explanation: "Los elementos de la esencia del negocio jurídico son aquellos sin los cuales el negocio no produce efectos o degenera en otro."
+},
+{
+  title: "La doctrina ha efectuado una clasificación de las obligaciones existentes en nuestro sistema jurídico; tal clasificación nos enseña que las obligaciones según su OBJETO se pueden clasificar en:",
+  choices: [
+    "Civiles y naturales.",
+    "Puras y simples.",
+    "Solidarias y conjuntas.",
+    "De dar, hacer o no hacer."
+  ],
+  correctAnswer: "De dar, hacer o no hacer.",
+  explanation: "Las obligaciones según su objeto se clasifican en obligaciones de dar, hacer o no hacer."
+},
+{
+  title: "El término de prescripción, para el ejercicio de la acción de nulidad relativa es de:",
+  choices: [
+    "4 años.",
+    "15 años.",
+    "25 años.",
+    "10 años."
+  ],
+  correctAnswer: "4 años.",
+  explanation: "El término de prescripción para la acción de nulidad relativa es de 4 años."
+},
+{
+  title: "El nexo causal como elemento de la responsabilidad, es considerado como:",
+  choices: [
+    "La imputación de un resultado.",
+    "Una causa extraña.",
+    "Un elemento que no debe probarse, sino que se presume en las obligaciones de medio.",
+    "Un elemento que no debe probarse, sino que se presume en las obligaciones de resultado."
+  ],
+  correctAnswer: "La imputación de un resultado.",
+  explanation: "El nexo causal es la conexión entre el hecho generador y el daño, necesario para la imputación de responsabilidad."
+},
+{
+  title: "Una de las diferencias entre la subrogación y la cesión, como modos de transmitir las obligaciones es que la:",
+  choices: [
+    "Subrogación es un contrato y la cesión un cuasicontrato.",
+    "Cesión siempre es convencional y la subrogación solo legal.",
+    "Cesión siempre es convencional y la subrogación puede ser legal o convencional.",
+    "Cesión siempre es a título oneroso y la subrogación a título gratuito."
+  ],
+  correctAnswer: "Cesión siempre es convencional y la subrogación puede ser legal o convencional.",
+  explanation: "La cesión de obligaciones siempre es convencional, mientras que la subrogación puede ser tanto legal como convencional."
+},
+{
+  title: "La empresa de Transporte de mercancías “ENTREGA FACIL”, es contratada en la ciudad de Bogotá por un particular, para que lleve hasta la ciudad de Bucaramanga 50 televisores de última tecnología. Dichos televisores deben ser reclamados por el representante de la empresa “ALMACENES PELÍCANO” o por la persona que este designe en la ciudad de destino. Una vez llega la mercancía a la ciudad de Bucaramanga la empresa transportadora libra comunicación a la empresa “ALMACENES PELÍCANO”, para que retire de sus instalaciones los televisores. Transcurridos 30 días desde que se libra la comunicación a la empresa destinataria, esta no retira la mercancía que se destruye en un incendio atribuible a un acto delincuencial. De acuerdo con el caso expuesto puede concluirse correctamente que:",
+  choices: [
+    "La empresa Transportadora debe responder por su obligación de resultado.",
+    "El remitente debe responder por no informar al destinatario.",
+    "La transportadora y el remitente responden de forma solidaria.",
+    "La empresa transportadora no está llamada a responder."
+  ],
+  correctAnswer: "La empresa transportadora no está llamada a responder.",
+  explanation: "La empresa transportadora no es responsable por el daño a la mercancía si esta no fue retirada en el plazo estipulado."
+},
+{
+  title: "En el contrato de arrendamiento de inmueble destinado a vivienda urbana, el arrendador puede hacer exigibles las obligaciones derivadas del contrato a todos o a cualquiera de los arrendatarios en virtud de la obligación",
+  choices: [
+    "Conjunta que surge del contrato de arrendamiento.",
+    "Solidaria que surge del contrato de arrendamiento.",
+    "De entrega que surge del contrato de arrendamiento.",
+    "De pago de la renta que surge del contrato de arrendamiento."
+  ],
+  correctAnswer: "Solidaria que surge del contrato de arrendamiento.",
+  explanation: "En el contrato de arrendamiento, las obligaciones pueden ser exigibles de manera solidaria a todos o a cualquiera de los arrendatarios."
+},
+{
+  title: "La ley 820 del año 2003 (Ley de arrendamiento de vivienda urbana), frente al tema de las garantías y depósitos para el cumplimiento de las obligaciones del arrendatario, señala:",
+  choices: [
+    "Que es viable constituir garantías en efectivo y depósitos.",
+    "Una prohibición expresa frente a esta práctica.",
+    "Que es viable constituir garantías reales.",
+    "Una prohibición expresa tan solo frente a los depósitos."
+  ],
+  correctAnswer: "Una prohibición expresa tan solo frente a los depósitos.",
+  explanation: "La ley 820 de 2003 prohíbe expresamente los depósitos, pero permite otras formas de garantías."
+},
+{
+  title: "El derecho de preferencia que brota del contrato de arrendamiento de locales comerciales, permite que el arrendatario que ocupó el local:",
+  choices: [
+    "Pueda comprarlo a un precio especial.",
+    "Pueda cobrar una indemnización correspondiente a 3 meses de arrendamiento por la entrega.",
+    "Pueda ser preferido en el arrendamiento de los locales reparados.",
+    "Sea indemnizado si el arrendador no ejecuta las obras por las que solicitó la restitución del bien."
+  ],
+  correctAnswer: "Pueda ser preferido en el arrendamiento de los locales reparados.",
+  explanation: "El derecho de preferencia permite al arrendatario ser preferido en el arrendamiento de los locales reparados."
+},
+{
+  title: "El señor Andrés Calamaro, arrienda local comercial al señor Rubén Blades, por un periodo de 1 año. En el local funciona el establecimiento de comercio denominado “Asadero la Llanerita”. En la primera prórroga, el arrendador manifiesta que necesita el local para efectuar reparaciones y mejoras estructurales que requiere el inmueble. Una vez restituido el bien y efectuados los trabajos, el Señor Calamaro decide abrir el establecimiento de comercio denominado “Asadero Villavicencio”. Frente a este caso se puede afirmar válidamente que:",
+  choices: [
+    "No existe ninguna problemática, ya que el contrato de arrendamiento terminó.",
+    "El arrendatario debe indemnizar los perjuicios causados al arrendador.",
+    "El arrendatario podrá reclamar única y exclusivamente el lucro cesante.",
+    "El arrendatario podrá reclamar perjuicios en general, según estimación de peritos."
+  ],
+  correctAnswer: "El arrendatario podrá reclamar perjuicios en general, según estimación de peritos.",
+  explanation: "El arrendatario puede reclamar perjuicios en general si el arrendador utiliza el inmueble para un fin diferente al mencionado."
+},
+{
+  title: "Carlos Osorio (arrendador) suscribe contrato de arrendamiento de vivienda urbana con la Señora Flor Torres (arrendataria), por un periodo de tiempo comprendido entre el 2 de febrero de 2020 y el 3 de febrero de 2021. En el mes de junio de 2020, el arrendador decide hacer uso de la facultad de terminación unilateral del contrato y así se lo informa a la arrendataria. La Señora Torres solicita su asesoría, a lo cual usted señala:",
+  choices: [
+    "Debe restituir y debe ser indemnizada con el valor correspondiente a 3 cánones de arrendamiento.",
+    "Debe restituir y debe ser indemnizada con el valor correspondiente a 6 cánones de arrendamiento.",
+    "No está obligada a restituir el inmueble antes del 3 de febrero de 2021.",
+    "Debe restituir siempre y cuando le hubiesen allegado desahucio con tres meses de anticipación."
+  ],
+  correctAnswer: "No está obligada a restituir el inmueble antes del 3 de febrero de 2021.",
+  explanation: "La arrendataria no está obligada a restituir el inmueble antes de la fecha acordada en el contrato, salvo acuerdo mutuo."
+},
+{
+  title: "Cuando se estipula la Condición Resolutoria de forma expresa en el contrato, estamos frente al pacto:",
+  choices: [
+    "De mejor Postor.",
+    "Comisorio Calificado.",
+    "Comisorio de retroventa.",
+    "De evicción."
+  ],
+  correctAnswer: "Comisorio Calificado.",
+  explanation: "La Condición Resolutoria expresa en el contrato se conoce como pacto comisorio calificado."
+},
+{
+  title: "El pacto de retracto está ligado a uno de los elementos esenciales de la compraventa, nos referimos a:",
+  choices: [
+    "Precio.",
+    "Cosa vendida.",
+    "Obligación de saneamiento.",
+    "Evicción."
+  ],
+  correctAnswer: "Cosa vendida.",
+  explanation: "El pacto de retracto está relacionado con la cosa vendida, permitiendo al vendedor recuperarla bajo ciertas condiciones."
+},
+{
+  title: "Si el bien inmueble materia de arrendamiento, no es entregado al arrendatario en el término pactado este podrá:",
+  choices: [
+    "Anular el contrato y reclamar perjuicios.",
+    "Desistir del contrato y reclamar perjuicios.",
+    "Terminar el contrato y reclamar perjuicios.",
+    "Rescindir el contrato y reclamar perjuicios."
+  ],
+  correctAnswer: "Terminar el contrato y reclamar perjuicios.",
+  explanation: "Si el bien inmueble no es entregado en el término pactado, el arrendatario puede terminar el contrato y reclamar perjuicios."
+},
+{
+  title: "La evicción de la cosa comprada se presenta cuando el comprador es:",
+  choices: [
+    "Privado en todo o parte de la tenencia del bien.",
+    "Privado de la posesión del bien.",
+    "Privado en todo o parte del bien por sentencia judicial.",
+    "El vendedor no denuncia el pleito al comprador ante la acción del tercero."
+  ],
+  correctAnswer: "Privado en todo o parte del bien por sentencia judicial.",
+  explanation: "La evicción se presenta cuando el comprador es privado total o parcialmente del bien por sentencia judicial."
+},
+{
+  title: "Existen prohibiciones legales para la celebración del contrato de compraventa en virtud de la calidad de una las partes, sin embargo, uno de los siguientes enunciados no constituye una prohibición para la celebración de este tipo de contrato:",
+  choices: [
+    "Compra que hace el tutor sobre los bienes de su pupilo.",
+    "Venta que hace al administrador de un establecimiento público de los bienes que administra.",
+    "Venta entre conyugues.",
+    "Venta entre el padre y el hijo de familia."
+  ],
+  correctAnswer: "Venta entre el padre y el hijo de familia.",
+  explanation: "La venta entre el padre y el hijo de familia no está prohibida, a diferencia de las otras situaciones mencionadas."
+},
+{
+  title: "La compraventa, es un contrato que se perfecciona mediante:",
+  choices: [
+    "La suscripción de la Escritura Pública.",
+    "La suscripción de documento privado.",
+    "La autenticación de firmas del escrito privado.",
+    "El acuerdo de voluntades entre la cosa y el precio."
+  ],
+  correctAnswer: "El acuerdo de voluntades entre la cosa y el precio.",
+  explanation: "La compraventa se perfecciona con el acuerdo de voluntades sobre la cosa y el precio."
+},
+{
+  title: "La constructora FENIX S.A. inicia proyecto de ventas del conjunto residencial “EL SOLAR”, compuesto por 90 casas. Sin embargo, deciden vender al Señor Jaime Beltrán la casa No. 91 mediante escritura pública; error notorio de la constructora toda vez que el proyecto tan solo cuenta con licencia para la construcción de 90 viviendas y en la extensión del terreno a construir resulta imposible edificar otra vivienda adicional. El señor Beltrán pagó la suma de $ 150.000.000.oo, como precio de la compraventa. Se puede concluir frente a este caso que este contrato de compraventa es:",
+  choices: [
+    "Válido y da lugar a la indemnización de perjuicios.",
+    "Nulo parcialmente y da lugar a la indemnización de perjuicios.",
+    "Inoponible y da lugar a la indemnización de perjuicios.",
+    "Inexistente, más puede dar lugar a la indemnización de perjuicios."
+  ],
+  correctAnswer: "Inexistente, más puede dar lugar a la indemnización de perjuicios.",
+  explanation: "El contrato es inexistente debido al error notorio, pero puede dar lugar a la indemnización de perjuicios."
+},
+{
+  title: "En el Contrato de Compraventa regulado por el Código de Comercio, se establece frente al tema del precio, que si es irrisorio se tendrá por no pactado. En este orden de ideas tendríamos que una compraventa donde se estipula un precio como el señalado sería:",
+  choices: [
+    "Nula por falta de solemnidades.",
+    "Nula por falta de capacidad.",
+    "Válida, pero daría lugar a la “actio quanti minoris”.",
+    "Inexistente por ausencia de precio."
+  ],
+  correctAnswer: "Inexistente por ausencia de precio.",
+  explanation: "Una compraventa con precio irrisorio es inexistente por ausencia de precio, ya que no se cumple con uno de los requisitos esenciales."
+},
+{
+  title: "La inoponibilidad en el contrato de compraventa se evidencia en la:",
+  choices: [
+    "Compra de cosa propia.",
+    "Venta de cosa ajena.",
+    "Venta de cosa futura.",
+    "Venta de cosa inexistente."
+  ],
+  correctAnswer: "Venta de cosa ajena.",
+  explanation: "La inoponibilidad se presenta en la venta de cosa ajena, ya que el vendedor no tiene la propiedad del bien vendido."
+},
+{
+  title: "Cuando los contratantes al momento de celebrar el contrato tienen un error compartido frente a la clase de contrato que celebran, nos encontramos frente al error sobre",
+  choices: [
+    "La persona.",
+    "Naturaleza del negocio.",
+    "Los simples motivos.",
+    "La causa del negocio."
+  ],
+  correctAnswer: "Naturaleza del negocio.",
+  explanation: "El error sobre la naturaleza del negocio se presenta cuando los contratantes tienen un entendimiento diferente sobre el tipo de contrato que están celebrando."
+},
+{
+  title: "Carlos Padilla se desarrolla como agente oficioso de su tío Germán, quien se encuentra gravemente enfermo y no puede atender personalmente su salsamentaría, negocio exitoso y acreditado. Sin embargo, el señor Germán fallece y Carlos acude ante usted ya que requiere asesoría legal, al no querer continuar con su gestión. Ante su consulta usted le señalaría válidamente que:",
+  choices: [
+    "Debe continuar con su gestión hasta que los herederos dispongan.",
+    "Su gestión finalizó simplemente con el fallecimiento del interesado.",
+    "La muerte del interesado hace que se genere un mandato con los herederos.",
+    "Puede solicitar que se pague un salario por su gestión y abandonarla."
+  ],
+  correctAnswer: "Su gestión finalizó simplemente con el fallecimiento del interesado.",
+  explanation: "La gestión del agente oficioso finaliza con el fallecimiento del interesado."
+},
+{
+  title: "Uno de los siguientes enunciados no constituye vicio del consentimiento:",
+  choices: [
+    "Error de hecho.",
+    "Error de derecho.",
+    "Dolo.",
+    "Fuerza."
+  ],
+  correctAnswer: "Error de derecho.",
+  explanation: "El error de derecho no constituye un vicio del consentimiento, a diferencia del error de hecho, el dolo y la fuerza."
+},
+{
+  title: "En los eventos en que el dolo es fraguado por terceros, tal proceder da lugar frente a estos, a la acción denominada de:",
+  choices: [
+    "Reembolso.",
+    "Perjuicios.",
+    "Repetición.",
+    "Nulidad absoluta."
+  ],
+  correctAnswer: "Repetición.",
+  explanation: "El dolo fraguado por terceros da lugar a la acción de repetición, permitiendo reclamar los perjuicios causados."
+},
+{
+  title: "El fenómeno de la representación resulta de gran utilidad para el perfeccionamiento de contratos aún en ausencia de las partes; sin embargo, la figura no goza de aplicación frente a:",
+  choices: [
+    "La compraventa.",
+    "El testamento.",
+    "El matrimonio.",
+    "El mandato."
+  ],
+  correctAnswer: "El testamento.",
+  explanation: "La figura de la representación no es aplicable en el caso del testamento, ya que este debe ser realizado personalmente por el testador."
+},
+{
+  title: "Aníbal Rojas constituye como mandatario a su sobrino Jaime Duque de 16 años de edad, para que celebre una serie de contratos de arrendamiento con terceros. En este caso podemos afirmar que los contratos que se celebren:",
+  choices: [
+    "Están viciados de nulidad relativa.",
+    "Son válidos siempre y cuando obliguen al mandante y a terceros.",
+    "Son válidos siempre y cuando obliguen al mandatario y a terceros.",
+    "Están viciados de nulidad absoluta."
+  ],
+  correctAnswer: "Están viciados de nulidad relativa.",
+  explanation: "Los contratos celebrados por un menor de edad están viciados de nulidad relativa, ya que no tienen capacidad plena para obligarse."
+},
+{
+  title: "La transmisión de las obligaciones puede darse:",
+  choices: [
+    "Única y exclusivamente por acto entre vivos.",
+    "Única y exclusivamente por causa de muerte.",
+    "Por acto entre vivos y como resultado de la acción pauliana.",
+    "Sólo por acto entre vivos y por causa de muerte."
+  ],
+  correctAnswer: "Sólo por acto entre vivos y por causa de muerte.",
+  explanation: "La transmisión de las obligaciones puede ocurrir tanto por acto entre vivos como por causa de muerte."
+},
+{
+  title: "Uno de los siguientes requisitos NO es necesario para la validez de la cesión del crédito:",
+  choices: [
+    "Causa lícita.",
+    "Objeto lícito.",
+    "La nota de cesión.",
+    "La aceptación de la cesión por parte del cesionario."
+  ],
+  correctAnswer: "La aceptación de la cesión por parte del cesionario.",
+  explanation: "La aceptación del cesionario no es necesaria para la validez de la cesión del crédito."
+},
+{
+  title: "En materia mercantil (títulos valores), la cesión se da mediante:",
+  choices: [
+    "El endoso.",
+    "La notificación de la cesión al deudor.",
+    "La notificación de la cesión al cedente.",
+    "Con la simple notificación de la cesión al cesionario."
+  ],
+  correctAnswer: "El endoso.",
+  explanation: "En materia mercantil, la cesión de los títulos valores se realiza mediante el endoso."
+},
+{
+  title: "El siguiente derecho no es susceptible de ser objeto de cesión.",
+  choices: [
+    "El derecho a reclamar alimentos.",
+    "Los derechos de crédito.",
+    "Los derechos herenciales.",
+    "Los derechos litigiosos."
+  ],
+  correctAnswer: "El derecho a reclamar alimentos.",
+  explanation: "El derecho a reclamar alimentos no puede ser objeto de cesión."
+},
+{
+  title: "Pedro Rincón sufre una infección derivada de una cirugía imputable a la negligencia del médico, razón por la cual decide contratar sus servicios como abogado para demandar a la Clínica del Oriente. En este tipo de asuntos, el actor deberá probar:",
+  choices: [
+    "Hecho generador, nexo causal y daño.",
+    "Solo nexo causal y daño.",
+    "Hecho generador y daño, toda ve que la culpa se presume.",
+    "Solo el daño por tratarse de una actividad peligrosa."
+  ],
+  correctAnswer: "Hecho generador, nexo causal y daño.",
+  explanation: "En estos casos se debe probar el hecho generador, el nexo causal y el daño."
+},
+{
+  title: "El Artículo 2354 del Código Civil señala: “DAÑO CAUSADO POR ANIMAL FIERO. El daño causado por un animal fiero, de que no se reporta utilidad para la guarda o servicio de un predio, será siempre imputable al que lo tenga; y si alegare que no le fue posible evitar el daño, no será oído.” constituye un claro ejemplo de:",
+  choices: [
+    "Culpa presunta.",
+    "Responsabilidad subjetiva.",
+    "Obligación de medio.",
+    "Responsabilidad Objetiva."
+  ],
+  correctAnswer: "Responsabilidad Objetiva.",
+  explanation: "El artículo describe un caso de responsabilidad objetiva, donde la culpa del dueño del animal no necesita ser probada."
+},
+{
+  title: "José Garzón es lesionado por un vehículo de la empresa SERVITRÁMITES S.A. y luego de un mes en estado crítico en el hospital, fallece. Sus dos hijos podrán iniciar proceso de responsabilidad civil en los siguientes términos.",
+  choices: [
+    "Demandar en su calidad de herederos y exclusivamente perjuicios materiales.",
+    "Demandar en su calidad de herederos perjuicios morales y en nombre propio única y exclusivamente perjuicios materiales.",
+    "Demandar en su calidad de herederos perjuicios morales por el padecimiento del causante y en nombre propio perjuicios materiales y morales.",
+    "Demandar en su calidad de herederos perjuicios morales por el padecimiento del causante única y exclusivamente."
+  ],
+  correctAnswer: "Demandar en su calidad de herederos perjuicios morales por el padecimiento del causante y en nombre propio perjuicios materiales y morales.",
+  explanation: "Los herederos pueden demandar perjuicios morales en su calidad de herederos y perjuicios materiales y morales en nombre propio."
+},
+{
+  title: "Rodolfo paga una obligación de su hermana Alexandra en contra de su voluntad al señor Hernando por la suma de $40.000.000. Frente a este caso podemos señalar válidamente que:",
+  choices: [
+    "Rodolfo no se subroga en los Derechos del acreedor.",
+    "Se da una subrogación legal a favor de Rodolfo.",
+    "Rodolfo tiene acción de reembolso más no subrogatoria.",
+    "No es un pago válido frente a Hernando."
+  ],
+  correctAnswer: "Rodolfo tiene acción de reembolso más no subrogatoria.",
+  explanation: "Rodolfo no se subroga en los derechos del acreedor, pero puede tener acción de reembolso contra su hermana."
+},
+{
+  title: "De los requisitos de la compensación legal podemos excluir el siguiente que:",
+  choices: [
+    "Ambas deudas sean líquidas.",
+    "Exista el “animus novandi”.",
+    "Ambas deudas sean exigibles.",
+    "Ambas deudas sean en dinero."
+  ],
+  correctAnswer: "Exista el “animus novandi”.",
+  explanation: "El 'animus novandi' no es un requisito para la compensación legal."
+},
+{
+  title: "Establece el Código Civil: “La apreciación del Daño está sujeta a reducción, si el que lo ha sufrido se expuso a él imprudentemente”. Este principio o fenómeno, en responsabilidad civil, se denomina o se conoce como:",
+  choices: [
+    "Causa extraña o ajena.",
+    "Daño contingente positivo.",
+    "Justificante de la responsabilidad civil.",
+    "Concurrencia de culpa."
+  ],
+  correctAnswer: "Concurrencia de culpa.",
+  explanation: "La concurrencia de culpa se refiere a la reducción de la responsabilidad si la víctima se expuso imprudentemente al daño."
+},
+{
+  title: "En la responsabilidad por el hecho ajeno – que es la obligación de reparar el daño causado por quien se tiene bajo cuidado o dependencia es claro e innegable que:",
+  choices: [
+    "Estamos frente al concepto de culpa probada.",
+    "Se presume la culpa inmediata o indirecta de quien lo tiene a su cuidado.",
+    "Se presume la concurrencia de culpas.",
+    "El concepto de solidaridad es la base de este tipo de responsabilidad."
+  ],
+  correctAnswer: "Se presume la culpa inmediata o indirecta de quien lo tiene a su cuidado.",
+  explanation: "En la responsabilidad por el hecho ajeno, se presume la culpa de quien tiene bajo su cuidado al causante del daño."
+},
+{
+  title: "La transmisión por pasiva de la responsabilidad civil, se tipifica, se entiende o se aplica cuando:",
+  choices: [
+    "Es obligado al pago de la indemnización el heredero de quien causó el daño producido.",
+    "En el evento en que producido el daño se desconoce quién lo causó.",
+    "El pago de la indemnización debe ser soportada por el heredero de quien soportó el Daño.",
+    "Cuando el daño es causado por menor de 18 años."
+  ],
+  correctAnswer: "Es obligado al pago de la indemnización el heredero de quien causó el daño producido.",
+  explanation: "La transmisión pasiva de la responsabilidad civil se da cuando el heredero del causante del daño debe pagar la indemnización."
+},
+{
+  title: "La prescripción de la responsabilidad por el hecho ajeno, es de:",
+  choices: [
+    "10 años",
+    "5 años.",
+    "2 años.",
+    "3 años."
+  ],
+  correctAnswer: "10 años.",
+  explanation: "La prescripción de la responsabilidad por el hecho ajeno es de 10 años."
+},
+{
+  title: "Los presupuestos para que exista responsabilidad civil contractual son:",
+  choices: [
+    "Un contrato válido y que exista mora en la obligación.",
+    "Un incumplimiento y un contrato aquiliano.",
+    "Un contrato válido y un incumplimiento a éste.",
+    "Mora en la obligación al cumplir y una inejecución total o parcial del contrato."
+  ],
+  correctAnswer: "Un contrato válido y un incumplimiento a éste.",
+  explanation: "Para que exista responsabilidad civil contractual, debe haber un contrato válido y un incumplimiento de este."
+},
+{
+  title: "Amparo Rojas es poseedora regular de un inmueble sobre el cual ya cumplía los requisitos para adquirirlo por prescripción, pero perdió la posesión al encontrar invadido dicho bien por Aleyda Rangel. ¿Cuál de las siguientes acciones puede utilizar Amparo para recuperar la posesión del bien?",
+  choices: [
+    "La publiciana.",
+    "La oblicua.",
+    "La reivindicatoria.",
+    "La de pertenencia."
+  ],
+  correctAnswer: "La publiciana.",
+  explanation: "Amparo puede utilizar la acción publiciana para recuperar la posesión del bien."
+},
+{
+  title: "Emiro Aguilar pretende vender su finca de recreo, en la cual utiliza de manera exclusiva el tractor de su propiedad para podar el césped de su cancha de golf, el cual también es objeto de la venta. Sobre el tractor se debe concluir:",
+  choices: [
+    "Es un bien inmueble.",
+    "Es un bien mueble.",
+    "Es un bien inmueble por destinación.",
+    "Es un bien mueble por anticipación."
+  ],
+  correctAnswer: "Es un bien mueble.",
+  explanation: "El tractor es considerado un bien mueble, ya que no está unido permanentemente al inmueble."
+},
+{
+  title: "¿Cuál de los siguientes derechos NO es real?",
+  choices: [
+    "Posesión.",
+    "Herencia.",
+    "Usufructo, uso o habitación.",
+    "Dominio."
+  ],
+  correctAnswer: "Herencia.",
+  explanation: "La herencia no es un derecho real, a diferencia de la posesión, el usufructo, uso, habitación y dominio."
+},
+{
+  title: "Armando Rendón es propietario de un lote sobre el cual ha perdido su posesión y por lo mismo se le imposibilita el goce de la misma. El derecho real que tiene Armando sobre tal inmueble se denomina:",
+  choices: [
+    "Posesión regular.",
+    "Posesión irregular.",
+    "Mera o nuda propiedad.",
+    "Plena propiedad."
+  ],
+  correctAnswer: "Mera o nuda propiedad.",
+  explanation: "El derecho real que tiene Armando es la mera o nuda propiedad, ya que ha perdido la posesión del inmueble."
+},
+{
+  title: "¿Cuál de los siguientes fenómenos jurídicos NO corresponde a un modo para adquirir el dominio o propiedad?",
+  choices: [
+    "Tradición.",
+    "Posesión.",
+    "Accesión.",
+    "Ocupación."
+  ],
+  correctAnswer: "Posesión.",
+  explanation: "La posesión no es un modo de adquirir el dominio o propiedad, a diferencia de la tradición, accesión y ocupación."
+},
+{
+  title: "Existen unos bienes sobre los cuales se puede adquirir el dominio porque no pertenecen a nadie, y cuya adquisición no es prohibida por la ley o por el derecho internacional. Este modo se denomina:",
+  choices: [
+    "Accesión.",
+    "Tradición.",
+    "Ocupación.",
+    "Prescripción."
+  ],
+  correctAnswer: "Ocupación.",
+  explanation: "La ocupación es el modo de adquirir el dominio sobre bienes que no pertenecen a nadie y cuya adquisición no está prohibida."
+},
+{
+  title: "Cuando se declara que una persona es propietaria de un bien por haberlo adquirido por medio del modo de la prescripción, debemos entender que el título es la:",
+  choices: [
+    "Sentencia judicial.",
+    "Ley procesal.",
+    "Prescripción.",
+    "Posesión."
+  ],
+  correctAnswer: "Sentencia judicial.",
+  explanation: "La sentencia judicial es el título que declara a una persona propietaria de un bien adquirido por prescripción."
+},
+{
+  title: "El justo título puede ser constitutivo o traslaticio de dominio. Los constitutivos son:",
+  choices: [
+    "Las sentencias de adjudicación.",
+    "Los actos legales de adjudicación.",
+    "La venta, la permuta o la donación.",
+    "La ocupación, la accesión y la prescripción."
+  ],
+  correctAnswer: "Las sentencias de adjudicación.",
+  explanation: "Los títulos constitutivos de dominio son las sentencias de adjudicación."
+},
+{
+  title: "Juan Pérez arrendó una casa a Jorge López acordando como precio anual de la renta la suma de $12’000.000.00 los cuales se cancelarán en 12 cuotas mensuales de $1’000.000.00 pagaderas en los primeros 5 días de cada mes. No obstante, sólo pagó 1 cuota. ¿Frente al incumplimiento el arrendador puede solicitar?",
+  choices: [
+    "Terminación del contrato.",
+    "Resciliación del contrato.",
+    "Rescisión del contrato.",
+    "Resolución del contrato."
+  ],
+  correctAnswer: "Resolución del contrato.",
+  explanation: "El arrendador puede solicitar la resolución del contrato frente al incumplimiento en el pago de las cuotas."
+},
+{
+  title: "¿En cuál de los siguientes fenómenos jurídicos que constituyen fuente de obligaciones, se deben aplicar los postulados de la responsabilidad civil extracontractual?",
+  choices: [
+    "Testamento.",
+    "Abuso del derecho.",
+    "Agencia oficiosa.",
+    "Comunidad."
+  ],
+  correctAnswer: "Abuso del derecho.",
+  explanation: "El abuso del derecho es un fenómeno jurídico que constituye una fuente de obligaciones y se aplica bajo la responsabilidad civil extracontractual."
+},
+{
+  title: "La acción Pauliana prescribe en:",
+  choices: [
+    "20 años.",
+    "4 años.",
+    "1 año.",
+    "10 años."
+  ],
+  correctAnswer: "4 años.",
+  explanation: "La acción Pauliana prescribe en 4 años."
+},
+{
+  title: "Marcos Romero vende a Luis Ríos una casa, acordando como precio la suma de $100’000.000 de los cuales se cancelarían $65’000.000 a la firma del contrato y el saldo en 35 cuotas mensuales de $1’000.000 cada una. No obstante, tal acuerdo, el señor Ríos no pagó sino una sola cuota. Frente al incumplimiento del comprador el vendedor puede solicitar",
+  choices: [
+    "Terminación.",
+    "Resiliación.",
+    "Rescisión.",
+    "Resolución."
+  ],
+  correctAnswer: "Resolución.",
+  explanation: "El vendedor puede solicitar la resolución del contrato frente al incumplimiento en el pago de las cuotas."
+},
+{
+  title: "Cuando decimos que una obligación está afectada por error, fuerza o dolo debemos concluir que estamos en presencia de un vicio:",
+  choices: [
+    "Del consentimiento.",
+    "Redhibitorio.",
+    "Oculto.",
+    "En el objeto."
+  ],
+  correctAnswer: "Del consentimiento.",
+  explanation: "La presencia de error, fuerza o dolo indica un vicio del consentimiento."
+},
+{
+  title: "Ángel Berna pretende adquirir un préstamo de Daniel Bernal, para lo cual suscribe una hipoteca que fue registrada, con el fin de garantizar el cumplimiento de la obligación principal. No obstante, lo anterior, el contrato de mutuo nunca se celebró ¿Cuál debe ser el fundamento jurídico para que se levante la hipoteca firmada?",
+  choices: [
+    "Causa ilícita.",
+    "Objeto ilícito.",
+    "Error en la persona.",
+    "Ausencia de causa."
+  ],
+  correctAnswer: "Ausencia de causa.",
+  explanation: "La hipoteca debe ser levantada por ausencia de causa, ya que el contrato de mutuo nunca se celebró."
+},
+{
+  title: "Oscar Sierra presenta una demanda ejecutiva contra Andrea Tamayo, pero en la sentencia se declara la prescripción de la obligación. Con respecto al caso planteado debemos concluir que la deuda prescrita corresponde a una obligación:",
+  choices: [
+    "Solidaria.",
+    "Civil.",
+    "Natural.",
+    "Conjunta."
+  ],
+  correctAnswer: "Natural.",
+  explanation: "La deuda prescrita corresponde a una obligación natural, que no puede ser exigida judicialmente."
+},
+{
+  title: "Arnoldo Agudelo celebra un contrato de compraventa con Benjamín Bohórquez sobre su finca “La Mirandela”, pero se establece como fecha de entrega del inmueble, el día en que muera su abuela Rosa Agudelo, por estar afectado tal predio con un usufructo. Dicha obligación está sometida a:",
+  choices: [
+    "Una condición.",
+    "Un plazo.",
+    "Un hecho.",
+    "Una modalidad."
+  ],
+  correctAnswer: "Un plazo.",
+  explanation: "La obligación está sometida a un plazo, ya que la entrega del inmueble está condicionada a un evento futuro y cierto, como es la muerte de la abuela Rosa Agudelo."
+},
+{
+  title: "María Peña otorgó un pagaré a favor de Liquidaciones Ltda. cuya fecha de exigibilidad se consagró para el día 1 de febrero de 2015. No obstante, el día 10 de agosto de 2019 paga los intereses de mora. Frente a este hecho debemos concluir que se...",
+  choices: [
+    "Interrumpió la prescripción.",
+    "Trata de una obligación prescrita.",
+    "Suspendió la prescripción.",
+    "Renunció a la prescripción."
+  ],
+  correctAnswer: "Interrumpió la prescripción.",
+  explanation: "El pago de los intereses de mora interrumpe la prescripción de la obligación principal."
+},
+{
+  title: "Pedro Parra y Paola Guzmán sin ser comerciantes, celebran un contrato verbal de promesa para celebrar un contrato de permuta entre un vehículo automotor y mercaderías. Sobre este contrato debemos concluir que no produce obligación alguna por:",
+  choices: [
+    "No constar por escrito.",
+    "Versar sobre un automotor.",
+    "Referirse a una permuta.",
+    "No ser comerciantes las partes."
+  ],
+  correctAnswer: "No constar por escrito.",
+  explanation: "La promesa de permuta entre un vehículo automotor y mercaderías debe constar por escrito para producir obligaciones."
+},
+{
+  title: "En una relación contractual ninguna parte puede aprovecharse del error del otro, lo anterior corresponde al principio de:",
+  choices: [
+    "Preservación.",
+    "Buena fe.",
+    "Tutela de confianza.",
+    "Equilibrio patrimonial."
+  ],
+  correctAnswer: "Buena fe.",
+  explanation: "El principio de buena fe implica que ninguna parte puede aprovecharse del error de la otra en una relación contractual."
+},
+{
+  title: "El contrato de comodato es:",
+  choices: [
+    "Aleatorio.",
+    "Oneroso.",
+    "Bilateral y gratuito.",
+    "Unilateral."
+  ],
+  correctAnswer: "Bilateral y gratuito.",
+  explanation: "El comodato es un contrato bilateral y gratuito, donde una parte entrega a la otra un bien para su uso y disfrute, sin recibir pago alguno."
+},
+{
+  title: "En un contrato una de las partes se obliga a dar o hacer una cosa que se mira como equivalente a lo que la otra parte debe dar o hacer a su vez se le denomina:",
+  choices: [
+    "Aleatorio porque depende una contingencia.",
+    "Conmutativo.",
+    "Únicamente bilateral y oneroso.",
+    "Plurilateral porque son varias las partes en el contrato."
+  ],
+  correctAnswer: "Conmutativo.",
+  explanation: "Un contrato conmutativo es aquel en el que las prestaciones de las partes son equivalentes y conocidas desde el momento de la celebración del contrato."
+},
+{
+  title: "Son contratos gratuitos:",
+  choices: [
+    "La donación.",
+    "Los contratos conmutativos.",
+    "La garantía mobiliaria.",
+    "Los sucesivos."
+  ],
+  correctAnswer: "La donación.",
+  explanation: "La donación es un contrato gratuito, ya que una parte entrega un bien a la otra sin recibir contraprestación alguna."
+},
+{
+  title: "Una parte señala las condiciones y la otra solamente se une a ellas, es un contrato:",
+  choices: [
+    "De adhesión.",
+    "De libre discusión.",
+    "Real.",
+    "Atípico."
+  ],
+  correctAnswer: "De adhesión.",
+  explanation: "Un contrato de adhesión es aquel en el que una parte establece todas las condiciones y la otra parte simplemente las acepta."
+},
+{
+  title: "El contrato de hipoteca sobre un inmueble es:",
+  choices: [
+    "Personal.",
+    "Solemne.",
+    "Bilateral.",
+    "Atípico."
+  ],
+  correctAnswer: "Solemne.",
+  explanation: "El contrato de hipoteca sobre un inmueble es un contrato solemne, ya que requiere el cumplimiento de ciertas formalidades legales para su validez."
+},
+{
+  title: "La lesión enorme en la compraventa de bien inmueble surge cuando:",
+  choices: [
+    "Se genera un perjuicio pecuniario al comprador.",
+    "Se genera un sobrecosto en la compraventa, cuando la Ley ha determinado un límite para ello.",
+    "Hay desequilibrio entre las prestaciones de las partes, para el vendedor, cuando recibe menos de la mitad del justo precio. Para el comprador, cuando paga por el bien más del doble del justo precio.",
+    "El vendedor recibe más de la mitad del precio justo, únicamente."
+  ],
+  correctAnswer: "Hay desequilibrio entre las prestaciones de las partes, para el vendedor, cuando recibe menos de la mitad del justo precio. Para el comprador, cuando paga por el bien más del doble del justo precio.",
+  explanation: "La lesión enorme se da cuando hay un desequilibrio significativo entre las prestaciones de las partes en una compraventa de bien inmueble."
+},
+{
+  title: "Aquellos contratos que se perfeccionan con la tradición del objeto del contrato son:",
+  choices: [
+    "Consensuales.",
+    "Conmutativos.",
+    "Reales.",
+    "Solemnes."
+  ],
+  correctAnswer: "Reales.",
+  explanation: "Los contratos reales son aquellos que se perfeccionan con la entrega del objeto del contrato."
+},
+{
+  title: "\"PEDRO\" mayor de edad, otorga poder de representación a \"SANDRA\" para que se encargue de la compra de dos apartamentos de determinadas características y ubicados en los lugares que \" PEDRO\" solicita y por la cantidad estipulada. Siguiendo estas reglas, \"SANDRA\" encuentra un apartamento que cumple con los parámetros y decide llevar a cabo la compra del mismo, haciendo un contrato con el vendedor \"CARLOS\" ¿De qué tipo de representación estamos hablando?",
+  choices: [
+    "Directa.",
+    "Indirecta.",
+    "Indirecta con representación.",
+    "Con interposición de personas."
+  ],
+  correctAnswer: "Directa.",
+  explanation: "Estamos hablando de representación directa, ya que Sandra actúa en nombre y por cuenta de Pedro."
+},
+{
+  title: "La _______ es requisito esencial o de existencia de los actos o negocios jurídicos (Contratos).",
+  choices: [
+    "Autonomía.",
+    "Capacidad.",
+    "Validez.",
+    "Eficacia."
+  ],
+  correctAnswer: "Capacidad.",
+  explanation: "La capacidad es un requisito esencial para la existencia de los actos o negocios jurídicos."
+},
+{
+  title: "La ____________ es un presupuesto de la validez negocial.",
+  choices: [
+    "Voluntad.",
+    "Capacidad.",
+    "Validez.",
+    "Eficacia."
+  ],
+  correctAnswer: "Capacidad.",
+  explanation: "La capacidad es un presupuesto de la validez de los negocios jurídicos."
+},
+{
+  title: "La capacidad jurídica es la:",
+  choices: [
+    "Aptitud que corresponde a toda persona para ser sujeto de derechos y obligaciones.",
+    "Disposición de un sujeto para contratar sin representación.",
+    "Aptitud exclusiva para intervenir en el comercio.",
+    "Idoneidad que tiene toda persona para ser sujeto de derecho."
+  ],
+  correctAnswer: "Aptitud que corresponde a toda persona para ser sujeto de derechos y obligaciones.",
+  explanation: "La capacidad jurídica es la aptitud que tiene toda persona para ser sujeto de derechos y obligaciones."
+},
+{
+  title: "El valor probatorio de los libros y documentos del empresario depende de:",
+  choices: [
+    "La concordancia de sus asientos.",
+    "La eficacia probatoria y la calidad de las partes.",
+    "La concordancia de los asientos contables y el aspecto extrínseco que tengan los documentos.",
+    "Que no presenten tachones, enmendaduras, mutilaciones y se encuentren debidamente registrados en la Cámara de Comercio."
+  ],
+  correctAnswer: "La concordancia de los asientos contables y el aspecto extrínseco que tengan los documentos.",
+  explanation: "El valor probatorio de los libros y documentos del empresario depende de la concordancia de los asientos contables y el aspecto extrínseco de los documentos."
+},
+{
+  title: "El capital de reserva de la sociedad anónima lo constituye:",
+  choices: [
+    "La diferencia entre el capital suscrito y el autorizado.",
+    "La diferencia entre el capital pagado y el autorizado.",
+    "Siempre es equivalente al 50% del capital autorizado.",
+    "Es la resultante de la adición entre capital pagado y autorizado."
+  ],
+  correctAnswer: "La diferencia entre el capital pagado y el autorizado.",
+  explanation: "El capital de reserva de la sociedad anónima se constituye por la diferencia entre el capital pagado y el autorizado."
+},
+{
+  title: "La falta de la renovación de la matrícula mercantil trae como consecuencia la:",
+  choices: [
+    "Pérdida de la calidad de comerciante.",
+    "Incapacidad para ejercer el comercio.",
+    "Multa hasta de 17 salarios mínimos.",
+    "Inoponibilidad de las condiciones reales del ejercicio del comercio."
+  ],
+  correctAnswer: "Multa hasta de 17 salarios mínimos.",
+  explanation: "La falta de renovación de la matrícula mercantil puede resultar en una multa hasta de 17 salarios mínimos."
+},
+{
+  title: "En la sociedad por acciones simplificada:",
+  choices: [
+    "Si se hacen aportes de bienes muebles, la sociedad se constituye por escritura pública.",
+    "Sus acciones no se pueden negociar en la bolsa de valores.",
+    "Adquiere la personalidad jurídica a partir de la fecha del documento de constitución.",
+    "El control del acto constitutivo de la sociedad lo tiene la Superintendencia de Sociedades."
+  ],
+  correctAnswer: "Sus acciones no se pueden negociar en la bolsa de valores.",
+  explanation: "Las acciones de una sociedad por acciones simplificada no se pueden negociar en la bolsa de valores."
+},
+{
+  title: "Cuando una sociedad se encuentra sometida a la vigilancia de la Superintendencia de Sociedades, requiere autorización de esta Superintendencia para colocar acciones:",
+  choices: [
+    "Ordinarias.",
+    "Privilegiadas.",
+    "Con dividendo preferencial sin derecho a voto.",
+    "De goce o industria."
+  ],
+  correctAnswer: "Con dividendo preferencial sin derecho a voto.",
+  explanation: "Las sociedades sometidas a la vigilancia de la Superintendencia de Sociedades requieren su autorización para colocar acciones con dividendo preferencial sin derecho a voto."
+},
+{
+  title: "No es un efecto de la mora:",
+  choices: [
+    "Permite cobrar perjuicios.",
+    "Hace exigible la cláusula penal.",
+    "Invierte la carga del riesgo de la cosa debida.",
+    "Hace exigible la deuda."
+  ],
+  correctAnswer: "Invierte la carga del riesgo de la cosa debida.",
+  explanation: "La mora no invierte la carga del riesgo de la cosa debida."
+},
+{
+  title: "En las denominadas obligaciones de medio el deudor se exonera de responsabilidad demostrando por lo menos:",
+  choices: [
+    "La mora del deudor.",
+    "Que actuó de la mejor manera posible.",
+    "Que se produjo caso fortuito.",
+    "Una causa extraña."
+  ],
+  correctAnswer: "Que actuó de la mejor manera posible.",
+  explanation: "En las obligaciones de medio, el deudor se exonera de responsabilidad demostrando que actuó de la mejor manera posible."
+},
+{
+  title: "Si la obligación es de aquellas llamadas indivisibles:",
+  choices: [
+    "Es posible para el deudor el cumplimiento parcial.",
+    "No es posible para el deudor el cumplimiento parcial.",
+    "La cosa sobre la cual recae la prestación presenta unidad.",
+    "Existe solidaridad pasiva."
+  ],
+  correctAnswer: "No es posible para el deudor el cumplimiento parcial.",
+  explanation: "En las obligaciones indivisibles, no es posible para el deudor el cumplimiento parcial."
+},
+{
+  title: "El plazo se distingue de la condición en que:",
+  choices: [
+    "Detiene la formación de la obligación y la condición suspende la exigibilidad.",
+    "Tiene efectos retroactivos y la condición es irretroactiva.",
+    "Es irretroactivo y la condición es retroactiva.",
+    "Traslada el riesgo de la cosa al deudor y la condición al acreedor."
+  ],
+  correctAnswer: "Es irretroactivo y la condición es retroactiva.",
+  explanation: "El plazo es irretroactivo, mientras que la condición es retroactiva."
+},
+{
+  title: "Es una característica de la obligación natural que:",
+  choices: [
+    "Puede cumplirse voluntaria o forzosamente.",
+    "Tiene como objeto una prestación de dar.",
+    "Genera excepción para retener lo recibido.",
+    "Puede exigirse en un juicio."
+  ],
+  correctAnswer: "Genera excepción para retener lo recibido.",
+  explanation: "Una característica de la obligación natural es que genera excepción para retener lo recibido."
+},
+{
+  title: "La prescripción extintiva de la obligación generada por la responsabilidad proveniente del hecho ajeno es de:",
+  choices: [
+    "Cinco años.",
+    "Cuatro años.",
+    "Tres años.",
+    "Diez años."
+  ],
+  correctAnswer: "Cinco años.",
+  explanation: "La prescripción extintiva de la obligación generada por la responsabilidad proveniente del hecho ajeno es de cinco años."
+},
+{
+  title: "Es una característica de la cláusula penal:",
+  choices: [
+    "Compensatoria: busca reparar los daños causados por la demora en el cumplimiento.",
+    "Punitiva: no requiere pacto expreso.",
+    "Moratoria: busca reparar el daño causado por el incumplimiento total.",
+    "Bilateral: en su creación y sujeta a condición."
+  ],
+  correctAnswer: "Compensatoria: busca reparar los daños causados por la demora en el cumplimiento.",
+  explanation: "La cláusula penal compensatoria busca reparar los daños causados por la demora en el cumplimiento."
+},
+{
+  title: "En las obligaciones facultativas:",
+  choices: [
+    "El acreedor puede exigir cualquiera de las prestaciones establecidas.",
+    "Se deben varias cosas, pero el deudor cumple con su obligación cuando paga con una de ellas.",
+    "El deudor tiene la facultad de cumplir o no con la prestación debida.",
+    "Se debe una sola prestación, pero el deudor tiene la posibilidad de pagar con otra que se determina previamente."
+  ],
+  correctAnswer: "Se debe una sola prestación, pero el deudor tiene la posibilidad de pagar con otra que se determina previamente.",
+  explanation: "En las obligaciones facultativas, se debe una sola prestación, pero el deudor puede pagar con otra previamente determinada."
+},
+{
+  title: "El proyecto definitivo de contrato o de negocio jurídico que una persona le comunica a otra, se conoce con el nombre de:",
+  choices: [
+    "Contrato.",
+    "Oferta.",
+    "Aceptación.",
+    "Promesa de contrato."
+  ],
+  correctAnswer: "Oferta.",
+  explanation: "El proyecto definitivo de contrato o negocio jurídico que una persona le comunica a otra se conoce como oferta."
+},
+{
+  title: "Qué tipo de obligaciones nacen del contrato de promesa de contrato:",
+  choices: [
+    "No hacer.",
+    "Hacer.",
+    "Aceptar.",
+    "Dar."
+  ],
+  correctAnswer: "Hacer.",
+  explanation: "Del contrato de promesa de contrato nacen obligaciones de hacer, es decir, de celebrar el contrato prometido."
+},
+{
+  title: "El error es indiferente como vicio del consentimiento cuando recae en:",
+  choices: [
+    "Motivos simples, cualidades no esenciales y valor o precio.",
+    "La causa en el objeto y en el negocio.",
+    "La sustancia, calidad no esencial y en la persona.",
+    "Los elementos de la naturaleza del negocio jurídico."
+  ],
+  correctAnswer: "Motivos simples, cualidades no esenciales y valor o precio.",
+  explanation: "El error es indiferente como vicio del consentimiento cuando recae en motivos simples, cualidades no esenciales y valor o precio."
+},
+{
+  title: "Para que la fuerza vicie el consentimiento en un negocio jurídico, esta debe ser:",
+  choices: [
+    "Indeterminada e injusta.",
+    "Grave, determinante e injusta.",
+    "Debe ser con dolo, grave y determinada.",
+    "Reverencial y justificada."
+  ],
+  correctAnswer: "Grave, determinante e injusta.",
+  explanation: "Para que la fuerza vicie el consentimiento en un negocio jurídico, debe ser grave, determinante e injusta."
+},
+{
+  title: "Juan y Pablo deben solidariamente a José $ 50.000, si Pablo paga a José los $ 50.000 al vencimiento de la obligación, entonces, entre Pablo y Juan:",
+  choices: [
+    "Surgen la confusión de la obligación.",
+    "La obligación se extingue.",
+    "Pablo se subroga en la obligación.",
+    "Estamos frente a la remisión de la obligación."
+  ],
+  correctAnswer: "Pablo se subroga en la obligación.",
+  explanation: "Si Pablo paga a José los $50.000, se subroga en los derechos de José frente a Juan."
+},
+{
+  title: "En un contrato de arrendamiento se pactó como precio mensual de arrendamiento la suma un millón de pesos. A la vez, en tal contrato se pactó como cláusula penal por incumplimiento el equivalente a 25 veces el valor del arriendo cada vez que el arrendatario no pagara algún mes de arriendo. En este caso, en cuanto a esa cláusula penal hay:",
+  choices: [
+    "Lesión enorme.",
+    "Cláusula abusiva.",
+    "Nulidad relativa.",
+    "Inoponibilidad."
+  ],
+  correctAnswer: "Cláusula abusiva.",
+  explanation: "La cláusula penal pactada es excesiva y se considera abusiva."
+},
+{
+  title: "Los títulos valores se definen como documentos necesarios para:",
+  choices: [
+    "Legitimar el ejercicio del derecho que en ellos se manifiesta.",
+    "Legitimar el ejercicio del derecho que en ellos se incorpora.",
+    "Incorporar el ejercicio del derecho que en ellos se manifiesta.",
+    "Incorporar el ejercicio del derecho que en ellos se incorpora."
+  ],
+  correctAnswer: "Legitimar el ejercicio del derecho que en ellos se incorpora.",
+  explanation: "Los títulos valores son documentos necesarios para legitimar el ejercicio del derecho que en ellos se incorpora."
+},
+{
+  title: "Los títulos valores se presumen:",
+  choices: [
+    "Originales.",
+    "Legítimos.",
+    "Auténticos.",
+    "Autónomos."
+  ],
+  correctAnswer: "Auténticos.",
+  explanation: "Los títulos valores se presumen auténticos."
+},
+{
+  title: "Se entiende por signatario en un título valor el:",
+  choices: [
+    "Que firma.",
+    "Que lo protesta.",
+    "Beneficiario.",
+    "Que lo autoriza."
+  ],
+  correctAnswer: "Que firma.",
+  explanation: "El signatario en un título valor es la persona que lo firma."
+},
+{
+  title: "Los requisitos generales de todo título valor son la firma del:",
+  choices: [
+    "Beneficiario y la mención del derecho incorporado.",
+    "Beneficiario y la mención del derecho incorporado.",
+    "Creador y la mención del derecho incorporado.",
+    "Creador y la mención del derecho legitimado."
+  ],
+  correctAnswer: "Creador y la mención del derecho incorporado.",
+  explanation: "Los requisitos generales de todo título valor incluyen la firma del creador y la mención del derecho incorporado."
+},
+{
+  title: "El endoso es una forma de:",
+  choices: [
+    "Crear los títulos valores.",
+    "Legitimar los títulos valores.",
+    "Entregar los títulos valores.",
+    "Transferir los títulos valores."
+  ],
+  correctAnswer: "Transferir los títulos valores.",
+  explanation: "El endoso es una forma de transferir los títulos valores."
+},
+{
+  title: "De acuerdo con la ley de circulación los títulos valores pueden clasificarse:",
+  choices: [
+    "A la orden, al portador y nominativos.",
+    "A la orden, al poseedor y nominativos.",
+    "A la orden, al portador y restrictivos.",
+    "A la orden, al legitimador y nominativos."
+  ],
+  correctAnswer: "A la orden, al portador y nominativos.",
+  explanation: "Los títulos valores se clasifican según la ley de circulación como a la orden, al portador y nominativos."
+},
+{
+  title: "Los títulos valores a la orden se transfieren con:",
+  choices: [
+    "El simple endoso.",
+    "Con la simple entrega.",
+    "El endoso y la entrega.",
+    "El endoso y la inscripción."
+  ],
+  correctAnswer: "El endoso y la entrega.",
+  explanation: "Los títulos valores a la orden se transfieren con el endoso y la entrega."
+},
+{
+  title: "Se entiende por legítimo tenedor a quien tiene el titulo valor de acuerdo con las leyes de:",
+  choices: [
+    "Creación.",
+    "Circulación.",
+    "Emisión.",
+    "Legitimación."
+  ],
+  correctAnswer: "Circulación.",
+  explanation: "El legítimo tenedor es quien tiene el título valor de acuerdo con las leyes de circulación."
+},
+{
+  title: "Son clases de endoso:",
+  choices: [
+    "A la orden y al portador.",
+    "A ruego y a la orden.",
+    "En propiedad y a la orden.",
+    "En propiedad y en procuración."
+  ],
+  correctAnswer: "En propiedad y en procuración.",
+  explanation: "Las clases de endoso incluyen en propiedad y en procuración."
+},
+{
+  title: "Si a una persona se le extravía un título valor, deberá iniciar un proceso judicial a través del cual se:",
+  choices: [
+    "Cancele y reponga el titulo valor.",
+    "Cancele y renueve el titulo valor.",
+    "Reivindique el título valor.",
+    "Renueve el titulo valor."
+  ],
+  correctAnswer: "Cancele y reponga el titulo valor.",
+  explanation: "Si una persona pierde un título valor, debe iniciar un proceso judicial para cancelar y reponer el título valor."
+},
+{
+  title: "Las principales características de los títulos valores son:",
+  choices: [
+    "Autenticación, la literalidad, la legitimación y la incorporación.",
+    "Autonomía, la literalidad, la legitimación y la incorporación.",
+    "Autonomía, la licitud, la legitimación y la incorporación.",
+    "Autenticación, la literalidad, la limitación y la incorporación."
+  ],
+  correctAnswer: "Autonomía, la literalidad, la legitimación y la incorporación.",
+  explanation: "Las principales características de los títulos valores son autonomía, literalidad, legitimación e incorporación."
+},
+{
+  title: "La autonomía de los títulos valores se predica de:",
+  choices: [
+    "El derecho de hacer el recobro de los dineros pagados o abonados.",
+    "El derecho de realizar el cobro de los títulos valores por vía judicial.",
+    "La independencia del titulo valor al transferirse, frente al negocio causal.",
+    "La independencia del titulo valor al integrarse, frente al negocio causal."
+  ],
+  correctAnswer: "La independencia del titulo valor al transferirse, frente al negocio causal.",
+  explanation: "La autonomía de los títulos valores implica que son independientes del negocio causal al transferirse."
+},
+{
+  title: "Cuando en el endoso se omita colocar la fecha se entiende, que el título fue endosado el día en que el:",
+  choices: [
+    "Endosante hizo entrega de este al beneficiario.",
+    "Deudor hizo entrega de este al endosatario.",
+    "Girado hizo entrega de este al endosatario.",
+    "Endosante hizo entrega de este al endosatario."
+  ],
+  correctAnswer: "Endosante hizo entrega de este al endosatario.",
+  explanation: "Si se omite la fecha en el endoso, se entiende que el título fue endosado el día en que el endosante lo entregó al endosatario."
+},
+{
+  title: "Las partes que intervienen en la creación de una letra de cambio son:",
+  choices: [
+    "Girador, creador y beneficiario.",
+    "Girador, girado y beneficiario.",
+    "Girado, obligado y beneficiario.",
+    "Girador, girado y obligado."
+  ],
+  correctAnswer: "Girador, girado y beneficiario.",
+  explanation: "En la creación de una letra de cambio intervienen el girador, el girado y el beneficiario."
+},
+{
+  title: "El aval es una garantía:",
+  choices: [
+    "Real.",
+    "Personal.",
+    "Autónoma.",
+    "Literal."
+  ],
+  correctAnswer: "Personal.",
+  explanation: "El aval es una garantía personal."
+},
+{
+  title: "La garantía del cumplimiento de una obligación incorporada en un título valor se realiza por medio de:",
+  choices: [
+    "El endoso.",
+    "La hipoteca.",
+    "La fianza.",
+    "El aval."
+  ],
+  correctAnswer: "El aval.",
+  explanation: "La garantía del cumplimiento de una obligación en un título valor se realiza mediante el aval."
+},
+{
+  title: "Los requisitos esenciales de la letra de cambio aparte de la mención del derecho incorporado y la firma del creador son:",
+  choices: [
+    "La orden incondicional de pagar una suma de dinero, el nombre del girado, la forma de vencimiento y la mención de ser pagadera a la orden o al portador.",
+    "La promesa incondicional de pagar una suma de dinero, el nombre del girado, la forma de vencimiento y la mención de ser pagadera a la orden o al portador.",
+    "La orden incondicional de pagar una suma de dinero, el nombre del girador, la forma de vencimiento y la mención de ser pagadera a la orden o al portador.",
+    "La orden incondicional de pagar una suma de dinero, el nombre del girado, la fecha de vencimiento y la mención de ser pagadera a la orden o al portador."
+  ],
+  correctAnswer: "La orden incondicional de pagar una suma de dinero, el nombre del girado, la forma de vencimiento y la mención de ser pagadera a la orden o al portador.",
+  explanation: "Los requisitos esenciales de la letra de cambio incluyen la orden incondicional de pagar una suma de dinero, el nombre del girado, la forma de vencimiento y la mención de ser pagadera a la orden o al portador."
+},
+{
+  title: "El vencimiento a la vista de un título valor ocurre con la:",
+  choices: [
+    "Firma.",
+    "Creación.",
+    "Presentación.",
+    "Transmisión."
+  ],
+  correctAnswer: "Presentación.",
+  explanation: "El vencimiento a la vista de un título valor ocurre con la presentación."
+},
+{
+  title: "Las formas de vencimiento de los títulos valores son:",
+  choices: [
+    "A la vista, día cierto y determinado, día cierto después de la vista, día cierto después de la fecha, día cierto e indeterminado y vencimientos ciertos y sucesivos.",
+    "A la fecha, día cierto y determinado, día cierto después de la vista, día cierto después de la fecha, día cierto e indeterminado y vencimientos ciertos y sucesivos.",
+    "A la vista, día cierto y determinado, día cierto después de la vista, día cierto después de la fecha, día y vencimientos ciertos y sucesivos.",
+    "A la vista, día cierto y determinado, día cierto después de la vista, día cierto después de la presentación, día cierto e indeterminado y vencimientos ciertos y sucesivos."
+  ],
+  correctAnswer: "A la vista, día cierto y determinado, día cierto después de la vista, día cierto después de la fecha, día cierto e indeterminado y vencimientos ciertos y sucesivos.",
+  explanation: "Las formas de vencimiento de los títulos valores incluyen a la vista, día cierto y determinado, día cierto después de la vista, día cierto después de la fecha, día cierto e indeterminado y vencimientos ciertos y sucesivos."
+},
+{
+  title: "Algunas clases de firma aplicables a los títulos valores son:",
+  choices: [
+    "De testigos y firma de los ciegos.",
+    "A ruego y firma de los ciegos.",
+    "De ciegos y firma eléctrica.",
+    "A ruego y firma eléctrica."
+  ],
+  correctAnswer: "A ruego y firma eléctrica.",
+  explanation: "Algunas clases de firma aplicables a los títulos valores son a ruego y firma eléctrica."
+},
+{
+  title: "La característica según la cual el legítimo tenedor puede hacer exigible únicamente lo que se encuentra escrito en el titulo valor hace referencia a:",
+  choices: [
+    "Autonomía.",
+    "Independencia.",
+    "Literalidad.",
+    "Incorporación."
+  ],
+  correctAnswer: "Literalidad.",
+  explanation: "La característica de literalidad se refiere a que el legítimo tenedor puede hacer exigible únicamente lo que se encuentra escrito en el título valor."
+},
+{
+  title: "La premisa que establece que para exigir la obligación de un título valor únicamente se puede hacer con el original del título valor corresponde a la característica de la:",
+  choices: [
+    "Incorporación.",
+    "Autonomía.",
+    "Literalidad.",
+    "Legitimación."
+  ],
+  correctAnswer: "Incorporación.",
+  explanation: "La característica de incorporación establece que para exigir la obligación de un título valor únicamente se puede hacer con el original del título valor."
+},
+{
+  title: "Cuando se hace un endoso en procuración el derecho que se otorga al endosatario es:",
+  choices: [
+    "Hacerse dueño del título valor.",
+    "Ser poseedor del título valor.",
+    "Realizar el cobro del título valor.",
+    "Endosar en propiedad el título valor."
+  ],
+  correctAnswer: "Realizar el cobro del título valor.",
+  explanation: "El endoso en procuración otorga al endosatario el derecho a realizar el cobro del título valor."
+},
+{
+  title: "Los títulos valores con vencimiento a la vista se deben presentar para su pago dentro:",
+  choices: [
+    "Del mes siguiente al día de su creación.",
+    "Del año siguiente al día de su vencimiento.",
+    "Del mes siguiente al día de su vencimiento.",
+    "Del año siguiente al día de su creación."
+  ],
+  correctAnswer: "Del año siguiente al día de su creación.",
+  explanation: "Los títulos valores con vencimiento a la vista deben presentarse para su pago dentro del año siguiente al día de su creación."
+},
+{
+  title: "Cuando en una letra de cambio como forma de vencimiento se coloca una fecha se entiende que la forma de vencimiento es",
+  choices: [
+    "Día cierto e indeterminado.",
+    "Día cierto después de la fecha.",
+    "Día cierto y determinado.",
+    "Vencimientos ciertos y sucesivos."
+  ],
+  correctAnswer: "Día cierto y determinado.",
+  explanation: "Cuando en una letra de cambio se coloca una fecha, se entiende que la forma de vencimiento es día cierto y determinado."
+},
+{
+  title: "Cuando dentro de un título valor se encuentra una firma a la que no se le puede dar un significado, la ley entiende que se trata de:",
+  choices: [
+    "Un aval.",
+    "Un endoso.",
+    "Una cesión.",
+    "La aceptación."
+  ],
+  correctAnswer: "Un aval.",
+  explanation: "Si dentro de un título valor se encuentra una firma sin significado claro, la ley entiende que se trata de un aval."
+},
+
+{
+  title: "Si en la constitución de una sociedad comercial se decretase una nulidad absoluta respecto de uno de los contratantes, sus consecuencias son:",
+  choices: [
+      "Se desvincula el contratante que incurrió en la nulidad de la sociedad y se le devuelven sus aportes.",
+      "Se desvincula el contratante que incurrió en la nulidad y no se le devuelven sus aportes.",
+      "La sociedad entrará en causal de disolución y liquidación.",
+      "Los actos que ejecute la sociedad serán igualmente nulos."
+  ],
+  correctAnswer: "Se desvincula el contratante que incurrió en la nulidad de la sociedad y se le devuelven sus aportes.",
+  explanation: "Si se decreta una nulidad absoluta respecto de uno de los contratantes en la constitución de una sociedad comercial, el contratante que incurrió en la nulidad se desvincula de la sociedad y se le devuelven sus aportes."
+},
+
+{
+  title: "Cuál de las siguientes causales es considerada como objetiva:",
+  choices: [
+      "Embriaguez habitual.",
+      "Relaciones sexuales extramatrimoniales.",
+      "Enfermedad grave e incurable que ponga en peligro a su cónyuge.",
+      "Ultraje o trato cruel y los maltratamientos de obra."
+  ],
+  correctAnswer: "Enfermedad grave e incurable que ponga en peligro a su cónyuge.",
+  explanation: "La enfermedad grave e incurable que pone en peligro al cónyuge es una causal objetiva para el divorcio, según el Código Civil Colombiano."
+},
+{
+  title: "La unión marital se puede declarar:",
+  choices: [
+      "Cuanto exista convivencia por los compañeros permanentes por más de dos años.",
+      "Cuando se hayan liquidado las sociedades anteriores de los compañeros permanentes.",
+      "En cualquier tiempo.",
+      "Cuando exista convivencia por más de dos años y las sociedades anteriores hayan sido disueltas."
+  ],
+  correctAnswer: "Cuando exista convivencia por más de dos años y las sociedades anteriores hayan sido disueltas.",
+  explanation: "La unión marital de hecho se puede declarar cuando exista convivencia por más de dos años y las sociedades anteriores hayan sido disueltas, conforme a la legislación colombiana."
+},
+{
+  title: "José Ramón Gaviria y Diana Celedón, convivieron desde el año 1985 hasta el año 2015, cuando se produjo su separación definitiva; del año 1985 al 1990, fecha de expedición de la Ley 54 de 1990 adquirieron 5 inmuebles en Cartagena. A partir del año 1990 hasta el 2015 compraron un taxi. Al liquidar la sociedad patrimonial, se incluyeron tanto los bienes adquiridos antes y después de la vigencia de la ley 54 de 1990, ello en aplicación a qué figura legal:",
+  choices: [
+      "Ultraactividad.",
+      "Retrospectividad.",
+      "Retroactividad.",
+      "Regresividad."
+  ],
+  correctAnswer: "Ultraactividad.",
+  explanation: "La inclusión de bienes adquiridos antes y después de la vigencia de una ley en la liquidación de una sociedad patrimonial se aplica mediante la figura de la ultraactividad, que permite la aplicación de la ley anterior a ciertos actos."
+},
+{
+  title: "La adopción es:",
+  choices: [
+      "Un trámite administrativo.",
+      "Una filiación.",
+      "Una medida de restablecimiento de derechos.",
+      "La privación de la patria potestad de los padres biológicos."
+  ],
+  correctAnswer: "Una medida de restablecimiento de derechos.",
+  explanation: "La adopción es una medida de restablecimiento de derechos para los menores de edad, conforme a la normativa del Código de la Infancia y Adolescencia."
+},
+{
+  title: "Cuando se solicita la separación de cuerpos de manera temporal:",
+  choices: [
+      "No puede exceder de un año.",
+      "No puede exceder de dos años.",
+      "No puede exceder de tres años.",
+      "No puede exceder de seis meses."
+  ],
+  correctAnswer: "No puede exceder de dos años.",
+  explanation: "La separación de cuerpos de manera temporal no puede exceder de dos años, conforme a la normativa colombiana."
+},
+{
+  title: "Los alimentos se dividen en:",
+  choices: [
+      "Congruos y dativos.",
+      "Necesarios y voluntarios.",
+      "Congruos y necesarios.",
+      "Congruos y perecederos."
+  ],
+  correctAnswer: "Congruos y necesarios.",
+  explanation: "Los alimentos se dividen en congruos y necesarios, según el Código Civil Colombiano."
+},
+{
+  title: "Según el Código de la Infancia y la Adolescencia, todos los documentos y trámites administrativos o judiciales propios del proceso de adopción, serán reservados por el término de:",
+  choices: [
+      "10 años.",
+      "15 años.",
+      "8 años.",
+      "20 años."
+  ],
+  correctAnswer: "20 años.",
+  explanation: "Según el Código de la Infancia y la Adolescencia, todos los documentos y trámites administrativos o judiciales propios del proceso de adopción serán reservados por el término de 20 años."
+},
+{
+  title: "Para adoptar en Colombia, se necesita:",
+  choices: [
+      "Tener más de 30 años y 10 años mayor que el adoptado.",
+      "Tener más de 20 años y 15 años mayor que el adoptado.",
+      "Tener más de 25 años y 15 años mayor que el adoptado.",
+      "Tener más de 28 años y 12 años mayor que el adoptado."
+  ],
+  correctAnswer: "Tener más de 25 años y 15 años mayor que el adoptado.",
+  explanation: "Para adoptar en Colombia, se necesita tener más de 25 años y ser 15 años mayor que el adoptado, conforme a la normativa colombiana."
+},
+{
+  title: "A partir de la muerte de uno de los compañeros permanentes, para solicitar el reconocimiento judicial de la sociedad patrimonial, debe hacerlo para evitar se configure una prescripción:",
+  choices: [
+      "Dentro los dos años siguientes.",
+      "Dentro de los tres años siguientes.",
+      "Dentro del año siguiente.",
+      "Una vez se de apertura a la sucesión."
+  ],
+  correctAnswer: "Dentro de los dos años siguientes.",
+  explanation: "Para evitar la prescripción, el reconocimiento judicial de la sociedad patrimonial debe solicitarse dentro de los dos años siguientes a la muerte de uno de los compañeros permanentes."
+},
+{
+  title: "¿Cuál es la función esencial de la Sala de Casación Civil y Agraria de la Corte Suprema de Justicia?",
+  choices: [
+      "Unificar el procedimiento civil que debe seguirse en los procesos.",
+      "Ampliar el sentido que le dan los jueces a las normas.",
+      "Unificar las diversas interpretaciones que los jueces hacen del Código Civil.",
+      "Restringir el sentido que le dan los jueces a las normas.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Unificar las diversas interpretaciones que los jueces hacen del Código Civil.",
+  explanation: "La función esencial de la Sala de Casación Civil y Agraria de la Corte Suprema de Justicia es unificar las diversas interpretaciones que los jueces hacen del Código Civil, asegurando coherencia y uniformidad en la aplicación de la ley."
+},
+{
+  title: "Señale en cuál de los siguientes casos se puede decir que el comprador actuó con buena fe exenta de culpa, al momento de comprar una bodega, habiendo previamente verificado la posesión por parte del vendedor:",
+  choices: [
+      "Confió en lo que le informó el vendedor.",
+      "Confió en lo que dice la escritura pública de la bodega.",
+      "Confió en lo que dicen los vecinos.",
+      "Confió en lo que dice el certificado de tradición y la escritura pública.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Confió en lo que dice el certificado de tradición y la escritura pública.",
+  explanation: "El comprador actuó con buena fe exenta de culpa al confiar en lo que dice el certificado de tradición y la escritura pública, ya que son los documentos legales que acreditan la propiedad."
+},
+{
+  title: "¿En que consiste la ocupación como fuente de la propiedad?",
+  choices: [
+      "Cuando una persona hace suya una cosa mueble que carece de dueño.",
+      "Cuando una persona hace suya una cosa inmueble que carece de dueño.",
+      "Cuando una persona hace suya una cosa mueble o inmueble que carece de dueño.",
+      "Cuando una persona hace suya una cosa inmueble y mueble que carece de dueño.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Cuando una persona hace suya una cosa mueble que carece de dueño.",
+  explanation: "La ocupación como fuente de la propiedad consiste en que una persona hace suya una cosa mueble que carece de dueño, según el Código Civil Colombiano."
+},
+{
+  title: "¿Qué significa que una norma es coactiva?",
+  choices: [
+      "Que la consecuencia se aplica aún contra el querer de la persona.",
+      "Que la consecuencia se aplica si hay querer de la persona.",
+      "Que la consecuencia se aplica si la norma lo exige de manera imperativa.",
+      "Que la consecuencia se aplica siempre y cuando el interesado lo necesite.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Que la consecuencia se aplica aún contra el querer de la persona.",
+  explanation: "Una norma es coactiva cuando la consecuencia se aplica aún contra el querer de la persona, es decir, su cumplimiento es obligatorio y puede ser forzado."
+},
+{
+  title: "¿En qué consiste el método de interpretación lógico antiguo?",
+  choices: [
+      "Se debe mirar la intención que tuvo el legislador al momento de crear la norma.",
+      "Se debe mirar la intención que tuvo el legislador al crear la norma y actualizarla a la época.",
+      "Las palabras son los instrumentos para que sirven para traducir la voluntad del legislador.",
+      "Se miran las palabras y se le da importancia es al entorno en que se interpreta.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "Se debe mirar la intención que tuvo el legislador al momento de crear la norma.",
+  explanation: "El método de interpretación lógico antiguo consiste en mirar la intención que tuvo el legislador al momento de crear la norma, buscando entender su propósito original."
+},
+{
+  title: "¿La diferencia entre el método de interpretación exegético y el gramatical consiste en que?",
+  choices: [
+      "El gramatical busca a través de la gramática establecer la intención del legislador, mientras que en exegético no.",
+      "En el gramatical además de buscar el significado de las palabras para darle sentido a la ley, previene para que se tengan en cuenta los principios esenciales del derecho.",
+      "En el gramatical además de buscar el significado de las palabras para darle sentido a la ley, previene para que se tengan en cuenta la doctrina.",
+      "Ninguna de las anteriores."
+  ],
+  correctAnswer: "El gramatical busca a través de la gramática establecer la intención del legislador, mientras que en exegético no.",
+  explanation: "La diferencia entre el método de interpretación exegético y el gramatical es que el gramatical busca establecer la intención del legislador a través de la gramática, mientras que el exegético no lo hace."
+},
+{
+  title: "¿En qué consiste la seguridad jurídica?",
+  choices: [
+      "Estar tranquilos frente a los atentados de los demás contra la persona y sus bienes por cuanto se encuentran protegidos por el derecho.",
+      "Implica que todas las normas que se encuentran en el ordenamiento jurídico estén conforme a derecho.",
+      "Implica que las normas del ordenamiento jurídico son perpetuas.",
+      "Implica que todas las normas que se encuentran en el ordenamiento jurídico estén conforme a la constitución."
+  ],
+  correctAnswer: "Implica que todas las normas que se encuentran en el ordenamiento jurídico estén conforme a la constitución.",
+  explanation: "La seguridad jurídica implica que todas las normas del ordenamiento jurídico estén conforme a la constitución, asegurando su validez y aplicabilidad."
+},
+
+{
+  title: "Ana Andreina, quien es sujeto de restablecimiento de derechos del ICBF, es hija de venezolanos nacida en Colombia en agosto de 2018. Debido a su situación, esta fue inscrita en el registro civil de nacimiento a solicitud del defensor de familia. Su padre se encuentra en Venezuela y su madre está en Colombia sin permiso especial de permanencia, ni visa de residente. De acuerdo a lo anterior, la niña tiene nacionalidad:",
+  choices: [
+      "Venezolana, debido al ius sanguini por cuanto sus padres son oriundos de Venezuela.",
+      "Venezolana y colombiana, porque nació en nuestro país y sus padres son venezolanos, y tiene derecho a la doble nacionalidad.",
+      "No tiene nacionalidad, se reconoce como apátrida según la convención sobre el estatuto de esta población.",
+      "Colombiana, porque en la actualidad se reconoce el derecho a la identidad de todos los niños y niñas nacidos en Colombia hijos de venezolanos desde el año 2015."
+  ],
+  correctAnswer: "Colombiana, porque en la actualidad se reconoce el derecho a la identidad de todos los niños y niñas nacidos en Colombia hijos de venezolanos desde el año 2015.",
+  explanation: "De acuerdo con la normativa vigente en Colombia, se reconoce la nacionalidad colombiana a los niños y niñas nacidos en Colombia de padres venezolanos a partir del año 2015, garantizando así su derecho a la identidad."
+},
+
+{
+  title: "Una de las siguientes NO corresponde a una característica de los atributos de la personalidad.",
+  choices: [
+      "Inalienables.",
+      "Prescriptibles.",
+      "Irrenunciables.",
+      "Inembargables."
+  ],
+  correctAnswer: "Prescriptibles.",
+  explanation: "Los atributos de la personalidad son inalienables, irrenunciables e inembargables. 'Prescriptibles' no corresponde a una característica de los atributos de la personalidad, ya que estos no pueden prescribir."
+},
+{
+  title: "Según el Código Civil Colombiano, la existencia legal de una persona natural comienza con:",
+  choices: [
+      "La inscripción en el Registro Civil de Nacimiento.",
+      "La escisión del cordón umbilical del recién nacido.",
+      "La separación de la madre y respirar por un momento siquiera.",
+      "El hecho de la concepción misma."
+  ],
+  correctAnswer: "La separación de la madre y respirar por un momento siquiera.",
+  explanation: "Según el Código Civil Colombiano, la existencia legal de una persona natural comienza con la separación completa de la madre y que el recién nacido respire, aunque sea por un momento."
+},
+
   {
     title: "¿Es necesario que la ley civil contenga penas o castigos explícitos según el Artículo 5?",
     choices: [
