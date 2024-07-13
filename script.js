@@ -318,7 +318,6 @@ const allQuestions = [
     correctAnswer: "Una acción omisiva que se refleja en negligencia, impericia e imprudencia de los trabajadores de la obra por dejar los clavos en la vía donde transitan varias personas y vehículos.",
     explanation: "En el caso de Manuel Prieto, se puede argumentar una acción omisiva reflejada en negligencia, impericia e imprudencia de los trabajadores de la obra por dejar los clavos en la vía donde transitan varias personas y vehículos."
   },
-  
   {
     title: "¿Cómo se aplica el Código Civil en los territorios administrados por el gobierno general según el Artículo 2?",
     choices: [
@@ -10851,6 +10850,7 @@ function showScore() {
                               Tu respuesta: ${answer.selected} ${answer.correct ? '✅' : '❌'}
                           </p>
                           ${!answer.correct ? `<p class="summary-response correct-answer">Respuesta correcta: ${answer.correctAnswer}</p>` : ''}
+                          <p class="summary-explanation">Explicación: ${answer.explanation}</p>
                       </div>`;
   });
 
